@@ -1,0 +1,105 @@
+Alright, so I need to figure out between what times Andrew could have gone to the museum based on the given information. Let's break it down step by step.
+
+First, let's list out all the sightings of Andrew and the times they occurred:
+
+1. **James saw Andrew walking in the garden from 5am to 6am.**
+2. **Ashley saw Andrew getting a coffee at the cafe from 6am to 8am.**
+3. **David saw Andrew sitting on a rooftop from 8am to 10am.**
+4. **Betty saw Andrew buying lunch at the deli from 10am to 11am.**
+5. **Thomas saw Andrew fixing their computer at the electronic store from 8pm to 10pm.**
+
+The museum was closed after 10pm, which means Andrew couldn't have gone to the museum after 10pm because the museum was closed.
+
+Now, let's see when Andrew was spotted. From the above, Andrew was seen by James from 5am to 6am, then by Ashley from 6am to 8am, and by David from 8am to 10am. After that, Betty saw him at 10am to 11am, and Thomas saw him later in the evening from 8pm to 10pm.
+
+So, the times when Andrew was seen are:
+
+- **5am to 6am (James)**
+- **6am to 8am (Ashley)**
+- **8am to 10am (David)**
+- **10am to 11am (Betty)**
+- **8pm to 10pm (Thomas)**
+
+Since the museum was closed after 10pm, the only possible times Andrew could have gone to the museum are before 10pm. From the sightings, the latest time Andrew was seen was at 11am by Betty, but that's before the museum closed at 10pm. However, Thomas saw Andrew at 8pm to 10pm, but during that time, the museum was already closed. Therefore, the only times when Andrew could have gone to the museum are before 10am.
+
+Looking at the options provided:
+
+- **(A) 8am to 10am**: This fits because David saw Andrew during this time, and the museum was likely open then.
+- **(B) 5am to 6am**: James saw Andrew during this time, so this is also possible.
+- **(C) 6am to 8am**: Ashley saw Andrew during this time, so this is another possible option.
+- **(D) 11am to 8pm**: The museum was closed after 10pm, so this time frame overlaps with when the museum was closed, making it unlikely.
+
+Therefore, the possible times Andrew could have gone to the museum are between 5am to 6am, 6am to 8am, and 8am to 10am.
+
+However, since the question asks for "between what times could they have gone," and considering all the possible times when Andrew was spotted and the museum was open, the correct answer would be the overlapping times when Andrew was definitely at specific locations.
+
+But looking at the options, option (A) 8am to 10am is a specific time when David saw Andrew, so that's a definite time he could have gone. Option (C) 6am to 8am is when Ashley saw him, and option (B) 5am to 6am is when James saw him.
+
+Since all these times are before the museum closed, all could be possible. However, the question is asking for "between what times could they have gone," implying a single answer. Since the museum was open until 10pm, and the latest Andrew was seen before 10pm, the latest possible time would be 8pm to 10pm, but the museum was closed after 10pm, so actually, the museum was open until 10pm, but Thomas saw Andrew from 8pm to 10pm when the museum was still open? Wait, the problem says the museum was closed after 10pm, so it was open before 10pm.
+
+So, Thomas saw Andrew from 8pm to 10pm, which is within the time the museum was open. Therefore, Andrew could have gone to the museum during that time.
+
+But looking back at the options, option (A) is 8am to 10am, which is a time when David saw him, so he could have gone then.
+
+Option (C) is 6am to 8am, when Ashley saw him.
+
+Option (B) is 5am to 6am, when James saw him.
+
+Option (D) is 11am to 8pm, which is a long period, but the museum was closed after 10pm, so 11am to 8pm would include times after 10pm when the museum was closed. Therefore, that's not possible.
+
+So, the possible times are (A), (B), and (C). But the question is asking for "between what times could they have gone," which implies a specific answer. Since the options include (A), (B), and (C), but the user is asking for the index (the letter) of the actual correct answer, which is likely (A) 8am to 10am, as that's when David saw Andrew, and the museum was open during that time.
+
+But wait, the problem is asking "Between what times could they have gone," which might mean the possible times when Andrew was free to go to the museum, considering all his activities.
+
+Andrew was seen by James from 5am to 6am, then by Ashley from 6am to 8am, then by David from 8am to 10am, then by Betty from 10am to 11am, and finally by Thomas from 8pm to 10pm.
+
+So, the times when Andrew was free are:
+
+- From 10am to 11am, he was with Betty.
+- From 11am to 8pm, he was presumably busy or elsewhere.
+- From 8pm to 10pm, he was with Thomas.
+
+So, the only free times he had to go to the museum would be before 5am, but he was seen by James at 5am. So, the earliest he could have gone is from 5am to 6am when he was with James, but he was actually walking in the garden, so he was outside.
+
+Therefore, the only time he was not seen is between 10am to 11am when he was buying lunch. So, the museum was open until 10pm, but he was at the deli from 10am to 11am. Then, he was with Thomas from 8pm to 10pm.
+
+Wait, the museum was closed after 10pm, so the latest he could have gone is before 10pm. But he was with Thomas from 8pm to 10pm, which is within the museum's operating hours. So, he could have gone to the museum any time before 10pm when he wasn't occupied.
+
+Looking at his schedule:
+
+- 5am-6am: James saw him.
+- 6am-8am: Ashley saw him.
+- 8am-10am: David saw him.
+- 10am-11am: Betty saw him.
+- 8pm-10pm: Thomas saw him.
+
+So, the only time he wasn't seen is between 11am to 8pm, but during that time, he was presumably busy or elsewhere. However, the museum was closed after 10pm, so the latest he could have gone is before 10pm.
+
+Therefore, the possible times he could have gone are:
+
+- 5am-6am (but he was with James)
+- 6am-8am (with Ashley)
+- 8am-10am (with David)
+- 10am-11am (with Betty)
+- 8pm-10pm (with Thomas)
+
+But since he was with others during those times, the only time he wasn't with anyone is between 11am to 8pm, but the museum was closed after 10pm, so he couldn't have gone after 10pm.
+
+Therefore, the only possible times he could have gone to the museum are before 10pm when he wasn't seen by anyone else.
+
+So, the correct answer is (A) 8am to 10am, as that's when David saw him, implying he was free to go to the museum during that time.
+
+But wait, the question is asking "Between what times could they have gone," which might mean the specific time when he was free to go, but considering the options, (A) is the time when he was free.
+
+Alternatively, since the museum was open until 10pm, and he was with Thomas from 8pm to 10pm, he couldn't have gone after 10pm. So, the latest he could have gone is before 10pm.
+
+But considering the options, the correct answer is (A) 8am to 10am.
+
+But wait, let's double-check. The museum was closed after 10pm, so it was open until 10pm. Andrew was with David from 8am to 10am, so he was free to go to the museum during that time.
+
+Therefore, the answer is (A) 8am to 10am.
+</think>
+
+The correct answer is (A) 8am to 10am.
+
+Answer: (A)

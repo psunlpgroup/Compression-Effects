@@ -1,0 +1,27 @@
+Alright, let's try to figure out when Tiffany could have gone to the construction site. I'll start by laying out all the information given and then see how the times overlap.
+
+First, Tiffany's schedule:
+
+1. **7am**: She wakes up.
+2. **7am to 9am**: William sees her attending class at the school.
+3. **9am to 1pm**: Steven sees her waiting at the airport.
+4. **4pm to 7pm**: Mark sees her buying lunch at the deli.
+5. **After 7pm**: The construction site was closed.
+
+So, from the timeline, Tiffany is at the school from 7am to 9am, then at the airport from 9am to 1pm, and then at the deli from 4pm to 7pm. The construction site is closed after 7pm, which means she couldn't have gone there after that time.
+
+Now, looking at the options:
+
+- **(A) 4pm to 7pm**: This is when Mark saw her at the deli, so she was buying lunch, not at the construction site.
+- **(B) 9am to 1pm**: Steven saw her waiting at the airport during this time, so she wasn't at the construction site.
+- **(C) 7am to 9am**: William saw her at school during this time, so she wasn't at the construction site.
+- **(D) 1pm to 4pm**: This is a gap in her schedule. After leaving the airport at 1pm, she went to the deli at 4pm. So, there's a window between 1pm and 4pm where she wasn't at the school, airport, or deli. This is the time she could have possibly gone to the construction site.
+
+Since the construction site was closed after 7pm, and she was at the deli until 7pm, she wouldn't have had time to go there after 7pm. Therefore, the only feasible time is between 1pm and 4pm when she wasn't accounted for elsewhere.
+
+So, the correct answer is **(D)** 1pm to 4pm.
+</think>
+
+The correct answer is (D) 1pm to 4pm.
+
+Answer: (D)

@@ -1,0 +1,30 @@
+Alright, let me try to figure this out step by step. So, the problem is about Tom and the different types of wild turkeys. There are six types mentioned: Eastern, Osceola, Gould’s, Merriam’s, Rio Grande, and Ocellated wild turkeys. 
+
+From the premises, we know several things about Tom. First, Tom is not an Eastern wild turkey. That's clear. Also, he's not an Osceola wild turkey. So, already, we can eliminate two types. Next, it says Tom is not a Gould's wild turkey. So, that's another one off the list. 
+
+Then, the premise states that Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey. So, that eliminates two more types. So far, we've eliminated four types: Eastern, Osceola, Gould’s, Merriam’s, and Rio Grande. That leaves only one type remaining, which is Ocellated wild turkey. 
+
+Additionally, the premise tells us that Tom is a wild turkey. Since all the types listed are wild turkeys, and we've eliminated all except Ocellated, it must be that Tom is an Ocellated wild turkey. 
+
+I think that's it. There are no other possibilities left, so logically, Tom must be an Ocellated wild turkey.
+</think>
+
+**Answer:**
+
+Based on the given premises, Tom must be an Ocellated wild turkey.
+
+**Step-by-Step Explanation:**
+
+1. **List of Wild Turkey Types:** There are six types of wild turkeys: Eastern, Osceola, Gould’s, Merriam’s, Rio Grande, and Ocellated.
+
+2. **Elimination Process:**
+   - Tom is **not** an Eastern wild turkey.
+   - Tom is **not** an Osceola wild turkey.
+   - Tom is **not** a Gould’s wild turkey.
+   - Tom is **neither** a Merriam’s wild turkey **nor** a Rio Grande wild turkey.
+
+3. **Remaining Type:** After eliminating the above four types, only Ocellated wild turkey remains as a possibility.
+
+4. **Conclusion:** Since Tom is a wild turkey and all other types are excluded, Tom must be an Ocellated wild turkey.
+
+**Final Answer:** Tom is an Ocellated wild turkey.

@@ -1,0 +1,61 @@
+Alright, let's try to figure out when Nancy could have gone to the basketball court. So, Nancy woke up at 9am, and there are several people who saw her at different places at different times.
+
+First, let's list out what we know:
+
+- **Steven** saw Nancy at the train station from **2pm to 4pm**.
+- **Sarah** saw Nancy at the library from **4pm to 5pm**.
+- **Richard** saw Nancy buying a phone at the electronics store from **5pm to 6pm**.
+- **Thomas** saw Nancy attending class at the school from **6pm to 7pm**.
+
+The basketball court was closed after **7pm**, so Nancy couldn't have gone there after that time.
+
+Now, let's see when Nancy was at different places:
+
+- **Train Station**: 2pm to 4pm (Steven saw her)
+- **Library**: 4pm to 5pm (Sarah saw her)
+- **Electronics Store**: 5pm to 6pm (Richard saw her)
+- **School**: 6pm to 7pm (Thomas saw her)
+
+From this, it looks like Nancy was at different places from 2pm to 7pm. But the question is, when could she have gone to the basketball court?
+
+The key here is that Nancy can't be in two places at the same time. So, the times when she was at the train station, library, electronics store, and school are when she was occupied elsewhere. Therefore, the only time she wasn't doing any of these activities is before 2pm or after 7pm.
+
+But Nancy woke up at 9am. So, from 9am to 2pm, she was either at home or doing something else. The first option is (A) 9am to 2pm. That makes sense because she was free before Steven saw her at the train station.
+
+However, let's check the other options to make sure:
+
+- **(B) 4pm to 5pm**: Sarah saw her at the library during this time, so she was at the library, not the basketball court.
+- **(C) 5pm to 6pm**: Richard saw her buying a phone, so again, she wasn't at the basketball court.
+- **(D) 2pm to 4pm**: Steven saw her at the train station during this time, so she was there, not at the basketball court.
+
+So, the only time when she wasn't seen at any of these places is from 9am to 2pm. That's when she could have gone to the basketball court.
+
+But wait, the basketball court was closed after 7pm. So, could she have gone after 7pm? No, because it was closed. So, she could have only gone before 2pm or between 7pm and when she went to bed or somewhere else. But since the options don't include times after 7pm, the only possible time is before 2pm.
+
+Therefore, the correct answer is (A) 9am to 2pm.
+</think>
+
+The correct answer is (A) 9am to 2pm.
+
+Step-by-Step Explanation:
+
+1. **Identify Nancy's Schedule:**
+   - **Steven:** Train Station, 2pm-4pm
+   - **Sarah:** Library, 4pm-5pm
+   - **Richard:** Electronics Store, 5pm-6pm
+   - **Thomas:** School, 6pm-7pm
+
+2. **Determine Free Time:**
+   - Nancy was occupied from 2pm to 7pm.
+   - She woke up at 9am, so her free time is before 2pm.
+
+3. **Evaluate Options:**
+   - **(A) 9am-2pm:** Free time, possible for basketball.
+   - **(B) 4pm-5pm:** At Library, not possible.
+   - **(C) 5pm-6pm:** At Store, not possible.
+   - **(D) 2pm-4pm:** At Train Station, not possible.
+
+4. **Conclusion:**
+   - Only (A) fits her schedule.
+
+Answer: (A) 9am to 2pm

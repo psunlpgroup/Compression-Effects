@@ -1,0 +1,35 @@
+Alright, let's try to figure out between what times Sarah could have gone to the art show. I'll start by listing out all the information we have:
+
+1. **Sarah's schedule:**
+   - Woke up at 5am.
+   - Saw by Kimberly from 5am to 8am (at the airport).
+   - Seen by Thomas from 8am to 1pm (near the Eiffel Tower).
+   - Seen by Hannah from 1pm to 2pm (at the electronic store).
+
+2. **Art show details:**
+   - Closed after 10pm.
+
+So, Sarah's activities are sequential based on when people saw her. First, she was at the airport from 5am to 8am. Then, she moved near the Eiffel Tower, where Thomas saw her taking photos until 1pm. After that, she went to an electronic store where Hannah saw her fixing the computer from 1pm to 2pm.
+
+Now, the art show was closed after 10pm, but we don't have specific times when it was open. We need to find a time window when Sarah wasn't occupied with her other activities and when the art show was likely open.
+
+Looking at Sarah's schedule:
+
+- **5am to 8am:** At the airport.
+- **8am to 1pm:** Near the Eiffel Tower.
+- **1pm to 2pm:** At the electronic store.
+
+So, after 2pm, Sarah is free. But the art show closes at 10pm. Therefore, the latest she could have gone is by 10pm.
+
+So, the possible time Sarah could have gone to the art show is from 2pm to 10pm.
+
+Let me check the options:
+
+- (A) 1pm to 2pm: She was actually at the electronic store during this time.
+- (B) 5am to 8am: She was at the airport.
+- (C) 2pm to 10pm: This fits with her being free after 2pm and the art show closing at 10pm.
+- (D) 8am to 1pm: She was near the Eiffel Tower during this time.
+
+So, the correct answer is option (C).
+
+**Answer:** (C)

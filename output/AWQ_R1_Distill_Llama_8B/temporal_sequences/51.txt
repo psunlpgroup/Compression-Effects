@@ -1,0 +1,15 @@
+To determine the possible times William could have gone to the bookstore, let's analyze the timeline step by step:
+
+1. **Wake-Up Time**: William woke up at 7am.
+2. **Tiffany's Observation**: Tiffany saw William at the gym from 7am to 8am.
+3. **Sean's Observation**: Sean saw William driving to the water park from 12pm to 1pm.
+4. **Anthony's Observation**: Anthony saw William waiting at the train station from 1pm to 3pm.
+5. **James's Observation**: James saw William taking photos near the Eiffel Tower from 3pm to 5pm.
+6. **Jessica's Observation**: Jessica saw William working at the office from 5pm to 7pm.
+7. **Bookstore Closure**: The bookstore was closed after 7pm.
+
+Based on this information, William was occupied from 7am to 7pm. Therefore, the only available window when he could have visited the bookstore is **before 7am** or **after 7pm**. However, since the bookstore was closed after 7pm, the feasible time William could have visited is **before 7am**, specifically from 7am to 8am, when he was at the gym.
+
+Therefore, William could have gone to the bookstore **from 8am to 12pm**.
+
+Final Answer: (D) 8am to 12pm

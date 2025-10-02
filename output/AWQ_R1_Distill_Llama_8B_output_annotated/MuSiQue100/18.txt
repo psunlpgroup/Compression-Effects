@@ -1,0 +1,13 @@
+["initializing"] The region north of Israel where the Battle of Qurah and Umm al Maradim occurred was established as the Kingdom of Moab. ["end-section"]
+
+["deduction"] This area is located in present-day Jordan. ["end-section"]
+
+["adding-knowledge"] The Kingdom of Moab was established in the early Iron Age, around the 12th century BCE, ["end-section"]
+
+["adding-knowledge"] by the Israelites under King Mesha. ["end-section"]
+
+["adding-knowledge"] The Battle of Qurah and Umm al Maradim took place during the reign of King Mesha, when he successfully defended his territory against the Mesopotamian forces. ["end-section"]
+
+["deduction"] So, the region was established as the Kingdom of Moab, and the battle occurred during the early Iron Age, around the 12th century BCE, ["end-section"]
+
+["deduction"] in present-day Jordan. ["end-section"]

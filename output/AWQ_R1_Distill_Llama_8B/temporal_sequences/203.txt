@@ -1,0 +1,44 @@
+Let's analyze the timeline step by step to determine during which time Leslie could have gone to the soccer field.
+
+**1. Leslie's Wake-Up Time:**
+- Leslie wakes up at **5am**.
+
+**2. Sarah's Observation:**
+- Sarah saw Leslie waiting at the **train station** from **5am to 12pm**.
+- This means Leslie was at the train station during this period.
+
+**3. Hannah's Observation:**
+- Hannah saw Leslie **sitting on a rooftop** from **12pm to 2pm**.
+- This implies Leslie was occupied on the rooftop during this time.
+
+**4. Elizabeth's Observation:**
+- Elizabeth saw Leslie **buying a bike at the bike shop** from **3pm to 4pm**.
+- Therefore, Leslie was at the bike shop during this period.
+
+**5. Emily's Observation:**
+- Emily saw Leslie **working at the office** from **4pm to 10pm**.
+- This means Leslie was occupied at the office during this time.
+
+**6. Soccer Field Closure:**
+- The soccer field was closed **after 10pm**.
+
+**Analyzing Leslie's Possible Availability:**
+- **From 5am to 12pm:** Leslie was at the train station (as observed by Sarah).
+- **From 12pm to 2pm:** Leslie was on the rooftop (as observed by Hannah).
+- **From 3pm to 4pm:** Leslie was buying a bike (as observed by Elizabeth).
+- **From 4pm to 10pm:** Leslie was working at the office (as observed by Emily).
+
+**Determining the Time Leslie Could Have Gone to the Soccer Field:**
+- **Between 2pm and 3pm:** Leslie was not observed by anyone to be at the soccer field or elsewhere specified. This seems to be a possible window.
+- **After 10pm:** The soccer field was closed, so Leslie couldn't have gone after this time.
+
+**Checking the Options:**
+- **(A) 12pm to 2pm:** Leslie was on the rooftop during this time.
+- **(B) 2pm to 3pm:** This is a time when Leslie wasn't observed to be at the soccer field or elsewhere specified.
+- **(C) 4pm to 10pm:** Leslie was working at the office during this time.
+- **(D) 5am to 12pm:** Leslie was at the train station during this time.
+
+**Conclusion:**
+The only feasible time when Leslie could have gone to the soccer field without conflicting with her other activities is **2pm to 3pm**.
+
+**Answer:** (B)

@@ -1,0 +1,54 @@
+Alright, let's try to figure out when Jason could have gone to the bakery. I'll go through each piece of information step by step.
+
+First, Jason woke up at 6am. That means his day starts at 6am.
+
+Next, Elizabeth saw Jason buying a phone at the electronics store from 6am to 7am. So, he was at the electronics store during that time.
+
+Then, Jessica saw Jason getting a coffee at the cafe from 7am to 12pm. So, from 7am to 12pm, he was at the cafe.
+
+Mark saw Jason playing tennis at the tennis court from 4pm to 6pm. That means he was occupied there during that time.
+
+Linda saw Jason buying lunch at the deli from 6pm to 8pm. So, he was at the deli from 6pm to 8pm.
+
+The bakery was closed after 8pm. So, after 8pm, the bakery wasn't open.
+
+Now, let's try to piece this together.
+
+Jason was at the electronics store from 6am to 7am.
+
+Then, from 7am to 12pm, he was at the cafe.
+
+So, between 12pm and 4pm, where was Jason? He wasn't mentioned at the deli yet. Wait, Linda saw him buying lunch at the deli from 6pm to 8pm.
+
+So, between 12pm and 4pm, he was probably doing something else. That's when he might have gone to the bakery.
+
+Mark saw him playing tennis from 4pm to 6pm. So, between 6pm and 8pm, he was at the deli.
+
+The bakery closes after 8pm, so he couldn't have gone to the bakery after that.
+
+So, the only available time is between 12pm and 4pm.
+
+Wait, but let me double-check.
+
+From 6am to 7am: electronics store.
+
+7am to 12pm: cafe.
+
+12pm to 4pm: no activity mentioned, so possibly free to go to bakery.
+
+4pm to 6pm: playing tennis.
+
+6pm to 8pm: buying lunch at the deli.
+
+After 8pm: bakery closed.
+
+So, the only time he wasn't occupied is between 12pm to 4pm.
+
+Therefore, Jason could have gone to the bakery between 12pm to 4pm.
+
+So, the answer is (D) 12pm to 4pm.
+</think>
+
+Jason could have gone to the bakery between **12pm to 4pm**. 
+
+**Answer:** (D) 12pm to 4pm

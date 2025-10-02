@@ -1,0 +1,87 @@
+Alright, let's try to figure out when Anthony could have gone to the basketball court. So, here's what we know:
+
+1. **Anthony's Day:**
+   - He wakes up at 5 AM.
+   - Then, Sarah sees him buying clothes at the mall from 5 AM to 7 AM.
+   - After that, Tiffany sees him buying lunch at the deli from 7 AM to 12 PM.
+   - Next, Sean spots him watching a movie at the theater from 12 PM to 2 PM.
+   - Finally, Emily sees him buying a phone at the electronics store from 2 PM to 4 PM.
+
+2. **Basketball Court Schedule:**
+   - The court is open from 9 AM to 9 PM.
+   - It closes after 9 PM.
+
+So, the question is: Between what times could Anthony have gone to the basketball court?
+
+Let's break it down step by step.
+
+**First, let's list all the times when Anthony is seen by Sarah, Tiffany, Sean, and Emily:**
+
+- **Sarah:** 5 AM to 7 AM
+- **Tiffany:** 7 AM to 12 PM
+- **Sean:** 12 PM to 2 PM
+- **Emily:** 2 PM to 4 PM
+
+These are the times when Anthony is occupied elsewhere.
+
+Now, we need to find the time windows when Anthony is **not** seen by anyone, meaning he could have gone to the basketball court.
+
+So, let's subtract the times when he's seen from the total timeline.
+
+**Total timeline from 5 AM to 4 PM:**
+
+- From 5 AM to 4 PM, Anthony is either seen by Sarah, Tiffany, Sean, or Emily.
+
+But the basketball court is open from 9 AM to 9 PM. So, we need to see if there's any overlap between the times he's not seen and the basketball court's operating hours.
+
+Let's analyze the time intervals:
+
+1. **From 5 AM to 7 AM:**
+   - Sarah sees Anthony.
+   - Basketball court is open from 9 AM, so no overlap here.
+
+2. **From 7 AM to 12 PM:**
+   - Tiffany sees Anthony.
+   - Basketball court is open during this time (9 AM to 12 PM).
+   - So, there's an overlap. But does that mean he went to the court during this time? Not necessarily, because he's buying lunch.
+
+3. **From 12 PM to 2 PM:**
+   - Sean sees Anthony.
+   - Basketball court is open (9 AM to 9 PM), so there's overlap.
+   - Again, he's watching a movie, so he's not at the court.
+
+4. **From 2 PM to 4 PM:**
+   - Emily sees Anthony.
+   - Basketball court is still open until 9 PM, so there's overlap.
+   - He's buying a phone, so he's not at the court.
+
+Now, we need to see if there's any time when Anthony is not seen by anyone and the court is open.
+
+Looking at the total timeline from 5 AM to 4 PM:
+
+- **5 AM to 7 AM:** He's with Sarah.
+- **7 AM to 12 PM:** He's with Tiffany.
+- **12 PM to 2 PM:** He's with Sean.
+- **2 PM to 4 PM:** He's with Emily.
+
+So, during all these times, he's occupied elsewhere. But the basketball court is open from 9 AM to 9 PM.
+
+Wait, so is there any time after 4 PM when he could have gone to the court? But the question says "between what times could they have gone," and the options don't include times after 4 PM. The options are:
+
+(A) 5am to 7am
+(B) 12pm to 2pm
+(C) 4pm to 9pm
+(D) 7am to 12pm
+
+Hmm, the options suggest that the possible times are during the day, not in the evening after 4 PM. But the basketball court is open until 9 PM, so theoretically, he could have gone after 4 PM.
+
+But looking at the options, option (C) is 4pm to 9pm. That fits the time when the court is open, but he's not seen by anyone after 2 PM.
+
+So, could he have gone to the basketball court anytime between 4 PM and 9 PM? Yes, because he's not seen by anyone during that time, and the court is open.
+
+So, the correct answer is (C) 4pm to 9pm.
+</think>
+
+The correct answer is (C) 4pm to 9pm.
+
+**Answer: (C)**

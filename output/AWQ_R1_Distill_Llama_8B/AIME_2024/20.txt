@@ -1,0 +1,2113 @@
+Alright, so I've got this problem here about something called "b-eautiful" numbers. Let me try to understand what it's asking for.
+
+First, the problem defines a positive integer \( n \) as \( b \)-eautiful if two conditions are satisfied:
+1. When \( n \) is written in base \( b \), it has exactly two digits.
+2. The sum of these two digits equals \( \sqrt{n} \).
+
+For example, it says that 81 is 13-eautiful because when you write 81 in base 13, it's 6 and 3, and 6 + 3 equals 9, which is the square root of 81.
+
+The task is to find the smallest integer \( b \geq 2 \) for which there are more than ten \( b \)-eautiful integers. So, I need to figure out the least base \( b \) where the count of such numbers exceeds ten.
+
+Let me break down the problem step by step.
+
+**Understanding the Structure of \( n \) in Base \( b \):**
+
+In any base \( b \), a two-digit number can be represented as \( n = d_1 \times b + d_0 \), where \( d_1 \) is the digit in the \( b \) place and \( d_0 \) is the digit in the units place. Here, \( d_1 \) can range from 1 to \( b - 1 \) because it can't be zero (otherwise, it would be a single-digit number), and \( d_0 \) can range from 0 to \( b - 1 \).
+
+So, the two-digit number in base \( b \) is \( n = d_1 \times b + d_0 \).
+
+**Condition for \( b \)-eautiful Number:**
+
+The number \( n \) is \( b \)-eautiful if the sum of its digits \( d_1 + d_0 \) equals \( \sqrt{n} \). So, mathematically, this can be written as:
+\[ d_1 + d_0 = \sqrt{n} \]
+
+But since \( n = d_1 \times b + d_0 \), substituting that into the equation gives:
+\[ d_1 + d_0 = \sqrt{d_1 \times b + d_0} \]
+
+Let me square both sides to eliminate the square root:
+\[ (d_1 + d_0)^2 = d_1 \times b + d_0 \]
+
+Expanding the left side:
+\[ d_1^2 + 2d_1 d_0 + d_0^2 = d_1 b + d_0 \]
+
+Let's rearrange the equation to bring all terms to one side:
+\[ d_1^2 + 2d_1 d_0 + d_0^2 - d_1 b - d_0 = 0 \]
+
+This looks like a quadratic in terms of \( d_1 \) and \( d_0 \). Maybe I can treat this equation as a quadratic equation in \( d_1 \) for each \( d_0 \), or vice versa.
+
+Alternatively, let's consider it as a quadratic equation in \( d_1 \):
+\[ d_1^2 + (2d_0 - b)d_1 + (d_0^2 - d_0) = 0 \]
+
+Similarly, it's a quadratic in \( d_0 \):
+\[ d_0^2 + (2d_1 - 1)d_0 + (d_1^2 - d_1 b) = 0 \]
+
+Hmm, not sure if that's helpful yet. Maybe it's better to fix \( d_1 \) and \( d_0 \) within their ranges and see when the equation holds.
+
+**Expressing \( n \) as a Two-Digit Number in Base \( b \):**
+
+Let me denote \( s = d_1 + d_0 \), which is equal to \( \sqrt{n} \). So, \( s = \sqrt{n} \) implies \( n = s^2 \).
+
+But also, \( n = d_1 b + d_0 \). So, we have:
+\[ s^2 = d_1 b + d_0 \]
+But \( s = d_1 + d_0 \), so substituting:
+\[ s^2 = d_1 b + (s - d_1) \]
+Simplify this:
+\[ s^2 = d_1 b + s - d_1 \]
+\[ s^2 - s = d_1 (b - 1) \]
+So:
+\[ d_1 = \frac{s^2 - s}{b - 1} \]
+
+Interesting. So, \( d_1 \) must be an integer because it's a digit in base \( b \). Therefore, \( \frac{s^2 - s}{b - 1} \) must be an integer.
+
+Also, \( d_1 \) must satisfy \( 1 \leq d_1 \leq b - 1 \), and \( d_0 = s - d_1 \) must satisfy \( 0 \leq d_0 \leq b - 1 \).
+
+So, let's write down the constraints:
+
+1. \( s \) must be an integer because \( s = \sqrt{n} \) and \( n \) is a positive integer.
+2. \( d_1 = \frac{s^2 - s}{b - 1} \) must be an integer.
+3. \( d_0 = s - d_1 \) must be between 0 and \( b - 1 \), inclusive.
+
+So, our goal is, for each base \( b \), to count the number of integers \( s \) such that \( d_1 \) and \( d_0 \) defined as above satisfy the digit constraints.
+
+Alternatively, since \( s \) is the square root of \( n \), \( s \) must be an integer, so \( n \) must be a perfect square.
+
+Therefore, for each base \( b \), the number of \( b \)-eautiful numbers is equal to the number of perfect squares \( s^2 \) such that:
+
+- \( s^2 = d_1 b + d_0 \)
+- \( d_1 + d_0 = s \)
+- \( 1 \leq d_1 \leq b - 1 \)
+- \( 0 \leq d_0 \leq b - 1 \)
+
+So, perhaps another way to think about this is that \( s^2 \) can be written as a two-digit number in base \( b \), with digits \( d_1 \) and \( d_0 \), such that their sum is \( s \).
+
+Alternatively, \( s^2 \) must be a two-digit number in base \( b \), so it must satisfy:
+\[ b \leq s^2 \leq b^2 - 1 \]
+Because the smallest two-digit number in base \( b \) is \( 10_b = b \), and the largest is \( (b-1)(b) + (b-1) = b^2 - 1 \).
+
+So, \( s^2 \) must lie in the interval \( [b, b^2 - 1] \).
+
+Also, since \( s = d_1 + d_0 \), and \( d_1 \geq 1 \), \( d_0 \geq 0 \), so \( s \geq 1 + 0 = 1 \). But since \( s^2 \geq b \), and \( b \geq 2 \), \( s \geq \sqrt{b} \). So, \( s \) is at least 2 when \( b \geq 4 \), but for \( b = 2 \), \( s \geq \sqrt{2} \approx 1.414 \), so \( s \geq 2 \).
+
+Wait, actually, \( s \) must be integer because \( s = \sqrt{n} \), so \( s \) must be an integer greater than or equal to 2 (since \( n \geq 1 \), but for \( n \geq b \), which is at least 2, \( s \geq 2 \)).
+
+So, for each base \( b \), we can consider \( s \) starting from \( \lceil \sqrt{b} \rceil \) up to \( \sqrt{b^2 - 1} \), which is just less than \( b \). So, \( s \) ranges from \( \lceil \sqrt{b} \rceil \) to \( b - 1 \).
+
+But perhaps more precise: \( s \) is such that \( s^2 \) is a two-digit number in base \( b \), so \( s^2 \geq b \) and \( s^2 < b^2 \). Therefore, \( s \) must satisfy \( \sqrt{b} \leq s < b \). Since \( s \) is an integer, \( s \) can be from \( \lceil \sqrt{b} \rceil \) to \( b - 1 \).
+
+So, for each \( b \), the possible values of \( s \) are integers from \( \lceil \sqrt{b} \rceil \) to \( b - 1 \). For each such \( s \), we can compute \( d_1 = \frac{s^2 - s}{b - 1} \), and check whether \( d_1 \) is an integer and whether \( d_0 = s - d_1 \) is between 0 and \( b - 1 \).
+
+So, to count the number of \( b \)-eautiful numbers, we need to count the number of integers \( s \) in the range \( \lceil \sqrt{b} \rceil \) to \( b - 1 \) such that \( d_1 \) and \( d_0 \) are valid digits in base \( b \).
+
+Therefore, for each \( b \), we can iterate through each \( s \) from \( \lceil \sqrt{b} \rceil \) to \( b - 1 \), compute \( d_1 \) and \( d_0 \), check if they are valid, and count how many such \( s \) satisfy the conditions.
+
+Our goal is to find the smallest \( b \) such that this count exceeds 10.
+
+So, perhaps we can approach this problem by incrementally testing bases starting from \( b = 2 \) upwards, computing the number of \( b \)-eautiful numbers for each \( b \), and stopping when we find the first \( b \) where the count is greater than 10.
+
+But before diving into code or extensive calculations, maybe there's a pattern or a formula we can derive.
+
+**Expressing \( d_1 \) and \( d_0 \) in Terms of \( s \) and \( b \):**
+
+From earlier, we have:
+\[ d_1 = \frac{s^2 - s}{b - 1} \]
+\[ d_0 = s - d_1 = s - \frac{s^2 - s}{b - 1} = \frac{(s)(b - 1) - (s^2 - s)}{b - 1} = \frac{s b - s - s^2 + s}{b - 1} = \frac{s b - s^2}{b - 1} \]
+
+So, both \( d_1 \) and \( d_0 \) must be integers. Therefore, \( d_1 \) and \( d_0 \) must be integers, which imposes conditions on \( s \) and \( b \).
+
+So, \( \frac{s^2 - s}{b - 1} \) must be an integer, and \( \frac{s b - s^2}{b - 1} \) must also be an integer.
+
+Wait, perhaps if I write \( d_1 = \frac{s(s - 1)}{b - 1} \), so \( b - 1 \) must divide \( s(s - 1) \). Since \( s \) and \( s - 1 \) are consecutive integers, they are coprime. Therefore, \( b - 1 \) must divide either \( s \) or \( s - 1 \).
+
+But since \( b - 1 \) and \( s \) may not necessarily be coprime, this might not hold. Alternatively, because \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must be a divisor of either \( s \) or \( s - 1 \), but not necessarily both.
+
+Wait, perhaps that's too restrictive. Maybe a better approach is to note that \( b - 1 \) divides \( s(s - 1) \), so \( b - 1 \) must divide the product \( s(s - 1) \). Since \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must divide either \( s \) or \( s - 1 \), but not necessarily both.
+
+But perhaps I can think of \( b - 1 \) as a factor of \( s(s - 1) \). So, \( b - 1 \) divides \( s(s - 1) \).
+
+Given that, for each \( s \), \( b - 1 \) must be a divisor of \( s(s - 1) \). Since \( s \) is between \( \lceil \sqrt{b} \rceil \) and \( b - 1 \), perhaps \( b - 1 \) is a divisor of \( s(s - 1) \), but since \( s \) is less than \( b \), \( s \) and \( b - 1 \) might share a common divisor.
+
+Alternatively, maybe we can rephrase the equation:
+
+From \( d_1 = \frac{s^2 - s}{b - 1} \), since \( d_1 \) must be an integer, \( b - 1 \) divides \( s^2 - s \).
+
+Similarly, \( d_0 = \frac{sb - s^2}{b - 1} \) must also be an integer, so \( b - 1 \) divides \( sb - s^2 \).
+
+But \( sb - s^2 = s(b - s) \), so \( b - 1 \) divides \( s(b - s) \).
+
+So, \( b - 1 \) divides \( s(b - s) \).
+
+Given that \( s \) is between \( \lceil \sqrt{b} \rceil \) and \( b - 1 \), \( b - s \) is between 1 and \( \lfloor \sqrt{b} \rfloor \).
+
+Hmm, this is getting a bit abstract. Maybe it's better to consider specific values of \( b \) and compute the number of \( b \)-eautiful numbers.
+
+But considering the problem asks for the least \( b \) with more than ten such numbers, we might need to go through several bases.
+
+But perhaps we can find a pattern or a formula to compute the number of solutions for each \( b \).
+
+Let me consider the equation again:
+
+\( (d_1 + d_0)^2 = d_1 b + d_0 \)
+
+Expanding:
+
+\( d_1^2 + 2 d_1 d_0 + d_0^2 = d_1 b + d_0 \)
+
+Rearranged:
+
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+This is a quadratic in \( d_1 \). For \( d_1 \) to be an integer, the discriminant must be a perfect square.
+
+The discriminant \( D \) of this quadratic is:
+
+\( D = (2 d_0 - b)^2 - 4 \times 1 \times (d_0^2 - d_0) \)
+\( D = 4 d_0^2 - 4 b d_0 + b^2 - 4 d_0^2 + 4 d_0 \)
+Simplify:
+\( D = -4 b d_0 + b^2 + 4 d_0 \)
+\( D = b^2 - 4 d_0 (b - 1) \)
+
+For \( d_1 \) to be an integer, \( D \) must be a perfect square. Let \( D = k^2 \), where \( k \) is a positive integer.
+
+So, \( b^2 - 4 d_0 (b - 1) = k^2 \)
+
+But this seems a bit complicated.
+
+Alternatively, perhaps we can fix \( d_0 \) and express \( d_1 \) in terms of \( d_0 \) and \( b \).
+
+From \( d_1 = \frac{s^2 - s}{b - 1} \), and \( s = d_1 + d_0 \), so:
+
+\( s = d_1 + d_0 \)
+\( s^2 = d_1^2 + 2 d_1 d_0 + d_0^2 \)
+But \( s^2 = d_1 b + d_0 \)
+
+So, equate:
+\( d_1 b + d_0 = d_1^2 + 2 d_1 d_0 + d_0^2 \)
+Rearrange:
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+Which is the same quadratic as before.
+
+Wait, perhaps instead of fixing \( s \), I can fix \( d_0 \) and then solve for \( d_1 \).
+
+Given \( d_0 \) is between 0 and \( b - 1 \), inclusive, and \( d_1 \) is between 1 and \( b - 1 \), inclusive.
+
+So, for each \( d_0 \) from 0 to \( b - 1 \), solve for \( d_1 \) such that:
+
+\( d_1 = \frac{s^2 - s}{b - 1} \), where \( s = d_1 + d_0 \)
+
+But \( s \) is a function of \( d_1 \), so it's a bit circular.
+
+Alternatively, express \( s \) in terms of \( d_0 \):
+
+From \( s = d_1 + d_0 \), substitute into \( n = s^2 \):
+
+\( n = (d_1 + d_0)^2 \)
+But also, \( n = d_1 b + d_0 \)
+Therefore:
+\( (d_1 + d_0)^2 = d_1 b + d_0 \)
+Expanding:
+\( d_1^2 + 2 d_1 d_0 + d_0^2 = d_1 b + d_0 \)
+Rearranged:
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+So, this is a quadratic in \( d_1 \). For each \( d_0 \), we can solve for \( d_1 \).
+
+The quadratic equation is:
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+Let me compute the discriminant \( D \) for each \( d_0 \):
+\( D = (2 d_0 - b)^2 - 4 \times 1 \times (d_0^2 - d_0) \)
+\( D = 4 d_0^2 - 4 b d_0 + b^2 - 4 d_0^2 + 4 d_0 \)
+Simplify:
+\( D = -4 b d_0 + b^2 + 4 d_0 \)
+\( D = b^2 - 4 d_0 (b - 1) \)
+
+For \( d_1 \) to be an integer, \( D \) must be a perfect square. Let's denote \( D = k^2 \), where \( k \) is an integer.
+
+So, for each \( d_0 \), \( b^2 - 4 d_0 (b - 1) \) must be a perfect square.
+
+But this seems complicated because \( d_0 \) varies from 0 to \( b - 1 \). Maybe instead of going this route, think about the equation \( s^2 = d_1 b + d_0 \) and \( s = d_1 + d_0 \).
+
+Let me write \( s = d_1 + d_0 \) and substitute into \( s^2 = d_1 b + d_0 \):
+
+\( (d_1 + d_0)^2 = d_1 b + d_0 \)
+Expanding:
+\( d_1^2 + 2 d_1 d_0 + d_0^2 = d_1 b + d_0 \)
+Rearranged:
+\( d_1^2 + (2 d_0 - b) d_1 + d_0^2 - d_0 = 0 \)
+
+Which is the quadratic equation in \( d_1 \) as before.
+
+Alternatively, express this as:
+
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+Let me denote this as quadratic in \( d_1 \). The discriminant is \( D = (2 d_0 - b)^2 - 4(d_0^2 - d_0) \).
+
+Simplify \( D \):
+
+\( D = 4 d_0^2 - 4 b d_0 + b^2 - 4 d_0^2 + 4 d_0 \)
+Simplify term by term:
+- \( 4 d_0^2 - 4 d_0^2 = 0 \)
+- \( -4 b d_0 + 4 d_0 = 4 d_0 (1 - b) \)
+- \( + b^2 \)
+So, \( D = b^2 - 4 d_0 (b - 1) \)
+
+So, for each \( d_0 \), compute \( D = b^2 - 4 d_0 (b - 1) \). If \( D \) is a perfect square, then \( d_1 \) is an integer, and we can compute it.
+
+Thus, for each \( d_0 \), we can compute \( D \), check if it's a perfect square, and if so, compute \( d_1 \) and check if it's within the valid range.
+
+But this seems computationally intensive. Maybe we can find a smarter way.
+
+**Alternative Approach: Expressing \( b \) in Terms of \( s \) and \( d_0 \)**
+
+From \( s^2 = d_1 b + d_0 \) and \( s = d_1 + d_0 \), we can solve for \( b \):
+
+Express \( d_1 = s - d_0 \), then substitute into the first equation:
+
+\( s^2 = (s - d_0) b + d_0 \)
+\( s^2 = s b - d_0 b + d_0 \)
+Bring terms with \( b \) to one side:
+
+\( s^2 - s = -d_0 b + d_0 \)
+Factor out \( d_0 \):
+
+\( s(s - 1) = d_0 (-b + 1) \)
+Multiply both sides by -1:
+
+\( s(1 - s) = d_0 (b - 1) \)
+So:
+
+\( d_0 = \frac{s(1 - s)}{b - 1} \)
+
+But \( d_0 \) must be a non-negative integer less than or equal to \( b - 1 \). Therefore, \( d_0 = \frac{s(1 - s)}{b - 1} \) must be an integer between 0 and \( b - 1 \).
+
+Note that \( s \) is at least \( \lceil \sqrt{b} \rceil \) and less than \( b \).
+
+So, \( s \) is between 2 and \( b - 1 \) for \( b \geq 3 \). For \( b = 2 \), \( s \) is between 2 and 1, which isn't possible, so \( b = 2 \) might not have any \( b \)-eautiful numbers.
+
+Wait, for \( b = 2 \), the two-digit numbers are from 2 to 3 (binary 10 and 11). Let's check if any of them satisfy \( d_1 + d_0 = \sqrt{n} \).
+
+For \( n = 2 \) (10 in binary), \( d_1 = 1 \), \( d_0 = 0 \). Sum is 1, \( \sqrt{2} \approx 1.414 \), not integer.
+
+For \( n = 3 \) (11 in binary), \( d_1 = 1 \), \( d_0 = 1 \). Sum is 2, \( \sqrt{3} \approx 1.732 \), not integer.
+
+So, no \( b = 2 \)-eautiful numbers.
+
+Similarly, for \( b = 3 \), the two-digit numbers range from 3 to 8 (10 to 22 in base 3). Let's check each:
+
+- 10: 1+0=1, sqrt(3)≈1.732
+- 11: 1+1=2, sqrt(3)≈1.732
+- 12: 1+2=3, sqrt(4)=2
+- 20: 2+0=2, sqrt(6)≈2.449
+- 21: 2+1=3, sqrt(7)≈2.645
+- 22: 2+2=4, sqrt(8)≈2.828
+
+None of these sums equal the square roots, so no \( b = 3 \)-eautiful numbers.
+
+Moving on to \( b = 4 \):
+
+Two-digit numbers in base 4: 4 to 15 (10 to 33 in base 4).
+
+Let's list them:
+
+- 10: 1+0=1, sqrt(4)=2
+- 11: 1+1=2, sqrt(5)≈2.236
+- 12: 1+2=3, sqrt(8)≈2.828
+- 13: 1+3=4, sqrt(9)=3
+- 20: 2+0=2, sqrt(8)≈2.828
+- 21: 2+1=3, sqrt(9)=3
+- 22: 2+2=4, sqrt(8)≈2.828
+- 23: 2+3=5, sqrt(12)≈3.464
+- 30: 3+0=3, sqrt(12)≈3.464
+- 31: 3+1=4, sqrt(13)≈3.606
+- 32: 3+2=5, sqrt(16)=4
+- 33: 3+3=6, sqrt(16)=4
+
+So, checking each:
+
+- 13: 1+3=4, sqrt(9)=3. Not equal.
+- 21: 2+1=3, sqrt(9)=3. Equal! So, 21 is 4-eautiful.
+- 32: 3+2=5, sqrt(16)=4. Not equal.
+- 33: 3+3=6, sqrt(16)=4. Not equal.
+
+Wait, hold on. Wait, 21 is 2+1=3, and sqrt(21) is approximately 4.583, which is not 3. Wait, maybe I made a mistake.
+
+Wait, \( n = 21 \) in base 4 is 2*4 + 1 = 9, right? So \( \sqrt{9} = 3 \), which is equal to 2 + 1 = 3. So, yes, 21 is 4-eautiful.
+
+Similarly, 32 in base 4 is 3*4 + 2 = 14. \( \sqrt{14} \approx 3.741 \), which is not equal to 3 + 2 = 5.
+
+Wait, no, 3 + 2 = 5, sqrt(14) ≈ 3.741. Not equal.
+
+Wait, 32 in base 4 is 14 in decimal. So, \( \sqrt{14} \) is not 5.
+
+Wait, but 32 in base 4 is 3*4 + 2 = 14, so \( \sqrt{14} \approx 3.7417 \), which is not equal to 5.
+
+So, actually, only 21 is 4-eautiful.
+
+Wait, let's check all:
+
+- 10: 1, sqrt(4)=2. Not equal.
+- 11: 2, sqrt(5). Not equal.
+- 12: 3, sqrt(8). Not equal.
+- 13: 4, sqrt(9)=3. Not equal.
+- 20: 2, sqrt(8). Not equal.
+- 21: 3, sqrt(9)=3. Equal.
+- 22: 4, sqrt(8). Not equal.
+- 23: 5, sqrt(12). Not equal.
+- 30: 3, sqrt(12). Not equal.
+- 31: 4, sqrt(13). Not equal.
+- 32: 5, sqrt(14). Not equal.
+- 33: 6, sqrt(16)=4. Not equal.
+
+So, only one number: 21 is 4-eautiful. So, count is 1.
+
+Moving on to \( b = 5 \):
+
+Two-digit numbers in base 5: 5 to 24 (10 to 44 in base 5).
+
+List them:
+
+- 10: 1+0=1, sqrt(5)≈2.236
+- 11: 1+1=2, sqrt(6)≈2.449
+- 12: 1+2=3, sqrt(7)≈2.645
+- 13: 1+3=4, sqrt(8)≈2.828
+- 14: 1+4=5, sqrt(9)=3
+- 15: 1+5=6, sqrt(9)=3 (Wait, 15 in base 5 is 1*5 + 5? Wait, no, in base 5, digits can't exceed 4. So, actually, 15 in base 5 is invalid. The maximum is 44 in base 5, which is 4*5 + 4 = 24.
+
+Wait, so 44 is 24 in decimal. So, let's correct that.
+
+So, n ranges from 5 to 24.
+
+Wait, 10 in base 5 is 5, 11 is 6, 12 is 7, ..., 44 is 24.
+
+So, let's list each n and check:
+
+- 10: 1+0=1, sqrt(5)≈2.236
+- 11: 1+1=2, sqrt(6)≈2.449
+- 12: 1+2=3, sqrt(7)≈2.645
+- 13: 1+3=4, sqrt(8)≈2.828
+- 14: 1+4=5, sqrt(9)=3
+- 20: 2+0=2, sqrt(10)≈3.162
+- 21: 2+1=3, sqrt(11)≈3.316
+- 22: 2+2=4, sqrt(12)≈3.464
+- 23: 2+3=5, sqrt(13)≈3.606
+- 24: 2+4=6, sqrt(14)≈3.741
+- 30: 3+0=3, sqrt(15)≈3.872
+- 31: 3+1=4, sqrt(16)=4
+- 32: 3+2=5, sqrt(17)≈4.123
+- 33: 3+3=6, sqrt(18)≈4.242
+- 34: 3+4=7, sqrt(19)≈4.358
+- 40: 4+0=4, sqrt(20)≈4.472
+- 41: 4+1=5, sqrt(21)≈4.583
+- 42: 4+2=6, sqrt(22)≈4.690
+- 43: 4+3=7, sqrt(23)≈4.796
+- 44: 4+4=8, sqrt(24)≈4.899
+
+Now, let's check where the sum of digits equals the square root of n.
+
+Looking through:
+
+- 14: 1+4=5, sqrt(9)=3. Not equal.
+- 31: 3+1=4, sqrt(16)=4. Equal! So, 31 is 5-eautiful.
+- 41: 4+1=5, sqrt(21)≈4.583. Not equal.
+- 42: 4+2=6, sqrt(22)≈4.690. Not equal.
+- 43: 4+3=7, sqrt(23)≈4.796. Not equal.
+- 44: 4+4=8, sqrt(24)≈4.899. Not equal.
+
+So, only 31 is 5-eautiful. Count is 1.
+
+Hmm, so far, for bases 2 through 5, the count is 0, 0, 1, 1.
+
+Wait, maybe I made a mistake earlier with \( b = 4 \). Let me recheck.
+
+For \( b = 4 \), two-digit numbers are 4 to 15 (in decimal). In base 4, 10, 11, 12, 13, 20, 21, 22, 23, 30, 31, 32, 33.
+
+Wait, n=10: 1+0=1 vs sqrt(4)=2. No.
+n=11: 1+1=2 vs sqrt(5)=2.236. No.
+n=12: 1+2=3 vs sqrt(8)=2.828. No.
+n=13: 1+3=4 vs sqrt(9)=3. No.
+n=20: 2+0=2 vs sqrt(8)=2.828. No.
+n=21: 2+1=3 vs sqrt(9)=3. Yes.
+n=22: 2+2=4 vs sqrt(8)=2.828. No.
+n=23: 2+3=5 vs sqrt(12)=3.464. No.
+n=30: 3+0=3 vs sqrt(12)=3.464. No.
+n=31: 3+1=4 vs sqrt(13)=3.606. No.
+n=32: 3+2=5 vs sqrt(16)=4. No.
+n=33: 3+3=6 vs sqrt(16)=4. No.
+
+So, only n=21 is 4-eautiful. So, count is 1.
+
+Similarly, for \( b = 5 \), only n=31 is 5-eautiful.
+
+Wait, maybe I need to check higher bases.
+
+Let me try \( b = 6 \):
+
+Two-digit numbers in base 6: 6 to 35 (10 to 23 in base 6).
+
+Compute each n:
+
+- 10: 1+0=1, sqrt(6)≈2.449
+- 11: 1+1=2, sqrt(7)≈2.645
+- 12: 1+2=3, sqrt(8)≈2.828
+- 13: 1+3=4, sqrt(9)=3
+- 14: 1+4=5, sqrt(10)≈3.162
+- 15: 1+5=6, sqrt(11)≈3.316
+- 16: 1+6=7, sqrt(12)≈3.464
+- 20: 2+0=2, sqrt(12)≈3.464
+- 21: 2+1=3, sqrt(13)≈3.606
+- 22: 2+2=4, sqrt(14)≈3.741
+- 23: 2+3=5, sqrt(15)≈3.872
+- 24: 2+4=6, sqrt(16)=4
+- 25: 2+5=7, sqrt(17)≈4.123
+- 26: 2+6=8, sqrt(18)≈4.242
+- 30: 3+0=3, sqrt(18)≈4.242
+- 31: 3+1=4, sqrt(19)≈4.358
+- 32: 3+2=5, sqrt(20)≈4.472
+- 33: 3+3=6, sqrt(21)≈4.583
+- 34: 3+4=7, sqrt(22)≈4.690
+- 35: 3+5=8, sqrt(24)≈4.899
+
+Now, check where sum of digits equals sqrt(n):
+
+- 13: 1+3=4 vs sqrt(9)=3. No.
+- 24: 2+4=6 vs sqrt(16)=4. No.
+- 32: 3+2=5 vs sqrt(20)≈4.472. No.
+- 33: 3+3=6 vs sqrt(21)≈4.583. No.
+- 34: 3+4=7 vs sqrt(22)≈4.690. No.
+- 35: 3+5=8 vs sqrt(24)≈4.899. No.
+
+Wait, is there any other?
+
+Wait, 16 in base 6 is 1*6 + 6, which is 12 in decimal. Wait, 16 in base 6 is actually invalid because in base 6, the digit 6 is not allowed; digits go up to 5. So, 16 in base 6 is actually 2*6 + 4 = 16 in decimal. Wait, no, 16 in base 6 is 1*6 + 6, but 6 is not a valid digit. So, actually, 16 in base 6 is invalid. So, the maximum two-digit number in base 6 is 35 in base 6, which is 3*6 + 5 = 23 in decimal.
+
+Wait, so in decimal, the numbers are from 6 to 23.
+
+Wait, so 10 in base 6 is 6 in decimal, 11 is 7, ..., 23 is 23.
+
+So, let's check:
+
+- 10: 1+0=1 vs sqrt(6)≈2.449
+- 11: 1+1=2 vs sqrt(7)≈2.645
+- 12: 1+2=3 vs sqrt(8)≈2.828
+- 13: 1+3=4 vs sqrt(9)=3
+- 14: 1+4=5 vs sqrt(10)≈3.162
+- 15: 1+5=6 vs sqrt(11)≈3.316
+- 20: 2+0=2 vs sqrt(12)≈3.464
+- 21: 2+1=3 vs sqrt(13)≈3.606
+- 22: 2+2=4 vs sqrt(14)≈3.741
+- 23: 2+3=5 vs sqrt(15)≈3.872
+- 24: 2+4=6 vs sqrt(16)=4
+- 25: 2+5=7 vs sqrt(17)≈4.123
+- 26: 2+6=8 vs sqrt(18)≈4.242
+- 30: 3+0=3 vs sqrt(18)≈4.242
+- 31: 3+1=4 vs sqrt(19)≈4.358
+- 32: 3+2=5 vs sqrt(20)≈4.472
+- 33: 3+3=6 vs sqrt(21)≈4.583
+- 34: 3+4=7 vs sqrt(22)≈4.690
+- 35: 3+5=8 vs sqrt(23)≈4.796
+
+Wait, none of these sums equal the square roots. So, is there no 6-eautiful numbers? Hmm.
+
+Wait, but n=24 in decimal is 2*6 + 4 = 16. sqrt(16)=4, but 2 + 4=6. Not equal.
+
+n=25 in decimal is 2*6 + 5=17. sqrt(17)≈4.123, which is not 7.
+
+Wait, n=13 in decimal is 1*6 + 3=9. sqrt(9)=3, and 1+3=4. Not equal.
+
+Wait, maybe I made a mistake. Let me compute n=9 in decimal: it's 13 in base 6. So, digits 1 and 3. 1 + 3 = 4, sqrt(9)=3. Not equal.
+
+Wait, so perhaps there are no 6-eautiful numbers. So, count is 0.
+
+Wait, but let me think again.
+
+Wait, maybe n=16 is in base 6, but as mentioned, 16 in base 6 is invalid because 6 is not a digit. So, 16 in base 6 would actually be 2*6 + 4=16, which is 24 in base 6.
+
+Wait, no, 24 in base 6 is 2*6 + 4=16, which is 16 in decimal. So, n=16 is 24 in base 6, with digits 2 and 4. 2 + 4=6, sqrt(16)=4. Not equal.
+
+Wait, maybe I need to check for n=25 in base 6: 25 decimal is 4*6 + 1=25, which is 41 in base 6. So, 4 + 1=5, sqrt(25)=5. Equal! So, 41 in base 6 is 25 in decimal, and 4 + 1=5= sqrt(25). So, 25 is 6-eautiful.
+
+Wait, so I missed that.
+
+Similarly, 25 in base 6 is 41, sum is 5, sqrt(25)=5.
+
+Similarly, n=25: 25 in decimal is 41 in base 6, which is 4 and 1, sum 5, sqrt(25)=5. So, 25 is 6-eautiful.
+
+Similarly, n=16 is 24 in base 6, sum is 6, sqrt(16)=4. Not equal.
+
+Wait, n=25: 25 is 41 in base 6, which is 4 + 1=5, sqrt(25)=5. So, 25 is 6-eautiful.
+
+Similarly, n=26: 26 in decimal is 42 in base 6. 4 + 2=6, sqrt(26)≈5.099. Not equal.
+
+n=36: 100 in base 6, which is three digits, so beyond two digits.
+
+Wait, let me check n=25 and n=26:
+
+n=25: 4 + 1=5, sqrt(25)=5. Yes.
+
+n=26: 4 + 2=6, sqrt(26)≈5.099. No.
+
+n=27: 43 in base 6, 4 + 3=7, sqrt(27)≈5.196. No.
+
+n=28: 44 in base 6, 4 + 4=8, sqrt(28)≈5.291. No.
+
+n=29: 45 in base 6, 4 + 5=9, sqrt(29)≈5.385. No.
+
+n=30: 50 in base 6, 5 + 0=5, sqrt(30)≈5.477. No.
+
+Wait, 50 in base 6 is 5*6 + 0=30. So, 5 + 0=5, sqrt(30)≈5.477. Not equal.
+
+Wait, n=25 is the only one?
+
+Wait, let me check n=16: 24 in base 6, 2 + 4=6, sqrt(16)=4. Not equal.
+
+Wait, n=9: 13 in base 6, 1 + 3=4, sqrt(9)=3. Not equal.
+
+Wait, n=16: 24 in base 6, sum=6, sqrt(16)=4. No.
+
+Wait, n=25: 41 in base 6, sum=5, sqrt(25)=5. Yes.
+
+n=35: 35 in decimal is 55 in base 6, 5 + 5=10, sqrt(35)≈5.916. No.
+
+n=36: 100 in base 6, three digits. So, beyond two digits.
+
+Wait, n=25 is 41 in base 6, and that's a two-digit number. So, is 25 the only 6-eautiful number?
+
+Wait, n=25 is 41 in base 6, which is 4 + 1=5, sqrt(25)=5. So, that works.
+
+Wait, n=9 is 13 in base 6: 1 + 3=4 vs sqrt(9)=3. Not equal.
+
+n=16 is 24 in base 6: 2 + 4=6 vs sqrt(16)=4. Not equal.
+
+n=25: 41 in base 6: 4 + 1=5 vs sqrt(25)=5. Equal.
+
+n=36 is 100 in base 6: three digits, so beyond two digits.
+
+Wait, so only 25 is 6-eautiful. So, count is 1.
+
+Wait, but 25 is only one number. So, count is 1.
+
+Wait, perhaps I need to check higher bases.
+
+Wait, maybe b=7.
+
+Two-digit numbers in base 7: 7 to 48 (10 to 33 in base 7).
+
+Compute each n:
+
+n=7: 10 in base 7: 1+0=1 vs sqrt(7)≈2.645
+n=8: 11 in base 7: 1+1=2 vs sqrt(8)≈2.828
+n=9: 12 in base 7: 1+2=3 vs sqrt(9)=3. Equal! So, 12 in base 7 is 9 in decimal, which is 3^2. So, 1 + 2=3= sqrt(9). So, 9 is 7-eautiful.
+n=10: 13 in base 7: 1+3=4 vs sqrt(10)≈3.162
+n=11: 14 in base 7: 1+4=5 vs sqrt(11)≈3.316
+n=12: 15 in base 7: 1+5=6 vs sqrt(12)≈3.464
+n=13: 16 in base 7: 1+6=7 vs sqrt(13)≈3.606
+n=14: 20 in base 7: 2+0=2 vs sqrt(14)≈3.741
+n=15: 21 in base 7: 2+1=3 vs sqrt(15)≈3.872
+n=16: 22 in base 7: 2+2=4 vs sqrt(16)=4. Equal! So, 22 in base 7 is 16 in decimal, and 2 + 2=4= sqrt(16). So, 16 is 7-eautiful.
+n=17: 23 in base 7: 2+3=5 vs sqrt(17)≈4.123
+n=18: 24 in base 7: 2+4=6 vs sqrt(18)≈4.242
+n=19: 25 in base 7: 2+5=7 vs sqrt(19)≈4.358
+n=20: 30 in base 7: 3+0=3 vs sqrt(20)≈4.472
+n=21: 31 in base 7: 3+1=4 vs sqrt(21)≈4.583
+n=22: 32 in base 7: 3+2=5 vs sqrt(22)≈4.690
+n=23: 33 in base 7: 3+3=6 vs sqrt(23)≈4.796
+n=24: 34 in base 7: 3+4=7 vs sqrt(24)≈4.899
+n=25: 40 in base 7: 4+0=4 vs sqrt(25)=5
+n=26: 41 in base 7: 4+1=5 vs sqrt(26)≈5.099
+n=27: 42 in base 7: 4+2=6 vs sqrt(27)≈5.196
+n=28: 43 in base 7: 4+3=7 vs sqrt(28)≈5.291
+n=29: 44 in base 7: 4+4=8 vs sqrt(29)≈5.385
+n=30: 50 in base 7: 5+0=5 vs sqrt(30)≈5.477
+n=31: 51 in base 7: 5+1=6 vs sqrt(31)≈5.568
+n=32: 52 in base 7: 5+2=7 vs sqrt(32)≈5.657
+n=33: 53 in base 7: 5+3=8 vs sqrt(33)≈5.744
+n=34: 60 in base 7: 6+0=6 vs sqrt(34)≈5.830
+n=35: 61 in base 7: 6+1=7 vs sqrt(35)≈5.916
+n=36: 62 in base 7: 6+2=8 vs sqrt(36)=6
+n=37: 63 in base 7: 6+3=9 vs sqrt(37)≈6.082
+n=38: 64 in base 7: 6+4=10 vs sqrt(38)≈6.164
+n=39: 65 in base 7: 6+5=11 vs sqrt(39)≈6.245
+n=40: 70 in base 7: 7+0=7 vs sqrt(40)≈6.324
+n=41: 71 in base 7: 7+1=8 vs sqrt(41)≈6.403
+n=42: 72 in base 7: 7+2=9 vs sqrt(42)≈6.480
+n=43: 73 in base 7: 7+3=10 vs sqrt(43)≈6.557
+n=44: 74 in base 7: 7+4=11 vs sqrt(44)≈6.633
+n=45: 75 in base 7: 7+5=12 vs sqrt(45)≈6.708
+n=46: 80 in base 7: 8+0=8 vs sqrt(46)≈6.782
+n=47: 81 in base 7: 8+1=9 vs sqrt(47)≈6.855
+n=48: 82 in base 7: 8+2=10 vs sqrt(48)≈6.928
+
+Now, let's check which of these satisfy \( d_1 + d_0 = \sqrt{n} \):
+
+Looking through:
+
+- n=9: 1 + 2=3 vs sqrt(9)=3. Equal. So, 9 is 7-eautiful.
+- n=16: 2 + 2=4 vs sqrt(16)=4. Equal. So, 16 is 7-eautiful.
+- n=25: 4 + 0=4 vs sqrt(25)=5. No.
+- n=36: 6 + 0=6 vs sqrt(36)=6. Equal. So, 36 is 7-eautiful.
+- n=49: 100 in base 7, which is three digits, so beyond two digits.
+
+Wait, let me double-check:
+
+- n=9: 12 in base 7, 1 + 2=3, sqrt(9)=3. Yes.
+- n=16: 22 in base 7, 2 + 2=4, sqrt(16)=4. Yes.
+- n=36: 60 in base 7, 6 + 0=6, sqrt(36)=6. Yes.
+
+Wait, any others?
+
+n=25: 40 in base 7, 4 + 0=4 vs sqrt(25)=5. No.
+
+n=36: 60 in base 7, 6 + 0=6 vs sqrt(36)=6. Yes.
+
+n=49: 100 in base 7, three digits.
+
+So, total 7-eautiful numbers: 9, 16, 36. So, count is 3.
+
+Wait, that seems low. Let me check n=25 and others.
+
+Wait, n=25 is 40 in base 7: 4 + 0=4 vs sqrt(25)=5. No.
+
+n=36 is 60 in base 7: 6 + 0=6 vs sqrt(36)=6. Equal.
+
+Wait, n=49 is 100 in base 7: three digits.
+
+Wait, n=64: 110 in base 7: three digits.
+
+Wait, n=25: 40 in base 7, which is 4*7 + 0=28. sqrt(28)≈5.291. Not equal to 4.
+
+Wait, but 28 is 40 in base 7, so 4 + 0=4 vs sqrt(28)≈5.291. Not equal.
+
+Wait, n=36: 60 in base 7 is 6*7 + 0=42. sqrt(42)≈6.480. But 6 + 0=6 vs sqrt(42)≈6.480. Not equal.
+
+Wait, wait, hold on. Wait, 60 in base 7 is 6*7 + 0=42 in decimal. So, sqrt(42)≈6.480, which is not equal to 6.
+
+Wait, so n=36 is 60 in base 7, which is 42 in decimal, so sqrt(42)≈6.480. But the sum of digits is 6 + 0=6. So, not equal.
+
+Wait, so maybe I was wrong.
+
+Wait, let's recast.
+
+n=9: 12 in base 7: 1 + 2=3, sqrt(9)=3. Equal.
+
+n=16: 22 in base 7: 2 + 2=4, sqrt(16)=4. Equal.
+
+n=25: 40 in base 7: 4 + 0=4, sqrt(25)=5. Not equal.
+
+n=36: 60 in base 7: 6 + 0=6, sqrt(36)=6. Equal.
+
+Wait, sqrt(36)=6, which is equal to the sum of digits 6 + 0=6.
+
+So, n=36 is 7-eautiful.
+
+Wait, n=49: 100 in base 7: three digits.
+
+Wait, n=36 is 60 in base 7, which is 42 in decimal, and sqrt(42)≈6.480. But the sum of digits is 6 + 0=6. So, 6 ≠ 6.480. So, n=36 is 42 in decimal, whose square root is ≈6.480, but the sum of digits is 6. So, not equal.
+
+Wait, hold on. There's confusion here between the number in decimal and the number in base 7.
+
+Wait, the problem says n is a positive integer. So, n is in decimal. The sum of its digits when written in base b must equal sqrt(n).
+
+So, n is in decimal. So, n is written in base b, and the digits sum to sqrt(n).
+
+So, for example, n=9 is written as 12 in base 7, so digits 1 and 2 sum to 3, and sqrt(9)=3. So, equal.
+
+n=16 is written as 22 in base 7, so digits 2 and 2 sum to 4, and sqrt(16)=4. Equal.
+
+n=36 is written as 60 in base 7, so digits 6 and 0 sum to 6, and sqrt(36)=6. Equal.
+
+Wait, but n=36 is 36 in decimal, written as 60 in base 7, so digits sum to 6, sqrt(36)=6. So, equal.
+
+Wait, n=36 is 60 in base 7, so digits 6 and 0, sum 6, sqrt(36)=6.
+
+Wait, but 60 in base 7 is 6*7 + 0=42 in decimal, but n is 42, which is different from 36.
+
+Wait, hold on, this is a crucial point.
+
+Wait, the problem says n is a positive integer. So, n is in decimal. Then, n is written in base b as a two-digit number, whose digits sum to sqrt(n).
+
+So, n is in decimal, but when written in base b, it's a two-digit number. So, n must satisfy \( b \leq n \leq b^2 - 1 \).
+
+But also, n must be a perfect square because sqrt(n) must be integer.
+
+Wait, so n is a perfect square, and when written in base b, it's a two-digit number whose digits sum to sqrt(n).
+
+So, for example, n=9 is 3^2, written as 12 in base 7, digits sum to 3, which is sqrt(9). So, 9 is 7-eautiful.
+
+Similarly, n=16 is 4^2, written as 22 in base 7, digits sum to 4, which is sqrt(16). So, 16 is 7-eautiful.
+
+n=25 is 5^2, written as 40 in base 7, digits sum to 4, which is not equal to 5. So, 25 is not 7-eautiful.
+
+n=36 is 6^2, written as 60 in base 7, digits sum to 6, which is sqrt(36). So, 36 is 7-eautiful.
+
+n=49 is 7^2, written as 100 in base 7, which is three digits. So, not two-digit. So, not 7-eautiful.
+
+Wait, so n=9, 16, 36 are 7-eautiful. So, count is 3.
+
+Wait, so only three numbers. So, count is 3.
+
+Wait, so perhaps b=7 has 3 b-eautiful numbers.
+
+Wait, let me check higher bases.
+
+Wait, n=49 is 100 in base 7: three digits.
+
+n=64 is 110 in base 7: three digits.
+
+n=81 is 121 in base 7: three digits.
+
+n=100 is 215 in base 7: three digits.
+
+Wait, n=49: 100 in base 7: three digits.
+
+Wait, n=64: 110 in base 7: three digits.
+
+Wait, n=25: 40 in base 7: two digits, but sum=4 vs sqrt(25)=5. Not equal.
+
+n=36: 60 in base 7: two digits, sum=6 vs sqrt(36)=6. Equal.
+
+n=49: three digits.
+
+Wait, so only 9, 16, and 36 are 7-eautiful. So, count is 3.
+
+Wait, let's move to b=8.
+
+Two-digit numbers in base 8: 8 to 63 (10 to 77 in base 8).
+
+Check each n which is a perfect square between 8 and 63:
+
+n=9, 16, 25, 36, 49, 64.
+
+But 64 in base 8 is 100, which is three digits, so beyond two digits.
+
+So, n=9, 16, 25, 36, 49.
+
+Now, write each in base 8 and check:
+
+n=9: 11 in base 8: 1 + 1=2 vs sqrt(9)=3. No.
+n=16: 20 in base 8: 2 + 0=2 vs sqrt(16)=4. No.
+n=25: 31 in base 8: 3 + 1=4 vs sqrt(25)=5. No.
+n=36: 44 in base 8: 4 + 4=8 vs sqrt(36)=6. No.
+n=49: 61 in base 8: 6 + 1=7 vs sqrt(49)=7. Equal! So, 61 in base 8 is 6*8 + 1=49. 6 + 1=7, sqrt(49)=7. So, 49 is 8-eautiful.
+
+Wait, is there another?
+
+n=64: 100 in base 8: three digits. So, no.
+
+Wait, n=49 is 61 in base 8: 6 + 1=7, sqrt(49)=7. Equal.
+
+Wait, any others?
+
+n=25: 31 in base 8: 3 + 1=4 vs sqrt(25)=5. No.
+
+n=36: 44 in base 8: 4 + 4=8 vs sqrt(36)=6. No.
+
+n=16: 20 in base 8: 2 + 0=2 vs sqrt(16)=4. No.
+
+n=9: 11 in base 8: 1 + 1=2 vs sqrt(9)=3. No.
+
+Wait, n=64 is 100 in base 8: three digits.
+
+Wait, n=81 is 121 in base 8: three digits.
+
+Wait, n=100 is 214 in base 8: three digits.
+
+Wait, n=49 is the only one.
+
+Wait, so 49 is 61 in base 8: 6 + 1=7, sqrt(49)=7. So, only one number.
+
+Wait, is there another?
+
+Wait, n=16 is 20 in base 8: 2 + 0=2 vs sqrt(16)=4. No.
+
+n=25 is 31 in base 8: 3 + 1=4 vs sqrt(25)=5. No.
+
+n=36 is 44 in base 8: 4 + 4=8 vs sqrt(36)=6. No.
+
+n=49 is 61 in base 8: 6 + 1=7 vs sqrt(49)=7. Yes.
+
+n=64 is 100 in base 8: three digits.
+
+So, only one number: 49 is 8-eautiful.
+
+Wait, count is 1.
+
+Moving on to \( b = 9 \):
+
+Two-digit numbers in base 9: 9 to 80 (10 to 88 in base 9).
+
+Check perfect squares in this range:
+
+n=9, 16, 25, 36, 49, 64, 81.
+
+Now, write each in base 9 and check:
+
+n=9: 10 in base 9: 1 + 0=1 vs sqrt(9)=3. No.
+n=16: 17 in base 9: 1 + 7=8 vs sqrt(16)=4. No.
+n=25: 26 in base 9: 2 + 6=8 vs sqrt(25)=5. No.
+n=36: 35 in base 9: 3 + 5=8 vs sqrt(36)=6. No.
+n=49: 55 in base 9: 5 + 5=10 vs sqrt(49)=7. No.
+n=64: 74 in base 9: 7 + 4=11 vs sqrt(64)=8. No.
+n=81: 100 in base 9: three digits. So, beyond two digits.
+
+Wait, so none of these n satisfy the condition.
+
+Wait, n=81 is 100 in base 9: three digits. So, no.
+
+Wait, n=36: 35 in base 9: 3 + 5=8 vs sqrt(36)=6. No.
+
+Wait, n=25: 26 in base 9: 2 + 6=8 vs sqrt(25)=5. No.
+
+Wait, n=16: 17 in base 9: 1 + 7=8 vs sqrt(16)=4. No.
+
+n=9: 10 in base 9: 1 + 0=1 vs sqrt(9)=3. No.
+
+Wait, so no 9-eautiful numbers.
+
+Wait, count is 0.
+
+Moving on to \( b = 10 \):
+
+Two-digit numbers in base 10: 10 to 99.
+
+Perfect squares in this range: 16, 25, 36, 49, 64, 81, 100 (but 100 is three digits, so exclude).
+
+So, n=16, 25, 36, 49, 64, 81.
+
+Check each:
+
+n=16: 16 in base 10 is 16, digits 1 + 6=7 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 25, digits 2 + 5=7 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 36, digits 3 + 6=9 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 49, digits 4 + 9=13 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 64, digits 6 + 4=10 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 81, digits 8 + 1=9 vs sqrt(81)=9. Yes! So, 81 is 10-eautiful.
+
+Wait, is there another?
+
+n=100: three digits.
+
+Wait, n=121: three digits.
+
+Wait, n=144: three digits.
+
+So, only 81 is 10-eautiful.
+
+Wait, count is 1.
+
+Wait, so far, from b=2 to b=10, the maximum count is 3 for b=7.
+
+Wait, let's try b=11.
+
+Two-digit numbers in base 11: 11 to 121 (10 to AA in base 11).
+
+But in decimal, two-digit numbers in base 11 are from 11 to 121 -1 = 120.
+
+Wait, n must be a perfect square between 11 and 120.
+
+So, n=16, 25, 36, 49, 64, 81, 100, 121.
+
+But n=121 is 10A in base 11: three digits.
+
+So, n=16, 25, 36, 49, 64, 81, 100.
+
+Now, write each in base 11:
+
+n=16: 16 in base 10 is 15 in base 11 (1*11 + 5). 1 + 5=6 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 23 in base 11 (2*11 + 3). 2 + 3=5 vs sqrt(25)=5. Equal! So, 25 is 11-eautiful.
+n=36: 36 in base 10 is 34 in base 11 (3*11 + 4). 3 + 4=7 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 47 in base 11 (4*11 + 7). 4 + 7=11 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 60 in base 11 (6*11 + 0). 6 + 0=6 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 78 in base 11 (7*11 + 8). 7 + 8=15 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 91 in base 11 (9*11 + 1). 9 + 1=10 vs sqrt(100)=10. Equal! So, 100 is 11-eautiful.
+
+So, for b=11, n=25 and n=100 are 11-eautiful. So, count is 2.
+
+Wait, n=25: 23 in base 11: 2 + 3=5, sqrt(25)=5. Equal.
+n=100: 91 in base 11: 9 + 1=10, sqrt(100)=10. Equal.
+
+Wait, any others?
+
+n=16: 15 in base 11: 1 + 5=6 vs sqrt(16)=4. No.
+n=36: 34 in base 11: 3 + 4=7 vs sqrt(36)=6. No.
+n=49: 47 in base 11: 4 + 7=11 vs sqrt(49)=7. No.
+n=64: 60 in base 11: 6 + 0=6 vs sqrt(64)=8. No.
+n=81: 78 in base 11: 7 + 8=15 vs sqrt(81)=9. No.
+
+So, only two numbers.
+
+Wait, moving on.
+
+Wait, so far, up to b=11, the maximum count is 3 for b=7.
+
+Wait, maybe I should check higher bases.
+
+Wait, let me try b=12.
+
+Two-digit numbers in base 12: 12 to 143 (10 to BB in base 12).
+
+Perfect squares in this range: 16, 25, 36, 49, 64, 81, 100, 121, 144.
+
+But 144 in base 12 is 120 in base 12: three digits.
+
+So, n=16,25,36,49,64,81,100,121.
+
+Convert each to base 12:
+
+n=16: 16 in base 10 is 14 in base 12 (1*12 + 4). 1 + 4=5 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 23 in base 12 (2*12 + 3). 2 + 3=5 vs sqrt(25)=5. Equal! So, 25 is 12-eautiful.
+n=36: 36 in base 10 is 30 in base 12 (3*12 + 0). 3 + 0=3 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 43 in base 12 (4*12 + 3). 4 + 3=7 vs sqrt(49)=7. Equal! So, 49 is 12-eautiful.
+n=64: 64 in base 10 is 52 in base 12 (5*12 + 2). 5 + 2=7 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 77 in base 12 (7*12 + 7). 7 + 7=14 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 84 in base 12 (8*12 + 4). 8 + 4=12 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 109 in base 12 (1*12^2 + 0*12 + 9). Wait, no: 121 / 12 = 10 with remainder 1. So, 121 is 101 in base 12. 1 + 0 + 1=2 vs sqrt(121)=11. No.
+
+Wait, 121 in base 12 is 101, which is three digits, so beyond two digits.
+
+So, only n=25 and n=49 are 12-eautiful.
+
+So, count is 2.
+
+Wait, so for b=12, count is 2.
+
+Wait, moving on to b=13.
+
+Two-digit numbers in base 13: 13 to 168 (10 to AA in base 13).
+
+Perfect squares in this range: 16, 25, 36, 49, 64, 81, 100, 121, 144, 169.
+
+But 169 is 13^2, which in base 13 is 100: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144.
+
+Convert each to base 13:
+
+n=16: 16 in base 10 is 13 in base 13 (1*13 + 3). 1 + 3=4 vs sqrt(16)=4. Equal! So, 16 is 13-eautiful.
+n=25: 25 in base 10 is 1A in base 13 (1*13 + 10). 1 + 10=11 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 2A in base 13 (2*13 + 10). 2 + 10=12 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 3A in base 13 (3*13 + 10). 3 + 10=13 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 4A in base 13 (4*13 + 10). 4 + 10=14 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 66 in base 13 (6*13 + 6). 6 + 6=12 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 85 in base 13 (8*13 + 5). 8 + 5=13 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 100 in base 13: three digits. So, beyond two digits.
+n=144: 144 in base 10 is 110 in base 13 (1*13^2 + 1*13 + 0). Three digits.
+
+So, only n=16 is 13-eautiful.
+
+Wait, count is 1.
+
+Wait, moving on to b=14.
+
+Two-digit numbers in base 14: 14 to 195 (10 to FF in base 14).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196.
+
+But 196 in base 14 is 130: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169.
+
+Convert each to base 14:
+
+n=16: 16 in base 10 is 12 in base 14 (1*14 + 2). 1 + 2=3 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 1D in base 14 (1*14 + 13). 1 + 13=14 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 28 in base 14 (2*14 + 8). 2 + 8=10 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 35 in base 14 (3*14 + 5). 3 + 5=8 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 44 in base 14 (4*14 + 4). 4 + 4=8 vs sqrt(64)=8. Equal! So, 64 is 14-eautiful.
+n=81: 81 in base 10 is 63 in base 14 (6*14 + 3). 6 + 3=9 vs sqrt(81)=9. Equal! So, 81 is 14-eautiful.
+n=100: 100 in base 10 is 76 in base 14 (7*14 + 6). 7 + 6=13 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 8D in base 14 (8*14 + 13). 8 + 13=21 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is A0 in base 14 (10*14 + 0). 10 + 0=10 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is B9 in base 14 (11*14 + 9). 11 + 9=20 vs sqrt(169)=13. No.
+
+So, n=64 and n=81 are 14-eautiful. So, count is 2.
+
+Wait, moving on to b=15.
+
+Two-digit numbers in base 15: 15 to 224 (10 to FF in base 15).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196,225.
+
+But n=225 is 150 in base 15: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169,196.
+
+Convert each to base 15:
+
+n=16: 16 in base 10 is 11 in base 15 (1*15 + 1). 1 + 1=2 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 1A in base 15 (1*15 + 10). 1 + 10=11 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 24 in base 15 (2*15 + 4). 2 + 4=6 vs sqrt(36)=6. Equal! So, 36 is 15-eautiful.
+n=49: 49 in base 10 is 32 in base 15 (3*15 + 2). 3 + 2=5 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 43 in base 15 (4*15 + 3). 4 + 3=7 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 5A in base 15 (5*15 + 10). 5 + 10=15 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 66 in base 15 (6*15 + 6). 6 + 6=12 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 7E in base 15 (7*15 + 14). 7 + 14=21 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is 9C in base 15 (9*15 + 12). 9 + 12=21 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is BB in base 15 (11*15 + 11). 11 + 11=22 vs sqrt(169)=13. No.
+n=196: 196 in base 10 is CE in base 15 (12*15 + 14). 12 + 14=26 vs sqrt(196)=14. No.
+
+So, only n=36 is 15-eautiful. Count is 1.
+
+Wait, seems like for b=15, count is 1.
+
+Wait, so far, the maximum count is 3 for b=7.
+
+Wait, let's try b=16.
+
+Two-digit numbers in base 16: 16 to 255 (10 to FF in base 16).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196,225,256.
+
+But n=256 is 100 in base 16: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169,196,225.
+
+Convert each to base 16:
+
+n=16: 16 in base 10 is 10 in base 16 (1*16 + 0). 1 + 0=1 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 19 in base 16 (1*16 + 9). 1 + 9=10 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 24 in base 16 (2*16 + 4). 2 + 4=6 vs sqrt(36)=6. Equal! So, 36 is 16-eautiful.
+n=49: 49 in base 10 is 31 in base 16 (3*16 + 1). 3 + 1=4 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 40 in base 16 (4*16 + 0). 4 + 0=4 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 51 in base 16 (5*16 + 1). 5 + 1=6 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 64 in base 16 (6*16 + 4). 6 + 4=10 vs sqrt(100)=10. Equal! So, 100 is 16-eautiful.
+n=121: 121 in base 10 is 79 in base 16 (7*16 + 9). 7 + 9=16 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is 90 in base 16 (9*16 + 0). 9 + 0=9 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is A9 in base 16 (10*16 + 9). 10 + 9=19 vs sqrt(169)=13. No.
+n=196: 196 in base 10 is CE in base 16 (12*16 + 14). 12 + 14=26 vs sqrt(196)=14. No.
+n=225: 225 in base 10 is E1 in base 16 (14*16 + 1). 14 + 1=15 vs sqrt(225)=15. Equal! So, 225 is 16-eautiful.
+
+So, for b=16, n=36, 100, 225 are 16-eautiful. So, count is 3.
+
+Wait, so only three numbers.
+
+Wait, moving on.
+
+Wait, so far, up to b=16, the maximum count is 3 for b=7, 12, 16.
+
+Wait, so perhaps I need to go higher.
+
+Wait, let me try b=17.
+
+Two-digit numbers in base 17: 17 to 288 (10 to FF in base 17).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196,225,256,289.
+
+But n=289 is 100 in base 17: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169,196,225,256.
+
+Convert each to base 17:
+
+n=16: 16 in base 10 is 10 in base 17 (1*17 + 0). 1 + 0=1 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 18 in base 17 (1*17 + 8). 1 + 8=9 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 21 in base 17 (2*17 + 1). 2 + 1=3 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 29 in base 17 (2*17 + 9). 2 + 9=11 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 3C in base 17 (3*17 + 12). 3 + 12=15 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 4C in base 17 (4*17 + 12). 4 + 12=16 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 5C in base 17 (5*17 + 12). 5 + 12=17 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 7D in base 17 (7*17 + 13). 7 + 13=20 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is 8A in base 17 (8*17 + 10). 8 + 10=18 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is 9E in base 17 (9*17 + 14). 9 + 14=23 vs sqrt(169)=13. No.
+n=196: 196 in base 10 is CE in base 17 (12*17 + 14). 12 + 14=26 vs sqrt(196)=14. No.
+n=225: 225 in base 10 is CD in base 17 (12*17 + 13). 12 + 13=25 vs sqrt(225)=15. No.
+n=256: 256 in base 10 is 100 in base 17: three digits.
+
+So, no 17-eautiful numbers.
+
+Wait, count is 0.
+
+Wait, so far, the maximum count is 3 for b=7, 12, 16.
+
+Wait, maybe I need to try higher b.
+
+Wait, let's try b=17: count is 0.
+
+b=18:
+
+Two-digit numbers in base 18: 18 to 323 (10 to FF in base 18).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196,225,256,289,324.
+
+But n=324 is 110 in base 18: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169,196,225,256,289.
+
+Convert each to base 18:
+
+n=16: 16 in base 10 is 10 in base 18 (1*18 + 0). 1 + 0=1 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 17 in base 18 (1*18 + 7). 1 + 7=8 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 20 in base 18 (2*18 + 0). 2 + 0=2 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 29 in base 18 (2*18 + 9). 2 + 9=11 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 3D in base 18 (3*18 + 13). 3 + 13=16 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 45 in base 18 (4*18 + 5). 4 + 5=9 vs sqrt(81)=9. Equal! So, 81 is 18-eautiful.
+n=100: 100 in base 10 is 56 in base 18 (5*18 + 6). 5 + 6=11 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 6D in base 18 (6*18 + 13). 6 + 13=19 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is 7E in base 18 (7*18 + 14). 7 + 14=21 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is 8E in base 18 (8*18 + 14). 8 + 14=22 vs sqrt(169)=13. No.
+n=196: 196 in base 10 is CE in base 18 (12*18 + 14). 12 + 14=26 vs sqrt(196)=14. No.
+n=225: 225 in base 10 is CF in base 18 (12*18 + 15). 12 + 15=27 vs sqrt(225)=15. No.
+n=256: 256 in base 10 is 128 in base 18: three digits.
+n=289: 289 in base 10 is 101 in base 18: three digits.
+
+So, only n=81 is 18-eautiful. Count is 1.
+
+Wait, moving on to b=19:
+
+Two-digit numbers in base 19: 19 to 360 (10 to FF in base 19).
+
+Perfect squares in this range: 16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361.
+
+But n=361 is 100 in base 19: three digits.
+
+So, n=16,25,36,49,64,81,100,121,144,169,196,225,256,289,324.
+
+Convert each to base 19:
+
+n=16: 16 in base 10 is 10 in base 19 (1*19 + 0). 1 + 0=1 vs sqrt(16)=4. No.
+n=25: 25 in base 10 is 16 in base 19 (1*19 + 6). 1 + 6=7 vs sqrt(25)=5. No.
+n=36: 36 in base 10 is 19 in base 19 (1*19 + 9). 1 + 9=10 vs sqrt(36)=6. No.
+n=49: 49 in base 10 is 28 in base 19 (2*19 + 8). 2 + 8=10 vs sqrt(49)=7. No.
+n=64: 64 in base 10 is 3E in base 19 (3*19 + 14). 3 + 14=17 vs sqrt(64)=8. No.
+n=81: 81 in base 10 is 4E in base 19 (4*19 + 14). 4 + 14=18 vs sqrt(81)=9. No.
+n=100: 100 in base 10 is 5E in base 19 (5*19 + 14). 5 + 14=19 vs sqrt(100)=10. No.
+n=121: 121 in base 10 is 66 in base 19 (6*19 + 6). 6 + 6=12 vs sqrt(121)=11. No.
+n=144: 144 in base 10 is 7E in base 19 (7*19 + 14). 7 + 14=21 vs sqrt(144)=12. No.
+n=169: 169 in base 10 is 8E in base 19 (8*19 + 14). 8 + 14=22 vs sqrt(169)=13. No.
+n=196: 196 in base 10 is CE in base 19 (12*19 + 14). 12 + 14=26 vs sqrt(196)=14. No.
+n=225: 225 in base 10 is CF in base 19 (12*19 + 15). 12 + 15=27 vs sqrt(225)=15. No.
+n=256: 256 in base 10 is 128 in base 19: three digits.
+n=289: 289 in base 10 is 151 in base 19: three digits.
+n=324: 324 in base 10 is 168 in base 19: three digits.
+
+So, no 19-eautiful numbers.
+
+Wait, count is 0.
+
+Wait, seems like the count is not increasing as we go higher.
+
+Wait, maybe I need to think differently.
+
+Wait, so far, up to b=19, the maximum count is 3 for b=7, 12, 16.
+
+Wait, let me try b=24.
+
+Wait, perhaps a smarter approach.
+
+Wait, let me recall that for a number n to be b-eautiful, n must be a two-digit number in base b, so \( b \leq n \leq b^2 - 1 \), and \( \sqrt{n} = d_1 + d_0 \), where \( d_1 \) and \( d_0 \) are digits in base b.
+
+So, \( d_1 + d_0 = \sqrt{n} \)
+And \( n = d_1 \times b + d_0 \)
+
+So, we can write:
+
+\( (d_1 + d_0)^2 = d_1 b + d_0 \)
+
+Which is:
+
+\( d_1^2 + 2 d_1 d_0 + d_0^2 = d_1 b + d_0 \)
+
+Which can be rewritten as:
+
+\( d_1^2 + (2 d_0 - b) d_1 + (d_0^2 - d_0) = 0 \)
+
+This is quadratic in \( d_1 \). So, for each \( d_0 \), we can solve for \( d_1 \), and see if \( d_1 \) is integer and satisfies \( 1 \leq d_1 \leq b - 1 \).
+
+Alternatively, for each \( d_0 \) from 0 to \( b - 1 \), compute \( d_1 \) as:
+
+\( d_1 = \frac{(d_1 + d_0)^2 - d_0}{b - 1} \)
+
+Wait, no, earlier we had:
+
+\( d_1 = \frac{s^2 - s}{b - 1} \), where \( s = d_1 + d_0 \)
+
+So, \( d_1 = \frac{s^2 - s}{b - 1} \)
+
+So, \( d_1 \) must be integer, so \( b - 1 \) divides \( s(s - 1) \)
+
+Given that \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must divide either \( s \) or \( s - 1 \).
+
+So, \( b - 1 \) divides \( s \) or \( s - 1 \).
+
+Therefore, \( s = k (b - 1) \) or \( s = k (b - 1) + 1 \), for some integer \( k \).
+
+Given that \( s \) is between \( \lceil \sqrt{b} \rceil \) and \( b - 1 \), because \( n = s^2 \) must be a two-digit number in base \( b \), so \( b \leq s^2 \leq b^2 - 1 \), hence \( \sqrt{b} \leq s < b \).
+
+Therefore, \( s \) is in the range \( \lceil \sqrt{b} \rceil \) to \( b - 1 \).
+
+Given that, \( s \) can be expressed as \( k (b - 1) \) or \( k (b - 1) + 1 \), for integer \( k \).
+
+Since \( s < b \), \( k (b - 1) \) must be less than \( b \). So, \( k \leq \lfloor \frac{b}{b - 1} \rfloor = 1 \).
+
+Similarly, \( k (b - 1) + 1 < b \) implies \( k \leq \lfloor \frac{b - 1}{b - 1} \rfloor = 1 \).
+
+Therefore, \( k = 1 \) for both cases.
+
+Thus, \( s = (b - 1) \) or \( s = (b - 1) + 1 = b \).
+
+But \( s \) must be less than \( b \), so \( s = b \) is invalid because \( s < b \). Therefore, \( s = b - 1 \).
+
+Wait, but \( s = b - 1 \), which is the maximum value for \( s \).
+
+But let's verify:
+
+If \( s = b - 1 \), then \( d_1 = \frac{(b - 1)^2 - (b - 1)}{b - 1} = \frac{(b - 1)(b - 2)}{b - 1} = b - 2 \).
+
+So, \( d_1 = b - 2 \), and \( d_0 = s - d_1 = (b - 1) - (b - 2) = 1 \).
+
+So, \( d_0 = 1 \), which is valid as long as \( d_0 \leq b - 1 \), which it is.
+
+Therefore, \( s = b - 1 \) gives a solution with \( d_1 = b - 2 \) and \( d_0 = 1 \).
+
+So, n = s^2 = (b - 1)^2, which is equal to \( d_1 b + d_0 = (b - 2) b + 1 = b^2 - 2b + 1 = (b - 1)^2 \). So, this works.
+
+But is this the only solution?
+
+Wait, no, because earlier, for \( b = 7 \), we had three solutions: 9, 16, 36.
+
+Wait, but according to this, only \( s = b - 1 \) gives a solution.
+
+Wait, so perhaps there are more solutions when \( k \) is not 1.
+
+Wait, but earlier, for \( b = 7 \), \( s = 3, 4, 6 \):
+
+- For s=3: 3^2=9, which is 12 in base 7: 1 + 2=3= sqrt(9).
+- For s=4: 4^2=16, which is 22 in base 7: 2 + 2=4= sqrt(16).
+- For s=6: 6^2=36, which is 60 in base 7: 6 + 0=6= sqrt(36).
+
+So, each of these s is less than b=7.
+
+Wait, according to our earlier logic, \( s = k (b - 1) \) or \( s = k (b - 1) + 1 \), with \( k \) an integer.
+
+But in the case of \( b=7 \), \( b - 1 = 6 \).
+
+So, \( s = k*6 \) or \( s = k*6 + 1 \).
+
+For \( k=1 \), \( s=6 \) or \( s=7 \). But \( s < 7 \), so \( s=6 \).
+
+But in \( b=7 \), we have \( s=3,4,6 \), which are not multiples of 6.
+
+So, maybe our earlier conclusion is incomplete.
+
+Wait, perhaps \( s \) can also be written as \( k (b - 1) \), where \( k \) is a fraction, but that complicates things.
+
+Wait, perhaps another approach: For each base \( b \), the number of solutions is equal to the number of integers \( s \) such that \( s^2 \) is a two-digit number in base \( b \), and \( s = d_1 + d_0 \), with \( d_1 \) and \( d_0 \) being digits in base \( b \).
+
+Therefore, for each base \( b \), we can count the number of perfect squares \( n = s^2 \) such that \( n \) is a two-digit number in base \( b \), and the sum of the digits of \( n \) in base \( b \) is equal to \( s \).
+
+So, perhaps the count can be written as:
+
+For each \( b \), count the number of \( s \) such that:
+1. \( s^2 \) is a two-digit number in base \( b \), i.e., \( b \leq s^2 \leq b^2 - 1 \).
+2. The sum of the digits of \( s^2 \) in base \( b \) is equal to \( s \).
+
+So, the count is equal to the number of such \( s \).
+
+So, perhaps for each \( b \), we can find the number of \( s \) in the range \( \lceil \sqrt{b} \rceil \) to \( \lfloor \sqrt{b^2 - 1} \rfloor \) such that the sum of digits of \( s^2 \) in base \( b \) is equal to \( s \).
+
+But this is still a bit abstract.
+
+Wait, perhaps instead of going base by base, try to find a pattern.
+
+Wait, when \( b = 7 \), we had three numbers: 9, 16, 36.
+
+Similarly, when \( b = 12 \), we had two numbers: 25, 100.
+
+Wait, when \( b = 16 \), we had three numbers: 36, 100, 225.
+
+Wait, 225 is 15^2, written as CD in base 16: 12 + 13 = 25, which is not equal to 15.
+
+Wait, no, 225 is 15^2, but written in base 16 as CD, which is 12 + 13 = 25, which is not 15. Wait, no, in base 16, 225 is 12*16 + 13 = 225, so 12 + 13 = 25, but sqrt(225)=15.
+
+Wait, but 25 ≠ 15, so that doesn't make sense.
+
+Wait, I think I made a mistake earlier.
+
+Wait, n=225 is 15^2, which is 225. When written in base 16, it's CD: 12 and 13, sum is 25. 25 ≠ 15. So, n=225 is not 16-eautiful.
+
+Wait, actually, 225 is 15^2, which is written as 15 in base 10. Wait, no, 225 is 15^2, but in base 16, 225 is CD.
+
+Wait, so perhaps my earlier conclusion was wrong.
+
+Wait, so in base 16:
+
+n=36: 36 is 24 in base 16: 2 + 4=6= sqrt(36). So, correct.
+
+n=100: 100 is 64 in base 16: 6 + 4=10= sqrt(100). So, correct.
+
+n=225: 225 is CD in base 16: 12 + 13=25 vs sqrt(225)=15. Not equal.
+
+So, only 36 and 100 are 16-eautiful. So, count is 2.
+
+Wait, so earlier, I thought n=225 was 16-eautiful, but it's not.
+
+So, in that case, for b=16, count is 2.
+
+Wait, so the counts so far are:
+
+b=7: 3
+
+b=12: 2
+
+b=16: 2
+
+Wait, so 3 is the highest.
+
+Wait, maybe try b=23.
+
+Wait, maybe it's better to find a general formula.
+
+Wait, earlier, we saw that when \( s = b - 1 \), \( d_1 = b - 2 \), \( d_0 = 1 \), and \( n = (b - 1)^2 \). So, for each base \( b \geq 3 \), this gives one solution: \( n = (b - 1)^2 \).
+
+But in the case of b=7, we had three solutions, so there are more solutions.
+
+Wait, so perhaps the number of solutions is equal to the number of divisors of \( s(s - 1) \) that are \( b - 1 \).
+
+Wait, from earlier, \( d_1 = \frac{s(s - 1)}{b - 1} \). So, \( b - 1 \) divides \( s(s - 1) \). Since \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must divide either \( s \) or \( s - 1 \).
+
+Therefore, \( s = k (b - 1) \) or \( s = k (b - 1) + 1 \).
+
+Given that \( s < b \), \( k \) can only be 1.
+
+Therefore, \( s = b - 1 \) or \( s = b \). But \( s < b \), so \( s = b - 1 \).
+
+Thus, only one solution for each base \( b \).
+
+Wait, but in the case of b=7, we had three solutions: 9,16,36.
+
+So, my earlier conclusion is conflicting.
+
+Wait, perhaps \( b - 1 \) divides \( s(s - 1) \), but \( s \) and \( s - 1 \) are coprime, so \( b - 1 \) must divide either \( s \) or \( s - 1 \), but not necessarily the entire product.
+
+Wait, but if \( b - 1 \) divides \( s \), then \( s = m (b - 1) \). But \( s < b \), so \( m = 1 \), \( s = b - 1 \).
+
+Similarly, if \( b - 1 \) divides \( s - 1 \), then \( s - 1 = m (b - 1) \), so \( s = m (b - 1) + 1 \). Since \( s < b \), \( m = 1 \), so \( s = b - 1 + 1 = b \). But \( s < b \), so \( s = b - 1 \) only.
+
+Wait, that suggests that for each base \( b \), there's only one such \( s \): \( s = b - 1 \), leading to one \( n = (b - 1)^2 \).
+
+But in reality, for \( b=7 \), there are three such numbers: 9, 16, 36.
+
+So, perhaps the issue is that \( b - 1 \) does not necessarily have to divide \( s \) or \( s - 1 \), but can divide some multiple.
+
+Wait, but \( s \) and \( s - 1 \) are coprime, so any common divisor of \( s \) and \( s - 1 \) is 1.
+
+Therefore, \( b - 1 \) divides \( s(s - 1) \) only if \( b - 1 \) divides either \( s \) or \( s - 1 \).
+
+So, for each base \( b \), only one such \( s \) exists, which is \( s = b - 1 \).
+
+But in the case of \( b=7 \), n=9,16,36 are all perfect squares, and their digits in base 7 sum to their square roots.
+
+So, perhaps the initial assumption that \( b - 1 \) divides \( s(s - 1) \) is incorrect.
+
+Wait, actually, \( d_1 = \frac{s^2 - s}{b - 1} \). So, \( b - 1 \) divides \( s(s - 1) \). But since \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must divide either \( s \) or \( s - 1 \).
+
+Therefore, \( s = k (b - 1) \) or \( s = k (b - 1) + 1 \).
+
+But since \( s < b \), \( k = 1 \).
+
+So, \( s = b - 1 \) or \( s = b \). But \( s < b \), so \( s = b - 1 \).
+
+Therefore, only one solution per base \( b \).
+
+But in reality, for \( b=7 \), we have three solutions.
+
+Wait, maybe the issue is that in addition to \( s = b - 1 \), \( d_0 \) can be zero or one, leading to other solutions.
+
+Wait, for \( b=7 \), n=9 is 12 in base 7: 1 + 2=3, sqrt(9)=3.
+
+So, s=3, which is not \( b - 1 = 6 \). So, how does this happen?
+
+Wait, because \( b - 1 \) divides \( s(s - 1) \).
+
+So, for s=3, \( s(s - 1)=3*2=6 \). So, \( b - 1=6 \), which divides 6. So, 6 divides 6, so yes.
+
+Therefore, \( d_1 = 6 / 6 = 1 \), \( d_0 = 3 - 1 = 2 \). So, n=12 in base 7: 1 + 2=3=sqrt(9).
+
+Similarly, for s=4, \( s(s - 1)=4*3=12 \). \( b - 1=6 \) divides 12, so \( d_1=12 / 6=2 \), \( d_0=4 - 2=2 \). So, n=22 in base 7: 2 + 2=4=sqrt(16).
+
+Similarly, for s=6, \( s(s - 1)=6*5=30 \). \( b - 1=6 \) divides 30, so \( d_1=30 / 6=5 \), but \( d_1 \leq b - 1=6 \). So, 5 is valid. Then, \( d_0=6 - 5=1 \). So, n=51 in base 7: 5 + 1=6=sqrt(36).
+
+Wait, so actually, \( s \) can be any integer such that \( b - 1 \) divides \( s(s - 1) \).
+
+But since \( s \) and \( s - 1 \) are coprime, \( b - 1 \) must divide either \( s \) or \( s - 1 \).
+
+Therefore, for \( b=7 \), \( b - 1=6 \) divides \( s \) or \( s - 1 \).
+
+Therefore, \( s=6k \) or \( s=6k + 1 \).
+
+Since \( s < 7 \), \( k=1 \) gives \( s=6 \) or \( s=7 \), but \( s < 7 \), so \( s=6 \).
+
+But in reality, we had s=3,4,6.
+
+Wait, this is conflicting.
+
+Wait, perhaps \( b - 1 \) divides \( s(s - 1) \), but \( s \) and \( s - 1 \) are coprime, so \( b - 1 \) must divide \( s \) or \( s - 1 \).
+
+But in the case of s=3, \( b - 1=6 \) divides 3*2=6, so yes, 6 divides 6, but 6 does not divide 3 or 2.
+
+Wait, 6 divides 6, but 6 is the product of 3 and 2, which are coprime.
+
+Wait, perhaps \( b - 1 \) divides \( s(s - 1) \), but \( b - 1 \) doesn't necessarily have to divide \( s \) or \( s - 1 \), but can be a factor that includes both.
+
+Wait, for example, in the case of s=3, \( s(s - 1)=6 \), and \( b - 1=6 \), which divides 6.
+
+So, in this case, even though 6 doesn't divide 3 or 2, it divides their product.
+
+Therefore, \( b - 1 \) can divide the product \( s(s - 1) \) even if it doesn't divide \( s \) or \( s - 1 \) individually.
+
+Therefore, the condition is that \( b - 1 \) divides \( s(s - 1) \). So, \( s(s - 1) \) must be a multiple of \( b - 1 \).
+
+So, for each base \( b \), the number of solutions is equal to the number of integers \( s \) such that \( s(s - 1) \) is divisible by \( b - 1 \), and \( s \) is in the range \( \lceil \sqrt{b} \rceil \) to \( b - 1 \).
+
+Therefore, for each \( b \), we can count the number of \( s \) in that range where \( s(s - 1) \) is divisible by \( b - 1 \).
+
+So, for \( b=7 \), \( b - 1=6 \). So, \( s(s - 1) \) must be divisible by 6. So, \( s \) must be such that \( s \equiv 0 \) or \( 1 \mod 6 \), but also considering that \( s \) is less than 7.
+
+So, s=3: 3*2=6 divisible by 6.
+
+s=4: 4*3=12 divisible by 6.
+
+s=6: 6*5=30 divisible by 6.
+
+So, s=3,4,6. Hence, three solutions.
+
+Similarly, for \( b=12 \), \( b - 1=11 \). So, \( s(s - 1) \) must be divisible by 11.
+
+So, either \( s \equiv 0 \mod 11 \) or \( s \equiv 1 \mod 11 \).
+
+Given that \( s < 12 \), possible s:
+
+s=11: but s must be less than 12, so s=11.
+
+But s=11: \( s(s - 1)=11*10=110 \), which is divisible by 11.
+
+But also, check if s=10: \( s(s - 1)=10*9=90 \), which is divisible by 11? 90 ÷ 11=8.18... No.
+
+s=1: 1*0=0, which is divisible by 11. But s=1 is too low, since \( \lceil \sqrt{12} \rceil = 4 \).
+
+Therefore, s=11 is the only solution.
+
+But in reality, for \( b=12 \), we had n=25 and n=100.
+
+Wait, n=25 is 23 in base 12: 2 + 3=5, sqrt(25)=5.
+
+So, s=5: 5*4=20, which is not divisible by 11. Wait, but 5*4=20, which is not divisible by 11. Hmm.
+
+Wait, maybe my approach is incorrect.
+
+Wait, in the case of \( b=12 \), \( d_1 = \frac{s^2 - s}{11} \). So, \( s^2 - s \) must be divisible by 11.
+
+So, \( s(s - 1) \equiv 0 \mod 11 \).
+
+Which implies either \( s \equiv 0 \mod 11 \) or \( s \equiv 1 \mod 11 \).
+
+Given that \( s \) is in \( 4 \leq s < 12 \), the possible \( s \) values:
+
+s=11: but s < 12, so s=11 is allowed.
+
+But 11 is allowed, but also:
+
+s=1: but too low.
+
+Wait, s=11: \( s=11 \), \( d_1 = (121 - 11)/11=110/11=10 \), which is valid, since \( d_1 \leq 11 \). So, \( d_1=10 \), \( d_0=11 - 10=1 \). So, n=10*12 + 1=121, which is three digits. So, invalid.
+
+Wait, so s=11 leads to n=121, which is three digits. So, invalid.
+
+Wait, so no solutions for \( b=12 \).
+
+But earlier, we had n=25 and n=100 as 12-eautiful numbers.
+
+Wait, n=25: 25 is 23 in base 12: 2 + 3=5, sqrt(25)=5. So, s=5.
+
+But \( s(s - 1)=5*4=20 \), which is not divisible by 11. So, how does this happen?
+
+Wait, because \( d_1 = (s^2 - s)/(b - 1) = (25 - 5)/11=20/11≈1.818, which is not integer. So, that contradicts.
+
+Wait, but n=25 is 23 in base 12: 2 + 3=5=sqrt(25). So, it works, but according to our formula, it shouldn't.
+
+Wait, this is confusing.
+
+Wait, perhaps the formula is incorrect.
+
+Wait, earlier, we set \( s = d_1 + d_0 \), and \( n = d_1 b + d_0 \).
+
+Then, \( s^2 = d_1 b + d_0 \), and \( s = d_1 + d_0 \).
+
+So, \( s^2 = d_1 b + (s - d_1) \).
+
+So, \( s^2 = d_1 (b - 1) + s \).
+
+So, \( s^2 - s = d_1 (b - 1) \).
+
+Thus, \( d_1 = \frac{s^2 - s}{b - 1} \).
+
+Therefore, for each \( s \), \( d_1 \) must be integer, so \( b - 1 \) divides \( s^2 - s \).
+
+Which is \( b - 1 \) divides \( s(s - 1) \).
+
+So, for \( b=12 \), \( b - 1=11 \).
+
+So, \( s(s - 1) \) must be divisible by 11.
+
+So, either \( s \equiv 0 \mod 11 \) or \( s \equiv 1 \mod 11 \).
+
+Given that \( s \) is between \( \sqrt{12} ≈3.464 \) and 11.
+
+So, s=11: but n=121 is three digits.
+
+s=1: too low.
+
+But s=11 is the only one.
+
+But in reality, s=5: n=25 is a solution.
+
+Wait, but 5*4=20, which is not divisible by 11. So, how does this happen?
+
+Wait, because \( d_1 = \frac{25 - 5}{11} = 20 / 11 ≈1.818 \), which is not integer.
+
+But in reality, n=25 is 23 in base 12: 2 + 3=5=sqrt(25).
+
+So, this seems to be a solution outside our formula.
+
+Wait, perhaps our formula is incomplete.
+
+Wait, n=25: 25 in base 12 is 23, which is two digits. So, n=25 is a two-digit number in base 12, which is 23.
+
+So, 2 + 3=5=sqrt(25). So, it works.
+
+But according to our formula, \( d_1 = (25 - 5)/11=20/11≈1.818 \), which is not integer.
+
+So, something is wrong here.
+
+Wait, maybe the problem is that \( n = d_1 b + d_0 \), but \( n \) is in decimal. So, n=25 is decimal, which is written as 23 in base 12.
+
+But in our formula, we set \( n = d_1 b + d_0 \) as decimal.
+
+Wait, no, actually, \( n \) is in decimal, but written in base \( b \) as two digits.
+
+So, n is a decimal number, which is equal to \( d_1 b + d_0 \).
+
+But n is also equal to \( s^2 \), and the sum of its base \( b \) digits is \( s \).
+
+So, n=25 is decimal, which is written as 23 in base 12: 2 + 3=5=sqrt(25).
+
+So, 25=2*12 + 3, which is correct.
+
+But according to our formula:
+
+\( d_1 = (s^2 - s)/(b - 1) = (25 - 5)/11=20/11≈1.818 \), which is not integer.
+
+But in reality, \( d_1=2 \), \( d_0=3 \), so:
+
+\( s = d_1 + d_0=2 + 3=5 \).
+
+\( n = d_1 b + d_0=2*12 + 3=25 \).
+
+So, \( s^2=25= n \).
+
+But \( (d_1 + d_0)^2 = s^2 =25 \), but \( d_1 b + d_0=25 \).
+
+So, 25=25.
+
+But according to our formula:
+
+\( d_1 = (s^2 - s)/(b - 1)=(25 - 5)/11=20/11≈1.818 \).
+
+Wait, but \( d_1=2 \), so it's different.
+
+Wait, so our formula is incorrect.
+
+Wait, maybe the formula is \( d_1 = (n - d_0)/b \).
+
+Given \( n = d_1 b + d_0 \), and \( s = d_1 + d_0 \).
+
+So, \( n = s^2 \).
+
+So, \( s^2 = d_1 b + d_0 \).
+
+But \( s = d_1 + d_0 \).
+
+So, \( s^2 = d_1 b + (s - d_1) \).
+
+So, \( s^2 = d_1 (b - 1) + s \).
+
+So, \( d_1 (b - 1) = s^2 - s \).
+
+So, \( d_1 = \frac{s^2 - s}{b - 1} \).
+
+But in the case of n=25, s=5, b=12:
+
+\( d_1 = (25 - 5)/11=20/11≈1.818 \), which is not integer.
+
+But in reality, \( d_1=2 \), which is integer.
+
+So, this suggests that the formula is correct, but in this case, the formula gives a non-integer, but in reality, \( d_1 \) is integer.
+
+Wait, that can't be.
+
+Wait, n=25 is 23 in base 12: 2 + 3=5, sqrt(25)=5.
+
+But according to the formula, \( d_1 = (25 - 5)/11=20/11≈1.818 \), which is not integer.
+
+But in reality, \( d_1=2 \), which is integer.
+
+Wait, so our formula is giving a wrong result here.
+
+Wait, perhaps because \( s \) is not related directly to \( d_1 \).
+
+Wait, n=25 is decimal, written as 23 in base 12: 2 + 3=5=sqrt(25).
+
+So, s=5.
+
+So, \( d_1=2 \), \( d_0=3 \).
+
+So, \( d_1 = (s^2 - s)/(b - 1)=(25 - 5)/11=20/11≈1.818 \). But \( d_1=2 \).
+
+So, discrepancy.
+
+Wait, perhaps \( s \) is not an integer? No, s=sqrt(n)=5.
+
+Wait, so why is there a discrepancy?
+
+Wait, because in the formula, \( d_1 = \frac{s^2 - s}{b - 1} \), but \( s \) is an integer, but \( b - 1 \) may not divide \( s(s - 1) \).
+
+But in this case, \( s(s - 1)=5*4=20 \), and \( b - 1=11 \). 11 does not divide 20.
+
+So, 20 is not divisible by 11, but \( d_1=2 \) is integer.
+
+Wait, so how does this work?
+
+Wait, perhaps my initial assumption is wrong that \( d_1 \) must equal \( \frac{s^2 - s}{b - 1} \). Maybe it's not.
+
+Wait, no, because:
+
+From \( n = d_1 b + d_0 \) and \( s = d_1 + d_0 \), and \( n = s^2 \).
+
+So, \( s^2 = d_1 b + d_0 \).
+
+But \( d_0 = s - d_1 \).
+
+So, substituting:
+
+\( s^2 = d_1 b + s - d_1 \).
+
+So, \( s^2 - s = d_1 (b - 1) \).
+
+Thus, \( d_1 = \frac{s^2 - s}{b - 1} \).
+
+So, in the case of n=25, s=5, b=12:
+
+\( d_1 = (25 - 5)/11=20/11≈1.818 \), which is not integer.
+
+But in reality, \( d_1=2 \), which is integer.
+
+Wait, so that suggests that the formula is not accounting for something.
+
+Wait, but 25 is 23 in base 12: 2 + 3=5.
+
+So, s=5, n=25.
+
+But according to the formula, \( d_1=20/11≈1.818 \), which is not integer. So, in reality, \( d_1=2 \), but according to formula, it's not integer.
+
+So, this suggests that the formula is incomplete or incorrect.
+
+Wait, but in reality, \( d_1=2 \), \( d_0=3 \), \( s=5 \), \( n=25 \).
+
+So, \( s^2 =25=2*12 + 3=25 \).
+
+So, formula gives \( d_1=(25 -5)/11≈1.818 \), but actual \( d_1=2 \).
+
+So, the formula is not matching.
+
+Wait, so perhaps the formula is correct, but in this case, \( d_1 \) is not an integer, but in reality, it's integer.
+
+Wait, that's conflicting.
+
+Wait, perhaps my formula is correct, but in this case, \( d_1 \) is not integer, but in reality, \( d_1=2 \) is integer.
+
+Wait, so perhaps the formula is correct, but my reasoning is wrong.
+
+Wait, in reality, \( d_1=2 \), \( d_0=3 \), so \( s=5 \), \( n=25 \).
+
+But according to the formula:
+
+\( d_1 = \frac{s^2 - s}{b - 1} = \frac{25 - 5}{11}=20/11≈1.818 \).
+
+But \( d_1=2 \).
+
+So, the formula suggests \( d_1≈1.818 \), but actual \( d_1=2 \).
+
+This suggests that either the formula is wrong, or the problem is more nuanced.
+
+Wait, perhaps the formula is correct, but in this case, \( d_1 \) is not an integer, so n=25 shouldn't be a solution. But it is.
+
+Wait, that's a contradiction.
+
+Wait, perhaps the formula is incorrect.
+
+Wait, let's rederive it.
+
+From \( n = s^2 = d_1 b + d_0 \), and \( s = d_1 + d_0 \).
+
+So, substituting \( d_0 = s - d_1 \) into the first equation:
+
+\( s^2 = d_1 b + s - d_1 \).
+
+So, \( s^2 - s = d_1 (b - 1) \).
+
+So, \( d_1 = \frac{s^2 - s}{b - 1} \).
+
+So, formula is correct.
+
+But in the case of n=25, s=5, b=12:
+
+\( d_1=(25 -5)/11=20/11≈1.818 \). So, non-integer.
+
+But in reality, \( d_1=2 \).
+
+So, this suggests that the formula is correct, but n=25 is not a solution, but it is.
+
+Wait, this is conflicting.
+
+Wait, but n=25 is 23 in base 12: 2 + 3=5=sqrt(25). So, it is a solution.
+
+So, the formula suggests \( d_1≈1.818 \), but in reality, \( d_1=2 \), which is different.
+
+So, this is a paradox.
+
+Wait, maybe I'm misunderstanding the formula.
+
+Wait, no, formula is derived correctly.
+
+Wait, let me try plugging in the values.
+
+n=25: base 12 digits: 2 and 3.
+
+So, \( d_1=2 \), \( d_0=3 \).
+
+Then, \( s = 2 + 3=5 \).
+
+\( n =2*12 + 3=25=5^2 \).
+
+So, formula says \( d_1=(25 -5)/11=20/11≈1.818 \). But actual \( d_1=2 \).
+
+So, discrepancy.
+
+Wait, but \( d_1=2 \), which is integer, but formula gives non-integer.
+
+Wait, so the formula is correct, but in this case, \( d_1 \) is integer, but formula suggests otherwise.
+
+Wait, maybe the formula is incorrect because \( d_0 \) is not \( s - d_1 \), but \( d_0 = s - d_1 \) is valid only if \( d_0 \) is non-negative.
+
+Wait, but in this case, \( d_0=3 \) is positive.
+
+Wait, so maybe the formula is correct, but in this case, \( d_1 \) is not integer, but the actual \( d_1=2 \) is integer.
+
+This is a paradox.
+
+Wait, maybe the formula is correct, but in this case, \( d_1 \) is not integer, but the problem allows \( d_1 \) to be non-integer? No, digits must be integers.
+
+So, this suggests that n=25 is not a solution, but it is.
+
+Wait, perhaps the formula is correct, but in this case, \( d_1 \) is integer, but formula is giving a wrong value.
+
+Wait, perhaps my mistake is that \( n = d_1 b + d_0 \) is in decimal, but according to formula, \( d_1 \) is 20/11≈1.818, which is not integer.
+
+But in reality, n=25 is 23 in base 12: 2*12 + 3=25, which is correct.
+
+So, in this case, \( d_1=2 \), which is integer, but formula gives non-integer.
+
+So, this is a contradiction.
+
+Wait, so perhaps the formula is wrong.
+
+Wait, perhaps my mistake is in the substitution.
+
+Wait, from \( n = s^2 = d_1 b + d_0 \).
+
+And \( s = d_1 + d_0 \).
+
+So, substituting \( d_0 = s - d_1 \):
+
+\( s^2 = d_1 b + s - d_1 \).
+
+So, \( s^2 - s = d_1 (b - 1) \).
+
+Thus, \( d_1 = \frac{s^2 - s}{b - 1} \).
+
+So, formula is correct.
+
+But in the case of n=25, s=5, b=12:
+
+\( d_1=(25 -5)/11=20/11≈1.818 \), which is not integer.
+
+But in reality, \( d_1=2 \), which is integer.
+
+So, this suggests that the formula is correct, but in this case, \( d_1 \) is not integer, but in reality, it is.
+
+This is a paradox.
+
+Wait, perhaps the problem is that \( n = d_1 b + d_0 \) is in decimal, but the formula assumes that \( n \) is a two-digit number in base \( b \).
+
+Wait, but in this case, n=25 is a two-digit number in base 12: 23.
+
+So, n=25 is decimal, which is equal to 23 in base 12: 2*12 + 3=25.
+
+So, formula says \( d_1=20/11≈1.818 \), but \( d_1=2 \).
+
+Wait, 20/11≈1.818 is not equal to 2.
+
+So, this is a problem.
+
+Wait, so maybe the formula is incorrect.
+
+Wait, maybe the formula is correct, but in this case, \( d_1 \) is not an integer, but in reality, it is.
+
+Wait, but 20/11≈1.818 is not 2.
+
+Wait, so this is a contradiction.
+
+Therefore, perhaps the formula is incorrect.
+
+Wait, but formula is derived correctly.
+
+Wait, maybe the issue is that \( d_0 = s - d_1 \), but \( d_0 \) must be a digit in base \( b \), so \( d_0 \geq 0 \).
+
+So, in the case of n=25, s=5, b=12:
+
+\( d_0 = s - d_1=5 - 2=3 \), which is valid.
+
+But according to the formula, \( d_1=20/11≈1.818 \), which is not integer.
+
+So, this suggests that the formula is correct, but in this case, \( d_1 \) is not integer, but in reality, \( d_1=2 \) is integer.
+
+So, this is a paradox.
+
+Therefore, the formula is correct, but in this case, the formula gives a non-integer, but in reality, \( d_1 \) is integer.
+
+So, the formula is correct, but in this case, the formula is not matching reality.
+
+Wait, perhaps the formula is correct, but in this case, \( d_1 \) is integer, but \( d_0 \) is also integer, but the formula is not giving the correct \( d_1 \).
+
+Wait, this is confusing.
+
+Wait, maybe the problem is that \( n = s^2 \) is a two-digit number in base \( b \), but in this case, n=25 is a two-digit number in base 12, but when written in base 12, it's 23, which is two digits.
+
+But according to formula, \( d_1=20/11≈1.818 \), which is not integer.
+
+So, this is a problem.
+
+Wait, so perhaps my approach is wrong.
+
+Alternatively, maybe the formula is correct, but in this case, \( d_1 \) is not integer, which would imply that n=25 is not a solution, but it is.
+
+Therefore, I must have made a mistake.
+
+Wait, let's compute \( d_1 = (s^2 - s)/(b - 1) \).
+
+For n=25, s=5, b=12:
+
+\( d_1=(25 -5)/11=20/11≈1.818 \).
+
+But in reality, \( d_1=2 \).
+
+So, the formula is correct, but n=25 is not a solution.
+
+But in reality, n=25 is a solution because 2 + 3=5=sqrt(25).
+
+So, the formula is correct, but in this case, it's giving a wrong value.
+
+Therefore, perhaps the formula is not applicable here.
+
+Wait, maybe my initial assumption is wrong that \( d_1 = (s^2 - s)/(b - 1) \).
+
+Wait, no, it's derived correctly.
+
+Wait, perhaps the formula is correct, but in this case, \( d_1 \) is not integer, which is conflicting with reality.
+
+So, I'm stuck.
+
+Wait, maybe the problem is that in this case, \( d_1 \) is not integer, but in reality, it is.
+
+So, the formula is wrong.
+
+Alternatively, perhaps the formula is correct, but in this case, \( d_1 \) is not integer, so n=25 is not a solution.
+
+But n=25 is a solution.
+
+Wait, maybe the formula is incorrect because \( n \) is a two-digit number in base \( b \), so \( n = d_1 b + d_0 \), but \( n \) is in decimal.
+
+But in the case of n=25, decimal, which is 23 in base 12: 2 + 3=5=sqrt(25).
+
+So, n=25 is a solution.
+
+But formula says \( d_1=(25 -5)/11≈1.818 \), which is not integer.
+
+Therefore, the formula is not giving the correct value.
+
+Wait, maybe the formula is correct, but \( d_1 \) is not an integer, but in reality, it is.
+
+So, in this case, the formula fails.
+
+Wait, this is getting too convoluted.
+
+Maybe I should instead think of an algorithm:
+
+For each base \( b \), iterate \( s \) from \( \lceil \sqrt{b} \rceil \) to \( b - 1 \).
+
+For each \( s \), check if \( s^2 \) is a two-digit number in base \( b \).
+
+If yes, compute \( d_1 = (s^2 - s)/(b - 1) \).
+
+If \( d_1 \) is integer and \( d_0 = s - d_1 \) is between 0 and \( b - 1 \), then \( n = s^2 \) is \( b \)-eautiful.
+
+So, for each base \( b \), the number of \( b \)-eautiful numbers is equal to the number of such \( s \).
+
+So, for \( b=7 \):
+
+s ranges from 3 to 6.
+
+s=3: \( s^2=9 \). 9 is two-digit in base 7: 12. So, 1 + 2=3=sqrt(9). So, valid.
+
+s=4: \( s^2=16 \). 16 is two-digit in base 7: 22. 2 + 2=4=sqrt(16). Valid.
+
+s=5: \( s^2=25 \). 25 is two-digit in base 7: 35. 3 + 5=8 vs sqrt(25)=5. Not equal.
+
+s=6: \( s^2=36 \). 36 is two-digit in base 7: 60. 6 + 0=6=sqrt(36). Valid.
+
+So, s=3,4,6: three solutions.
+
+Similarly, for \( b=12 \):
+
+s ranges from 4 to 11.
+
+s=4: \( s^2=16 \). 16 is two-digit in base 12: 14. 1 + 4=5 vs sqrt(16)=4. Not equal.
+
+s=5: \( s^2=25 \). 25 is two-digit in base 12:23. 2 + 3=5=sqrt(25). Valid.
+
+s=6: \( s^2=36 \). 36 is two-digit in base 12: 30. 3 + 0=3 vs sqrt(36)=6. Not equal.
+
+s=7: \( s^2=49 \). 49 is two-digit in base 12:41. 4 + 1=5 vs sqrt(49)=7. Not equal.
+
+s=8: \( s^2=64 \). 64 is two-digit in base 12:52. 5 + 2=7 vs sqrt(64)=8. Not equal.
+
+s=9: \( s^2=81 \). 81 is two-digit in base 12:77. 7 + 7=14 vs sqrt(81)=9. Not equal.
+
+s=10: \( s^2=100 \). 100 is two-digit in base 12: 85. 8 + 5=13 vs sqrt(100)=10. Not equal.
+
+s=11: \( s^2=121 \). 121 is three-digit in base 12: 101. So, invalid.
+
+So, only s=5 is valid. So, one solution.
+
+But earlier, I thought n=25 and n=100 were solutions. Wait, n=25: s=5, n=25, which is two-digit in base 12:23. 2 + 3=5=sqrt(25). So, valid.
+
+n=100: 100 is two-digit in base 12:85. 8 + 5=13 vs sqrt(100)=10. Not equal.
+
+So, only n=25 is 12-eautiful. So, count is 1.
+
+Wait, so my earlier conclusion was wrong.
+
+So, for \( b=12 \), only one solution.
+
+Similarly, for \( b=16 \):
+
+s ranges from 4 to 15.
+
+s=4: 16 is two-digit in base 16:10. 1 + 0=1 vs sqrt(16)=4. Not equal.
+
+s=5:25 is two-digit in base 16:19. 1 + 9=10 vs sqrt(25)=5. Not equal.
+
+s=6:36 is two-digit in base 16:24. 2 + 4=6=sqrt(36). Valid.
+
+s=7:49 is two-digit in base 16:31. 3 + 1=4 vs sqrt(49)=7. Not equal.
+
+s=8:64 is two-digit in base 16:40. 4 + 0=4 vs sqrt(64)=8. Not equal.
+
+s=9:81 is two-digit in base 16:51. 5 + 1=6 vs sqrt(81)=9. Not equal.
+
+s=10:100 is two-digit in base 16:64. 6 + 4=10 vs sqrt(100)=10. Valid.
+
+s=11:121 is three-digit in base 16:79. So, invalid.
+
+s=12:144 is three-digit in base 16:90. So, invalid.
+
+s=13:169 is three-digit in base 16: A9. So, invalid.
+
+s=14:196 is three-digit in base 16: CE. So, invalid.
+
+s=15:225 is three-digit in base 16: CD. So, invalid.
+
+So, only s=6 and s=10 are valid.
+
+So, n=36 and n=100 are 16-eautiful. So, count is 2.
+
+Wait, so for \( b=16 \), count is 2.
+
+So, revising my earlier conclusion.
+
+So, for \( b=7 \): 3
+
+\( b=12 \):1
+
+\( b=16 \):2
+
+So, the maximum count so far is 3.
+
+Wait, let me try \( b=24 \).
+
+Two-digit numbers in base 24: 24 to 575 (10 to FF in base 24).
+
+Perfect squares in this range: 25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400,441,484,529.
+
+Convert each to base 24:
+
+But this is time-consuming. Maybe a smarter approach.
+
+Wait, for each \( s \) from \( \lceil \sqrt{24} \rceil=5 \) to 23.
+
+For each \( s \), check if \( s^2 \) is a two-digit number in base 24, and sum of digits equals \( s \).
+
+So, \( s \) from 5 to 23.
+
+For each \( s \):
+
+- s=5: 25 in base 24 is 11. 1 + 1=2 vs 5. No.
+- s=6: 36 in base 24 is 16. 1 + 6=7 vs 6. No.
+- s=7: 49 in base 24 is 23. 2 + 3=5 vs 7. No.
+- s=8: 64 in base 24 is 2A. 2 + 10=12 vs 8. No.
+- s=9: 81 in base 24 is 33. 3 + 3=6 vs 9. No.
+- s=10: 100 in base 24 is 41. 4 + 1=5 vs 10. No.
+- s=11: 121 in base 24 is 4D. 4 + 13=17 vs 11. No.
+- s=12: 144 in base 24 is 60. 6 + 0=6 vs 12. No.
+- s=13: 169 in base 24 is 6D. 6 + 13=19 vs 13. No.
+- s=14: 196 in base 24 is 7E. 7 + 14=21 vs 14. No.
+- s=15: 225 in base 24 is 8F. 8 + 15=23 vs 15. No.
+- s=16: 256 in base 24 is 100. Three digits. Invalid.
+- s=17: 289 in base 24 is 11D. 1 + 13=14 vs 17. No.
+- s=18: 324 in base 24 is 13C. 1 + 12=13 vs 18. No.
+- s=19: 361 in base 24 is 19. Wait, 19^2=361. 361 in base 24 is 19 (1*24 + 19). 1 + 19=20 vs 19. No.
+- s=20: 400 in base 24 is 16. 1 + 6=7 vs 20. No.
+- s=21: 441 in base 24 is 1D. 1 + 13=14 vs 21. No.
+- s=22: 484 in base 24 is 1E. 1 + 14=15 vs 22. No.
+- s=23: 529 in base 24 is 21. 2 + 1=3 vs 23. No.
+
+So, none of these s satisfy the condition.
+
+Thus, count is 0.
+
+Wait, so for \( b=24 \), count is 0.
+
+Wait, seems like the count is not increasing as b increases.
+
+Wait, perhaps try \( b=25 \).
+
+s from 5 to 24.
+
+For each s:
+
+- s=5:25=11 in base25:1+1=2 vs5.No
+- s=6:36=16 in base25:1+6=7 vs6.No
+- s=7:49=1C in base25:1+12=13 vs7.No
+- s=8:64=24+16=40 in base25:4+0=4 vs8.No
+- s

@@ -1,0 +1,30 @@
+Alright, let's try to figure out when Mary could have gone to the dance studio. So, Mary woke up at 9am. Then, Sarah saw Mary getting a coffee at the cafe from 9am to 10am. That means Mary was at the cafe during that time. After that, Mary saw herself walking in the garden from 12pm to 1pm. So, she was outside for a while.
+
+Then, Tiffany saw Mary driving to the water park from 1pm to 10pm. So, after her walk, Mary went to the water park, and that took her from 1pm until 10pm. The dance studio was closed after 10pm, so she couldn't have gone there after that.
+
+Now, we need to find the time when Mary wasn't at the cafe, walking in the garden, or driving to the water park. So, let's piece this together.
+
+Mary was at the cafe from 9am to 10am.
+
+Then, she walked in the garden from 12pm to 1pm.
+
+After that, she drove to the water park from 1pm to 10pm.
+
+So, between 10am and 12pm, Mary wasn't at the cafe, walking, or driving. That seems like a window where she could have gone to the dance studio.
+
+Let me check the options:
+
+(A) 12pm to 1pm – She was walking in the garden then, so not possible.
+
+(B) 9am to 10am – She was getting coffee then, so no.
+
+(C) 1pm to 10pm – She was either walking or driving then.
+
+(D) 10am to 12pm – That's when she wasn't doing anything else, so this must be when she went to the dance studio.
+
+So, the correct answer is D.
+</think>
+
+Mary could have gone to the dance studio between **10am to 12pm**.
+
+**Answer:** (D)

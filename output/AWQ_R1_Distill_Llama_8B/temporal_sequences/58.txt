@@ -1,0 +1,39 @@
+Alright, let's try to figure out when Richard could have gone to the amusement park. So, Richard wakes up at 5 am. Then, Mary sees him buying a phone at the electronics store from 11 am to 6 pm. Leslie sees him working out at the gym from 6 pm to 8 pm. Kimberly sees him attending class at the school from 8 pm to 9 pm. Nancy sees him buying cookies at a bakery from 9 pm to 10 pm. The amusement park closes after 10 pm.
+
+Hmm, so we need to find the time window when Richard wasn't doing any of those other activities and could have gone to the amusement park.
+
+First, Richard wakes up at 5 am. But there's no information about what he does right after waking up. So, maybe he was at home or doing something else before 11 am.
+
+Mary saw him from 11 am to 6 pm buying a phone. So, during that time, he's occupied with buying a phone. That means he wasn't at the amusement park during that time.
+
+Leslie saw him working out from 6 pm to 8 pm. So, he's busy at the gym during that hour and a half.
+
+Kimberly saw him attending class from 8 pm to 9 pm. So, he's in school during that time.
+
+Nancy saw him buying cookies from 9 pm to 10 pm. So, he's occupied until 10 pm.
+
+The amusement park closes after 10 pm, so he can't go after that.
+
+Putting this all together:
+
+- 5 am to 11 am: Not sure, but he's up at 5 am, but no one saw him during this time. Maybe he was at home or elsewhere.
+- 11 am to 6 pm: He's buying a phone, so he's occupied.
+- 6 pm to 8 pm: He's working out.
+- 8 pm to 9 pm: He's in class.
+- 9 pm to 10 pm: He's buying cookies.
+
+So, the only time he's not seen by anyone is from 5 am to 11 am. That seems like the only window he could have gone to the amusement park.
+
+But wait, the options given are:
+
+(A) 6pm to 8pm
+(B) 5am to 11am
+(C) 11am to 6pm
+(D) 8pm to 9pm
+
+So, option B, 5am to 11am, is the time when he wasn't seen by anyone, so that's when he could have gone to the amusement park.
+</think>
+
+The correct answer is (B) 5am to 11am.
+
+**Answer:** (B)

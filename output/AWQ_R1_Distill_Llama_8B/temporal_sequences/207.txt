@@ -1,0 +1,58 @@
+Alright, let's try to figure out between what times Susan could have gone to the art studio. I'll go through the information step by step to understand the timeline better.
+
+First, Susan wakes up at 6am. That means her day starts at 6am. 
+
+Next, William saw Susan buying a bike at the bike shop from 11am to 12pm. So, during that time, Susan was at the bike shop. 
+
+Then, David saw Susan stretching at a yoga studio from 4pm to 8pm. So, in the evening, Susan was at the yoga studio. 
+
+William also mentioned that the art studio was closed after 8pm. That means the art studio was open before 8pm but closed after that time. 
+
+Now, let's piece this together. Susan starts her day at 6am. She buys a bike from 11am to 12pm, so she's occupied then. After that, from 12pm to 4pm, Susan is stretching at the yoga studio. So, between 12pm and 4pm, she's not at the art studio because she's at the yoga studio.
+
+From 4pm to 8pm, Susan is taking photos near the Eiffel Tower. So, she's not at the art studio during this time either.
+
+Since the art studio was closed after 8pm, Susan wouldn't have had time to go there after 8pm because the studio was already closed.
+
+Looking at the options:
+
+(A) 11am to 12pm: Susan was buying a bike, not at the art studio.
+
+(B) 12pm to 4pm: She was at the yoga studio.
+
+(C) 6am to 11am: She was asleep or possibly awake but not mentioned to be at the art studio.
+
+(D) 4pm to 8pm: She was taking photos, not at the art studio.
+
+So, none of these time periods overlap with the times when Susan was at the art studio. Wait, but the question is asking when Susan could have gone to the art studio. Maybe I missed something.
+
+Wait, Susan's day starts at 6am. She buys a bike from 11am to 12pm, then from 12pm to 4pm, she's at the yoga studio, and from 4pm to 8pm, she's taking photos. The art studio was closed after 8pm.
+
+So, the only free time Susan has is between 6am to 11am. She could have gone to the art studio during that time.
+
+But let me double-check. From 6am to 11am, Susan was likely at home or elsewhere, not mentioned to be at the art studio. The art studio was closed after 8pm, so she couldn't have gone later.
+
+Therefore, the only possible time she could have gone is between 6am and 11am.
+
+So, the answer should be option (C) 6am to 11am.
+
+But wait, the options don't include 6am to 11am. Let me check again.
+
+Wait, the options are:
+
+(A) 11am to 12pm
+
+(B) 12pm to 4pm
+
+(C) 6am to 11am
+
+(D) 4pm to 8pm
+
+Yes, option (C) is 6am to 11am.
+
+So, that's the correct answer.
+</think>
+
+The correct answer is (C) 6am to 11am.
+
+**Answer:** (C) 6am to 11am

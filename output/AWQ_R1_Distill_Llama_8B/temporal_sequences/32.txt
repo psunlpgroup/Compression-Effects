@@ -1,0 +1,30 @@
+Alright, let's try to figure out when Samantha could have gone to the swimming pool. I'll go through the information step by step.
+
+First, Samantha wakes up at 6am. That's pretty early! So she's up and about by then.
+
+Next, James saw Samantha buying lunch at the deli from 6am to 1pm. So between 6am and 1pm, she's at the deli. That means she's not at the swimming pool during this time.
+
+Then, Emily saw Samantha playing tennis at the tennis court from 1pm to 2pm. So between 1pm and 2pm, she's occupied with tennis. So she's not at the pool during that hour either.
+
+After that, Kimberly saw Samantha working out at the gym from 4pm to 5pm. So between 4pm and 5pm, she's at the gym. That means she's not at the pool during that time either.
+
+The swimming pool was closed after 5pm. So after 5pm, it's not possible for her to go to the pool.
+
+Putting all this together:
+
+- From 6am to 1pm: At the deli.
+- From 1pm to 2pm: Playing tennis.
+- From 4pm to 5pm: At the gym.
+
+So the only times when Samantha isn't doing those activities and the pool is available are:
+
+- Between 2pm and 4pm: She's not at the deli, not playing tennis, and the pool is open before it closes at 5pm.
+
+That seems like the only window she could have gone to the swimming pool.
+
+So, the possible time is between 2pm to 4pm.
+</think>
+
+The correct answer is **(B) 2pm to 4pm**.
+
+**Answer: (B)**

@@ -1,0 +1,46 @@
+Alright, let's try to figure out during which time David could have gone to the market. I'll go through the information step by step.
+
+First, David woke up at 7am. That's the earliest time we know.
+
+Next, Linda saw David sitting on a rooftop from 7am to 9am. So during this time, David was on the rooftop.
+
+Then, Mary saw David buying cookies at a bakery from 10am to 1pm. So between 10am and 1pm, he was at the bakery.
+
+After that, Anthony saw David walking in the garden from 1pm to 2pm. So from 1pm to 2pm, he was in the garden.
+
+Finally, Sean saw David waiting at the train station from 2pm to 5pm. So from 2pm to 5pm, he was at the train station.
+
+Now, the market was closed after 5pm. That means the market likely closes at 5pm or earlier. So David couldn't have gone to the market after 5pm.
+
+Looking at the times when David was seen:
+
+- 7am to 9am: Rooftop
+- 10am to 1pm: Bakery
+- 1pm to 2pm: Garden
+- 2pm to 5pm: Train station
+
+The only time not overlapping with these activities is between 9am and 10am. That's a one-hour window where David wasn't seen doing anything specific mentioned here.
+
+So, David could have gone to the market between 9am and 10am.
+
+But wait, let me double-check. The market was closed after 5pm, so David couldn't have gone later than 5pm. Since he was at the train station until 5pm, he wouldn't have had time to go to the market after that.
+
+Therefore, the only possible time he could have gone is between 9am and 10am.
+
+So, the answer is between 9am to 10am, which is option (B).
+</think>
+
+The correct answer is (B) 9am to 10am.
+
+Step-by-step explanation:
+
+1. David was seen by Linda from 7am to 9am on the rooftop.
+2. He was then seen by Mary from 10am to 1pm at the bakery.
+3. Anthony saw him from 1pm to 2pm in the garden.
+4. Sean saw him from 2pm to 5pm at the train station.
+5. The market was closed after 5pm, so he couldn't have gone after that.
+6. The only unaccounted time is between 9am and 10am.
+
+Therefore, David could have gone to the market between 9am to 10am.
+
+**Answer:** (B)

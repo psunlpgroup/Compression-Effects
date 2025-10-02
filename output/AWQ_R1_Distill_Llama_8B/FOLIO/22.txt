@@ -1,0 +1,51 @@
+Okay, let's try to figure this out step by step. So, the premise is about "Stranger Things" being a popular Netflix show. Then there are several implications leading up to the conclusion that "Black Mirror" is popular. 
+
+First, the premises: 
+
+1. If a Netflix show is popular, Karen will binge-watch it.
+2. If and only if Karen binge-watches a Netflix show, she will download it.
+3. Karen does not download "Black Mirror."
+4. "Black Mirror" is a Netflix show.
+5. If Karen binge-watches a Netflix show, she will share it with Lisa.
+
+The conclusion is that "Black Mirror" is popular.
+
+Alright, so let's break it down. 
+
+Starting with premise 1: If a Netflix show is popular, Karen will binge-watch it. So, popularity of a show implies Karen watching it.
+
+Then premise 2: If and only if Karen binge-watches a show, she will download it. So, Karen downloading the show is equivalent to her binge-watching it. In other words, she only downloads a show if she binges it, and if she binges it, she downloads it. So, it's a bi-conditional relationship.
+
+Next, premise 3: Karen does not download "Black Mirror." So, she didn't download that show.
+
+Premise 4: "Black Mirror" is a Netflix show. So, it's on Netflix.
+
+Premise 5: If Karen binge-watches a Netflix show, she shares it with Lisa.
+
+So, putting this together: If a show is popular, Karen binges it. If she binges it, she downloads it. But she didn't download "Black Mirror," which is a Netflix show. Therefore, she didn't binge-watch "Black Mirror." 
+
+Wait, but does that mean "Black Mirror" isn't popular? Because if it were popular, she would have binged it, which would have led her to download it. But she didn't download it, so she didn't binge it, which implies that the show isn't popular.
+
+So, from the given premises, we can deduce that "Black Mirror" is not popular because if it were, Karen would have downloaded it, but she didn't. Therefore, the conclusion that "Black Mirror" is popular would be false.
+
+I think that's the logical flow here. Let me make sure I didn't miss anything. The key points are the bi-conditional between binge-watching and downloading, and the fact that Karen didn't download "Black Mirror." Since she didn't download it, and downloading only happens if she binges it, then she didn't binge it. And binging it only happens if the show is popular. Therefore, the show isn't popular.
+</think>
+
+The conclusion that "Black Mirror" is popular is **false**.
+
+**Step-by-Step Explanation:**
+
+1. **Premise 1:** Popular Netflix shows lead Karen to binge-watch them.
+2. **Premise 2:** Binge-watching a show implies and is implied by downloading it (bi-conditional).
+3. **Premise 3:** Karen does not download "Black Mirror."
+4. **Premise 4:** "Black Mirror" is a Netflix show.
+5. **Premise 5:** Binge-watching a show means sharing it with Lisa.
+
+**Deduction:**
+- Since "Black Mirror" is a Netflix show (Premise 4), if it were popular (Premise 1), Karen would binge-watch it (Premise 1 → Binge).
+- Binge-watching would lead to downloading (Premise 2 → Download).
+- However, Karen does not download "Black Mirror" (Premise 3).
+- Therefore, Karen did not binge-watch "Black Mirror."
+- Since binging only happens if the show is popular (Premise 1), "Black Mirror" is not popular.
+
+**Conclusion:** "Black Mirror" is not popular.

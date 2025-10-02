@@ -1,0 +1,35 @@
+["initializing"] Okay, so I need to figure out if the conclusion that Rockie is not a turtle is true, false, or uncertain based on the given premises. ["end-section"] 
+
+["initializing"] Let me go through each piece of information step by step. ["end-section"]
+
+["adding-knowledge"] First, the premise says that all rabbits near the campus are cute. ["end-section"] ["uncertainty-estimation"] That's interesting, but I don't see how that directly relates to turtles or Rockie yet. ["end-section"]
+
+["adding-knowledge"] Next, it mentions that some turtles can be spotted near the campus. So, there's at least one or more turtles there. ["end-section"]
+
+["adding-knowledge"] Then, it says the only animals near the campus are rabbits and squirrels. So, any animal you can see on campus is either a rabbit or a squirrel. ["end-section"]
+
+["deduction"] That means Rockie, who can be spotted near the campus, must be either a rabbit or a squirrel. ["end-section"]
+
+["adding-knowledge"] Now, the next part says if something is skittish, then it's not calm. So, being skittish implies not calm. ["end-section"]
+
+["adding-knowledge"] Then, all squirrels near the campus are skittish. ["end-section"] ["deduction"] So, every squirrel on campus is skittish, which means they are not calm. ["end-section"]
+
+["adding-knowledge"] Finally, Rockie can be spotted near the campus and is calm. ["end-section"]
+
+["deduction"] So, Rockie is calm and can be spotted near the campus. ["end-section"] 
+
+["deduction"] Putting this together, since Rockie is calm, it can't be a squirrel because all squirrels are skittish and thus not calm. ["end-section"]
+
+["deduction"] Therefore, Rockie must be a rabbit. ["end-section"]
+
+["deduction"] But wait, the conclusion is that Rockie is not a turtle. ["end-section"]
+
+["deduction"] Since Rockie is either a rabbit or a squirrel, and Rockie is calm, Rockie isn't a squirrel, so Rockie is a rabbit. ["end-section"]
+
+["deduction"] Therefore, Rockie is not a turtle because turtles are a different species. ["end-section"]
+
+["backtracking"] Wait, but the premise says some turtles can be spotted near the campus. ["end-section"] ["deduction"] So, there are turtles there, but Rockie is not one of them. ["end-section"]
+
+["deduction"] Rockie is either a rabbit or a squirrel, but since Rockie is calm and squirrels are skittish, Rockie is a rabbit. ["end-section"] 
+
+["deduction"] So, Rockie is not a turtle, which makes the conclusion true. ["end-section"]

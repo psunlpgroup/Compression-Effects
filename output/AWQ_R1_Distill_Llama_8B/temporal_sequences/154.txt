@@ -1,0 +1,32 @@
+Okay, let's try to figure out when Mark could have gone to the basketball court. 
+
+First, let's list out all the information we have:
+
+1. **Mark's schedule:**
+   - Woke up at **12pm**.
+   - Saw buying clothes at the mall from **12pm to 1pm** by James.
+   - Then saw driving to the water park from **1pm to 4pm** by Nancy.
+   - After that, saw sitting on a rooftop from **5pm to 6pm** by Richard.
+   - Later, saw getting a coffee at the cafe from **6pm to 10pm** by John.
+   - The basketball court was closed after **10pm**.
+
+2. **Basketball court availability:**
+   - Closed after **10pm**, so Mark must have gone before 10pm.
+
+Now, let's analyze Mark's activities step by step:
+
+- From **12pm to 1pm**, Mark was buying clothes at the mall.
+- From **1pm to 4pm**, he was driving to the water park.
+- So, he couldn't have been at the basketball court during these times because he was either shopping or driving.
+  
+Next, after arriving at the water park around **4pm**, he might have gone inside, but we don't have information about his exact movements after that until **5pm** when Richard saw him sitting on a rooftop from **5pm to 6pm**.
+
+Then, from **6pm to 10pm**, he was getting a coffee at the cafe. So, again, he wasn't at the basketball court during this time.
+
+Since the basketball court was closed after **10pm**, Mark must have gone before **10pm**. But based on the timeline, he was either shopping, driving, sitting on a rooftop, or getting coffee until **10pm**.
+
+There's a gap between **4pm to 5pm** when he was likely at the water park or traveling to it. However, we don't have any sightings of him at the basketball court during this period.
+
+Therefore, the only possible time he could have gone to the basketball court is during the **4pm to 5pm** window when he wasn't seen by anyone else.
+
+**Answer:** (C) 4pm to 5pm

@@ -1,0 +1,40 @@
+Alright, let's try to figure out when John could have gone to the coffee shop. I'll go through the information step by step.
+
+First, John woke up at 5am. That's his wake-up time, so he was likely up and about from then. Then, David saw John sitting on a rooftop from 5am to 8am. So, during this time, John was on the rooftop.
+
+Next, Sean saw John watching a movie at the theater from 8am to 11am. So, after 8am, John was at the theater.
+
+Then, Tiffany saw John stretching at a yoga studio from 4pm to 5pm. That's later in the day.
+
+Michael saw John buying a phone at the electronics store from 5pm to 7pm. So, he was there during that time.
+
+The coffee shop was closed after 7pm. That means John couldn't have gone there after 7pm.
+
+Now, let's piece this together. From 5am to 8am, John was on the rooftop. From 8am to 11am, he was at the theater. So, he was occupied during those times.
+
+Tiffany saw him at the yoga studio from 4pm to 5pm. Michael saw him at the electronics store from 5pm to 7pm. So, between 5pm and 7pm, John was buying a phone.
+
+The coffee shop was closed after 7pm, so he couldn't have gone there after 7pm. Before that, he was at the yoga studio from 4pm to 5pm. So, he must have gone to the coffee shop between 5pm and 7pm.
+
+Looking at the options, (C) 5pm to 7pm seems to be the correct time he could have gone.
+</think>
+
+John could have gone to the coffee shop between **5pm to 7pm**.
+
+**Step-by-Step Explanation:**
+
+1. **John's activities from 5am to 11am:**
+   - **5am to 8am:** On the rooftop (seen by David).
+   - **8am to 11am:** At the theater (seen by Sean).
+
+2. **John's activities from 4pm to 7pm:**
+   - **4pm to 5pm:** At the yoga studio (seen by Tiffany).
+   - **5pm to 7pm:** At the electronics store (seen by Michael).
+
+3. **Coffee shop availability:**
+   - The coffee shop closes after 7pm, so John could have visited before 7pm.
+
+4. **Possible time for coffee shop visit:**
+   - Between **5pm to 7pm**, when John was free before heading to the electronics store.
+
+**Answer:** (C) 5pm to 7pm

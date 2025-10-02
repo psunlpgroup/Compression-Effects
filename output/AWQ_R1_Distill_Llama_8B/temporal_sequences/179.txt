@@ -1,0 +1,25 @@
+To determine when Leslie could have visited the physics classroom, let's analyze the information provided:
+
+1. **Leslie's schedule:**
+   - **5am:** Woke up.
+   - **5am to 7am:** Seen by Betty walking towards the Statue of Liberty.
+   - **9am to 10am:** Seen by Mary working out at the gym.
+   - **10am to 5pm:** Seen by Hannah fixing their computer at the electronic store.
+   - **5pm to 9pm:** Seen by Mark attending class at the school.
+   - **After 9pm:** The physics classroom was closed.
+
+2. **Physics classroom availability:**
+   - Open during school hours, presumably from 8am to 4pm or similar.
+   - Closed after 9pm.
+
+3. **Identifying possible times:**
+   - **Between 5am to 7am:** Leslie was seen by Betty, so this time is occupied.
+   - **Between 9am to 10am:** Seen by Mary, so occupied.
+   - **Between 10am to 5pm:** Seen by Hannah, so occupied.
+   - **Between 5pm to 9pm:** Seen by Mark, so occupied.
+
+4. **Conclusion:**
+   - There is no time slot explicitly left for Leslie to visit the physics classroom without conflicting with other activities.
+   - Therefore, Leslie could not have visited the physics classroom during these hours.
+
+**Final Answer:** (D) 9am to 10am

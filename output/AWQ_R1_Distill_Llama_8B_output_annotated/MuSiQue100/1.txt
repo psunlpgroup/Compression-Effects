@@ -1,0 +1,1 @@
+["initializing"] The city of Zvenyhorodka is in the same county as Gmina Jordanow. ["end-section"] ["uncertainty-estimation"] **Answer:** Zvenyhorodka ["end-section"]

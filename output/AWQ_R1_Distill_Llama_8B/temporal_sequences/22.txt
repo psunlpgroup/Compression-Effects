@@ -1,0 +1,34 @@
+Let's analyze the timeline step by step:
+
+1. **Waking Up**: Linda wakes up at 10 am.
+
+2. **Elizabeth's Observation**: Elizabeth saw Linda at the train station from 10 am to 12 pm. This means Linda was at the train station during this time.
+
+3. **David's Observation**: David saw Linda at the office from 2 pm to 4 pm.
+
+4. **Sarah's Observation**: Sarah saw Linda at the airport from 4 pm to 5 pm.
+
+5. **Ashley's Observation**: Ashley saw Linda at school from 5 pm to 9 pm.
+
+6. **Betty's Observation**: Betty saw Linda walking in the garden from 9 pm to 10 pm.
+
+7. **Beach Closing**: The beach was closed after 10 pm.
+
+**Determining Possible Beach Times:**
+- From Elizabeth's observation, Linda was at the train station from 10 am to 12 pm.
+- The beach was closed after 10 pm, so Linda couldn't have gone to the beach after 10 pm.
+- David saw Linda at the office from 2 pm to 4 pm, which is a different location.
+- Sarah saw Linda at the airport from 4 pm to 5 pm, which is also a different location.
+- Ashley saw Linda at school from 5 pm to 9 pm, a different location.
+- Betty saw Linda in the garden from 9 pm to 10 pm, which is just before the beach closes.
+
+**Conflict in Schedules:**
+- Linda was at the train station from 10 am to 12 pm.
+- The beach was closed after 10 pm, so she couldn't have gone to the beach after 10 pm.
+- However, she was at the garden from 9 pm to 10 pm, which is the latest time before the beach closes.
+
+**Conclusion:**
+Linda was at the garden from 9 pm to 10 pm, and the beach was closed after 10 pm. Therefore, she couldn't have gone to the beach after 10 pm. The only overlapping time when she wasn't observed at any location is between 12 pm and 2 pm.
+
+**Final Answer:**
+\boxed{A}

@@ -1,0 +1,89 @@
+Alright, let's try to figure out when Jessica could have gone to the bookstore. So, here's the situation:
+
+- Jessica wakes up at 6am.
+- Steven saw Jessica working out at the gym from 7am to 2pm.
+- Jason saw Jessica taking photos near the Leaning Tower of Pisa from 2pm to 3pm.
+- Emily saw Jessica taking photos near the Eiffel Tower from 3pm to 9pm.
+- The bookstore was closed after 9pm.
+
+Okay, so first, Jessica wakes up at 6am. That's pretty early. Then, Steven sees her at the gym from 7am to 2pm. So, Steven's sightings are in the morning to early afternoon.
+
+Next, Jason sees her taking photos near the Leaning Tower of Pisa from 2pm to 3pm. So, that's in the early afternoon to early evening.
+
+Then, Emily sees Jessica taking photos near the Eiffel Tower from 3pm to 9pm. So, that's later in the afternoon to the evening, and the bookstore closes after 9pm.
+
+Now, the question is asking between what times could Jessica have gone to the bookstore. So, we need to find a time window where Jessica wasn't spotted by Steven, Jason, or Emily, and also when the bookstore was open.
+
+Let's list out the sightings:
+
+1. **Steven:** 7am to 2pm
+2. **Jason:** 2pm to 3pm
+3. **Emily:** 3pm to 9pm
+
+So, from 7am to 2pm, Steven saw her. Then, from 2pm to 3pm, Jason saw her. And from 3pm to 9pm, Emily saw her.
+
+Wait a minute, but the problem says "Between what times could they have gone?" So, the bookstore was closed after 9pm. So, the latest she could have gone is before 9pm.
+
+But let's think about Jessica's schedule. She was at the gym from 7am to 2pm, then taking photos from 2pm to 3pm, and then from 3pm to 9pm. So, she's pretty busy from 7am to 9pm.
+
+But the question is about the times when she could have gone to the bookstore. So, perhaps when she wasn't taking photos or working out.
+
+Wait, but she was seen by Steven at the gym from 7am to 2pm. Then, Jason saw her from 2pm to 3pm taking photos, and Emily saw her from 3pm to 9pm taking photos.
+
+So, when was she not being seen? Between 6am to 7am, she was just waking up. Maybe she went to the bookstore then?
+
+Also, between 3pm to 9pm, she was taking photos, so she couldn't have gone to the bookstore then because she was busy.
+
+Wait, but the bookstore was closed after 9pm, so the latest she could have gone is before 9pm. But she was taking photos until 9pm.
+
+So, the only free times she had were:
+
+1. From 6am to 7am, when she was waking up.
+2. Between 7am to 2pm, she was at the gym.
+3. Between 2pm to 3pm, she was taking photos.
+4. Between 3pm to 9pm, she was taking photos.
+
+So, the only time she wasn't spotted is from 6am to 7am. So, that's the only window when she could have gone to the bookstore.
+
+But wait, the options are:
+
+(A) 2pm to 3pm
+
+(B) 6am to 7am
+
+(C) 7am to 2pm
+
+(D) 3pm to 9pm
+
+So, the only possible time is between 6am to 7am.
+
+But wait, let's double-check. From 7am to 2pm, she was at the gym. So, she couldn't have gone to the bookstore then.
+
+From 2pm to 3pm, Jason saw her taking photos, so no.
+
+From 3pm to 9pm, Emily saw her taking photos, so no.
+
+So, the only time she wasn't spotted is from 6am to 7am, when she was just waking up.
+
+So, the answer should be (B) 6am to 7am.
+
+But wait, the options are labeled (A) to (D), so (B) is 6am to 7am.
+
+But let me make sure. The timeline:
+
+- 6am: Jessica wakes up.
+
+- 7am to 2pm: At the gym.
+
+- 2pm to 3pm: Taking photos.
+
+- 3pm to 9pm: Taking photos.
+
+So, the only time she wasn't doing anything else is from 6am to 7am.
+
+Therefore, she could have gone to the bookstore then.
+
+So, the answer is (B).
+</think>
+
+(B) 6am to 7am

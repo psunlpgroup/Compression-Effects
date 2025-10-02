@@ -1,0 +1,20 @@
+Okay, so I need to figure out if the conclusion is true, false, or uncertain based on the premise. The conclusion says that Andrew Collins was the script editor for a series with the working title "The Secret Dude Society." Let's break it down.
+
+First, looking at the premise: Badults is a British sitcom series starring members of Pappy's. It was piloted in July 2013 on BBC Three. The working title was "The Secret Dude Society." Andrew Collins was the script editor for Badults.
+
+So, the conclusion is specifically about Andrew Collins being the script editor for a series with the title "The Secret Dude Society." Wait, but the premise mentions Badults as the series name. Hmm, but it also says the working title was "The Secret Dude Society." So, maybe Badults is the actual name, but during production, it was referred to as "The Secret Dude Society." 
+
+So, if Andrew Collins was the script editor for Badults, which had a working title of "The Secret Dude Society," then the conclusion is stating that he was the script editor for that working title. Is that necessarily true?
+
+Well, the working title is just a temporary name, right? So, the series was originally known as "The Secret Dude Society," but the final name was Badults. So, the script editor for Badults was Andrew Collins, but the working title was used before the series was named Badults. So, does that mean Andrew Collins was the script editor for "The Secret Dude Society" as well?
+
+I think so. Because the working title was "The Secret Dude Society," and he was the script editor for Badults, which was the actual series name. But since the working title was used during production, it's possible that he was involved in both capacities. So, the conclusion is saying that he was the script editor for the series with that working title, which is Badults. So, yes, that would be true because Badults was the series, and it had that working title, and he was the script editor for Badults.
+
+Wait, but is the working title the same as the series name? Or is it just a working title that changes later? The premise says Badults was piloted in July 2013 on BBC Three, and the working title was "The Secret Dude Society." So, the series was Badults, but during development, it was known as "The Secret Dude Society." So, Andrew Collins was the script editor for Badults, which was the actual series name. So, the conclusion is saying he was the script editor for the series with the working title "The Secret Dude Society," which is Badults. So, yes, that's correct because Badults was the series name, and the working title was "The Secret Dude Society." Therefore, Andrew Collins was indeed the script editor for that series.
+
+I think that's the case. So, the conclusion is true.
+</think>
+
+The conclusion is true because Andrew Collins was the script editor for Badults, which was the series name. The working title "The Secret Dude Society" was used during production, but the series was ultimately named Badults. Therefore, as Badults was the series and Collins was its script editor, the conclusion correctly states that he was involved with the series that had the working title "The Secret Dude Society."
+
+**Answer:** The conclusion is true.

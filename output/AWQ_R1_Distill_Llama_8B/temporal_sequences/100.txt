@@ -1,0 +1,33 @@
+Alright, let's try to figure out when Steven could have gone to the clothing store. I'll go through the information step by step.
+
+1. **Steven's Day So Far:**
+   - He woke up at 9am.
+   - Leslie saw him buying lunch at the deli from 9am to 12pm.
+   - Jason saw him stretching at a yoga studio from 12pm to 1pm.
+   - Then, James saw him driving to the water park from 4pm to 5pm.
+   - Nancy saw him attending class at the school from 5pm to 7pm.
+   - The clothing store was closed after 7pm.
+
+2. **Analyzing Steven's Movements:**
+   - From 9am to 12pm: He was at the deli with Leslie.
+   - From 12pm to 1pm: He was at the yoga studio with Jason.
+   - From 4pm to 5pm: He was driving to the water park with James.
+   - From 5pm to 7pm: He was at school with Nancy.
+
+3. **Possible Windows for the Clothing Store:**
+   - **Between 1pm to 4pm:** This is a gap between Jason's sighting at 1pm and James's sighting at 4pm. Steven wasn't seen during this time, so this is a potential window.
+   - **Between 4pm to 5pm:** He was driving to the water park, so he wouldn't have had time to go to the clothing store.
+   - **After 7pm:** The clothing store was closed after 7pm, so this isn't possible.
+
+4. **Eliminating Other Options:**
+   - **9am to 12pm:** He was at the deli.
+   - **12pm to 1pm:** He was at the yoga studio.
+   - **5pm to 7pm:** He was at school.
+
+5. **Conclusion:**
+   - The only feasible time Steven could have gone to the clothing store is between 1pm and 4pm.
+
+So, the answer should be option (B) 1pm to 4pm.
+```markdown
+The correct answer is (B).
+```

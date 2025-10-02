@@ -1,0 +1,52 @@
+Alright, let's try to figure out when David could have gone to the museum based on the information provided. 
+
+First, let's list out all the events and the times when they happened:
+
+1. **David woke up at 6am.**
+2. **Thomas saw David on the rooftop from 6am to 7am.**
+3. **Sarah saw David taking photos near the Leaning Tower of Pisa from 7am to 8am.**
+4. **Sean saw David fixing their computer at the electronic store from 8am to 10am.**
+5. **Samantha saw David driving to the water park from 12pm to 1pm.**
+6. **Andrew saw David stretching at a yoga studio from 1pm to 8pm.**
+7. **The museum was closed after 8pm.**
+
+Okay, so the museum was closed after 8pm, which means David couldn't have gone there after 8pm. Let's see when David was available.
+
+From the timeline:
+
+- **6am to 7am:** David was on the rooftop.
+- **7am to 8am:** David was taking photos.
+- **8am to 10am:** David was fixing the computer.
+- **12pm to 1pm:** David was driving to the water park.
+- **1pm to 8pm:** David was stretching at the yoga studio.
+
+So, during these times, David was either busy or occupied elsewhere. The only times when David wasn't doing these activities are:
+
+- Before 6am: Not mentioned, but David was just waking up.
+- Between 10am and 12pm: No activities mentioned.
+- After 8pm: Museum was closed.
+
+But wait, after 8pm, the museum was closed, so David couldn't have gone then. Let's look again.
+
+From 10am to 12pm: No one saw David during this time. So, maybe he went to the museum during this window.
+
+Also, after 8pm, he was at the yoga studio until 8pm, so he couldn't have gone to the museum after that.
+
+So, the possible time he could have gone is between 10am to 12pm or between 12pm to 1pm. But wait, from 12pm to 1pm, he was driving to the water park.
+
+So, the only time left is between 10am to 12pm.
+
+Therefore, the answer should be (C) 10am to 12pm.
+
+But wait, let me double-check.
+
+From 8am to 10am: He was fixing the computer.
+
+From 10am to 12pm: No one saw him, so he could have gone to the museum during this time.
+
+Yes, that makes sense. So, the correct answer is (C).
+</think>
+
+The correct answer is (C) 10am to 12pm.
+
+Answer: (C)

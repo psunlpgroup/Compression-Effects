@@ -1,0 +1,29 @@
+Let's analyze the timeline step by step to determine the possible times David could have visited the swimming pool.
+
+1. **David's Wake-Up Time**: David woke up at 9am.
+
+2. **Activities Throughout the Day**:
+   - From 9am to 10am: David was working out at the gym (seen by Kimberly).
+   - From 10am to 11am: No information about David's location.
+   - From 11am to 12pm: David was watching a movie at the theater (seen by Michael).
+   - From 12pm to 1pm: David was attending class (seen by Jennifer).
+   - From 1pm to 2pm: David was buying a phone at the electronics store (seen by Jason).
+   - From 2pm to 10pm: David was sitting on a rooftop (seen by William).
+
+3. **Swimming Pool Closure**: The swimming pool was closed after 10pm.
+
+4. **Possible Swimming Pool Visit**:
+   - Between 10am to 11am: This is a possible window since there's no record of David's location during this time.
+   - After 10pm: The swimming pool was closed, so David couldn't have gone there after 10pm.
+
+5. **Eliminating Impossible Times**:
+   - 9am to 10am: David was at the gym.
+   - 11am to 12pm: David was at the theater.
+   - 12pm to 1pm: David was in class.
+   - 1pm to 2pm: David was buying a phone.
+   - 2pm to 10pm: David was on the rooftop.
+   - After 10pm: Swimming pool closed.
+
+   Therefore, the only possible time David could have gone to the swimming pool is between **10am to 11am**.
+
+**Answer:** (A) 10am to 11am

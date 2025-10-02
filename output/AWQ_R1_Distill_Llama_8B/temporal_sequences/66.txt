@@ -1,0 +1,34 @@
+Alright, let's try to figure out when James could have gone to the clothing store. I'll start by listing out all the information we have.
+
+First, James woke up at 6am. That's his wake-up time.
+
+Next, Kimberly saw James buying a bike at the bike shop from 6am to 8am. So, James was at the bike shop during that time.
+
+Then, Lisa saw James reading at the library from 8am to 2pm. So, he was at the library during those hours.
+
+After that, Nancy saw James playing tennis at the tennis court from 3pm to 6pm. So, he was at the tennis court during that period.
+
+The clothing store was closed after 6pm. That means James couldn't have gone there after 6pm.
+
+Now, let's piece this together. James was at the bike shop from 6am to 8am. Then, he went to the library from 8am to 2pm. After that, he played tennis from 3pm to 6pm.
+
+So, between 2pm and 3pm, James was likely transitioning from the library to the tennis court. That time, from 2pm to 3pm, he wasn't at either place; he was probably moving from one to the other.
+
+Also, the clothing store was closed after 6pm, so James couldn't have gone there after that time.
+
+Looking at the options provided:
+
+(A) 6am to 8am: That's when James was at the bike shop, not the clothing store.
+
+(B) 3pm to 6pm: That's when James was playing tennis, not shopping.
+
+(C) 8am to 2pm: That's when James was at the library, so he wasn't at the clothing store during that time.
+
+(D) 2pm to 3pm: This is the time he was moving from the library to the tennis court, so it's possible he went shopping then.
+
+Therefore, the only possible time James could have gone to the clothing store is between 2pm and 3pm.
+</think>
+
+The correct answer is (D) 2pm to 3pm.
+
+**Answer:** (D)

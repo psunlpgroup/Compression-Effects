@@ -1,0 +1,77 @@
+Alright, let's try to figure out when Jennifer could have gone to the swimming pool. I'll go through each piece of information step by step and see how it fits together.
+
+First, Jennifer wakes up at 5am. So, she was likely asleep before that. Richard saw her working at the office from 5am to 8am. That means Jennifer was at the office during that time. So, from 5am to 8am, she's occupied.
+
+Next, Samantha saw Jennifer reading at the library from 12pm to 1pm. So, that's in the early afternoon. Betty saw Jennifer buying a bike at the bike shop from 1pm to 2pm. That's right after the library visit. Sarah saw Jennifer buying a phone at the electronics store from 2pm to 9pm. So, she was shopping for a while in the late afternoon and evening.
+
+Thomas saw Jennifer walking towards the Statue of Liberty from 9pm to 10pm. So, she was out walking at night, probably after she finished her shopping.
+
+Now, the swimming pool was closed after 10pm. So, she couldn't have gone to the swimming pool after 10pm because it was closed then.
+
+Let's piece this together:
+
+- **5am to 8am**: At the office.
+- **8am onwards**: She wakes up at 5am, but she's busy from 5am to 8am, so after that, she's free.
+- **12pm to 1pm**: At the library.
+- **1pm to 2pm**: Buying a bike.
+- **2pm to 9pm**: Buying a phone.
+- **9pm to 10pm**: Walking towards the Statue of Liberty.
+
+So, when could she have gone to the swimming pool? She was free from 8am to 12pm, which is a good window. But wait, during that time, from 8am to 12pm, she was actually at the library from 12pm to 1pm. So, she might have gone to the pool before 12pm or after 1pm.
+
+But let's check the exact times:
+
+- **8am to 12pm**: She's free from 8am to 12pm, but Samantha saw her at the library from 12pm to 1pm. So, she might have gone to the pool between 8am and 12pm, or after 1pm but before 2pm.
+
+Wait, but Betty saw her buying a bike from 1pm to 2pm. So, she was at the bike shop during that time. That means she couldn't have been at the swimming pool during 1pm to 2pm.
+
+Similarly, Sarah saw her buying a phone from 2pm to 9pm. So, she was occupied then as well.
+
+And Thomas saw her walking from 9pm to 10pm, so she was out then.
+
+So, the only free time she had before 10pm was:
+
+- **8am to 12pm**: She was free from 8am to 12pm, but Samantha saw her at the library from 12pm to 1pm. So, she could have gone to the pool before 12pm.
+
+- **After 1pm to 2pm**: She was buying a bike, so no.
+
+- **2pm to 9pm**: She was buying a phone, so no.
+
+- **9pm to 10pm**: She was walking, so no.
+
+Therefore, the only possible time she could have gone to the pool is between 8am and 12pm.
+
+Looking at the options:
+
+(A) 8am to 12pm
+
+(B) 9pm to 10pm
+
+(C) 2pm to 9pm
+
+(D) 12pm to 1pm
+
+So, the correct answer is (A) 8am to 12pm.
+</think>
+
+The correct answer is (A) 8am to 12pm.
+
+**Step-by-Step Explanation:**
+
+1. **Identify Jennifer's schedule:**
+   - **5am to 8am:** At the office.
+   - **12pm to 1pm:** At the library.
+   - **1pm to 2pm:** Buying a bike.
+   - **2pm to 9pm:** Buying a phone.
+   - **9pm to 10pm:** Walking towards the Statue of Liberty.
+
+2. **Determine free intervals:**
+   - **8am to 12pm:** Jennifer is free before going to the library.
+   - **After 1pm to 2pm:** She's buying a bike, so no.
+   - **2pm to 9pm:** She's buying a phone, so no.
+   - **9pm to 10pm:** She's walking, so no.
+
+3. ** swimming pool closure:**
+   - The pool is closed after 10pm, so she couldn't have gone later.
+
+**Answer:** (A) 8am to 12pm.

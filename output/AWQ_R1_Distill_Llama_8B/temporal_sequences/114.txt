@@ -1,0 +1,27 @@
+Okay, let's try to figure out when Mary could have gone to the restaurant based on the information given. 
+
+First, Mary woke up at 9am. So, her activities likely started around that time. David saw Mary walking in the garden from 9am to 11am. That means Mary was in the garden during those hours. 
+
+Then, Samantha saw Mary getting a coffee at the cafe from 2pm to 3pm. So, after her garden visit, Mary went to get coffee. 
+
+Next, Sarah saw Mary driving to the water park from 3pm to 7pm. So, after getting coffee, Mary drove to the water park during that time. 
+
+Now, the restaurant was closed after 7pm. So, if Mary went to the restaurant, she must have done so before 7pm. 
+
+Let's look at the options provided:
+
+(A) 3pm to 7pm
+(B) 9am to 11am
+(C) 2pm to 3pm
+(D) 11am to 2pm
+
+Mary was seen walking in the garden from 9am to 11am and then getting coffee from 2pm to 3pm. The time between 11am and 2pm is when she wasn't seen by anyone mentioned. So, that's a possible window when she could have gone to the restaurant.
+
+But wait, she was driving to the water park from 3pm to 7pm. If she went to the restaurant, it would have to be before 3pm because she was driving to the water park afterward. So, the time between 2pm to 3pm is when she was getting coffee, and then from 3pm onward, she was driving to the water park. Since the restaurant was closed after 7pm, she couldn't have gone later than that.
+
+So, the time between 11am and 2pm seems to be the best possible window when she could have gone to the restaurant without conflicting with the other sightings.
+</think>
+
+Mary could have gone to the restaurant between **11am to 2pm**.
+
+**Answer:** (D)

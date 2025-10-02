@@ -1,0 +1,33 @@
+Okay, so I need to figure out if the conclusion that Rockie is not a turtle is true, false, or uncertain based on the given premises. Let me go through each piece of information step by step.
+
+First, the premise says that all rabbits near the campus are cute. That's interesting, but I don't see how that directly relates to turtles or Rockie yet. Next, it mentions that some turtles can be spotted near the campus. So, there's at least one or more turtles there. Then, it says the only animals near the campus are rabbits and squirrels. So, any animal you can see on campus is either a rabbit or a squirrel. That means Rockie, who can be spotted near the campus, must be either a rabbit or a squirrel. 
+
+Now, the next part says if something is skittish, then it's not calm. So, being skittish implies not calm. Then, all squirrels near the campus are skittish. So, every squirrel on campus is skittish, which means they are not calm. 
+
+Finally, Rockie can be spotted near the campus and is calm. So, Rockie is calm and can be spotted near the campus. 
+
+Putting this together, since Rockie is calm, it can't be a squirrel because all squirrels are skittish and thus not calm. Therefore, Rockie must be a rabbit. But wait, the conclusion is that Rockie is not a turtle. Since Rockie is either a rabbit or a squirrel, and Rockie is calm, Rockie isn't a squirrel, so Rockie is a rabbit. Therefore, Rockie is not a turtle because turtles are a different species. 
+
+Wait, but the premise says some turtles can be spotted near the campus. So, there are turtles there, but Rockie is not one of them. Rockie is either a rabbit or a squirrel, but since Rockie is calm and squirrels are skittish, Rockie is a rabbit. So, Rockie is not a turtle, which makes the conclusion true.
+</think>
+
+The conclusion that Rockie is not a turtle is **true**.
+
+**Step-by-Step Explanation:**
+
+1. **Premise Analysis:**
+   - All rabbits near the campus are cute.
+   - Some turtles can be spotted near the campus.
+   - Only rabbits and squirrels are near the campus.
+   - If an animal is skittish, it's not calm.
+   - All squirrels near the campus are skittish.
+   - Rockie is near the campus and calm.
+
+2. **Logical Deduction:**
+   - Since Rockie is near the campus, it must be a rabbit or a squirrel.
+   - Squirrels near the campus are skittish and thus not calm.
+   - Rockie is calm, so it cannot be a squirrel.
+   - Therefore, Rockie is a rabbit.
+   - Since rabbits are a different species from turtles, Rockie is not a turtle.
+
+**Answer:** The conclusion is **true**.

@@ -1,0 +1,22 @@
+Let's analyze the timeline step by step to determine the possible time Andrew could have visited the clothing store.
+
+**1. Andrew's Activities Over Time:**
+- **9am:** Woke up.
+- **9am to 12pm:** Waiting at the train station (seen by David).
+- **12pm to 4pm:** Walking towards the Statue of Liberty (seen by Emily).
+- **4pm to 8pm:** Walking in the garden (seen by Sarah).
+- **9pm to 10pm:** Fixing the computer (seen by Nancy).
+- **After 10pm:** Clothing store is closed.
+
+**2. Possible Windows for the Clothing Store Visit:**
+- **Between 9am and 12pm:** During this time, Andrew is at the train station. No opportunity to visit the clothing store.
+- **Between 12pm and 4pm:** He's walking towards the Statue of Liberty. No time to visit the store.
+- **Between 4pm and 8pm:** He's in the garden. No time for the store.
+- **Between 9pm and 10pm:** He's fixing the computer. He could have left briefly to go to the store during this period.
+- **After 10pm:** The store is closed, so no visits are possible.
+
+**3. Conclusion:**
+The only possible window when Andrew could have visited the clothing store is **between 9pm and 10pm**, specifically during the short time he wasn't fixing the computer.
+
+**Final Answer:**
+\boxed{B}

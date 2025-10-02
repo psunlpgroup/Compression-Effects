@@ -1,0 +1,34 @@
+To determine the possible times Sean could have gone to the swimming pool, we'll analyze the timeline provided:
+
+1. **Sean wakes up at 6am.**
+   
+2. **Anthony saw Sean buying cookies from 7am to 8am.**
+   
+   - Sean was not at the swimming pool during this time.
+
+3. **Mark saw Sean working out at the gym from 8am to 3pm.**
+   
+   - Sean was not at the swimming pool during this time.
+
+4. **Leslie saw Sean taking photos near the Leaning Tower of Pisa from 3pm to 5pm.**
+   
+   - Sean was not at the swimming pool during this time.
+
+5. **Emily saw Sean walking in the garden from 5pm to 6pm.**
+   
+   - Sean was not at the swimming pool during this time.
+
+6. **William saw Sean fixing their computer at the electronic store from 6pm to 7pm.**
+   
+   - Sean was not at the swimming pool during this time.
+
+7. **The swimming pool was closed after 7pm.**
+   
+   - Therefore, Sean could not have used the swimming pool after 7pm.
+
+Based on this analysis, the only time Sean was not observed by anyone else is between **7am to 8am**, when Anthony saw him buying cookies.
+
+However, the swimming pool was closed after 7pm, so Sean could not have gone to the swimming pool after that time. Therefore, the only possible time Sean could have gone to the swimming pool is **7am to 8am**.
+
+**Answer:** (A) 6am to 7am
+**Index:** A

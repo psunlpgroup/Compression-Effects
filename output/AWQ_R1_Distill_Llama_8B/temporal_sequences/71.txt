@@ -1,0 +1,27 @@
+To determine when James could have gone to the swimming pool, let's analyze the timeline step by step.
+
+1. **Wake-up Time**: James woke up at 12 pm.
+
+2. **Photography Session**: John saw James taking photos near the Leaning Tower of Pisa from 2 pm to 4 pm.
+
+3. **Bike Purchase**: William saw James buying a bike at the bike shop from 4 pm to 5 pm.
+
+4. **Coffee Break**: Jennifer saw James getting a coffee at the cafe from 5 pm to 8 pm.
+
+5. **Swimming Pool Closure**: The swimming pool was closed after 8 pm.
+
+Now, let's identify the possible time windows when James could have visited the swimming pool:
+
+- **Between 12 pm and 2 pm**: James was likely still at home or in the area before John saw him at 2 pm.
+
+- **Between 2 pm and 4 pm**: James was taking photos, so he wouldn't have gone to the swimming pool during this time.
+
+- **Between 4 pm and 5 pm**: James was buying a bike, so he was occupied during this period.
+
+- **Between 5 pm and 8 pm**: James was getting a coffee, so he was likely in the cafe during this time.
+
+- **After 8 pm**: The swimming pool was closed by this time, so James couldn't have gone then.
+
+Therefore, the only feasible time for James to have gone to the swimming pool is **between 12 pm and 2 pm**.
+
+**Answer:** (C) 12pm to 2pm

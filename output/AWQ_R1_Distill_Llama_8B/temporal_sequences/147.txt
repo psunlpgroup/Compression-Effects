@@ -1,0 +1,44 @@
+To determine the possible times Elizabeth could have gone to the bakery, let's analyze the information step by step.
+
+1. **Wake-Up Time**: Elizabeth woke up at 8am.
+
+2. **Class**: David saw Elizabeth in class from 8am to 4pm.
+
+3. **Computer Fix**: Elizabeth was fixing the computer at the store from 4pm to 5pm.
+
+4. **Coffee**: Ashley saw Elizabeth getting coffee from 5pm to 9pm.
+
+5. ** Bakery Hours**: The bakery closes after 10pm.
+
+From the timeline:
+- **Possible Bakery Visits**:
+  - Between 8am and 4pm: Elizabeth was in class, so she likely didn't have time to go to the bakery.
+  - Between 4pm and 5pm: She was fixing the computer, so it's possible she went to the bakery during this time.
+  - Between 5pm and 9pm: She was getting coffee, so it's possible she went to the bakery during this time.
+  - After 9pm: The bakery was closed by 10pm, so she couldn't have gone after 9pm.
+
+Therefore, the possible times Elizabeth could have gone to the bakery are from 4pm to 5pm or from 5pm to 9pm.
+</think>
+
+To determine the possible times Elizabeth could have gone to the bakery, let's analyze the timeline step by step.
+
+1. **Wake-Up Time**: Elizabeth woke up at **8am**.
+
+2. **Class**: David saw Elizabeth in class from **8am to 4pm**.
+
+3. **Computer Fix**: Elizabeth was fixing the computer at the store from **4pm to 5pm**.
+
+4. **Coffee**: Ashley saw Elizabeth getting coffee from **5pm to 9pm**.
+
+5. **Bakery Hours**: The bakery closes after **10pm**.
+
+From the timeline:
+- **Possible Bakery Visits**:
+  - **Between 8am and 4pm**: Elizabeth was in class, so she likely didn't have time to go to the bakery.
+  - **Between 4pm and 5pm**: She was fixing the computer, so it's possible she went to the bakery during this time.
+  - **Between 5pm and 9pm**: She was getting coffee, so it's possible she went to the bakery during this time.
+  - **After 9pm**: The bakery was closed by 10pm, so she couldn't have gone after 9pm.
+
+Therefore, the possible times Elizabeth could have gone to the bakery are from **4pm to 5pm** **or** **5pm to 9pm**.
+
+**Answer:** (C) 4pm to 5pm and (D) 5pm to 9pm

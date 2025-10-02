@@ -1,0 +1,90 @@
+To determine the possible times Ashley could have gone to the beach, let's analyze the information provided.
+
+Ashley woke up at 5am.
+
+**1. From 5am to 7am:**
+- Mark saw Ashley buying cookies at a bakery during this time.
+- The beach was not closed yet, as it closes after 9pm.
+
+**2. From 7am to 9am:**
+- There is no direct information about Ashley's activities during this period.
+- The beach was still open.
+
+**3. From 9am to 1pm:**
+- Richard saw Ashley sitting on a rooftop during this time.
+- The beach was open.
+
+**4. From 1pm to 3pm:**
+- William saw Ashley walking in the garden.
+- The beach was open.
+
+**5. From 3pm to 8pm:**
+- Hannah saw Ashley taking photos near the Leaning Tower of Pisa.
+- The beach was open.
+
+**6. From 8pm to 9pm:**
+- Sarah saw Ashley getting a coffee at the cafe.
+- The beach was still open.
+
+After 9pm, the beach was closed, so Ashley couldn't have gone to the beach after that.
+
+Based on the timeline, Ashley could have possibly gone to the beach during the following overlapping periods:
+
+- **5am to 7am** (Option A)
+- **3pm to 8pm** (Option B)
+
+These are the only times when the beach was open and Ashley was free to visit it based on the given observations.
+</think>
+
+To determine the possible times Ashley could have gone to the beach, let's analyze the information provided step by step.
+
+### **Key Observations:**
+1. **Ashley's schedule:**
+   - Woke up at **5am**.
+   - Was seen buying cookies (**Mark**) from **5am to 7am**.
+   - Was seen sitting on a rooftop (**Richard**) from **9am to 1pm**.
+   - Was seen walking in the garden (**William**) from **1pm to 3pm**.
+   - Was seen taking photos near the Leaning Tower of Pisa (**Hannah**) from **3pm to 8pm**.
+   - Was seen getting a coffee (**Sarah**) from **8pm to 9pm**.
+
+2. **Beach closure:**
+   - The beach was closed **after 9pm**.
+
+### **Analysis:**
+- **From 5am to 7am:**
+  - **Mark** saw Ashley buying cookies during this time.
+  - The beach was open, as it closes after **9pm**.
+  - **Conclusion:** Ashley could have gone to the beach between **5am to 7am**.
+
+- **From 7am to 9am:**
+  - No direct information about Ashley's activities.
+  - However, the beach was still open.
+  - **Possibility:** Ashley could have gone to the beach during this time.
+
+- **From 9am to 1pm:**
+  - **Richard** saw Ashley sitting on a rooftop.
+  - The beach was open.
+  - **Conclusion:** Ashley was occupied and likely did not go to the beach during this time.
+
+- **From 1pm to 3pm:**
+  - **William** saw Ashley walking in the garden.
+  - The beach was open.
+  - **Conclusion:** Ashley was occupied and likely did not go to the beach during this time.
+
+- **From 3pm to 8pm:**
+  - **Hannah** saw Ashley taking photos.
+  - The beach was open.
+  - **Conclusion:** Ashley could have gone to the beach during this time.
+
+- **From 8pm to 9pm:**
+  - **Sarah** saw Ashley getting a coffee.
+  - The beach was still open.
+  - **Conclusion:** Ashley could have gone to the beach during this time.
+
+### **Final Answer:**
+Ashley could have gone to the beach during the following times:
+
+- **Option A:** 5am to 7am
+- **Option B:** 3pm to 8pm
+
+\boxed{B}

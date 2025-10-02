@@ -1,0 +1,29 @@
+Let's analyze the timeline step by step.
+
+1. **Andrew's Wake-up Time**: Andrew wakes up at 6am.
+
+2. **Jessica's Observation**: Jessica saw Andrew stretching at a yoga studio from 6am to 11am.
+
+3. **Elizabeth's Observation**: Elizabeth saw Andrew walking in the garden from 11am to 6pm.
+
+4. **Emily's Observation**: Emily saw Andrew watching a movie at the theater from 8pm to 9pm.
+
+5. **Basketball Court Closure**: The basketball court was closed after 9pm.
+
+Now, let's determine the possible time Andrew could have gone to the basketball court.
+
+- **From 6am to 11am**: Andrew was at the yoga studio according to Jessica.
+  
+- **From 11am to 6pm**: Andrew was walking in the garden according to Elizabeth.
+  
+- **From 8pm to 9pm**: Andrew was at the theater according to Emily.
+  
+- **After 9pm**: The basketball court was closed, so it's not possible for Andrew to have gone there after 9pm.
+
+Therefore, there is no time between 6am and 6pm when Andrew could have gone to the basketball court without overlapping with his activities observed by Jessica and Elizabeth.
+
+However, the options provided include (D) 6pm to 8pm, which is a possible window if Andrew finished his activities earlier.
+
+Given the information, the most plausible time Andrew could have gone to the basketball court is between **6pm to 8pm**.
+
+**Answer:** (D)

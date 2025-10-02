@@ -1,0 +1,1026 @@
+Okay, so I have this problem where I need to find the number of triples of nonnegative integers (a, b, c) such that a + b + c = 300 and a²b + a²c + b²a + b²c + c²a + c²b = 6,000,000. Hmm, that seems a bit intimidating at first, but maybe I can break it down.
+
+First, let's note that a, b, and c are nonnegative integers, and their sum is 300. So, they can range from 0 up to 300, but their total must be exactly 300. The second equation is a bit more complicated: it's the sum of all possible products where one variable is squared and multiplied by the other two. So, it's a²b + a²c + b²a + b²c + c²a + c²b. Hmm, maybe I can factor this expression somehow?
+
+Let me write it out:
+
+a²b + a²c + b²a + b²c + c²a + c²b.
+
+I notice that each term is of the form x²y, where x and y are different variables. Since there are three variables, each pair can be multiplied in two different ways (x²y and y²x). So, the entire expression is the sum over all x²y for x ≠ y.
+
+Wait, is there a way to express this sum in terms of (a + b + c) and (ab + bc + ca)? Maybe. Let me think.
+
+I recall that (a + b + c)(ab + bc + ca) equals a²b + a²c + b²a + b²c + c²a + c²b + 3abc. So, if I subtract 3abc, I get the expression we have. That is:
+
+(a + b + c)(ab + bc + ca) - 3abc = a²b + a²c + b²a + b²c + c²a + c²b.
+
+Given that, our equation becomes:
+
+(a + b + c)(ab + bc + ca) - 3abc = 6,000,000.
+
+But we know that a + b + c = 300. So, substituting that in:
+
+300(ab + bc + ca) - 3abc = 6,000,000.
+
+Let me write this as:
+
+300(ab + bc + ca) - 3abc = 6,000,000.
+
+Divide both sides by 3 to simplify:
+
+100(ab + bc + ca) - abc = 2,000,000.
+
+So, now we have:
+
+100(ab + bc + ca) - abc = 2,000,000.
+
+Hmm, that looks a bit more manageable. Maybe I can denote some variables here. Let me let S = a + b + c = 300, and Q = ab + bc + ca, and P = abc.
+
+So, our equation becomes:
+
+100Q - P = 2,000,000.
+
+So, P = 100Q - 2,000,000.
+
+But we also know from the theory of symmetric sums that for variables a, b, c, the following holds:
+
+a³ + b³ + c³ = (a + b + c)^3 - 3(a + b + c)(ab + bc + ca) + 3abc.
+
+But I don't know if that helps here. Alternatively, perhaps I can express Q in terms of S and something else. Wait, but we have Q and P related through 100Q - P = 2,000,000.
+
+So, P = 100Q - 2,000,000.
+
+But I also know that in the realm of symmetric polynomials, Q is related to S and the squares of the variables.
+
+Wait, another thought: since a, b, c are nonnegative integers, perhaps two of them are equal? Or maybe all three are equal? Let me test that.
+
+Suppose all three variables are equal: a = b = c. Then, since a + b + c = 300, each variable would be 100. Let's plug into the second equation:
+
+a²b + a²c + b²a + b²c + c²a + c²b = 6*(a²b) since all are equal.
+
+So, 6*(100²*100) = 6*1,000,000 = 6,000,000. Hey, that works! So, a = b = c = 100 is a solution.
+
+So, at least one triple (100, 100, 100) satisfies both equations.
+
+But are there more solutions? Let's see.
+
+Suppose two variables are equal, say a = b, and c is different.
+
+Then, let's set a = b, so we have 2a + c = 300, so c = 300 - 2a.
+
+Then, let's compute Q and P.
+
+Q = ab + bc + ca = a² + a c + a c = a² + 2ac.
+
+Similarly, P = a b c = a² c.
+
+So, plug into the equation:
+
+100Q - P = 2,000,000.
+
+Substitute Q and P:
+
+100(a² + 2ac) - a²c = 2,000,000.
+
+Let me write this as:
+
+100a² + 200ac - a²c = 2,000,000.
+
+Factor out a²:
+
+a²(100 - c) + 200ac = 2,000,000.
+
+Hmm, but c = 300 - 2a, so let's substitute that in:
+
+a²(100 - (300 - 2a)) + 200a(300 - 2a) = 2,000,000.
+
+Simplify inside the first term:
+
+100 - 300 + 2a = -200 + 2a.
+
+So, the equation becomes:
+
+a²(-200 + 2a) + 200a(300 - 2a) = 2,000,000.
+
+Let me compute each term:
+
+First term: a²(-200 + 2a) = -200a² + 2a³.
+
+Second term: 200a(300 - 2a) = 60,000a - 400a².
+
+Adding them together:
+
+(-200a² + 2a³) + (60,000a - 400a²) = 2a³ - 500a² + 60,000a.
+
+Set this equal to 2,000,000:
+
+2a³ - 500a² + 60,000a = 2,000,000.
+
+Divide both sides by 2 to simplify:
+
+a³ - 250a² + 30,000a = 1,000,000.
+
+So, we have the cubic equation:
+
+a³ - 250a² + 30,000a - 1,000,000 = 0.
+
+Hmm, solving a cubic equation. That might be tricky, but maybe we can factor it.
+
+Let me try to factor it. Let's denote f(a) = a³ - 250a² + 30,000a - 1,000,000.
+
+I can try rational roots. The possible rational roots are factors of 1,000,000 over factors of 1, which are integers. So, possible integer roots could be divisors of 1,000,000.
+
+Let me test a=100:
+
+f(100) = 1,000,000 - 25,000,000 + 3,000,000 - 1,000,000 = (1,000,000 - 1,000,000) + (-25,000,000 + 3,000,000) = 0 - 22,000,000 ≠ 0.
+
+Not a root.
+
+Try a=200:
+
+f(200) = 8,000,000 - 250*(40,000) + 30,000*200 - 1,000,000.
+
+Wait, 200³ = 8,000,000.
+
+250a² = 250*(200)^2 = 250*40,000 = 10,000,000.
+
+30,000a = 30,000*200 = 6,000,000.
+
+So, f(200) = 8,000,000 - 10,000,000 + 6,000,000 - 1,000,000 = (8 - 10 + 6 - 1) million = 3 million ≠ 0.
+
+Not a root.
+
+Try a=50:
+
+f(50) = 125,000 - 62,500 + 1,500,000 - 1,000,000.
+
+Wait, 50³=125,000; 250*50²=250*2,500=625,000; 30,000*50=1,500,000.
+
+So, f(50)=125,000 - 625,000 + 1,500,000 - 1,000,000 = (125 - 625 + 1,500 - 1,000) = (125 - 625 is -500, -500 + 1,500 is 1,000, 1,000 - 1,000 is 0. So, f(50)=0.
+
+Yes! a=50 is a root. So, (a - 50) is a factor.
+
+So, let's perform polynomial division or factor it out.
+
+Divide f(a) by (a - 50):
+
+Using synthetic division:
+
+Coefficients: 1 | -250 | 30,000 | -1,000,000
+
+Divide by (a - 50):
+
+Bring down the 1.
+
+Multiply 1 by 50: 50. Add to -250: -200.
+
+Multiply -200 by 50: -10,000. Add to 30,000: 20,000.
+
+Multiply 20,000 by 50: 1,000,000. Add to -1,000,000: 0.
+
+So, the cubic factors as (a - 50)(a² - 200a + 20,000).
+
+Now, let's factor the quadratic: a² - 200a + 20,000.
+
+Looking for two numbers that multiply to 20,000 and add to -200.
+
+Hmm, 20,000 is 200*100, but 200 + 100 = 300, not 200.
+
+Wait, 20,000: factors like 50 and 400: 50*400=20,000, 50+400=450, not 200.
+
+Wait, maybe 200 and 100: but 200+100=300.
+
+Wait, maybe 200 is too big. Let me compute discriminant: 200² - 4*1*20,000=40,000 - 80,000= -40,000.
+
+Negative discriminant, so quadratic has complex roots. So, only real root is a=50.
+
+Therefore, the only positive integer solution for a is 50.
+
+So, if a=50, then c=300 - 2a=300 - 100=200.
+
+So, c=200.
+
+Thus, the triple is (50,50,200). But wait, since a and b are equal, so (50,50,200).
+
+But hold on, 50 + 50 + 200=300, that's correct.
+
+So, this is another solution. So, now, we have two solutions: (100,100,100) and (50,50,200). But wait, since we considered a=b, but c can be different.
+
+But in this case, c=200, which is different from a and b.
+
+But wait, what if I consider other cases where two variables are equal? For example, maybe a=c, so b is different. Would that give another solution?
+
+But in our previous case, we assumed a=b, which led us to a solution. If we instead assume a=c, we might get another solution. Let me check.
+
+Wait, but in reality, the equation is symmetric in a, b, c, so whether I set a=b or a=c, it's similar. So, the solution (50,50,200) is equivalent to (50,200,50) or (200,50,50). So, actually, all these permutations are different solutions.
+
+But hold on, in the case where two variables are equal, do we get multiple triples, or just one unique solution?
+
+Wait, the triple (50,50,200) is distinct from (100,100,100). So, how many such triples are there?
+
+If two variables are equal, then the number of distinct triples is equal to the number of permutations, which is 3: since the third variable is different. So, each case where two variables are equal gives three triples.
+
+But in our earlier case, a=50, so (50,50,200), but since a, b, c can be arranged in any order, we have three triples: (50,50,200), (50,200,50), and (200,50,50).
+
+But wait, in the original equation, does the order matter? Because we're counting triples (a,b,c), so order does matter. So, each permutation is a different triple.
+
+But wait, hold on: in our problem, are we counting ordered triples or unordered? The question says "the number of triples of nonnegative integers (a,b,c)", so it's ordered. So, yes, (50,50,200), (50,200,50), and (200,50,50) are distinct triples.
+
+Similarly, if all three variables are equal, there's only one triple: (100,100,100). So, total so far: 4 triples.
+
+But wait, are there any other solutions where none of the variables are equal?
+
+That is, solutions where a, b, c are all distinct.
+
+So, we have found solutions where two variables are equal and the third is different, and the solution where all are equal.
+
+But is there a solution where all three are distinct?
+
+Let me check.
+
+Suppose a, b, c are all distinct. Then, I need to see if such triples can satisfy the given equation.
+
+But before that, let me compute what is Q and P in the case of a=50, b=50, c=200.
+
+Compute Q = ab + bc + ca = 50*50 + 50*200 + 50*200 = 2500 + 10,000 + 10,000 = 25,000.
+
+Compute P = a b c = 50*50*200=5,000,000.
+
+Then, 100Q - P = 100*25,000 - 5,000,000 = 2,500,000 - 5,000,000 = -2,500,000, which is not equal to 2,000,000. Wait, that can't be.
+
+Wait, hold on, that contradicts our earlier substitution. Did I do something wrong?
+
+Wait, no, wait: Wait, when a=50, b=50, c=200, let's compute 100Q - P.
+
+Q = ab + bc + ca = 50*50 + 50*200 + 50*200 = 2500 + 10,000 + 10,000 = 25,000.
+
+P = 50*50*200=5,000,000.
+
+So, 100Q - P = 100*25,000 - 5,000,000 = 2,500,000 - 5,000,000 = -2,500,000.
+
+But in our earlier equation, 100Q - P = 2,000,000. So, this suggests that something is wrong.
+
+Wait, no, actually, we had:
+
+From the initial equation:
+
+(a + b + c)(ab + bc + ca) - 3abc = 6,000,000.
+
+But for a=50, b=50, c=200:
+
+Compute a + b + c=50+50+200=300.
+
+Compute ab + bc + ca=50*50 +50*200 +50*200=2500 +10,000 +10,000=25,000.
+
+Compute 3abc=3*50*50*200=3*5,000,000=15,000,000.
+
+So, (a + b + c)(ab + bc + ca)=300*25,000=7,500,000.
+
+Then, 7,500,000 - 15,000,000= -7,500,000, which is not equal to 6,000,000. So, that's inconsistent.
+
+Wait, so something is wrong here. Because when I set a=50, I thought it satisfied the equation, but it seems like it doesn't. Wait, let's go back.
+
+Earlier, we had:
+
+After substituting a=50 into the cubic equation, we found that it's a root, so it should satisfy the equation.
+
+Wait, let me recast the equation:
+
+After substituting a=50, c=200, let's compute the original expression:
+
+a²b + a²c + b²a + b²c + c²a + c²b.
+
+Since a=50, b=50, c=200.
+
+Compute each term:
+
+a²b = 50²*50 = 2500*50=125,000.
+
+a²c=50²*200=2500*200=500,000.
+
+b²a=50²*50=125,000.
+
+b²c=50²*200=500,000.
+
+c²a=200²*50=40,000*50=2,000,000.
+
+c²b=200²*50=2,000,000.
+
+Adding all together:
+
+125,000 + 500,000 + 125,000 + 500,000 + 2,000,000 + 2,000,000.
+
+Compute:
+
+125,000 + 500,000 = 625,000.
+
+625,000 + 125,000 = 750,000.
+
+750,000 + 500,000 = 1,250,000.
+
+1,250,000 + 2,000,000 = 3,250,000.
+
+3,250,000 + 2,000,000 = 5,250,000.
+
+Wait, that's 5,250,000, not 6,000,000. So, it doesn't satisfy the equation.
+
+Wait, so that's a problem. So, even though a=50 is a root of the cubic equation, plugging back into the original equation doesn't satisfy it. So, something is wrong in my approach.
+
+Wait, so maybe I made a mistake in substitution.
+
+Wait, let me retrace.
+
+We started with the equation:
+
+100Q - P = 2,000,000.
+
+Where Q = ab + bc + ca, P = abc.
+
+We then set a = b, so c = 300 - 2a.
+
+Then, we expressed Q and P in terms of a:
+
+Q = a² + 2ac.
+
+P = a²c.
+
+Then, substituting into 100Q - P = 2,000,000:
+
+100(a² + 2ac) - a²c = 2,000,000.
+
+Which simplifies to:
+
+100a² + 200ac - a²c = 2,000,000.
+
+Then, substituting c = 300 - 2a:
+
+100a² + 200a(300 - 2a) - a²(300 - 2a) = 2,000,000.
+
+Wait, hold on, that step where I substituted c = 300 - 2a into the equation 100a² + 200ac - a²c.
+
+Wait, actually, in my earlier steps, I think I made a miscalculation.
+
+Wait, let me re-express:
+
+After substituting c = 300 - 2a, into 100a² + 200ac - a²c.
+
+So, 100a² + 200a(300 - 2a) - a²(300 - 2a).
+
+So, that would be:
+
+100a² + (60,000a - 400a²) - (300a² - 2a³).
+
+Compute term by term:
+
+100a² + 60,000a - 400a² - 300a² + 2a³.
+
+Combine like terms:
+
+100a² - 400a² - 300a² = (100 - 400 - 300)a² = (-600)a².
+
+So, we have:
+
+-600a² + 60,000a + 2a³.
+
+Set equal to 2,000,000:
+
+2a³ - 600a² + 60,000a - 2,000,000 = 0.
+
+Wait, earlier, I had divided by 2, so it was:
+
+a³ - 300a² + 30,000a - 1,000,000 = 0.
+
+Wait, but when I tested a=50, plugging into this equation:
+
+50³ - 300*50² + 30,000*50 - 1,000,000.
+
+Compute:
+
+125,000 - 300*2,500 + 1,500,000 - 1,000,000.
+
+Which is 125,000 - 750,000 + 1,500,000 - 1,000,000.
+
+Compute step by step:
+
+125,000 - 750,000 = -625,000.
+
+-625,000 + 1,500,000 = 875,000.
+
+875,000 - 1,000,000 = -125,000 ≠ 0.
+
+So, a=50 is not a root of this equation. But earlier, I thought it was a root because I had a different cubic equation.
+
+Wait, this suggests that my substitution was wrong. Wait, no, let me check again.
+
+Wait, when I set a = b, I had:
+
+100Q - P = 2,000,000.
+
+But Q = a² + 2ac.
+
+P = a²c.
+
+So, 100(a² + 2ac) - a²c = 2,000,000.
+
+Which is 100a² + 200ac - a²c = 2,000,000.
+
+Then, substituting c = 300 - 2a:
+
+100a² + 200a(300 - 2a) - a²(300 - 2a) = 2,000,000.
+
+Wait, so expanding:
+
+100a² + 60,000a - 400a² - 300a² + 2a³.
+
+Combine like terms:
+
+100a² - 400a² - 300a² = (100 - 400 - 300)a² = (-600)a².
+
+Thus, 2a³ - 600a² + 60,000a = 2,000,000.
+
+Divide both sides by 2:
+
+a³ - 300a² + 30,000a - 1,000,000 = 0.
+
+Wait, so I think my earlier division by 2 was incorrect because I didn't factor correctly. So, the correct cubic equation is a³ - 300a² + 30,000a - 1,000,000 = 0.
+
+Wait, so when I thought I had a root at a=50, I was wrong because I had incorrectly factored the cubic.
+
+So, let me try again to factor this correct cubic equation.
+
+f(a) = a³ - 300a² + 30,000a - 1,000,000.
+
+Let me try possible integer roots.
+
+Possible roots are factors of 1,000,000: 1, 2, 4, 5, 8, 10, 16, 20, 25, 40, 50, 100, 125, 200, 250, 500, 1000, etc.
+
+Let me try a=100:
+
+f(100)=1,000,000 - 300*(10,000) + 30,000*100 - 1,000,000.
+
+Compute:
+
+1,000,000 - 3,000,000 + 3,000,000 - 1,000,000= (1,000,000 - 1,000,000) + (-3,000,000 + 3,000,000)= 0 + 0=0.
+
+So, a=100 is a root.
+
+Great! So, (a - 100) is a factor.
+
+Now, perform polynomial division:
+
+Divide f(a) by (a - 100):
+
+Using synthetic division:
+
+Coefficients: 1 | -300 | 30,000 | -1,000,000
+
+Divide by (a - 100):
+
+Bring down the 1.
+
+Multiply 1 by 100: 100. Add to -300: -200.
+
+Multiply -200 by 100: -20,000. Add to 30,000: 10,000.
+
+Multiply 10,000 by 100: 1,000,000. Add to -1,000,000: 0.
+
+So, f(a) factors as (a - 100)(a² - 200a + 10,000).
+
+Now, factor the quadratic: a² - 200a + 10,000.
+
+Find two numbers that multiply to 10,000 and add to -200.
+
+Hmm, 200 and 50: 200*50=10,000; 200+50=250, which is not 200.
+
+Wait, 100 and 100: 100*100=10,000; 100+100=200. But we have -200a, so both numbers are negative: -100 and -100.
+
+Thus, the quadratic factors as (a - 100)^2.
+
+Wait, let me verify:
+
+(a - 100)^2 = a² - 200a + 10,000. Yes, that's correct.
+
+Thus, the cubic factors as (a - 100)(a - 100)^2 = (a - 100)^3.
+
+Wait, but that would mean that the only root is a=100, with multiplicity three. But that can't be, because when we tested a=100, it satisfies the equation.
+
+Wait, but let's check:
+
+If a=100, then c=300 - 2a=300 - 200=100. So, c=100, which makes a=b=c=100, which is the all-equal case.
+
+So, the cubic equation only has a=100 as a real root, with multiplicity three.
+
+Therefore, the only solution when two variables are equal is a=100, which gives the triple (100,100,100). So, in this case, there is only one triple where two variables are equal, which is the all-equal case.
+
+Wait, so that suggests that the only solutions are either all variables equal to 100, or all variables distinct?
+
+But earlier, when I tried (50,50,200), it didn't satisfy the equation. So, perhaps there are no solutions where two variables are equal except when all three are equal.
+
+But that seems odd.
+
+Wait, perhaps I made a mistake in my substitution.
+
+Wait, when I set a=b, I get c=300 - 2a.
+
+Then, I substituted into the equation, and ended up with the cubic equation which only had a=100 as a root.
+
+So, that suggests that the only solution where two variables are equal is when all three are equal to 100.
+
+Therefore, there are no solutions where two variables are equal and the third is different.
+
+Therefore, the only possible solutions are either all variables equal or all variables distinct.
+
+Wait, but in that case, how do we find the number of solutions?
+
+We have two cases:
+
+Case 1: All variables equal: a = b = c = 100. So, only one triple.
+
+Case 2: All variables distinct: a, b, c are all different nonnegative integers such that a + b + c = 300 and 100Q - P = 2,000,000.
+
+But in this case, since the equation is symmetric, we can model this as a problem where a, b, c are distinct, and then count the number of such triples.
+
+But this might be complicated. Alternatively, maybe the only solutions are the all-equal case and the case where two variables are equal but that leads back to the all-equal case.
+
+Wait, so perhaps the only solution is the all-equal case.
+
+But that seems unlikely because the problem is given with 6,000,000, which is a large number, so perhaps the all-equal case is the only one.
+
+Wait, but when I tried a=50, it didn't satisfy the equation, so maybe there are no other solutions.
+
+Wait, but let's think differently.
+
+Suppose none of the variables are equal. Then, how can we model this?
+
+Alternatively, perhaps the only solution is a = b = c = 100.
+
+But let's verify that.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b when a = b = c = 100:
+
+Each term is 100²*100 = 1,000,000, and there are 6 terms, so 6*1,000,000 = 6,000,000, which matches.
+
+But is there any other triple where the sum is 6,000,000?
+
+Alternatively, maybe the only triple is (100,100,100), so the number of triples is 1.
+
+But the problem says "the number of triples", and in the beginning, I thought maybe there are more.
+
+Wait, but let me think again.
+
+If we consider the equation:
+
+100Q - P = 2,000,000.
+
+But Q = ab + bc + ca.
+
+P = abc.
+
+Given that a + b + c = 300.
+
+So, in the case where all variables are equal, Q = 3a², P = a³, so 100*3a² - a³ = 2,000,000.
+
+When a=100, 100*3*(100)^2 - (100)^3= 300,000 - 1,000,000= -700,000, which is not equal to 2,000,000.
+
+Wait, wait, that contradicts.
+
+Wait, no, hold on. Wait, when a = b = c = 100, then Q = 3*(100)^2=30,000. P=100^3=1,000,000.
+
+So, 100Q - P=100*30,000 -1,000,000= 3,000,000 -1,000,000=2,000,000, which is correct.
+
+Wait, earlier, I thought that when a = b = c = 100, Q = 3a²=30,000 and P=100*100*100=1,000,000.
+
+Thus, 100Q - P= 3,000,000 -1,000,000=2,000,000, which is correct.
+
+So, that works.
+
+But when I tried a=50, it didn't satisfy the equation. So, perhaps the only solution is a = b = c=100.
+
+But wait, let's think about another approach.
+
+Suppose we fix a and b, then c=300 -a -b.
+
+Then, plug into the equation:
+
+a²b + a²c + b²a + b²c + c²a + c²b=6,000,000.
+
+But this seems too complex.
+
+Alternatively, maybe we can think of the equation as:
+
+(a + b)(a + c)(b + c) - 3abc = 6,000,000.
+
+Wait, no, that might not be the case.
+
+Wait, no, we have:
+
+(a + b + c)(ab + bc + ca) - 3abc = 6,000,000.
+
+So, 300*(ab + bc + ca) - 3abc=6,000,000.
+
+Which is 100*(ab + bc + ca) - abc=2,000,000.
+
+So, 100Q - P=2,000,000.
+
+Given that, perhaps we can model this as:
+
+100Q - P=2,000,000.
+
+But we also know that Q and P are related to the roots of the cubic equation.
+
+Alternatively, maybe we can model it as:
+
+Let’s think of this as an equation where Q and P are related. So, 100Q - P=2,000,000.
+
+But Q = ab + bc + ca, P=abc.
+
+But with a + b + c=300.
+
+So, perhaps we can write Q = (S² - (a² + b² + c²))/2, but I don't know if that helps.
+
+Alternatively, maybe we can use the inequality constraints.
+
+Since a, b, c are nonnegative integers adding up to 300, each variable is between 0 and 300.
+
+But given that 100Q - P=2,000,000, which is a large number, Q must be significantly large.
+
+Wait, Q=ab + bc + ca, and P=abc.
+
+So, 100Q - P=2,000,000.
+
+Which implies that Q=(P + 2,000,000)/100.
+
+So, Q must be (P + 2,000,000)/100.
+
+But Q is also related to the variables.
+
+Wait, since Q=ab + bc + ca, and P=abc.
+
+So, let's think in terms of the variables a, b, c.
+
+Suppose that one of them is much larger than the others.
+
+For example, suppose c is very large, and a and b are small.
+
+Then, Q≈ab + bc + ca≈ab + c(a + b).
+
+But a + b =300 - c, so Q≈ab + c(300 - c).
+
+Similarly, P=abc.
+
+So, 100Q - P=100[ab + c(300 - c)] - abc=2,000,000.
+
+So, 100ab + 100c(300 - c) - abc=2,000,000.
+
+But since a and b are small, maybe we can approximate.
+
+But this seems too vague.
+
+Alternatively, perhaps we can use the AM ≥ GM inequality.
+
+But I don't see a direct application.
+
+Wait, another thought: since 100Q - P=2,000,000, and Q=ab + bc + ca, P=abc.
+
+So, Q= (P + 2,000,000)/100.
+
+But Q is also equal to (a + b + c)^2 - (a² + b² + c²)/2.
+
+Wait, no, that's not correct.
+
+Wait, actually, (a + b + c)^2 = a² + b² + c² + 2(ab + bc + ca).
+
+So, ab + bc + ca = [(a + b + c)^2 - (a² + b² + c²)] / 2.
+
+But we don't have information about a² + b² + c².
+
+Alternatively, perhaps we can consider that for fixed a + b + c=300, the expression ab + bc + ca is maximized when the variables are equal.
+
+Similarly, abc is maximized when the variables are equal.
+
+Wait, so if a, b, c are all equal, then Q is maximized, and P is maximized.
+
+But in our case, 100Q - P is fixed.
+
+So, when variables are equal, 100Q - P=2,000,000.
+
+If variables are unequal, Q might be smaller, and P might be smaller or larger?
+
+Wait, if variables are unequal, ab + bc + ca could be smaller or larger, depending on how they're arranged.
+
+But since 100Q - P is fixed, if Q decreases, P might have to decrease or increase accordingly.
+
+But without knowing more, it's hard to say.
+
+But maybe the only way for 100Q - P=2,000,000 is when the variables are equal, because otherwise, Q and P would not satisfy this equation.
+
+So, perhaps the only solution is when a = b = c = 100.
+
+Therefore, the number of triples is 1.
+
+But wait, the problem is asking for the number of triples of nonnegative integers, so maybe there are more?
+
+Wait, let me test another case.
+
+Suppose that one variable is 200, another is 100, and the third is 0.
+
+So, a=200, b=100, c=0.
+
+Check if this satisfies the second equation.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b.
+
+So:
+
+200²*100 + 200²*0 + 100²*200 + 100²*0 + 0²*200 + 0²*100.
+
+Compute:
+
+40,000*100 + 0 + 10,000*200 + 0 + 0 + 0=4,000,000 + 2,000,000=6,000,000.
+
+Wow, that works.
+
+So, (200,100,0) is another solution.
+
+Similarly, any permutation of this would also satisfy.
+
+So, how many permutations are there?
+
+Since one variable is 200, another is 100, and the third is 0.
+
+So, the number of distinct ordered triples is equal to the number of permutations of (200,100,0).
+
+Which is 3! = 6, but since two elements are distinct and one is zero, the number of distinct ordered triples is 6.
+
+Wait, but 200,100,0 are all different, so yes, 6 permutations.
+
+But wait, is (200,100,0) a solution?
+
+Yes, as we saw, a²b + a²c + b²a + b²c + c²a + c²b=6,000,000.
+
+So, this is another set of solutions.
+
+Similarly, any permutation of (200,100,0) would also satisfy.
+
+So, that's 6 more solutions.
+
+Plus the all-equal solution (100,100,100), so total 7 solutions.
+
+Wait, but hold on, is (200,100,0) really a solution?
+
+Yes, as we computed, but also, are there other solutions where two variables are 100, and the third is 100? Wait, no, that would be (100,100,100).
+
+Alternatively, could we have a triple where one variable is 150, another is 150, and the third is 0?
+
+Let me test that.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b.
+
+So, a=150, b=150, c=0.
+
+Compute:
+
+150²*150 + 150²*0 + 150²*150 + 150²*0 + 0²*150 + 0²*150.
+
+Wait, that's 150²*150 + 150²*150=2*(150²*150)=2*(3,375,000)=6,750,000.
+
+Which is more than 6,000,000.
+
+So, that doesn't work.
+
+Alternatively, a=150, b=75, c=75.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b.
+
+a²b=150²*75=225,000*75=16,875,000.
+
+a²c=150²*75=16,875,000.
+
+b²a=75²*150=5,625*150=843,750.
+
+b²c=75²*75=5,625*75=421,875.
+
+c²a=75²*150=843,750.
+
+c²b=75²*75=421,875.
+
+Adding all together:
+
+16,875,000 + 16,875,000 +843,750 +421,875 +843,750 +421,875.
+
+Compute:
+
+16,875,000 +16,875,000=33,750,000.
+
+843,750 +843,750=1,687,500.
+
+421,875 +421,875=843,750.
+
+So, total sum=33,750,000 +1,687,500 +843,750=33,750,000 + 2,531,250=36,281,250.
+
+Which is way larger than 6,000,000.
+
+So, that doesn't work.
+
+Wait, so maybe the only solutions are the all-equal case and the permutations of (200,100,0).
+
+So, total solutions: 1 (all equal) + 6 (permutations of 200,100,0)=7.
+
+But wait, let me test another triple.
+
+How about (200, 50, 50). Wait, we tried that earlier, but it didn't satisfy the equation.
+
+Wait, a=200, b=50, c=50.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b.
+
+200²*50 + 200²*50 +50²*200 +50²*50 +50²*200 +50²*50.
+
+Compute:
+
+40,000*50 +40,000*50 +2,500*200 +2,500*50 +2,500*200 +2,500*50.
+
+So:
+
+2,000,000 +2,000,000 +500,000 +125,000 +500,000 +125,000.
+
+Total:
+
+2,000,000 +2,000,000=4,000,000.
+
+500,000 +500,000=1,000,000.
+
+125,000 +125,000=250,000.
+
+Total sum=4,000,000 +1,000,000 +250,000=5,250,000≠6,000,000.
+
+So, that doesn't work.
+
+So, (200,50,50) is not a solution.
+
+Wait, but (200,100,0) works because when c=0, a²c=0, and the other terms become a²b + a²c + b²a + b²c + c²a + c²b= a²b + b²a.
+
+So, in the case of (200,100,0), we have 200²*100 +100²*200=40,000*100 +10,000*200=4,000,000 +2,000,000=6,000,000.
+
+So, that's why it works.
+
+Similarly, any permutation where one variable is 200, another is 100, and the third is 0 will satisfy.
+
+So, how many such triples are there?
+
+Since the three variables are 200, 100, 0, each in different positions.
+
+So, for ordered triples, the number is 3! =6.
+
+But wait, is (200,100,0) different from (100,200,0)? Yes, because the problem counts ordered triples, so each permutation is distinct.
+
+So, 6 permutations.
+
+So, in total, we have:
+
+- 1 triple where all are 100.
+
+- 6 triples where the numbers are 200, 100, 0 in some order.
+
+Therefore, total number of triples is 1 + 6=7.
+
+Wait, but hold on, let's test another case where one variable is 150, another is 75, another is 75.
+
+Wait, we did that earlier and it didn't satisfy.
+
+Alternatively, suppose one variable is 250, another is 25, another is 25.
+
+Compute a²b + a²c + b²a + b²c + c²a + c²b.
+
+So, a=250, b=25, c=25.
+
+Compute:
+
+250²*25 +250²*25 +25²*250 +25²*25 +25²*250 +25²*25.
+
+Which is:
+
+62,500*25 +62,500*25 +625*250 +625*25 +625*250 +625*25.
+
+Compute:
+
+1,562,500 +1,562,500 +156,250 +15,625 +156,250 +15,625.
+
+Total:
+
+1,562,500 +1,562,500=3,125,000.
+
+156,250 +156,250=312,500.
+
+15,625 +15,625=31,250.
+
+Total sum=3,125,000 +312,500 +31,250=3,468,750≠6,000,000.
+
+So, that doesn't work.
+
+Alternatively, a=200, b=0, c=100.
+
+Compute:
+
+200²*0 +200²*100 +0²*200 +0²*100 +100²*200 +100²*0.
+
+Which is 0 +20,000*100 +0 +0 +10,000*200 +0=2,000,000 +2,000,000=4,000,000≠6,000,000.
+
+Wait, that doesn't work.
+
+Wait, but earlier, when c=0, a=200, b=100, it worked.
+
+Wait, no, when c=0, a=200, b=100, then a²b + a²c + b²a + b²c + c²a + c²b= a²b + b²a=200²*100 +100²*200=4,000,000 +2,000,000=6,000,000.
+
+So, only when c=0, a=200, b=100, does it work.
+
+But when c=0, a=200, b=0, it doesn't work.
+
+So, the only way when c=0 is when the other two variables are 200 and 100.
+
+Similarly, when a=0, the other two must be 200 and 100.
+
+So, that gives 3 ordered triples where one variable is 0, and the other two are 200 and 100.
+
+Similarly, when none of the variables are zero, we have the all-equal case.
+
+So, in total, 3 (for when one variable is 0) +1 (all equal)=4 solutions.
+
+Wait, but wait, no.
+
+Wait, in the case where one variable is 0, we can have (200,100,0), (200,0,100), (100,200,0), (100,0,200), (0,200,100), (0,100,200). So, 6 ordered triples.
+
+Plus the all-equal case, which is (100,100,100).
+
+So, total 7 solutions.
+
+Therefore, the number of triples is 7.
+
+Wait, but hold on. Let me verify once more.
+
+When I set a=200, b=100, c=0, that works.
+
+Similarly, any permutation where 200,100,0 are in different positions.
+
+So, that's 6 ordered triples.
+
+Plus the all-equal case, which is 1.
+
+So, total 7.
+
+So, the answer is 7.
+
+But wait, let me check if there are other possible cases.
+
+Suppose two variables are 200 and 100, and the third is something else.
+
+But no, because a + b + c=300, so if two variables are 200 and 100, the third must be 0.
+
+So, that's already covered.
+
+Alternatively, suppose two variables are larger than 100, but then the third variable would have to be negative, which is not allowed.
+
+So, the only possibilities are either all variables equal to 100 or one variable is 200, another is 100, and the third is 0.
+
+Thus, total solutions: 7.
+
+Therefore, the number of triples is 7.
+
+**Final Answer**
+\boxed{7}
+</think>
+
+Given the problem of finding the number of triples of nonnegative integers \((a, b, c)\) such that \(a + b + c = 300\) and \(a^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6,000,000\), we start by noting that the second equation can be rewritten using symmetric sums.
+
+We use the identity:
+\[
+(a + b + c)(ab + bc + ca) - 3abc = a^2b + a^2c + b^2a + b^2c + c^2a + c^2b
+\]
+Given \(a + b + c = 300\), we substitute this into the identity:
+\[
+300(ab + bc + ca) - 3abc = 6,000,000
+\]
+Dividing both sides by 3, we get:
+\[
+100(ab + bc + ca) - abc = 2,000,000
+\]
+
+We denote \(S = a + b + c = 300\), \(Q = ab + bc + ca\), and \(P = abc\). This simplifies our equation to:
+\[
+100Q - P = 2,000,000
+\]
+
+We consider the cases where the variables might be equal or distinct. First, we check if all variables are equal. If \(a = b = c\), then \(a = b = c = 100\), which satisfies both equations. This gives us the triple \((100, 100, 100)\).
+
+Next, we consider the case where one variable is zero. If \(c = 0\), then \(a + b = 300\). We need to solve:
+\[
+a^2b + b^2a = 6,000,000
+\]
+We find that \(a = 200\) and \(b = 100\) (or vice versa) works, giving the triple \((200, 100, 0)\). Since this can be permuted in any order, we get 6 distinct triples: \((200, 100, 0)\), \((200, 0, 100)\), \((100, 200, 0)\), \((100, 0, 200)\), \((0, 200, 100)\), and \((0, 100, 200)\).
+
+Combining these results, we have 1 triple where all variables are equal and 6 triples where one variable is zero. Thus, the total number of triples is:
+\[
+1 + 6 = 7
+\]
+
+Therefore, the number of triples is \(\boxed{7}\).

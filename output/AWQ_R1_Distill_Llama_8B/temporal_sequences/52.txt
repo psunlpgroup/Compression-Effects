@@ -1,0 +1,58 @@
+To determine the possible times Leslie could have gone to the beach, let's analyze the information provided step by step.
+
+1. **Wake-Up Time**: Leslie woke up at 7am. This is the earliest possible time Leslie could have started her activities.
+
+2. **Ashley's Observation**: Ashley saw Leslie stretching at a yoga studio from 7am to 9am. This means Leslie was at the yoga studio during this timeframe.
+
+3. **Andrew's Observation**: Andrew saw Leslie playing tennis at the tennis court from 9am to 11am. This indicates that after the yoga session, Leslie moved to the tennis court, where she stayed until 11am.
+
+4. **Jason's Observation**: Jason saw Leslie walking towards the Statue of Liberty from 11am to 4pm. This suggests that after playing tennis, Leslie began walking towards the Statue of Liberty, which took her from 11am to 4pm.
+
+5. **Beach Closing Time**: The beach was closed after 8pm. Therefore, Leslie would need to reach the beach before 8pm to have access to it.
+
+6. **Leslie's Schedule So Far**:
+   - 7am to 9am: Yoga Studio
+   - 9am to 11am: Tennis Court
+   - 11am to 4pm: Walking towards the Statue of Liberty
+
+7. **Determining the Beach Time**:
+   - Leslie's current schedule ends at 4pm, but the beach is accessible until 8pm.
+   - Therefore, the latest she could have reached the beach is by 8pm.
+   - The earliest she could have reached the beach is after 11am, as that's when she began walking towards it.
+
+8. **Possible Timeframe for the Beach**:
+   - From 11am to 4pm: Leslie was walking towards the Statue of Liberty.
+   - From 4pm to 8pm: The beach is still accessible, and she could have gone to the beach during this time.
+
+Therefore, the possible times Leslie could have gone to the beach are between **4pm and 8pm**.
+</think>
+
+To determine the possible times Leslie could have gone to the beach, let's analyze the information provided step by step.
+
+1. **Wake-Up Time**: Leslie woke up at 7am. This is the earliest possible time Leslie could have started her activities.
+
+2. **Ashley's Observation**: Ashley saw Leslie stretching at a yoga studio from 7am to 9am. This means Leslie was at the yoga studio during this timeframe.
+
+3. **Andrew's Observation**: Andrew saw Leslie playing tennis at the tennis court from 9am to 11am. This indicates that after the yoga session, Leslie moved to the tennis court, where she stayed until 11am.
+
+4. **Jason's Observation**: Jason saw Leslie walking towards the Statue of Liberty from 11am to 4pm. This suggests that after playing tennis, Leslie began walking towards the Statue of Liberty, which took her from 11am to 4pm.
+
+5. **Beach Closing Time**: The beach was closed after 8pm. Therefore, Leslie would need to reach the beach before 8pm to have access to it.
+
+6. **Leslie's Schedule So Far**:
+   - 7am to 9am: Yoga Studio
+   - 9am to 11am: Tennis Court
+   - 11am to 4pm: Walking towards the Statue of Liberty
+
+7. **Determining the Beach Time**:
+   - Leslie's current schedule ends at 4pm, but the beach is accessible until 8pm.
+   - Therefore, the latest she could have reached the beach is by 8pm.
+   - The earliest she could have reached the beach is after 11am, as that's when she began walking towards it.
+
+8. **Possible Timeframe for the Beach**:
+   - From 11am to 4pm: Leslie was walking towards the Statue of Liberty.
+   - From 4pm to 8pm: The beach is still accessible, and she could have gone to the beach during this time.
+
+Therefore, the possible times Leslie could have gone to the beach are between **4pm and 8pm**.
+
+\boxed{B}

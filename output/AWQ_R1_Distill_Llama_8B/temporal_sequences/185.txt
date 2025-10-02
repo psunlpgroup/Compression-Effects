@@ -1,0 +1,90 @@
+Alright, let's try to figure out between what times Andrew could have gone to the art show. I'll start by listing out all the information given.
+
+First, Andrew woke up at 6am. That's the earliest time we know.
+
+Next, Kimberly saw Andrew waiting at the airport from 10am to 12pm. So, between 10am and 12pm, Andrew was at the airport.
+
+Then, Anthony saw Andrew attending class at the school from 12pm to 7pm. So, between 12pm and 7pm, Andrew was at school.
+
+After that, John saw Andrew working out at the gym from 7pm to 8pm. So, between 7pm and 8pm, Andrew was at the gym.
+
+The art show was closed after 8pm, which means Andrew could not have gone to the art show after 8pm.
+
+Now, let's see when Andrew was free to go to the art show. He was at the airport from 10am to 12pm, then at school from 12pm to 7pm, and then at the gym from 7pm to 8pm.
+
+So, the times when Andrew was not occupied are:
+
+- From 6am to 10am (he was at home, but we don't have any information about the art show during this time)
+- From 8pm onwards, but the art show was closed after 8pm, so that's not possible.
+
+Wait, but the art show was closed after 8pm, so Andrew couldn't have gone after that time. So, the only possible time when Andrew was free and the art show was open is between 6am to 10am.
+
+But wait, let's double-check. From 10am to 12pm, he was at the airport. From 12pm to 7pm, he was at school. From 7pm to 8pm, he was at the gym. After 8pm, the art show was closed. So, the only time he was free and the art show was open is from 6am to 10am.
+
+But let's look at the options provided:
+
+(A) 6am to 10am
+
+(B) 7pm to 8pm
+
+(C) 12pm to 7pm
+
+(D) 10am to 12pm
+
+From our analysis, the only possible time is between 6am to 10am, which is option (A). However, I'm a bit confused because the art show was closed after 8pm, so why is 7pm to 8pm an option? Maybe I made a mistake.
+
+Wait, no, the art show was closed after 8pm, so Andrew couldn't have gone after that. So, the only possible time is indeed between 6am to 10am, which is option (A). But wait, option (B) is 7pm to 8pm, which is after the art show was closed. So, that's not possible.
+
+Hmm, but the question says "Between what times could they have gone?" So, it's possible that the art show was open before 8pm, but Andrew was busy from 10am to 7pm. So, the only time he was free is from 6am to 10am.
+
+Therefore, the answer should be option (A) 6am to 10am.
+
+Wait, but let me think again. If the art show was closed after 8pm, that means it was open before 8pm. So, if Andrew was at the gym from 7pm to 8pm, he couldn't have gone to the art show during that time because the art show was closed after 8pm. So, the latest he could have gone is before 7pm.
+
+But he was at school from 12pm to 7pm, so he was busy then. He was at the airport from 10am to 12pm, so he was busy then too. He was at home from 6am to 10am, so that's the only time he was free.
+
+Therefore, the only possible time is between 6am to 10am, which is option (A).
+
+But wait, the options don't include that. Wait, let me check the options again.
+
+(A) 6am to 10am
+
+(B) 7pm to 8pm
+
+(C) 12pm to 7pm
+
+(D) 10am to 12pm
+
+Yes, option (A) is 6am to 10am, which is the time when Andrew was free.
+
+So, the answer is option (A).
+
+But wait, I'm a bit confused because the art show was closed after 8pm, so why is 7pm to 8pm an option? Maybe that's a trick. But no, the art show was closed after 8pm, so Andrew couldn't have gone after that time. So, the only possible time is 6am to 10am.
+
+Therefore, the answer is (A).
+</think>
+
+The correct answer is (A) 6am to 10am.
+
+**Step-by-Step Explanation:**
+
+1. **Andrew's Schedule:**
+   - Woke up at 6am.
+   - At the airport from 10am to 12pm.
+   - At school from 12pm to 7pm.
+   - At the gym from 7pm to 8pm.
+
+2. **Art Show Hours:**
+   - Closed after 8pm, meaning it was open before 8pm.
+
+3. **Determine Free Time:**
+   - Andrew was free from 6am to 10am.
+   - He was occupied from 10am onwards until 8pm.
+
+4. **Evaluate Options:**
+   - (A) 6am to 10am: This is when Andrew was free and the art show was likely open.
+   - (B) 7pm to 8pm: Art show was closed after 8pm, so not possible.
+   - (C) 12pm to 7pm: Andrew was busy during this time.
+   - (D) 10am to 12pm: Andrew was at the airport, so not free.
+
+**Answer:** (A) 6am to 10am

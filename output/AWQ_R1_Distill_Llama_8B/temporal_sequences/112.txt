@@ -1,0 +1,32 @@
+Alright, let's try to figure out when Anthony could have gone to the park. I'll go through the information step by step.
+
+First, Anthony woke up at 6am. That's his starting point.
+
+Then, Thomas saw Anthony in school from 6am to 2pm. So, while Thomas is seeing him, Anthony is at school during those hours.
+
+After school, Richard saw Anthony buying lunch at the deli from 2pm to 5pm. So, from 2pm to 5pm, Anthony is at the deli.
+
+Then, Susan saw Anthony at the library from 5pm to 8pm. So, from 5pm to 8pm, he's at the library.
+
+The park closes after 9pm, which means the park is open until 9pm.
+
+Now, we need to see when Anthony could have possibly gone to the park. He's at school from 6am to 2pm, at the deli from 2pm to 5pm, and at the library from 5pm to 8pm. After 8pm, he's not seen doing anything else, and the park closes at 9pm.
+
+So, between 8pm and 9pm, Anthony could have gone to the park because the park is still open, and there's no information indicating he was elsewhere during that time.
+
+Looking at the options:
+
+(A) 2pm to 5pm — That's when he's at the deli, not the park.
+
+(B) 5pm to 8pm — He's at the library then.
+
+(C) 6am to 2pm — He's at school.
+
+(D) 8pm to 9pm — That's when he could have gone to the park.
+
+So, the correct time Anthony could have gone to the park is option (D).
+</think>
+
+The correct answer is (D) 8pm to 9pm.
+
+Answer: (D)

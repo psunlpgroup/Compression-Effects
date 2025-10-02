@@ -1,0 +1,27 @@
+Let's analyze the timeline step by step:
+
+1. **Jessica's activities:**
+   - **9am:** Woke up.
+   - **9am - 11am:** Attending class (Nancy's observation).
+   - **11am - 12pm:** Taking photos near the Leaning Tower of Pisa (John's observation).
+   - **12pm - 1pm:** Taking photos near the Eiffel Tower (Mary's observation).
+   - **1pm - 4pm:** Buying a phone (Anthony's observation).
+   - **4pm - 5pm:** Buying cookies (Kimberly's observation).
+   - **After 6pm:** Restaurant is closed.
+
+2. **Possible restaurant visit:**
+   - The restaurant is open until 6pm.
+   - From the timeline, Jessica is busy from 9am to 5pm.
+   - Therefore, there's no time between 9am and 5pm when Jessica could have gone to the restaurant.
+
+3. **Checking the options:**
+   - **(A) 9am to 11am:** During class.
+   - **(B) 4pm to 5pm:** Buying cookies.
+   - **(C) 5pm to 6pm:** Restaurant is closed after 6pm.
+   - **(D) 11am to 12pm:** Taking photos.
+
+None of the provided times align with when the restaurant was open and Jessica was free.
+
+Therefore, the correct answer is **(C) 5pm to 6pm**.
+
+Answer: (C)

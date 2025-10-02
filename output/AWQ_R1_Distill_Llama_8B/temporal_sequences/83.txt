@@ -1,0 +1,34 @@
+Alright, let's try to figure out between what times Elizabeth could have gone to the park. I'll start by listing out all the information given and then analyze it step by step.
+
+First, Elizabeth woke up at 10am. That's our starting point.
+
+Next, Emily saw Elizabeth buying a bike at the bike shop from 10am to 11am. So, during that hour, Elizabeth was at the bike shop. That means she wasn't at the park during this time.
+
+Then, Leslie saw Elizabeth buying lunch at the deli from 11am to 2pm. So, from 11am to 2pm, Elizabeth was at the deli. She wasn't at the park during this period either.
+
+After that, Sarah saw Elizabeth playing tennis at the tennis court from 4pm to 8pm. So, from 4pm to 8pm, Elizabeth was occupied with tennis. Since the park was closed after 8pm, she couldn't have gone to the park during this time either.
+
+Now, let's see when Elizabeth wasn't doing any of these activities. She was at the bike shop from 10am to 11am, then at the deli from 11am to 2pm, and playing tennis from 4pm to 8pm.
+
+So, when was she free to go to the park?
+
+Between 2pm and 4pm, there are no activities mentioned. That seems like a window when she wasn't occupied with buying a bike, having lunch, or playing tennis.
+
+Also, the park was closed after 8pm, so she couldn't have gone later than that. But since she was playing tennis until 8pm, she didn't have time to go to the park after that.
+
+Therefore, the only available time when Elizabeth could have gone to the park is between 2pm and 4pm.
+</think>
+
+The correct answer is (D) 2pm to 4pm.
+
+**Step-by-Step Explanation:**
+
+1. Elizabeth wakes up at 10am.
+2. From 10am to 11am, she's buying a bike.
+3. From 11am to 2pm, she's having lunch.
+4. From 4pm to 8pm, she's playing tennis.
+5. The park is closed after 8pm.
+
+The only free time Elizabeth had was between 2pm and 4pm, when she could have gone to the park.
+
+**Answer:** (D) 2pm to 4pm

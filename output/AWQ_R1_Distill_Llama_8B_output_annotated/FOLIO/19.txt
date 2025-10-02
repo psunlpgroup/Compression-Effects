@@ -1,0 +1,24 @@
+["initializing"] Alright, let's try to figure this out step by step. So, we have a premise with several statements, and we need to determine if the conclusion is true, false, or uncertain. Let's break it down. ["end-section"]
+
+["adding-knowledge"] First, the Premise: 1. All rabbits that can be spotted near the campus are cute. 2. Some turtles can be spotted near the campus. 3. The only animals that can be spotted near the campus are rabbits and squirrels. 4. If something is skittish, then it is not calm. 5. All the squirrels that can be spotted near the campus are skittish. 6. Rockie can be spotted near the campus, and it is calm. ["end-section"]
+
+["adding-knowledge"] Now, the Conclusion: If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish. ["end-section"]
+
+["deduction"] Hmm. Let's start by identifying what we know about Rockie. ["end-section"]
+
+["adding-knowledge"] From statement 6: Rockie can be spotted near the campus and is calm. ["end-section"]
+["deduction"] So, Rockie is present near the campus and is calm. ["end-section"]
+
+["adding-knowledge"] From statement 4: If something is skittish, then it is not calm. ["end-section"]
+["deduction"] So, if Rockie were skittish, it couldn't be calm. But Rockie is calm, so Rockie is not skittish. ["end-section"]
+
+["deduction"] Now, statement 5: All squirrels near the campus are skittish. So, if Rockie were a squirrel, it would be skittish, but we already determined Rockie is not skittish. Therefore, Rockie is not a squirrel. ["end-section"]
+
+["deduction"] Since the only animals near the campus are rabbits and squirrels (statement 3), and Rockie is neither a squirrel nor a turtle (as per the conclusion's assumption), then Rockie must be a rabbit. ["end-section"]
+
+["backtracking"] Wait, but statement 1 says all rabbits near the campus are cute. ["end-section"]
+["deduction"] So, if Rockie is a rabbit, then it must be cute. ["end-section"]
+
+["deduction"] So, putting it all together: Rockie is a rabbit (since it's near the campus, not a squirrel, and not a turtle), and therefore, Rockie is cute. ["end-section"]
+
+["deduction"] Now, the conclusion says: If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish. From our deduction, Rockie is cute, so the conclusion holds. Therefore, the conclusion is true. ["end-section"]

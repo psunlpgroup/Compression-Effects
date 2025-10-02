@@ -1,0 +1,26 @@
+Let's analyze the timeline step by step.
+
+1. **Wake-Up Time**: William wakes up at 6am.
+2. **Betty's Observation**: Betty saw William at the library from 12pm to 3pm.
+3. **Hannah's Observation**: Hannah saw William at the electronics store from 3pm to 4pm.
+4. **Nancy's Observation**: Nancy saw William at the bakery from 4pm to 7pm.
+5. **Sarah's Observation**: Sarah saw William walking from 7pm to 8pm.
+6. **Michael's Observation**: Michael saw William at the theater from 8pm to 10pm.
+7. **Studio Closing Time**: The art studio closes after 10pm.
+
+**Determine the Possible Time William Could Have Visited the Art Studio:**
+
+- William was at the library from 12pm to 3pm.
+- After that, he was at the electronics store from 3pm to 4pm.
+- Then, he went to the bakery from 4pm to 7pm.
+- At 7pm, he started walking towards the Statue of Liberty, which took until 8pm.
+- From 8pm to 10pm, he was at the theater.
+
+The art studio was closed after 10pm, so William likely couldn't have visited it after 10pm.
+
+Considering the timeline, the only free time William had before 10pm is between 6am to 12pm, when he was not observed by anyone.
+
+**Answer:** (B) 6am to 12pm
+```plaintext
+The correct answer is \boxed{B}.
+```

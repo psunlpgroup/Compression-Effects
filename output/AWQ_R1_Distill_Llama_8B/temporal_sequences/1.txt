@@ -1,0 +1,52 @@
+Alright, let's try to figure out when Emily could have gone to the soccer field. So, we have several clues about where Emily was at different times and when the soccer field was available. Let's lay it out step by step.
+
+First, Emily woke up at 10am. That's our starting point.
+
+Then, Linda saw Emily waiting at the train station from 10am to 12pm. So, Linda saw Emily from 10am until noon.
+
+Next, Ashley saw Emily fixing their computer at the electronic store from 12pm to 1pm. So, after Linda saw her at noon, Ashley saw her an hour later, until 1pm.
+
+Then, John saw Emily walking towards the Statue of Liberty from 1pm to 2pm. So, after Ashley saw her at 1pm, John saw her an hour later, until 2pm.
+
+Finally, the soccer field was closed after 8pm. So, the soccer field was open until 8pm.
+
+Now, we need to figure out the possible times when Emily could have gone to the soccer field, based on when she wasn't seen by Linda, Ashley, or John.
+
+Let's list out the times when Emily was seen:
+
+- 10am to 12pm: Train station (Linda)
+- 12pm to 1pm: Electronic store (Ashley)
+- 1pm to 2pm: Walking towards the Statue of Liberty (John)
+
+So, from this, Emily was occupied from 10am until 2pm.
+
+But the soccer field was closed after 8pm, so the soccer field was available from when? Well, the field was closed after 8pm, which suggests it was open before 8pm. So, the soccer field was available until 8pm.
+
+Now, we need to find a time when Emily wasn't seen by Linda, Ashley, or John, and when the soccer field was open.
+
+Looking at the timeline:
+
+- From 10am to 12pm: At the train station (Linda saw her)
+- 12pm to 1pm: At the electronic store (Ashley saw her)
+- 1pm to 2pm: Walking towards the Statue of Liberty (John saw her)
+
+So, the only time when Emily wasn't seen by anyone is after 2pm. But the soccer field was closed after 8pm, so it was open until 8pm.
+
+Therefore, Emily could have gone to the soccer field between 2pm and 8pm.
+
+Let's check the options:
+
+(A) 12pm to 1pm – But Ashley saw her during this time, so that's not possible.
+
+(B) 10am to 12pm – Linda saw her during this time, so that's not possible.
+
+(C) 2pm to 8pm – This fits because the soccer field was open until 8pm, and no one saw her after 2pm.
+
+(D) 1pm to 2pm – John saw her during this time, so that's not possible.
+
+So, the correct answer is (C) 2pm to 8pm.
+</think>
+
+The soccer field was available from 2pm to 8pm, and during this time, no one saw Emily. Therefore, Emily could have gone to the soccer field between 2pm and 8pm.
+
+**Answer:** (C) 2pm to 8pm

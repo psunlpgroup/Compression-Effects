@@ -1,0 +1,40 @@
+Alright, let's try to figure out when David could have gone to the coffee shop. So, the timeline we have is as follows:
+
+- **8am**: David wakes up.
+- **10am - 1pm**: Elizabeth sees David waiting at the airport.
+- **1pm - 2pm**: David is playing tennis.
+- **2pm - 3pm**: Jessica sees David working out at the gym.
+- **3pm - 4pm**: Susan sees David waiting at the train station.
+- **4pm - 6pm**: Sean sees David sitting on a rooftop.
+- **After 6pm**: The coffee shop is closed.
+
+First, let's list out all the times when David is occupied and where he is:
+
+1. **8am - ?**: Woke up.
+2. **10am - 1pm**: At the airport.
+3. **1pm - 2pm**: Playing tennis.
+4. **2pm - 3pm**: Working out at the gym.
+5. **3pm - 4pm**: At the train station.
+6. **4pm - 6pm**: On the rooftop.
+7. **After 6pm**: Coffee shop is closed.
+
+So, the coffee shop is only open until 6pm. After that, it's closed, and David can't go there anymore.
+
+Now, let's see when David is free. He wakes up at 8am. Between 8am and 10am, he's free because the next activity is him waiting at the airport from 10am to 1pm.
+
+So, between 8am and 10am, he could go to the coffee shop.
+
+Next, after 1pm, he's occupied until 6pm with various activities. So, the only free time is from 8am to 10am.
+
+Looking at the options:
+
+- **(A) 3pm to 4pm**: He's at the train station during this time.
+- **(B) 10am to 1pm**: He's at the airport.
+- **(C) 8am to 10am**: This is when he's free before his next activity.
+- **(D) 1pm to 2pm**: He's playing tennis.
+
+So, the only time he's free is between 8am and 10am, which is option **(C)**.
+
+Therefore, David could have gone to the coffee shop between **8am and 10am**.
+
+**Answer: (C)**

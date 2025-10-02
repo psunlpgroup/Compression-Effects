@@ -1,0 +1,29 @@
+Let's analyze the timeline step by step to determine during which time Thomas could have gone to the football field.
+
+1. **Thomas wakes up at 8am.**
+2. **David saw Thomas fixing their computer at the electronic store from 8am to 10am.**
+   - This means Thomas was at the electronic store between 8am and 10am.
+3. **Jennifer saw Thomas buying lunch at the deli from 10am to 12pm.**
+   - So, Thomas was at the deli between 10am and 12pm.
+4. **Lisa saw Thomas walking towards the Statue of Liberty from 12pm to 2pm.**
+   - Therefore, Thomas was walking towards the Statue of Liberty during this time.
+5. **Sarah saw Thomas buying a phone at the electronics store from 2pm to 5pm.**
+   - This indicates Thomas was at the electronics store between 2pm and 5pm.
+6. **Kimberly saw Thomas buying a bike at the bike shop from 6pm to 9pm.**
+   - Thus, Thomas was at the bike shop during this period.
+7. **The football field was closed after 9pm.**
+   - This means the football field was inaccessible after 9pm.
+
+Now, let's determine the possible times Thomas could have visited the football field:
+
+- Between 8am and 10am: Thomas was at the electronic store with David.
+- Between 10am and 12pm: Thomas was at the deli with Jennifer.
+- Between 12pm and 2pm: Thomas was walking towards the Statue of Liberty.
+- Between 2pm and 5pm: Thomas was buying a phone at the electronics store.
+- Between 6pm and 9pm: Thomas was buying a bike at the bike shop.
+
+Since the football field was closed after 9pm, the latest Thomas could have visited the field is before 9pm. However, during the times when Thomas was at the electronics store (8am-10am and 2pm-5pm), and at the bike shop (6pm-9pm), he was occupied with other activities.
+
+Therefore, the only available time when Thomas was not occupied is between **5pm to 6pm**.
+
+**Answer:** (D) 5pm to 6pm

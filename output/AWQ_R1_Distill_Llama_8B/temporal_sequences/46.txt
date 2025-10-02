@@ -1,0 +1,43 @@
+Alright, let's try to figure out between what times Mark could have gone to the bookstore. 
+
+First, let's list out all the information we have:
+
+1. **Mark's wake-up time**: 5am.
+2. **Mary's observation**: She saw Mark stretching at a yoga studio from **5am to 10am**.
+3. **Betty's observation**: She saw Mark attending class at the school from **10am to 5pm**.
+4. **Emily's observation**: She saw Mark sitting on a rooftop from **5pm to 8pm**.
+5. **Jessica's observation**: She saw Mark walking in the garden from **9pm to 10pm**.
+6. **Bookstore closing time**: It was closed after **10pm**.
+
+So, the question is: Between what times could Mark have gone to the bookstore?
+
+Let's analyze the possible times Mark could have been at the bookstore based on the observations.
+
+- **Mary saw Mark from 5am to 10am**: So, Mark was at the yoga studio during this time. If the bookstore was open during this period, but we don't have any information about the bookstore's operating hours before 10pm. However, since Mary saw Mark at the yoga studio during this time, it's possible that the bookstore was also open then, but we can't be certain.
+
+- **Betty saw Mark from 10am to 5pm**: During this time, Mark was at the school. If the bookstore was open, but Betty didn't mention seeing him there. So, it's possible that Mark was at the school during the time the bookstore could have been open.
+
+- **Emily saw Mark from 5pm to 8pm**: During this time, Mark was on the rooftop. If the bookstore was open, but Emily didn't see him there. So, it's possible that Mark was at the rooftop during the time the bookstore could have been open.
+
+- **Jessica saw Mark from 9pm to 10pm**: During this time, Mark was in the garden. The bookstore was closed after 10pm, so if Mark was in the garden after 10pm, he wouldn't have been at the bookstore during its operating hours.
+
+Now, let's cross-reference these observations to find the possible times when Mark was not observed by anyone else, which could mean he was at the bookstore.
+
+- **Between 5am to 10am**: Mary saw him at the yoga studio. So, he wasn't at the bookstore during this time.
+
+- **Between 10am to 5pm**: Betty saw him at school. So, he wasn't at the bookstore during this time.
+
+- **Between 5pm to 8pm**: Emily saw him on the rooftop. So, he wasn't at the bookstore during this time.
+
+- **Between 8pm to 9pm**: This is a gap between Emily's observation and Jessica's observation. During this time, Mark could have been at the bookstore.
+
+- **Between 9pm to 10pm**: Jessica saw him in the garden. So, he wasn't at the bookstore during this time.
+
+The bookstore was closed after 10pm, so Mark couldn't have gone there after 10pm.
+
+Therefore, the only possible time Mark could have gone to the bookstore is between **8pm to 9pm**.
+
+**Answer:** (A) 8pm to 9pm
+```plaintext
+The correct answer is (A) 8pm to 9pm.
+```

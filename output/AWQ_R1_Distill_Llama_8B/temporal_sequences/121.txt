@@ -1,0 +1,41 @@
+Okay, so let's try to figure out during which time David could have gone to the physics classroom. I'll start by listing all the information given and then see how it fits together.
+
+First, David woke up at 9am. That's his starting point. Then, we have several people who saw David at different times and places:
+
+1. Sean saw David fixing their computer at the electronic store from 9am to 11am.
+2. Thomas saw David walking towards the Statue of Liberty from 11am to 12pm.
+3. James saw David taking photos near the Leaning Tower of Pisa from 12pm to 8pm.
+
+Additionally, the physics classroom was closed after 10pm, which is important because David can't be there after 10pm.
+
+So, let's break this down step by step.
+
+- At 9am, David wakes up. Sean sees him fixing the computer from 9am to 11am. So, during this time, David is at the electronic store.
+
+- After Sean's sighting, Thomas sees David walking towards the Statue of Liberty from 11am to 12pm. So, David must have left the electronic store around 11am to go towards the Statue of Liberty.
+
+- Then, James sees David taking photos near the Leaning Tower of Pisa from 12pm to 8pm. That means David was there from 12pm to 8pm.
+
+Now, the physics classroom was closed after 10pm. So, if David wanted to go there, he would have to do so before 10pm.
+
+Looking at the times when David was seen by Sean, Thomas, and James, the latest time he was spotted is at 8pm by James. So, before 10pm, David was taking photos near the Leaning Tower of Pisa until 8pm.
+
+But wait, the physics classroom was closed after 10pm, so David must have gone there before 10pm. However, he was spotted at the Leaning Tower until 8pm. So, he could have gone to the physics classroom between 8pm and 10pm.
+
+But looking at the options given:
+
+(A) 11am to 12pm  
+(B) 12pm to 8pm  
+(C) 9am to 11am  
+(D) 8pm to 10pm
+
+So, the time when David could have gone to the physics classroom is between 8pm and 10pm, which is option (D).
+
+But wait, let me double-check. The physics classroom was closed after 10pm, so David could have gone any time before 10pm. However, the latest he was seen was at 8pm by James. So, if he went to the physics classroom after 8pm, but before 10pm, that fits.
+
+So, the correct time is 8pm to 10pm, which is option (D).
+</think>
+
+The correct answer is (D) 8pm to 10pm.
+
+**Answer: (D)**

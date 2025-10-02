@@ -1,0 +1,27 @@
+Alright, let's try to figure out when David could have gone to the art show. So, here's what we know:
+
+1. **David's schedule:**
+   - He woke up at 5am.
+   - Samantha saw him working at the office from 5am to 7am.
+   - Mary saw him taking photos near the Eiffel Tower from 7am to 1pm.
+   - Leslie saw him driving to the water park from 3pm to 8pm.
+   - The art show was closed after 8pm.
+
+2. **Key points to consider:**
+   - David was at home at 5am.
+   - From 5am to 7am, he was at the office.
+   - From 7am to 1pm, he was taking photos.
+   - From 3pm to 8pm, he was driving to the water park.
+   - The art show closes after 8pm.
+
+3. **When could he have gone to the art show?**
+   - He was at the office until 7am.
+   - Then he was taking photos until 1pm.
+   - So, between 7am and 1pm, he was occupied.
+   - Next, from 3pm to 8pm, he was driving.
+   - The art show was closed after 8pm, so he couldn't have gone after that.
+   - The only free time before the art show is between 1pm and 3pm.
+   - During that time, he wasn't doing anything mentioned.
+   - So, the possible time he could have gone is between 1pm and 3pm.
+
+**Answer:** (D) 1pm to 3pm

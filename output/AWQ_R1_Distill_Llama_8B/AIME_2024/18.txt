@@ -1,0 +1,1096 @@
+Alright, so I have this geometry problem here. It says: In triangle ABC, the circumcenter is O and the incenter is I. It's given that segment IA is perpendicular to segment OI. The circumradius is 13, and the inradius is 6. I need to find the product AB times AC. Hmm, okay.
+
+First, let me recall some properties of triangle centers. The circumcenter O is the intersection of the perpendicular bisectors of the triangle, and it's the center of the circumscribed circle with radius 13. The incenter I is where the angle bisectors meet, and it's the center of the inscribed circle with radius 6.
+
+Given that IA is perpendicular to OI, that's an interesting condition. I need to visualize this. Maybe drawing a diagram would help. Let me sketch triangle ABC, mark O and I. IA is perpendicular to OI, so angle AIO is 90 degrees.
+
+Hmm, since O is the circumcenter and I is the incenter, there might be some known relations between them. I remember that in any triangle, the distance between the incenter and circumcenter can be calculated using the formula:
+
+OI² = R(R - 2r)
+
+Where R is the circumradius and r is the inradius. Plugging in the given values, OI² = 13(13 - 2*6) = 13(13 - 12) = 13*1 = 13. So OI is √13. But wait, is that correct?
+
+Wait, hold on. The formula is actually OI² = R² - 2Rr. Let me check that again. Yes, I think it's OI² = R² - 2Rr. So substituting, OI² = 13² - 2*13*6 = 169 - 156 = 13. So OI is √13, which matches what I had before. Okay, that seems right.
+
+Now, it's given that IA is perpendicular to OI. So, in triangle AIO, angle at I is 90 degrees. So, IA is the altitude from I to OI. Hmm, so maybe we can use some Pythagorean theorem here.
+
+Let me denote the lengths: IA is the length from incenter to vertex A, which is something, but maybe I can relate it to the sides of the triangle. Wait, inradius is 6, which is the radius of the incircle, but IA is the distance from A to the inradius. Hmm, IA is not the inradius; it's the distance from vertex A to the incenter I.
+
+Wait, so IA is the length of the segment from A to I, which is different from the inradius. Let me recall that in a triangle, the distance from a vertex to the incenter can be expressed in terms of the angles and the inradius.
+
+Wait, actually, I think the formula for the distance from the incenter to a vertex is:
+
+IA = \sqrt{r^2 + \left( \frac{a + b - c}{2} \right)^2 }
+
+Wait, no, that doesn't seem right. Maybe it's better to use trigonometric relations.
+
+In triangle AIO, which is right-angled at I, we can apply Pythagoras:
+
+IA² + OI² = AO²
+
+We know OI is √13, so IA² + 13 = AO².
+
+But AO is the distance from A to the circumradius center O. Since O is the circumcenter, AO is just the circumradius, which is 13. So AO = 13.
+
+So plugging into the equation:
+
+IA² + 13 = 13²
+
+So IA² = 13² - 13 = 169 - 13 = 156
+
+Therefore, IA = √156. Simplify √156: 156 = 4*39, so √156 = 2√39.
+
+Okay, so IA is 2√39.
+
+Now, since I is the incenter, it is equidistant from all sides, and the distance is the inradius, which is 6. So, perhaps I can find the lengths of the angle bisectors or something else.
+
+But I need to find AB * AC. Let me denote AB as c and AC as b, so I need to find b*c.
+
+Hmm, in a triangle, the product of two sides can sometimes be related to the area or the semiperimeter.
+
+Wait, I remember that in a triangle, the product of two sides can be expressed in terms of the inradius and the semiperimeter. The formula is:
+
+Area = r * s, where s is the semiperimeter.
+
+But that gives the area, but I need the product of two sides.
+
+Alternatively, perhaps using the formula for the length of the angle bisector, but I'm not sure.
+
+Wait, let me think about the formula for the distance from the inradius to a vertex. I think there is a formula for IA in terms of the angles of the triangle.
+
+Yes, IA can be expressed as:
+
+IA = \frac{r}{\sin \frac{A}{2}}
+
+Wait, is that correct? Let me recall that in a triangle, the distance from the inradius to a vertex can be expressed as IA = \frac{r}{\sin \frac{A}{2}}.
+
+Yes, that seems familiar. So, since we have IA = 2√39, and r = 6, then:
+
+2√39 = \frac{6}{\sin \frac{A}{2}}
+
+So, \sin \frac{A}{2} = \frac{6}{2√39} = \frac{3}{√39} = \frac{3√39}{39} = \frac{√39}{13}
+
+So, sin(A/2) = √39 / 13
+
+Hmm, so A/2 = arcsin(√39 / 13)
+
+Let me compute what angle A is. Let me compute sin(A/2):
+
+√39 ≈ 6.245, so √39 /13 ≈ 0.4803
+
+So, arcsin(0.4803) ≈ 28.7 degrees. Therefore, angle A is ≈ 57.4 degrees.
+
+But I don't know if this is useful. Maybe I can relate angle A to the sides.
+
+Alternatively, maybe I can use the formula for the product of two sides in a triangle.
+
+Wait, in a triangle, the product of two sides can be expressed as:
+
+b * c = (s - a) * (s - b) + something? Hmm, not exactly.
+
+Wait, actually, in a triangle, the product of two sides can be related to the area and the sine of the included angle.
+
+That is, for sides b and c, the area is (1/2)*b*c*sin A.
+
+But we also have Area = r * s.
+
+So, equate the two:
+
+(1/2)*b*c*sin A = r * s
+
+So, b*c = (2*r*s)/sin A
+
+Hmm, so if I can find sin A, then I can compute b*c.
+
+We have angle A, approximately 57.4 degrees, so sin A is approximately 0.841. But I need an exact value.
+
+Wait, earlier we had sin(A/2) = √39 /13. So, using the double-angle formula, sin A = 2 sin(A/2) cos(A/2)
+
+So, sin A = 2*(√39 /13) * cos(A/2)
+
+But I need cos(A/2). Since sin(A/2) = √39 /13, then cos(A/2) = sqrt(1 - sin²(A/2)) = sqrt(1 - 39/169) = sqrt(130/169) = √130 /13.
+
+Therefore, sin A = 2*(√39 /13)*(√130 /13) = 2*(√(39*130))/13
+
+Compute 39*130: 39*130 = (40 -1)*130 = 5200 -130 = 5070
+
+Wait, 39*130: 39*100=3900, 39*30=1170, so total 3900+1170=5070.
+
+So sin A = 2*√5070 /13
+
+Simplify √5070: 5070 = 507 *10 = (3*13^2)*10, since 507 ÷13=39, which is 3*13.
+
+So √5070 = √(3*13²*10) =13√30.
+
+Therefore, sin A = 2*(13√30)/13 = 2√30.
+
+Wait, that's nice. So sin A = 2√30.
+
+Wait, but sin A can't be greater than 1. 2√30 is approximately 2*5.477 ≈10.954, which is way more than 1. So that can't be.
+
+Wait, that must mean I made a mistake in the calculation.
+
+Wait, let's backtrack.
+
+We had sin(A/2) = √39 /13 ≈0.4803
+
+Then cos(A/2) = sqrt(1 - (√39 /13)^2) = sqrt(1 - 39/169) = sqrt(130/169) = √130 /13 ≈ 0.7692
+
+So sin A = 2 sin(A/2) cos(A/2) = 2*(√39 /13)*(√130 /13) = 2*(√(39*130))/13
+
+Wait, 39*130: 39*100=3900, 39*30=1170, so 3900+1170=5070, as before.
+
+So sin A = 2*√5070 /13
+
+But √5070: 5070 factors: 5070 = 507*10= (3*13^2)*10, as above.
+
+So √5070=13√30
+
+Therefore, sin A = 2*13√30 /13 = 2√30 ≈10.954, which is impossible because sine can't exceed 1.
+
+Hmm, this is a problem. So where did I go wrong?
+
+Wait, perhaps the formula for IA is not IA = r / sin(A/2). Maybe that's incorrect.
+
+Let me verify that formula. The distance from the incenter to a vertex.
+
+I think the correct formula is IA = \frac{r}{\sin \frac{A}{2}}, but maybe I need to verify.
+
+Wait, in triangle AIO, which is right-angled at I, we have:
+
+IA² + OI² = AO²
+
+We have OI² =13, AO=13, so IA²=13² -13=156, IA=√156=2√39.
+
+But if IA is 2√39, and IA is also supposed to be r / sin(A/2), which is 6 / sin(A/2), then:
+
+2√39 = 6 / sin(A/2)
+
+So, sin(A/2) = 6/(2√39)=3/√39=√39/13≈0.4803, which is what I had before.
+
+But then sin A comes out to be 2√30, which is impossible.
+
+So, perhaps my formula for IA is incorrect.
+
+Wait, let me look up the correct formula for the distance from the incenter to a vertex.
+
+Upon checking, the correct formula is:
+
+IA = \frac{r}{\sin \frac{A}{2}}
+
+Wait, but that can't be, because if IA = r / sin(A/2), and with r=6, sin(A/2)=√39/13≈0.4803, so IA≈6 /0.4803≈12.48, which is roughly √156≈12.49. So that seems correct.
+
+Wait, so the formula is correct, but then sin A = 2 sin(A/2) cos(A/2)=2*(√39/13)*(√130/13)=2*(√5070)/13=2*13√30/13=2√30≈10.954, which is impossible.
+
+So, contradiction. Therefore, my mistake must be somewhere else.
+
+Wait, perhaps my calculation of sin A is wrong.
+
+Wait, angle A is the angle at vertex A, so in the triangle, the sum of angles is 180 degrees. If angle A is about 57 degrees, the other angles would be around 61.5 each, which is possible.
+
+But sin A cannot be greater than 1. So, my calculation must be wrong.
+
+Wait, let me recast the problem.
+
+Given that in triangle AIO, angle at I is 90 degrees, so:
+
+IA² + OI² = AO²
+
+We have:
+
+IA² + (√13)² = 13²
+
+So, IA² +13=169
+
+Therefore, IA²=156, IA=√156=2√39.
+
+So, that part is correct.
+
+Then, IA is also equal to r / sin(A/2). So:
+
+2√39 = 6 / sin(A/2)
+
+So, sin(A/2)=6/(2√39)=3/√39=√39/13≈0.4803
+
+So, A/2≈28.7 degrees, so angle A≈57.4 degrees.
+
+But then, sin A= sin(57.4 degrees)≈0.841, which is approximately 2√30≈10.954, but that is impossible.
+
+Wait, so perhaps the formula for IA is different.
+
+Wait, perhaps I confused the formula for the distance from incenter to vertex.
+
+Let me double-check.
+
+In triangle AIO, right-angled at I, we have:
+
+IA² + OI² = AO²
+
+So, IA² +13=169
+
+IA²=156, IA=√156=2√39.
+
+So, that's correct.
+
+But if IA is also equal to something else, perhaps using the formula for the inradius.
+
+Wait, another formula for the distance from incenter to vertex A is:
+
+IA = \frac{2Rr}{b + c - a}
+
+Wait, is that correct?
+
+Wait, I'm not sure. Maybe it's better to refer to some standard formula.
+
+Wait, perhaps in terms of angles.
+
+Wait, in any case, if I have IA=2√39, and I also have IA=6 / sin(A/2), then:
+
+2√39 = 6 / sin(A/2)
+
+So, sin(A/2)=6/(2√39)=3/√39=√39/13≈0.4803
+
+So, A/2≈28.7 degrees, so A≈57.4 degrees.
+
+So, sin A≈0.841.
+
+But then, from the formula, sin A=2√30≈10.954, which is impossible.
+
+So, contradiction.
+
+Therefore, perhaps my initial assumption is wrong.
+
+Wait, perhaps the formula IA = r / sin(A/2) is incorrect.
+
+Wait, maybe it's IA = \sqrt{r^2 + (s - a)^2}, where s is the semiperimeter and a is the side opposite angle A.
+
+Wait, let's check that.
+
+In triangle AIO, which is right-angled at I, we have:
+
+IA² + OI² = AO²
+
+Which gives IA²=156.
+
+Alternatively, in triangle AIO, right-angled at I, with legs IA and OI, hypotenuse AO.
+
+Alternatively, another formula for IA is:
+
+IA = \sqrt{r^2 + (s - a)^2}
+
+Wait, let's compute s - a.
+
+Let me denote the sides: Let BC = a, AC = b, AB = c.
+
+Semiperimeter s = (a + b + c)/2.
+
+So, s - a = ( -a + b + c)/2.
+
+So, if IA = sqrt(r² + (s - a)^2), then:
+
+IA² = r² + (s - a)^2
+
+But we also have IA²=156, and r=6.
+
+So, 156 = 36 + (s - a)^2
+
+Therefore, (s - a)^2=120
+
+So, s - a= sqrt(120)=2*sqrt(30)
+
+Hmm, that's interesting.
+
+But s - a= ( -a + b + c)/2= (b + c -a)/2=2√30
+
+So, (b + c -a)/2=2√30, so b + c -a=4√30.
+
+Hmm, so that's one equation.
+
+But I need another equation to relate a, b, c.
+
+Wait, maybe using the Law of Sines.
+
+In triangle ABC, a=2R sin A, so a=26 sin A.
+
+Similarly, b=26 sin B, c=26 sin C.
+
+Also, angle A + angle B + angle C=180 degrees.
+
+But I don't know angles B and C.
+
+Alternatively, using the formula for area.
+
+Area = r*s=6s.
+
+Also, Area = (1/2)*b*c*sin A.
+
+So, 6s = (1/2)*b*c*sin A.
+
+So, 12s = b*c*sin A.
+
+But we need to find b*c.
+
+So, if I can express sin A in terms of s, maybe.
+
+But I also have from earlier:
+
+sin A=2 sin(A/2) cos(A/2)=2*(√39 /13)*(√130 /13)=2√5070 /13=2*13√30 /13=2√30.
+
+But sin A=2√30≈10.954, which is impossible.
+
+Wait, so perhaps my mistake is that I assumed IA= r / sin(A/2). But in reality, IA is sqrt(r² + (s - a)^2). So, in that case, IA²=36 + (s -a)^2=156, so (s - a)^2=120, so s -a=2√30.
+
+So, from that, I have:
+
+s -a=2√30.
+
+But s= (a + b + c)/2.
+
+So, (a + b + c)/2 -a=2√30.
+
+Therefore, (-a + b + c)/2=2√30.
+
+Thus, -a + b + c=4√30.
+
+So, b + c -a=4√30.
+
+Which is similar to what I had earlier.
+
+So, that's one equation.
+
+Now, in triangle ABC, by the Law of Cosines:
+
+a² = b² + c² - 2bc cos A.
+
+But I don't know a, b, c, or A.
+
+But I can express a=26 sin A, as above.
+
+So, a=26 sin A.
+
+Similarly, b=26 sin B, c=26 sin C.
+
+But since A + B + C=180, we can write B + C=180 - A.
+
+Hmm, not sure.
+
+Alternatively, maybe use the formula for the semiperimeter.
+
+s= (a + b + c)/2.
+
+We have s -a=2√30.
+
+Thus, s= a + 2√30.
+
+So, s= a + 2√30.
+
+Also, s= (a + b + c)/2.
+
+Therefore, a + 2√30= (a + b + c)/2.
+
+Multiply both sides by 2:
+
+2a + 4√30= a + b + c
+
+Therefore, a + b + c=2a +4√30.
+
+Thus, b + c= a +4√30.
+
+Which is consistent with the earlier equation: b + c -a=4√30.
+
+So, that's consistent.
+
+So, now, we have:
+
+From Law of Sines:
+
+a=26 sin A
+
+b=26 sin B
+
+c=26 sin C
+
+Also, A + B + C=180.
+
+We need another relation.
+
+From the area formula:
+
+Area= r*s=6s=6(a + b + c)/2=3(a + b + c).
+
+Also, Area= (1/2)*b*c*sin A.
+
+So, 3(a + b + c)= (1/2)*b*c*sin A.
+
+But I also have b + c= a +4√30.
+
+So, plug that in:
+
+3(a + a +4√30)= (1/2)*b*c*sin A.
+
+So, 3(2a +4√30)= (1/2)*b*c*sin A.
+
+Thus, 6a +12√30= (1/2)*b*c*sin A.
+
+But b*c=26 sin B *26 sin C=26² sin B sin C.
+
+So, 6a +12√30= (1/2)*26² sin B sin C * sin A.
+
+But sin A= sin(180 - B - C)=sin(B + C).
+
+So, sin A= sin(B + C).
+
+Hmm, not sure.
+
+Alternatively, maybe express sin B sin C in terms of angles.
+
+Alternatively, perhaps express in terms of sum and product.
+
+Wait, perhaps use the formula:
+
+sin B sin C= [cos(B - C) - cos(B + C)] /2
+
+But cos(B + C)=cos(180 - A)= -cos A.
+
+So, sin B sin C= [cos(B - C) + cos A]/2
+
+So, then:
+
+6a +12√30= (1/2)*26² * [cos(B - C) + cos A]/2 * sin A
+
+Wait, getting complicated.
+
+Alternatively, perhaps express cos(B - C) in terms of other variables.
+
+But this might not be straightforward.
+
+Alternatively, maybe think about the formula for product of sides in terms of the semiperimeter and angles.
+
+Wait, another approach: since I know s -a=2√30, and s= a +2√30, then:
+
+s= a +2√30
+
+Also, s= (a + b + c)/2
+
+So, a +2√30= (a + b + c)/2
+
+So, 2a +4√30= a + b + c
+
+So, b + c= a +4√30
+
+So, as before.
+
+Now, let me consider that in triangle ABC, the sides are related by the Law of Cosines:
+
+a²= b² + c² - 2bc cos A
+
+But a=26 sin A, so:
+
+(26 sin A)^2= b² + c² - 2bc cos A
+
+So, 676 sin² A= b² + c² - 2bc cos A
+
+But b=26 sin B, c=26 sin C.
+
+So, substitute:
+
+676 sin² A= (26 sin B)^2 + (26 sin C)^2 - 2*(26 sin B)(26 sin C) cos A
+
+Simplify:
+
+676 sin² A= 676 sin² B + 676 sin² C - 2*676 sin B sin C cos A
+
+Divide both sides by 676:
+
+sin² A= sin² B + sin² C - 2 sin B sin C cos A
+
+Hmm, that seems manageable.
+
+Also, since A + B + C=180, so B + C=180 - A.
+
+So, sin(B + C)=sin(180 - A)=sin A.
+
+So, sin(B + C)=sin A.
+
+But sin(B + C)=sin B cos C + cos B sin C.
+
+Therefore, sin A= sin B cos C + cos B sin C.
+
+So, that's another equation.
+
+So, now, I have:
+
+1. sin² A= sin² B + sin² C - 2 sin B sin C cos A
+
+2. sin A= sin B cos C + cos B sin C
+
+Hmm, perhaps I can express sin² A in terms of sin B and sin C.
+
+Alternatively, maybe express sin² A as [sin B cos C + cos B sin C]^2.
+
+Wait, since sin A= sin B cos C + cos B sin C.
+
+So, sin² A= [sin B cos C + cos B sin C]^2= sin² B cos² C + 2 sin B cos C cos B sin C + cos² B sin² C.
+
+So, sin² A= sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C.
+
+But from equation 1:
+
+sin² A= sin² B + sin² C - 2 sin B sin C cos A
+
+So, set them equal:
+
+sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C = sin² B + sin² C - 2 sin B sin C cos A
+
+Hmm, this is getting complicated. Maybe I need another approach.
+
+Wait, perhaps use the fact that in triangle ABC, cos A= -cos(B + C)= -(cos B cos C - sin B sin C)= -cos B cos C + sin B sin C.
+
+Therefore, cos A= -cos B cos C + sin B sin C.
+
+So, plug that into equation 1.
+
+So, equation 1:
+
+sin² A= sin² B + sin² C - 2 sin B sin C [ -cos B cos C + sin B sin C ]
+
+So, sin² A= sin² B + sin² C + 2 sin B sin C cos B cos C - 2 sin² B sin² C
+
+Hmm, not sure.
+
+Wait, maybe I can write sin² A as [sin B cos C + cos B sin C]^2, as before.
+
+Which is sin² A= sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C
+
+But from equation 1:
+
+sin² A= sin² B + sin² C - 2 sin B sin C cos A
+
+But cos A= -cos B cos C + sin B sin C.
+
+So, equation 1 becomes:
+
+sin² A= sin² B + sin² C - 2 sin B sin C [ -cos B cos C + sin B sin C ]
+
+So, sin² A= sin² B + sin² C + 2 sin B sin C cos B cos C - 2 sin² B sin² C
+
+Therefore, sin² A= sin² B + sin² C + 2 sin B sin C cos B cos C - 2 sin² B sin² C
+
+But from the expansion of sin² A, we have:
+
+sin² A= sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C
+
+So, equate the two expressions:
+
+sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C = sin² B + sin² C + 2 sin B sin C cos B cos C - 2 sin² B sin² C
+
+Hmm, let's subtract the right-hand side from both sides:
+
+sin² B cos² C + 2 sin B cos B sin C cos C + cos² B sin² C - sin² B - sin² C - 2 sin B sin C cos B cos C + 2 sin² B sin² C =0
+
+Simplify term by term:
+
+sin² B cos² C - sin² B= sin² B (cos² C -1)= -sin² B sin² C
+
+Similarly, cos² B sin² C - sin² C= sin² C (cos² B -1)= -sin² C cos² B
+
+Then, 2 sin B cos B sin C cos C - 2 sin B sin C cos B cos C=0
+
+And +2 sin² B sin² C.
+
+So, putting all together:
+
+- sin² B sin² C - sin² C cos² B + 2 sin² B sin² C=0
+
+Factor sin² C:
+
+sin² C (- sin² B - cos² B + 2 sin² B)=0
+
+Simplify inside the brackets:
+
+- sin² B - cos² B + 2 sin² B= ( - sin² B - cos² B ) + 2 sin² B= ( - (sin² B + cos² B) ) + 2 sin² B= -1 + 2 sin² B
+
+So, equation becomes:
+
+sin² C (-1 + 2 sin² B)=0
+
+Thus, either sin² C=0, which would imply C=0, which is impossible in a triangle, or -1 + 2 sin² B=0.
+
+So, -1 + 2 sin² B=0 → 2 sin² B=1 → sin² B=1/2 → sin B=√2/2.
+
+Therefore, angle B=45 degrees or 135 degrees.
+
+But in a triangle, angles are less than 180, so angle B=45 degrees or 135.
+
+But if angle B=135 degrees, then angle A + angle C=45 degrees.
+
+But from earlier, angle A≈57.4 degrees, which would make angle C≈-12.6 degrees, which is impossible.
+
+Therefore, angle B=45 degrees.
+
+So, angle B=45 degrees, angle A≈57.4 degrees, so angle C≈180 -57.4 -45≈77.6 degrees.
+
+So, angle C≈77.6 degrees.
+
+So, sin C≈sin(77.6)≈0.975.
+
+So, sin C≈0.975, sin B=√2/2≈0.7071.
+
+So, now, let's compute sides:
+
+a=26 sin A≈26 sin(57.4 degrees)≈26*0.841≈21.867
+
+b=26 sin B≈26*(√2/2)≈26*0.7071≈18.384
+
+c=26 sin C≈26*0.975≈25.35
+
+So, approximately, a≈21.867, b≈18.384, c≈25.35
+
+But we need the exact value of AB * AC, which is c*b.
+
+But we can express b*c in terms of sines.
+
+From above, b=26 sin B, c=26 sin C.
+
+Therefore, b*c=26² sin B sin C=676 sin B sin C.
+
+We need sin B sin C.
+
+We have angle B=45 degrees, angle C≈77.6 degrees.
+
+But angle C=180 - A - B.
+
+But angle A can be computed.
+
+Wait, angle A is approximately 57.4 degrees.
+
+But perhaps we can find sin B sin C in terms of known quantities.
+
+We have angle A=57.4 degrees, angle B=45 degrees, so angle C≈77.6 degrees.
+
+Alternatively, since we have angle A, angle B, and angle C, we can compute sin B sin C.
+
+But let me think differently.
+
+From the Law of Sines, a/sin A= b/sin B= c/sin C=26.
+
+So, a=26 sin A, b=26 sin B, c=26 sin C.
+
+So, b*c=26² sin B sin C=676 sin B sin C.
+
+But we can express sin B sin C using product-to-sum identities:
+
+sin B sin C= [cos(B - C) - cos(B + C)] /2
+
+We know angle B=45 degrees, angle C=180 - A - B=180 - A -45.
+
+But angle A is such that sin(A/2)=√39 /13.
+
+Wait, angle A=2 arcsin(√39 /13).
+
+So, angle A≈57.4 degrees, as before.
+
+So, angle C=180 -57.4 -45≈77.6 degrees.
+
+So, angle C≈77.6 degrees.
+
+Therefore, B - C≈45 -77.6≈-32.6 degrees.
+
+So, cos(B - C)=cos(-32.6)=cos(32.6)≈0.843.
+
+And cos(B + C)=cos(45 +77.6)=cos(122.6)≈-0.535.
+
+Therefore, sin B sin C≈[0.843 - (-0.535)] /2≈(1.378)/2≈0.689.
+
+So, sin B sin C≈0.689.
+
+Therefore, b*c≈676*0.689≈464.3.
+
+But this is approximate.
+
+But the problem is expecting an exact value.
+
+So, perhaps we can find an exact expression.
+
+Wait, let me recall that we had:
+
+From the area formula:
+
+6s= (1/2)*b*c*sin A
+
+So, 12s= b*c*sin A
+
+So, b*c=12s / sin A
+
+So, if I can find s and sin A, then I can compute b*c.
+
+But s is the semiperimeter, which is (a + b + c)/2.
+
+But I also have s= a +2√30.
+
+From earlier, s= a +2√30.
+
+So, s= a +2√30.
+
+But a=26 sin A.
+
+So, s=26 sin A +2√30.
+
+Therefore, b*c=12*(26 sin A +2√30)/ sin A= (12*26 sin A +24√30)/ sin A= 312 + (24√30)/sin A
+
+Hmm, but we need to express sin A in terms of known quantities.
+
+Wait, earlier, we had sin A=2√30, but that was incorrect because sin A can't be more than 1.
+
+Wait, perhaps sin A is equal to something else.
+
+Wait, in triangle AIO, right-angled at I, we had IA=2√39, OI=√13, AO=13.
+
+So, IA² + OI²= AO² → 156 +13=169, which is correct.
+
+But we also had IA=6 / sin(A/2)=2√39, so sin(A/2)=6/(2√39)=3/√39=√39 /13.
+
+So, sin(A/2)=√39 /13.
+
+Therefore, angle A=2 arcsin(√39 /13).
+
+So, sin A=2 sin(A/2) cos(A/2)=2*(√39 /13)*(sqrt(1 - (39/169))).
+
+Which is 2*(√39 /13)*(sqrt(130)/13)=2√5070 /169=2*13√30 /169=26√30 /169=2√30 /13.
+
+Wait, wait, that's different.
+
+Wait, sin A=2 sin(A/2) cos(A/2)=2*(√39 /13)*(√130 /13)=2*(√(39*130))/13=2*sqrt(5070)/13.
+
+But sqrt(5070)=sqrt(13² *30)=13*sqrt(30).
+
+Therefore, sin A=2*(13√30)/13=2√30.
+
+Wait, but sin A=2√30≈10.954>1, which is impossible.
+
+Wait, this suggests that there is a contradiction.
+
+But how?
+
+Wait, in triangle AIO, right-angled at I, IA² + OI²= AO².
+
+Which gives IA²=156, so IA=√156.
+
+But if IA=6 / sin(A/2), then sin(A/2)=6 / IA=6 /√156=√156 /26=√(4*39)/26=2√39 /26=√39 /13≈0.4803.
+
+So, sin(A/2)=√39 /13, so angle A/2≈28.7 degrees, so angle A≈57.4 degrees.
+
+But then, sin A= sin(57.4 degrees)≈0.841, which is not equal to 2√30≈10.954.
+
+Therefore, the error is that IA=√156, but in reality, IA=6 / sin(A/2)=√156, so sin(A/2)=6 /√156=√156 /26=√(4*39)/26=2√39 /26=√39 /13≈0.4803.
+
+So, sin(A/2)=√39 /13, so angle A=2 arcsin(√39 /13).
+
+Therefore, sin A=2 sin(A/2) cos(A/2)=2*(√39 /13)*(sqrt(1 - 39/169))=2*(√39 /13)*(sqrt(130)/13)=2*(√5070)/169=2*13√30 /169=26√30 /169=2√30 /13≈0.560.
+
+Wait, hold on, sqrt(5070)=sqrt(13² *30)=13 sqrt(30). So:
+
+sin A=2*(√39 /13)*(√130 /13)=2*(sqrt(39*130))/13=2*(sqrt(5070))/13=2*(13 sqrt(30))/13=2 sqrt(30).
+
+Wait, so sin A=2 sqrt(30). But that's greater than 1. So, again, impossible.
+
+This suggests that there is a flaw in my reasoning.
+
+Wait, is it possible that triangle AIO is not right-angled? But the problem states that IA is perpendicular to OI, so triangle AIO is right-angled at I.
+
+Wait, but then how come sin A=2 sqrt(30)>1?
+
+Therefore, the problem is inconsistent? But the problem is given, so I must have made a wrong assumption.
+
+Wait, maybe the formula IA= r / sin(A/2) is incorrect.
+
+Wait, let me refer to the correct formula.
+
+Upon checking, the correct formula for the distance from the incenter to a vertex is:
+
+IA= \sqrt{r^2 + (s - a)^2}
+
+Which we used earlier.
+
+So, IA²= r² + (s -a)^2=36 + (s -a)^2=156.
+
+So, (s -a)^2=120, so s -a=2 sqrt(30).
+
+So, s= a +2 sqrt(30).
+
+So, s= (a + b + c)/2= a +2 sqrt(30).
+
+Thus, (a + b + c)/2= a +2 sqrt(30).
+
+So, a + b + c=2a +4 sqrt(30).
+
+Therefore, b + c= a +4 sqrt(30).
+
+So, that's one equation.
+
+Also, from Law of Sines:
+
+a=26 sin A,
+
+b=26 sin B,
+
+c=26 sin C.
+
+Also, A + B + C=180.
+
+From the area formula:
+
+Area= r*s=6s=6*(a +2 sqrt(30)).
+
+Also, Area= (1/2)*b*c*sin A.
+
+Therefore,
+
+6*(a +2 sqrt(30))= (1/2)*b*c*sin A.
+
+But b*c=26² sin B sin C.
+
+So,
+
+6*(a +2 sqrt(30))= (1/2)*26² sin B sin C * sin A.
+
+So,
+
+6*(a +2 sqrt(30))= (1/2)*676 sin B sin C sin A.
+
+Simplify,
+
+6*(a +2 sqrt(30))= 338 sin B sin C sin A.
+
+But a=26 sin A, so:
+
+6*(26 sin A +2 sqrt(30))=338 sin B sin C sin A.
+
+So,
+
+156 sin A +12 sqrt(30)=338 sin B sin C sin A.
+
+Hmm, that's a complicated equation.
+
+But we also have angle A=2 arcsin(sqrt(39)/13).
+
+So, angle A≈57.4 degrees.
+
+And angle B=45 degrees, as found earlier.
+
+So, angle C≈77.6 degrees.
+
+Thus, sin B sin C≈0.7071 *0.975≈0.689.
+
+So, plug in approximate values:
+
+156 *0.841 +12*5.477≈156*0.841≈130.8 +12*5.477≈65.7≈196.5.
+
+And 338 *0.689 *0.841≈338*0.578≈195.8.
+
+So, approximately, both sides≈196.5, which is consistent.
+
+So, the approximate value of b*c=26² sin B sin C≈676*0.689≈464.
+
+But we need the exact value.
+
+Wait, perhaps express sin B sin C in terms of angle A.
+
+Given that angle B=45 degrees, angle C=180 - A -45=135 - A.
+
+So, sin C=sin(135 - A)=sin135 cos A - cos135 sin A= (√2/2)(cos A + sin A).
+
+Therefore, sin B sin C= sin45 * sin(135 - A)= (√2/2)*( (√2/2)(cos A + sin A) )= (2/4)(cos A + sin A)= (1/2)(cos A + sin A).
+
+Therefore, sin B sin C= (cos A + sin A)/2.
+
+So, sin B sin C= (cos A + sin A)/2.
+
+Therefore, from the area formula:
+
+6*(a +2 sqrt(30))= 338 * (cos A + sin A)/2 * sin A
+
+So,
+
+6*(a +2 sqrt(30))= 169*(cos A + sin A)* sin A
+
+But a=26 sin A, so:
+
+6*(26 sin A +2 sqrt(30))=169*(cos A + sin A) sin A
+
+Simplify left side:
+
+6*26 sin A +12 sqrt(30)=156 sin A +12 sqrt(30)
+
+Right side:
+
+169*(cos A sin A + sin² A)
+
+So, equation becomes:
+
+156 sin A +12 sqrt(30)=169 cos A sin A +169 sin² A
+
+But sin A is known in terms of sqrt(39)/13.
+
+Wait, sin A=2 sqrt(30). Wait, but sin A cannot be 2 sqrt(30). So, perhaps I need to re-express sin A.
+
+Wait, from earlier:
+
+sin(A/2)=√39 /13,
+
+so cos(A/2)=sqrt(1 - 39/169)=sqrt(130)/13.
+
+Therefore, sin A=2 sin(A/2) cos(A/2)=2*(√39 /13)*(sqrt(130)/13)=2*sqrt(5070)/169=2*13 sqrt(30)/169=26 sqrt(30)/169=2 sqrt(30)/13.
+
+Therefore, sin A=2 sqrt(30)/13.
+
+So, plug sin A=2 sqrt(30)/13 into the equation.
+
+Left side:
+
+156*(2 sqrt(30)/13) +12 sqrt(30)= (156*2 sqrt(30))/13 +12 sqrt(30)=24 sqrt(30) +12 sqrt(30)=36 sqrt(30)
+
+Right side:
+
+169*(cos A*(2 sqrt(30)/13) + (2 sqrt(30)/13)^2 )
+
+Compute each term:
+
+First term: 169*(cos A*(2 sqrt(30)/13))=169*(2 sqrt(30)/13) cos A=13*2 sqrt(30) cos A=26 sqrt(30) cos A
+
+Second term:169*((2 sqrt(30)/13)^2)=169*(4*30)/169=4*30=120.
+
+So, right side=26 sqrt(30) cos A +120.
+
+Therefore, equation becomes:
+
+36 sqrt(30)=26 sqrt(30) cos A +120
+
+Thus,
+
+26 sqrt(30) cos A=36 sqrt(30) -120
+
+Divide both sides by sqrt(30):
+
+26 cos A=36 - (120)/sqrt(30)
+
+But 120/sqrt(30)= (120 sqrt(30))/30=4 sqrt(30).
+
+So,
+
+26 cos A=36 -4 sqrt(30)
+
+Thus,
+
+cos A=(36 -4 sqrt(30))/26= (18 -2 sqrt(30))/13.
+
+So, cos A= (18 -2 sqrt(30))/13.
+
+Therefore, angle A= arccos( (18 -2 sqrt(30))/13 )
+
+But we can compute sin A, which is 2 sqrt(30)/13.
+
+Wait, but earlier, sin A=2 sqrt(30)/13≈0.560.
+
+But according to the previous calculation, sin A=2 sqrt(30)/13≈0.560.
+
+So, sin A=2 sqrt(30)/13.
+
+Therefore, back to equation:
+
+36 sqrt(30)=26 sqrt(30) cos A +120
+
+But cos A=(18 -2 sqrt(30))/13.
+
+Therefore, 26 sqrt(30) cos A=26 sqrt(30)*(18 -2 sqrt(30))/13=2 sqrt(30)*(18 -2 sqrt(30))=36 sqrt(30) -4*30=36 sqrt(30)-120
+
+Which is equal to left side:36 sqrt(30)-120=36 sqrt(30)-120=36 sqrt(30)-120.
+
+So, it's consistent.
+
+Therefore, everything checks out.
+
+So, now, going back, we had:
+
+b*c=12s / sin A.
+
+But s= a +2 sqrt(30)=26 sin A +2 sqrt(30).
+
+So, s=26 sin A +2 sqrt(30).
+
+Therefore, b*c=12*(26 sin A +2 sqrt(30))/ sin A= (312 sin A +24 sqrt(30))/ sin A=312 + (24 sqrt(30))/ sin A.
+
+But sin A=2 sqrt(30)/13.
+
+Therefore, (24 sqrt(30))/ sin A=24 sqrt(30)/(2 sqrt(30)/13)=24*13/2=12*13=156.
+
+Therefore, b*c=312 +156=468.
+
+So, the product AB * AC= b*c=468.
+
+Therefore, the answer is 468.
+
+**Final Answer**
+\boxed{468}
+</think>
+
+Given triangle \( \triangle ABC \) with circumcenter \( O \) and incenter \( I \), where \( \overline{IA} \perp \overline{OI} \), circumradius \( 13 \), and inradius \( 6 \). We need to find \( AB \cdot AC \).
+
+1. **Distance between Incenter and Circumcenter (OI):**
+   Using the formula \( OI^2 = R(R - 2r) \):
+   \[
+   OI^2 = 13(13 - 2 \cdot 6) = 13 \cdot 1 = 13 \implies OI = \sqrt{13}
+   \]
+
+2. **Length of IA:**
+   Since \( \overline{IA} \perp \overline{OI} \) and \( \triangle AIO \) is right-angled at \( I \):
+   \[
+   IA^2 + OI^2 = AO^2 \implies IA^2 + 13 = 13^2 \implies IA^2 = 169 - 13 = 156 \implies IA = \sqrt{156} = 2\sqrt{39}
+   \]
+
+3. **Using the formula for IA:**
+   \[
+   IA = \frac{r}{\sin \frac{A}{2}} \implies 2\sqrt{39} = \frac{6}{\sin \frac{A}{2}} \implies \sin \frac{A}{2} = \frac{3}{\sqrt{39}} = \frac{\sqrt{39}}{13}
+   \]
+
+4. **Calculating \( \sin A \):**
+   \[
+   \sin A = 2 \sin \frac{A}{2} \cos \frac{A}{2}
+   \]
+   where \( \cos \frac{A}{2} = \sqrt{1 - \sin^2 \frac{A}{2}} = \sqrt{\frac{130}{169}} = \frac{\sqrt{130}}{13} \)
+   \[
+   \sin A = 2 \cdot \frac{\sqrt{39}}{13} \cdot \frac{\sqrt{130}}{13} = \frac{2\sqrt{5070}}{169} = \frac{2 \cdot 13\sqrt{30}}{169} = \frac{2\sqrt{30}}{13}
+   \]
+
+5. **Using the area formula:**
+   \[
+   \text{Area} = r \cdot s = 6s
+   \]
+   Also, \( \text{Area} = \frac{1}{2} \cdot b \cdot c \cdot \sin A \)
+   \[
+   6s = \frac{1}{2} \cdot b \cdot c \cdot \sin A \implies 12s = b \cdot c \cdot \sin A
+   \]
+   where \( s = \frac{a + b + c}{2} \) and \( s - a = 2\sqrt{30} \)
+
+6. **Expressing \( s \) and \( b \cdot c \):**
+   \[
+   s = a + 2\sqrt{30}
+   \]
+   \[
+   b \cdot c = \frac{12s}{\sin A} = \frac{12(a + 2\sqrt{30})}{\sin A}
+   \]
+   Since \( a = 26 \sin A \):
+   \[
+   s = 26 \sin A + 2\sqrt{30}
+   \]
+   \[
+   b \cdot c = \frac{12(26 \sin A + 2\sqrt{30})}{\sin A} = 312 + \frac{24\sqrt{30}}{\sin A}
+   \]
+   \[
+   \frac{24\sqrt{30}}{\sin A} = \frac{24\sqrt{30}}{\frac{2\sqrt{30}}{13}} = 156
+   \]
+   \[
+   b \cdot c = 312 + 156 = 468
+   \]
+
+Thus, the product \( AB \cdot AC \) is \(\boxed{468}\).

@@ -1,0 +1,61 @@
+Alright, let's try to figure out when Richard could have gone to the basketball court based on the information provided.
+
+First, Richard wakes up at 5am. So, his activities start from 5am onwards.
+
+Elizabeth saw Richard taking photos near the Leaning Tower of Pisa from 5am to 7am. That means Richard was occupied there during that time.
+
+Lisa saw Richard fixing their computer at the electronic store from 3pm to 7pm. So, Richard was busy with that in the afternoon.
+
+Leslie saw Richard reading at the library from 7pm to 8pm. So, in the evening, Richard was at the library.
+
+The basketball court was closed after 8pm, which means Richard couldn't have used it after that time.
+
+Now, we need to find the times when Richard was free to go to the basketball court.
+
+From the timeline:
+
+- 5am to 7am: Elizabeth saw Richard taking photos.
+- 7am to 3pm: Richard was free? Let's check what happened in this period. At 7am, Richard was free because Elizabeth stopped seeing him at 7am. But Lisa saw him starting at 3pm, so between 7am and 3pm, Richard must have been free. That's a big window.
+
+- 3pm to 7pm: Lisa saw Richard fixing the computer. So, he was occupied during this time.
+
+- 7pm to 8pm: Leslie saw Richard reading at the library. So, he was busy here.
+
+After 8pm, the basketball court was closed, so no.
+
+So, the only time Richard was free is from 7am to 3pm.
+
+Looking at the options:
+
+(A) 3pm to 7pm: He was busy fixing the computer, so not this time.
+
+(B) 5am to 7am: He was taking photos, so not this time.
+
+(C) 7pm to 8pm: He was reading at the library, so not this time.
+
+(D) 7am to 3pm: This matches the time he was free.
+
+So, the correct answer is D.
+</think>
+
+The correct answer is **(D) 7am to 3pm**.
+
+Step-by-Step Explanation:
+
+1. **Identify Richard's activities:**
+   - **5am to 7am:** Richard was taking photos (seen by Elizabeth).
+   - **7am to 3pm:** No specific activity mentioned, implying he was free.
+   - **3pm to 7pm:** Richard was fixing the computer (seen by Lisa).
+   - **7pm to 8pm:** Richard was reading (seen by Leslie).
+   - **After 8pm:** Basketball court closed.
+
+2. **Determine free intervals:**
+   - Richard is free from **7am to 3pm** as there are no activities mentioned during this period.
+
+3. **Evaluate the options:**
+   - (A) 3pm to 7pm: Richard was busy.
+   - (B) 5am to 7am: Richard was taking photos.
+   - (C) 7pm to 8pm: Richard was reading.
+   - (D) 7am to 3pm: Richard was free.
+
+**Answer:** (D) 7am to 3pm

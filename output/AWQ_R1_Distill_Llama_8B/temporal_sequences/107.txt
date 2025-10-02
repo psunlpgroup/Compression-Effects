@@ -1,0 +1,36 @@
+Alright, let's try to figure out when Hannah could have gone to the bakery. 
+
+First, let's list out all the information given:
+
+1. **Hannah woke up at 5am.**
+2. **She saw Hannah buying a phone at the electronics store from 11am to 2pm.**
+3. **Ashley saw Hannah taking photos near the Eiffel Tower from 2pm to 3pm.**
+4. **Nancy saw Hannah buying clothes at the mall from 3pm to 5pm.**
+5. **The bakery was closed after 5pm.**
+
+So, Hannah was up at 5am, and her activities started later that day. The first activity mentioned is her buying a phone from 11am to 2pm. Then, Ashley saw her taking photos from 2pm to 3pm. After that, Nancy saw her buying clothes from 3pm to 5pm. The bakery was closed after 5pm, so Hannah couldn't have gone there after that time.
+
+Now, let's see when she could have gone to the bakery. The bakery was closed after 5pm, so she must have gone there before 5pm. 
+
+Looking at the timeline:
+
+- **5am to 11am:** Hannah was likely at home since she was up at 5am and the next activity is at 11am.
+- **11am to 2pm:** She was buying a phone.
+- **2pm to 3pm:** She was taking photos.
+- **3pm to 5pm:** She was buying clothes.
+
+So, the bakery was closed after 5pm, meaning Hannah couldn't have gone there after 5pm. The only time before 5pm when she wasn't occupied is between **5am to 11am**. However, during this time, she was at home since she was up at 5am and the next activity starts at 11am. 
+
+Wait, but the options don't include 5am to 11am as a possible time for the bakery visit. Let me double-check the options:
+
+(A) 2pm to 3pm  
+(B) 5am to 11am  
+(C) 3pm to 5pm  
+(D) 11am to 2pm
+
+So, the only possible time is between **5am to 11am** because that's when she wasn't doing anything else. 
+
+Therefore, the correct answer is (B) 5am to 11am.
+</answer>
+
+**Answer: (B) 5am to 11am**

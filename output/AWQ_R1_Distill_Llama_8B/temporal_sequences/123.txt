@@ -1,0 +1,36 @@
+Alright, let's try to figure out when David could have gone to the construction site. So, David wakes up at 7am. Then there are several sightings of David by different people:
+
+- Michael saw David at the library from 7am to 9am.
+- William saw David at the airport from 6pm to 8pm.
+- Lisa saw David at the train station from 8pm to 10pm.
+
+The construction site was closed after 10pm. So, we need to find a time when David was at the construction site, considering all these sightings and the fact that the construction site closes after 10pm.
+
+First, let's list out the times:
+
+- **7am to 9am**: David was at the library according to Michael.
+- **6pm to 8pm**: David was at the airport according to William.
+- **8pm to 10pm**: David was at the train station according to Lisa.
+
+The construction site is closed after 10pm, so David can't be there after 10pm.
+
+Now, let's see when David wasn't seen by anyone:
+
+- Between 9am and 6pm: David wasn't spotted by anyone. This could be a possible time to go to the construction site.
+
+- Between 7am to 9am: David was at the library, so he couldn't have been at the construction site then.
+
+- Between 6pm to 8pm: David was at the airport, so he wasn't at the construction site.
+
+- Between 8pm to 10pm: David was at the train station, so he wasn't at the construction site.
+
+So, the only time when David wasn't seen by anyone and when the construction site was still open is between **9am to 6pm**.
+
+Therefore, the possible time David could have gone to the construction site is from 9am to 6pm.
+</think>
+
+**Solution:**
+
+David could have gone to the construction site between **9am to 6pm**.
+
+**Answer:** (B) 9am to 6pm

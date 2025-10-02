@@ -1,0 +1,22 @@
+To determine the possible times David could have visited the dance studio, let's analyze the given information step by step.
+
+1. **David's Wake-Up Time**: David woke up at 5am.
+
+2. **Betty's Observation**: Betty saw David playing tennis at the tennis court from 5am to 8am. This means David was occupied at the tennis court during this period.
+
+3. **Anthony's Observation**: Anthony saw David walking towards the Statue of Liberty from 8am to 11am. So, David was occupied in this area during this time.
+
+4. **Lisa's Observation**: Lisa saw David taking photos near the Eiffel Tower from 12pm to 5pm. This indicates that David was occupied in this location during this time.
+
+5. **Studio Closing Time**: The dance studio was closed after 5pm.
+
+**Step-by-Step Analysis**:
+- **From 5am to 8am**: David was playing tennis, so he couldn't have been at the dance studio.
+- **From 8am to 11am**: David was walking towards the Statue of Liberty, so he couldn't have been at the dance studio.
+- **From 12pm to 5pm**: David was taking photos near the Eiffel Tower, so he couldn't have been at the dance studio during this time either.
+  
+Since the dance studio was closed after 5pm, and David was occupied throughout the day, there is no available time for him to visit the dance studio.
+
+**Conclusion**: There is no time between the given observations when David could have visited the dance studio.
+
+**Final Answer**: (D) 8am to 11am

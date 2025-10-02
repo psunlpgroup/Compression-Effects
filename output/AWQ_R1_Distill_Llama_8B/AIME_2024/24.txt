@@ -1,0 +1,1394 @@
+Okay, so I have this problem about Aimeville where there are 900 residents. Each resident owns a bag of candy hearts, which is one of the four things: diamond ring, golf clubs, garden spade, and candy hearts. The numbers are given as 195 own a diamond ring, 367 own golf clubs, and 562 own a garden spade. So, first, I need to figure out how many people own exactly two things, exactly three things, and then find how many own all four.
+
+Wait, the problem already tells me that 437 residents own exactly two of these things and 234 own exactly three. I need to find how many own all four. Hmm, okay. So, this seems like a problem that can be approached with the principle of inclusion-exclusion. Let me recall that.
+
+Inclusion-exclusion helps in counting the number of elements in the union of multiple sets by considering their intersections. Since all residents own at least a bag of candy hearts, that means candy hearts are a given, so all 900 residents are in that set. Therefore, the other three sets are subsets of the remaining residents.
+
+Let me denote:
+
+- R = set of residents owning a diamond ring: |R| = 195
+- G = set of residents owning golf clubs: |G| = 367
+- S = set of residents owning a garden spade: |S| = 562
+- C = set of all residents owning a bag of candy hearts: |C| = 900
+
+We need to find the number of residents who own all four, which is |R ∩ G ∩ S ∩ C|. Since C is everyone, this is just |R ∩ G ∩ S|, because everyone is in C.
+
+To find |R ∩ G ∩ S|, inclusion-exclusion will involve adding the sizes of individual sets, subtracting the pairwise intersections, adding back in the triple intersections, and so on.
+
+But wait, the problem gives me some information: 437 residents own exactly two of these things, and 234 own exactly three. Hmm, so maybe I can use this to find |R ∩ G ∩ S|.
+
+Let me think. The number of people owning exactly two of the things would be the sum of all pairwise intersections minus three times the triple intersections. Similarly, the number of people owning exactly three would be the triple intersections minus three times the four-way intersection.
+
+Wait, that might not be exact. Let me recall the formula for exactly k elements in multiple sets.
+
+In general, the number of elements in exactly k sets is:
+
+For exactly two sets: sum over all pairs (A ∩ B) minus 3 times the triple intersections.
+
+Wait, actually, no. The formula is:
+
+Number of elements in exactly two sets = sum of all pairwise intersections minus 3*(number in exactly three sets) - 3*(number in all four sets).
+
+Wait, maybe I need to approach this step by step.
+
+First, let me denote:
+
+- Let a = number of people owning exactly 0 of R, G, S.
+- Let b = number of people owning exactly 1 of R, G, S.
+- Let c = number of people owning exactly 2 of R, G, S.
+- Let d = number of people owning exactly 3 of R, G, S.
+- Let e = number of people owning all four (R, G, S, and C).
+
+Since everyone owns C, the total number of residents is equal to the number of people owning at least one of R, G, S, which is 900.
+
+So, the total is a + b + c + d + e = 900.
+
+Given that c = 437 and d = 234, so plugging in:
+
+a + b + 437 + 234 + e = 900
+
+So, a + b + e = 900 - 437 - 234 = 900 - 671 = 229.
+
+So, a + b + e = 229.
+
+I need to find e. So, maybe I can find a, b, e using inclusion-exclusion.
+
+First, let me compute the total number of people owning at least one of R, G, S, which is |R ∪ G ∪ S|.
+
+By inclusion-exclusion:
+
+|R ∪ G ∪ S| = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S| - |empty set|.
+
+But wait, since everyone owns C, which is separate, actually, the total number is 900, which is equal to |C| because C is everyone. So, |R ∪ G ∪ S| is 900.
+
+Therefore,
+
+900 = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+So, plugging in the numbers:
+
+900 = 195 + 367 + 562 - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+Calculating the sum: 195 + 367 = 562; 562 + 562 = 1124.
+
+So, 900 = 1124 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S|.
+
+Therefore, |R ∩ G| + |R ∩ S| + |G ∩ S| - |R ∩ G ∩ S| = 1124 - 900 = 224.
+
+So, |R ∩ G| + |R ∩ S| + |G ∩ S| - |R ∩ G ∩ S| = 224.
+
+Hmm, okay. Let me denote:
+
+Let x = |R ∩ G|, y = |R ∩ S|, z = |G ∩ S|, and w = |R ∩ G ∩ S|.
+
+So, x + y + z - w = 224.
+
+But I also know that c = 437 is the number of people owning exactly two of R, G, S. So, how does that relate to x, y, z, w?
+
+Well, the number of people owning exactly two things is equal to the sum of the pairwise intersections minus three times the triple intersection minus the number of people in all four.
+
+Wait, actually, I think the formula is:
+
+Number of people owning exactly two = (x + y + z) - 3w - (number of people in all four sets).
+
+Wait, no, let me think carefully.
+
+Each pairwise intersection includes those who are in all four sets. So, when we sum x + y + z, we are counting w (the triple intersection) three times, once in each pair.
+
+But the number of people owning exactly two is equal to the sum of the pairwise intersections minus three times the triple intersection minus the people in all four.
+
+Wait, no, maybe not. Let me consider:
+
+Each person in exactly two sets is counted once in exactly two of the pairwise intersections.
+
+Each person in exactly three sets is counted three times in the pairwise intersections, once in each pair.
+
+Each person in all four is counted in all three pairwise intersections.
+
+Therefore, the total number of people in at least two sets is equal to the sum of the pairwise intersections minus three times the triple intersection plus four times the quadruple intersection? Wait, no.
+
+Wait, actually, the formula for the number of people in exactly two sets is:
+
+c = (x + y + z) - 3w - 2e.
+
+Wait, maybe not. Let me refer to the inclusion-exclusion principle for exactly two sets.
+
+I recall that the number of elements in exactly two of the sets is:
+
+c = (|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S| - 2|R ∩ G ∩ S ∩ C|.
+
+Wait, no, I think it's:
+
+c = (|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S| - 2|R ∩ G ∩ S ∩ C|.
+
+Wait, I'm not sure.
+
+Wait, perhaps it's better to use the formula for exactly k elements.
+
+In general, for exactly m sets, the count is:
+
+Σ_{i1 < i2 < ... < im} |A_{i1} ∩ A_{i2} ∩ ... ∩ A_{im}}| - C(m, m-1) * |triple intersection| + ... but this might get complicated.
+
+Alternatively, since we know the number of people owning exactly two is 437, and exactly three is 234, and we have a + b + e = 229.
+
+Wait, maybe I can compute the number of people in exactly one set (b), exactly two (c=437), exactly three (d=234), and exactly four (e). Then, since a + b + c + d + e = 900, and we have a + b + e = 229.
+
+But I don't know a or b, so maybe I can express a and b in terms of e.
+
+Alternatively, maybe I can use the inclusion-exclusion principle in another way.
+
+Wait, another approach: Let's compute the total number of people who own at least one of R, G, S.
+
+But we know that's 900, which is everyone.
+
+So, the number of people owning nothing is a = 0? Wait, no, because the problem says each resident owns a bag of candy hearts, but doesn't specify whether they own other things or not. Wait, actually, the problem says "each of the 900 residents owns a bag of candy hearts." So, does that mean that owning a bag of candy hearts is mandatory, so all residents are in set C, and sets R, G, S are subsets of C.
+
+Therefore, the total number of residents owning at least one of R, G, S is 900, so |R ∪ G ∪ S| = 900.
+
+Therefore, by inclusion-exclusion:
+
+|R ∪ G ∪ S| = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S| = 900.
+
+So, as before, 195 + 367 + 562 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S| = 900.
+
+Which gives 1124 - (x + y + z) + w = 900, so x + y + z - w = 224.
+
+So, equation 1: x + y + z - w = 224.
+
+Now, the number of people owning exactly two is c = 437.
+
+Each person in exactly two sets is counted in exactly one pairwise intersection.
+
+Each person in exactly three sets is counted in all three pairwise intersections.
+
+Each person in all four is counted in all three pairwise intersections.
+
+Therefore, the total number of people in at least two sets is equal to:
+
+c + d + e.
+
+But wait, no, c is exactly two, d is exactly three, and e is all four.
+
+So, total in at least two is c + d + e.
+
+But we can also compute this as:
+
+Total in at least two = (x + y + z) - 3w + 2e.
+
+Wait, I think that's the formula.
+
+Wait, because in the pairwise intersections, x + y + z counts each person in exactly two sets once, each person in exactly three sets three times, and each person in all four sets three times.
+
+But we want to get the count of people in exactly two, exactly three, and all four.
+
+So, the total number of people in at least two sets is:
+
+(Number in exactly two) + (Number in exactly three) + (Number in exactly four) = c + d + e.
+
+But on the other hand, the total number of people in at least two sets is also equal to:
+
+(x + y + z) - 3w + 2e.
+
+Wait, let me see.
+
+Each person in exactly two is in one pairwise intersection, contributing 1.
+
+Each person in exactly three is in three pairwise intersections, contributing 3.
+
+Each person in all four is in three pairwise intersections, contributing 3.
+
+So, if we take the sum x + y + z, that counts the number of people in pairwise intersections, which is equal to:
+
+(Number in exactly two) + 3*(Number in exactly three) + 3*(Number in all four).
+
+But we know that:
+
+Number in at least two sets = Number in exactly two + Number in exactly three + Number in all four = c + d + e.
+
+So, we have:
+
+x + y + z = c + d + e + 2*(Number in exactly three) + 2*(Number in all four).
+
+Wait, no, that might not be the right way.
+
+Wait, actually, if I have x + y + z, which counts the number of pairwise overlaps.
+
+Each person in exactly two sets is counted once in x + y + z.
+
+Each person in exactly three sets is counted three times in x + y + z.
+
+Each person in all four is also counted three times in x + y + z.
+
+So, to get the number of people in at least two sets, we have:
+
+(Number in exactly two) + (Number in exactly three) + (Number in all four) = c + d + e.
+
+But the total sum x + y + z is equal to:
+
+c + 3d + 3e.
+
+Because:
+
+- c: exactly two, each contributes 1.
+
+- d: exactly three, each contributes 3.
+
+- e: all four, each contributes 3.
+
+So, x + y + z = c + 3d + 3e.
+
+Therefore, we can write:
+
+x + y + z = 437 + 3*234 + 3e.
+
+Calculating that:
+
+3*234 = 702.
+
+So, x + y + z = 437 + 702 + 3e = 1139 + 3e.
+
+But from equation 1, we have:
+
+x + y + z - w = 224.
+
+Therefore, (1139 + 3e) - w = 224.
+
+So, 1139 + 3e - w = 224.
+
+Therefore, 3e - w = 224 - 1139 = -915.
+
+So, 3e - w = -915.
+
+But we need another equation to relate e and w.
+
+Wait, how?
+
+Perhaps from the number of people owning exactly three things.
+
+Number of people owning exactly three things is d = 234.
+
+This can be expressed in terms of the triple intersection and the quadruple intersection.
+
+Each person in exactly three sets is in the triple intersection but not in the quadruple intersection.
+
+Each person in all four sets is in the quadruple intersection.
+
+Therefore, the number of people in exactly three sets is:
+
+|R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|.
+
+Wait, but since C is everyone, |R ∩ G ∩ S ∩ C| is just |R ∩ G ∩ S| = w.
+
+Therefore, d = w - e.
+
+So, d = w - e.
+
+Given that d = 234, so 234 = w - e.
+
+So, w = 234 + e.
+
+Now, going back to the previous equation:
+
+3e - w = -915.
+
+Substituting w = 234 + e:
+
+3e - (234 + e) = -915.
+
+So, 3e - 234 - e = -915.
+
+Simplify:
+
+2e - 234 = -915.
+
+So, 2e = -915 + 234 = -681.
+
+Wait, that can't be, because 2e = -681 implies e = -340.5, which is impossible because the number of residents can't be negative.
+
+Hmm, that must mean I made a mistake in my reasoning somewhere.
+
+Let me go back.
+
+So, I had:
+
+x + y + z = c + 3d + 3e.
+
+But is that correct?
+
+Wait, x + y + z is the sum of pairwise intersections.
+
+Each person in exactly two sets is in one pairwise intersection, each person in exactly three sets is in three pairwise intersections, and each person in all four is in three pairwise intersections.
+
+So, x + y + z counts:
+
+- Each exactly two: once.
+
+- Each exactly three: three times.
+
+- Each all four: three times.
+
+So, x + y + z = c + 3d + 3e.
+
+Yes, that seems correct.
+
+Then, from the inclusion-exclusion principle, we have x + y + z - w = 224.
+
+So, substituting:
+
+(c + 3d + 3e) - w = 224.
+
+Which is 437 + 3*234 + 3e - w = 224.
+
+Calculates to:
+
+437 + 702 + 3e - w = 224.
+
+Which is 1139 + 3e - w = 224.
+
+Thus, 3e - w = 224 - 1139 = -915.
+
+So, 3e - w = -915.
+
+Then, from the number of people owning exactly three:
+
+d = 234 = w - e.
+
+So, w = 234 + e.
+
+Substituting into the previous equation:
+
+3e - (234 + e) = -915.
+
+So, 3e - 234 - e = -915.
+
+2e - 234 = -915.
+
+2e = -915 + 234 = -681.
+
+So, e = -340.5.
+
+Wait, that's impossible. So, where did I go wrong?
+
+Perhaps my initial assumption about how the pairwise intersections relate to exactly two, three, and four.
+
+Wait, maybe the formula for x + y + z is different.
+
+Wait, actually, let's think about the number of people in exactly two sets.
+
+Each person in exactly two sets is in exactly one pairwise intersection.
+
+Each person in exactly three sets is in three pairwise intersections.
+
+Each person in exactly four sets is in three pairwise intersections.
+
+So, the sum x + y + z counts:
+
+- Each person in exactly two: 1.
+
+- Each person in exactly three: 3.
+
+- Each person in exactly four: 3.
+
+Therefore, x + y + z = c + 3d + 3e.
+
+Which is what I had before.
+
+So, that seems correct.
+
+So, why do we get a negative number?
+
+Wait, maybe the problem is that the number of people owning all four is e, so the number of people owning exactly four is e, but the number of people owning at least four is e, since it's a binary thing.
+
+Wait, no, e is the number of people owning all four.
+
+Wait, perhaps the issue is that when we have |R ∩ G ∩ S| = w, which is equal to the number of people owning all three, but not necessarily all four. Wait, no, since C is a separate set, but since C is everyone, R ∩ G ∩ S ∩ C is equal to R ∩ G ∩ S, which is w.
+
+So, w is the number of people owning all three, and since C is everyone, they also own candy hearts.
+
+So, actually, e is equal to w, because e is the number of people owning all four, which is the same as owning all three since C is everyone.
+
+Wait, that might be the mistake. So, in the problem, e is the number of people owning all four, which is R ∩ G ∩ S ∩ C. But since C is everyone, e = |R ∩ G ∩ S|.
+
+So, w = e.
+
+Therefore, in the equation d = w - e, since e = w, so d = w - w = 0. But the problem says d = 234. So, that can't be.
+
+Wait, so maybe my previous assumption was wrong.
+
+Wait, so let's clarify.
+
+Let me denote:
+
+- e = number of people owning all four (R, G, S, and C).
+
+But since C is everyone, the number of people owning all four is equal to |R ∩ G ∩ S|.
+
+So, w = e.
+
+But then, the number of people owning exactly three of R, G, S is d = |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C| = w - e.
+
+But since w = e, then d = e - e = 0, which contradicts d = 234.
+
+Therefore, my mistake is assuming that e = w. But in reality, e is the number of people owning all four, but |R ∩ G ∩ S| is the number of people owning all three, which is different.
+
+Wait, no, because since C is a separate set, but in the problem, each resident owns a bag of candy hearts, so they all are in C.
+
+Therefore, R ∩ G ∩ S is a subset of C, but since C is everyone, R ∩ G ∩ S is equal to R ∩ G ∩ S ∩ C.
+
+Wait, that is, |R ∩ G ∩ S| = |R ∩ G ∩ S ∩ C| = e.
+
+Wait, that is, because C is everyone, so R ∩ G ∩ S ∩ C is equal to R ∩ G ∩ S. So, w = e.
+
+So, then, the number of people owning exactly three of R, G, S is d = w - e = e - e = 0, which contradicts d = 234.
+
+Therefore, my mistake is that in the problem statement, e is the number of people owning all four, but in reality, since C is a must-have, the number of people owning all four is equal to the number of people owning R, G, S, which is w.
+
+Therefore, e = w.
+
+But then, the number of people owning exactly three is d = |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C| = w - e = 0.
+
+Which is not possible because d is 234.
+
+Therefore, my mistake is that I'm miscounting.
+
+Wait, perhaps I need to adjust for the fact that all residents are in C.
+
+So, when I compute the number of people owning exactly three, it's equal to |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|.
+
+But since C is everyone, |R ∩ G ∩ S ∩ C| is just |R ∩ G ∩ S|.
+
+Therefore, d = |R ∩ G ∩ S| - |R ∩ G ∩ S| = 0.
+
+Which is again a problem.
+
+Wait, so maybe the error is that the number of people owning exactly three is |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|, but since C is everyone, |R ∩ G ∩ S ∩ C| is |R ∩ G ∩ S|, so d = 0. But in reality, d = 234. So, that can't be.
+
+Therefore, perhaps my initial approach is wrong.
+
+Wait, maybe the problem is that the number of people owning exactly three is equal to |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|, but since C is a must, the only way someone can own exactly three is if they own R, G, S but not C. But C is mandatory, so no one can own exactly three.
+
+But the problem says there are 234 residents who own exactly three of these things.
+
+Therefore, that's a contradiction.
+
+Wait, that suggests that perhaps the problem is that the candy hearts are not necessarily a separate set, but since it's given that all residents own a bag of candy hearts, so C is everyone.
+
+Therefore, the only possible sets are R, G, S, and C.
+
+So, for a resident, the possible combinations are:
+
+- Exactly one: R, G, or S.
+
+- Exactly two: R&G, R&S, G&S.
+
+- Exactly three: R&G&S.
+
+- Exactly four: R&G&S&C, but since C is everyone, this is the same as R&G&S.
+
+Wait, so actually, the number of people owning exactly three is equal to |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C| = |R ∩ G ∩ S| - |R ∩ G ∩ S| = 0.
+
+Which is a problem because the problem says there are 234 residents who own exactly three.
+
+Therefore, this suggests that there is an inconsistency, unless the person owns exactly three and also owns C, but C is a must, so they must own exactly four, which is not possible.
+
+Therefore, the problem is that in this setup, there are no residents who own exactly three, because adding C to any combination automatically makes it four.
+
+But the problem says 234 residents own exactly three.
+
+Therefore, perhaps the candy hearts are optional? Wait, no, the problem says "each of the 900 residents owns a bag of candy hearts," so it's mandatory.
+
+Wait, perhaps my mistake is that I'm not considering that some people might not own any of R, G, S, but own only C.
+
+But in that case, a is the number of people owning only C, which is 900 - (those owning R, G, S). But the problem is that the problem statement says 437 own exactly two, 234 own exactly three, and the rest own one, two, three, or four.
+
+Wait, but in our earlier equation, we have a + b + e = 229.
+
+Where a is the number of people owning only C, b is the number owning exactly one of R, G, S, and e is the number owning all four.
+
+But then, since in the problem, there are 234 people who own exactly three, which would include C, but since C is mandatory, that would mean they own three plus C, which is four.
+
+Wait, maybe the problem is that "owning exactly three" is interpreted as owning three things among R, G, S, and C, but since C is mandatory, it's actually four.
+
+But the problem says "own exactly three of these things", so maybe it's three in total, not three plus C.
+
+Wait, the problem says: "there are 234 residents who own exactly three of these things." So, of the four things, they own exactly three. But since they must own C, that would mean they own three plus C, which is four. So, that's a contradiction.
+
+Wait, perhaps the problem is that the candy hearts are optional? But no, the problem says "each of the 900 residents owns a bag of candy hearts," so it's mandatory.
+
+Therefore, maybe the problem is that the count of exactly three is 234, which is people who own three of R, G, S, and also C, which is four. So, actually, the number of people owning exactly four is 234.
+
+But the problem says 234 own exactly three, so that's confusing.
+
+Wait, maybe the problem is stated differently.
+
+Wait, let me reread the problem.
+
+"Among the 900 residents of Aimeville, there are 195 who own a diamond ring, 367 who own a set of golf clubs, and 562 who own a garden spade. In addition, each of the 900 residents owns a bag of candy hearts. There are 437 residents who own exactly two of these things, and 234 residents who own exactly three of these things. Find the number of residents of Aimeville who own all four of these things."
+
+Wait, so the four things are diamond ring, golf clubs, garden spade, and candy hearts. So, each resident owns a candy heart, so that's one thing. So, when it says "own exactly two of these things," it's referring to owning exactly two of the four things, including candy hearts. Similarly, exactly three.
+
+Therefore, someone who owns exactly two of the four things would own two from R, G, S, and also the candy hearts.
+
+Wait, no, because the candy hearts is separate.
+
+Wait, no, the four things are diamond ring, golf clubs, garden spade, and candy hearts.
+
+Each resident owns all four? Wait, no, the candy hearts are given, but they can also own or not own the other three.
+
+Wait, so a resident can own:
+
+- Only candy hearts.
+
+- Candy hearts and one of R, G, S.
+
+- Candy hearts and two of R, G, S.
+
+- Candy hearts and all three of R, G, S.
+
+So, in terms of counts:
+
+a: only candy hearts.
+
+b: candy hearts and exactly one of R, G, S.
+
+c: candy hearts and exactly two of R, G, S.
+
+d: candy hearts and exactly three of R, G, S.
+
+e: candy hearts and all four? Wait, but the four includes candy hearts, so if they own all four, they own R, G, S, and candy hearts.
+
+But since candy hearts is already given, it's redundant.
+
+Wait, no, actually, the four things are four distinct items: diamond ring, golf clubs, garden spade, and candy hearts. So, each resident can own any combination of these four.
+
+But the problem says each resident owns a bag of candy hearts, so candy hearts is a given, so they all have that.
+
+Therefore, each resident's ownership is a subset of {R, G, S}, with the additional element C fixed.
+
+Therefore, the possible combinations are:
+
+- Only C.
+
+- C and exactly one of R, G, S.
+
+- C and exactly two of R, G, S.
+
+- C and exactly three of R, G, S.
+
+- C and all four (but since C is fixed, it's just C and R and G and S).
+
+Wait, so in this case, "owning all four" would mean owning R, G, S, and C, but since C is given, it's just R, G, S.
+
+But in the problem, it's asking for the number who own all four, so that's the same as owning R, G, S, which is the triple intersection.
+
+Wait, but since C is everyone, the triple intersection is equal to the number of people owning all four.
+
+So, actually, in this case, the number of people owning all four is equal to the triple intersection.
+
+So, e = |R ∩ G ∩ S|.
+
+So, with that, let's redefine.
+
+The residents can be categorized as:
+
+- a: own only C.
+
+- b: own C and exactly one of R, G, S.
+
+- c: own C and exactly two of R, G, S.
+
+- d: own C and exactly three of R, G, S.
+
+- e: own C, R, G, S.
+
+So, in this case, the total is a + b + c + d + e = 900.
+
+Given that c = 437 and d = 234, so:
+
+a + b + 437 + 234 + e = 900.
+
+So, a + b + e = 900 - 437 - 234 = 900 - 671 = 229.
+
+Therefore, a + b + e = 229.
+
+Now, let's use inclusion-exclusion to find e.
+
+We have |R| = 195, |G| = 367, |S| = 562, and |C| = 900.
+
+But since C is everyone, |R ∪ G ∪ S| = 900.
+
+So, by inclusion-exclusion:
+
+|R ∪ G ∪ S| = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+So,
+
+900 = 195 + 367 + 562 - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+Calculating:
+
+195 + 367 = 562; 562 + 562 = 1124.
+
+So,
+
+900 = 1124 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S|.
+
+Thus,
+
+|R ∩ G| + |R ∩ S| + |G ∩ S| - |R ∩ G ∩ S| = 1124 - 900 = 224.
+
+So, x + y + z - w = 224, where x = |R ∩ G|, y = |R ∩ S|, z = |G ∩ S|, and w = |R ∩ G ∩ S|.
+
+Now, the number of people owning exactly two of R, G, S is c = 437.
+
+Each person in exactly two sets is in exactly one pairwise intersection.
+
+Each person in exactly three sets is in three pairwise intersections.
+
+Each person in all four is in three pairwise intersections.
+
+So, the total number of people in at least two sets is c + d + e.
+
+But also, the total number is equal to:
+
+(|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S| + 2|R ∩ G ∩ S ∩ C|.
+
+Wait, no, maybe:
+
+Wait, let's think of it as:
+
+Each person in exactly two sets is counted once in the pairwise intersections.
+
+Each person in exactly three sets is counted three times.
+
+Each person in all four is counted three times.
+
+So, the total count from pairwise intersections is:
+
+(|R ∩ G| + |R ∩ S| + |G ∩ S|) = (number in exactly two) + 3*(number in exactly three) + 3*(number in all four).
+
+So,
+
+x + y + z = c + 3d + 3e.
+
+So, 437 + 3*234 + 3e = x + y + z.
+
+Which is 437 + 702 + 3e = 1139 + 3e.
+
+But we know from inclusion-exclusion that x + y + z - w = 224.
+
+Therefore, (1139 + 3e) - w = 224.
+
+So, 3e - w = 224 - 1139 = -915.
+
+So, 3e - w = -915.
+
+Now, we need another equation relating e and w.
+
+From the number of people owning exactly three, which is d = 234.
+
+But the number of people owning exactly three is equal to the number of people in exactly three sets, which is |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|.
+
+But since C is everyone, |R ∩ G ∩ S ∩ C| = |R ∩ G ∩ S| = w.
+
+Therefore, d = w - e.
+
+So, 234 = w - e.
+
+Thus, w = e + 234.
+
+Substituting into the previous equation:
+
+3e - (e + 234) = -915.
+
+Simplify:
+
+3e - e - 234 = -915.
+
+So, 2e - 234 = -915.
+
+Thus, 2e = -915 + 234 = -681.
+
+Therefore, e = (-681)/2 = -340.5.
+
+Wait, that can't be, as the number of residents can't be negative.
+
+Hmm, so this suggests that there is a mistake in my reasoning.
+
+Wait, perhaps my definition of d is incorrect.
+
+If d is the number of people owning exactly three of R, G, S, but since C is mandatory, they must also own C, so they own four things, which is not possible as the problem says "exactly three of these things," meaning exactly three, not four.
+
+Therefore, the count for d is 234, which is people owning exactly three of R, G, S, and also C.
+
+But wait, in reality, they own four things: R, G, S, and C.
+
+So, the problem might be using "exactly three of these things" as exactly three in total, not three of the four.
+
+But if they own four things, then they can't own exactly three.
+
+Therefore, the problem is inconsistent.
+
+Alternatively, maybe the problem is that the candy hearts are optional, but the problem says "each of the 900 residents owns a bag of candy hearts," so it's mandatory.
+
+Therefore, there is a contradiction because the number of people owning exactly three is non-zero, but in reality, they must own four, which is not possible.
+
+Therefore, perhaps the problem is stated incorrectly, or my interpretation is wrong.
+
+Alternatively, perhaps the problem is that the four things are:
+
+- Diamond ring, golf clubs, garden spade, and candy hearts.
+
+Each resident owns a candy heart, so candy hearts are fixed.
+
+Therefore, the four things are:
+
+1. Diamond ring.
+
+2. Golf clubs.
+
+3. Garden spade.
+
+4. Candy hearts (fixed for all residents).
+
+Therefore, each resident can be characterized by whether they own each of the first three.
+
+Therefore, the possible combinations are:
+
+- Own none of R, G, S.
+
+- Own only R.
+
+- Own only G.
+
+- Own only S.
+
+- Own R and G.
+
+- Own R and S.
+
+- Own G and S.
+
+- Own R, G, and S.
+
+So, in this case, the number of people owning exactly two of R, G, S is the sum of the pairwise intersections minus three times the triple intersection.
+
+Wait, but in this case, since candy hearts are fixed, the exactly two is just the pairwise intersections.
+
+But the problem says 437 own exactly two, and 234 own exactly three.
+
+But wait, in this interpretation, the number of people owning exactly three would be |R ∩ G ∩ S|, which is the triple intersection.
+
+But the problem says 234 own exactly three, which would mean |R ∩ G ∩ S| = 234.
+
+But earlier, we have:
+
+|R ∪ G ∪ S| = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S| = 900.
+
+So,
+
+900 = 195 + 367 + 562 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + 234.
+
+Wait, because |R ∩ G ∩ S| = 234.
+
+So, 900 = 1124 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + 234.
+
+So, 900 = 1124 + 234 - (x + y + z).
+
+So, 900 = 1358 - (x + y + z).
+
+Therefore, x + y + z = 1358 - 900 = 458.
+
+So, the sum of pairwise intersections is 458.
+
+Now, the number of people owning exactly two is c = 437.
+
+Each person in exactly two sets is counted once in the pairwise intersections.
+
+Each person in exactly three sets is counted three times in the pairwise intersections.
+
+Each person in all four sets is counted three times in the pairwise intersections, but in this case, since candy hearts are fixed, the all four is just the triple intersection.
+
+Wait, no, because the four things are R, G, S, and C, so the all four is R ∩ G ∩ S ∩ C, which is R ∩ G ∩ S.
+
+So, the number of people owning all four is |R ∩ G ∩ S| = 234.
+
+So, the number of people owning exactly three is 234, which is equal to |R ∩ G ∩ S|.
+
+Wait, but that's a contradiction because if they own all three, they also own C, making it four things, so they can't own exactly three.
+
+Therefore, perhaps the problem is that the number of people owning exactly three is |R ∩ G ∩ S| minus |R ∩ G ∩ S ∩ C|.
+
+But since |R ∩ G ∩ S ∩ C| = |R ∩ G ∩ S|, as C is everyone, so d = |R ∩ G ∩ S| - |R ∩ G ∩ S| = 0.
+
+But the problem says d = 234, which is not zero.
+
+Therefore, this suggests that either the problem is inconsistent or my interpretation is wrong.
+
+Wait, perhaps I'm miscounting the exactly three.
+
+Wait, if someone owns exactly three of the four things, that would mean they own three, including C.
+
+But C is fixed, so to own exactly three, they must own three of the four, which includes C and two others.
+
+Therefore, the number of people owning exactly three is the number of people owning three of the four, which is |R ∩ G ∩ S| - |R ∩ G ∩ S ∩ C|.
+
+But since C is everyone, |R ∩ G ∩ S ∩ C| = |R ∩ G ∩ S|.
+
+Therefore, d = |R ∩ G ∩ S| - |R ∩ G ∩ S| = 0.
+
+But the problem says d = 234, which is not zero.
+
+Therefore, the problem is inconsistent because you can't have people owning exactly three when C is fixed.
+
+Therefore, the only conclusion is that the problem is incorrectly stated or I'm misunderstanding it.
+
+Alternatively, perhaps the candy hearts are optional, but the problem says each resident owns a bag, so it's mandatory.
+
+Wait, given that, perhaps the answer is that e = 0.
+
+But then, how does that fit?
+
+Wait, if e = 0, then from the equation 3e - w = -915, we have w = 915.
+
+But then, d = w - e = 915 - 0 = 915, which is more than the total number of residents, which is impossible.
+
+Therefore, this suggests that my approach is wrong.
+
+Alternatively, perhaps I need to use the principle of inclusion-exclusion differently.
+
+Let me think again.
+
+Total number of residents: 900.
+
+Each resident owns candy hearts, so that's fixed.
+
+Therefore, we can model the ownership of R, G, S as subsets of 900 residents.
+
+So, the counts are:
+
+|R| = 195.
+
+|G| = 367.
+
+|S| = 562.
+
+Total |R ∪ G ∪ S| = 900.
+
+Thus, by inclusion-exclusion:
+
+900 = 195 + 367 + 562 - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+So, 900 = 1124 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S|.
+
+Thus, |R ∩ G| + |R ∩ S| + |G ∩ S| - |R ∩ G ∩ S| = 224.
+
+Now, the number of people owning exactly two is 437.
+
+The number of people owning exactly three is 234.
+
+So, the total number of people owning at least two is 437 + 234 = 671.
+
+But since all 900 own C, this is equal to the number of people owning at least two of R, G, S.
+
+But how does that relate to the inclusion-exclusion?
+
+Wait, the number of people owning at least two is equal to the sum of the pairwise intersections minus three times the triple intersection plus something.
+
+Wait, actually, the number of people owning at least two is:
+
+(|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S|.
+
+Because:
+
+- Each pairwise intersection counts people owning exactly two, exactly three, and exactly four.
+
+But in our case, since e = |R ∩ G ∩ S| is the number of people owning all three, and since C is fixed, the number of people owning all four is e.
+
+Therefore, the number of people owning exactly two is |R ∩ G| + |R ∩ S| + |G ∩ S| - 3|R ∩ G ∩ S| - |R ∩ G ∩ S|.
+
+Wait, perhaps not.
+
+Wait, let me think.
+
+Each person in exactly two sets is in exactly one pairwise intersection.
+
+Each person in exactly three sets is in three pairwise intersections.
+
+Each person in exactly four sets is in three pairwise intersections.
+
+Therefore, the total number of people in at least two sets is:
+
+(|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S| + 2|R ∩ G ∩ S|.
+
+Wait, maybe.
+
+Wait, I think the formula is:
+
+Number of people owning at least two = (|R ∩ G| + |R ∩ S| + |G ∩ S|) - 3|R ∩ G ∩ S| + 2|R ∩ G ∩ S ∩ C|.
+
+But since |R ∩ G ∩ S ∩ C| = |R ∩ G ∩ S| = e.
+
+Therefore,
+
+Number of people owning at least two = (x + y + z) - 3w + 2e.
+
+Given that the number of people owning at least two is 437 + 234 = 671.
+
+So,
+
+x + y + z - 3w + 2e = 671.
+
+But from inclusion-exclusion, we have x + y + z - w = 224.
+
+So, we have:
+
+Equation 1: x + y + z - w = 224.
+
+Equation 2: x + y + z - 3w + 2e = 671.
+
+Subtract Equation 1 from Equation 2:
+
+(x + y + z - 3w + 2e) - (x + y + z - w) = 671 - 224.
+
+So,
+
+-2w + 2e = 447.
+
+Divide both sides by 2:
+
+-w + e = 223.5.
+
+So,
+
+e - w = 223.5.
+
+But w and e must be integers because they are counts of residents.
+
+Therefore, 223.5 is not an integer, which is impossible.
+
+Therefore, this suggests that there's an inconsistency in the problem.
+
+Alternatively, perhaps the problem has a typo, or my interpretation is wrong.
+
+Wait, but the problem says 437 own exactly two, 234 own exactly three, and the rest own one, two, three, or four.
+
+But since the number of people owning exactly three would imply owning four, because of the candy hearts, this seems impossible.
+
+Therefore, the only conclusion is that the problem is incorrectly stated.
+
+Alternatively, perhaps the four things are different, and candy hearts are optional, but the problem says each resident owns a bag, so that's fixed.
+
+Given that, and the fact that the equations lead to a non-integer, I think the problem is flawed.
+
+Alternatively, maybe I made a miscalculation.
+
+Wait, let's recast.
+
+From inclusion-exclusion:
+
+x + y + z - w = 224.
+
+From the number of people owning at least two:
+
+x + y + z - 3w + 2e = 671.
+
+Subtracting the first equation:
+
+(x + y + z - 3w + 2e) - (x + y + z - w) = 671 - 224.
+
+Which simplifies to:
+
+-2w + 2e = 447.
+
+Divide by 2:
+
+-e + w = 223.5.
+
+But since e and w are integers, this is impossible.
+
+Therefore, the problem is inconsistent.
+
+Thus, there might be no solution.
+
+But the problem asks to find the number of residents who own all four, which is e.
+
+But since e must be an integer, and given the equations, e is forced to be non-integer, which is impossible.
+
+Therefore, the problem is flawed.
+
+Alternatively, perhaps the number of people owning exactly three is 234, but since they must also own C, the number of people owning exactly four is 234.
+
+But then, the problem says 234 own exactly three, which is impossible.
+
+Therefore, the problem is inconsistent.
+
+Thus, the answer is that no such number exists, but since the problem is given, maybe I made a mistake.
+
+Alternatively, perhaps I should answer that the number is 234, but that doesn't make sense because they own four things.
+
+Alternatively, perhaps the answer is 0, but then e = 0, which would make d = 234, but then from equation 1: x + y + z = 224 + w.
+
+From equation 2: x + y + z - 3w + 2e = 671.
+
+If e = 0, then x + y + z - 3w = 671.
+
+But x + y + z = 224 + w.
+
+So,
+
+224 + w - 3w = 671.
+
+224 - 2w = 671.
+
+-2w = 671 - 224 = 447.
+
+w = -223.5.
+
+Again, impossible.
+
+Therefore, the problem is inconsistent.
+
+Thus, the number of residents who own all four is impossible, which is not possible, so the answer is that there is no solution.
+
+But since the problem is given, perhaps the answer is 234.
+
+But that doesn't make sense because that would be the number of people owning exactly three, which is impossible.
+
+Alternatively, maybe the answer is 0, but that also doesn't make sense.
+
+Alternatively, perhaps I made a mistake in the equations.
+
+Wait, let me try a different approach.
+
+Let me denote:
+
+Let a be the number of people owning only C.
+
+Let b be the number of people owning exactly one of R, G, S.
+
+Let c be the number of people owning exactly two of R, G, S.
+
+Let d be the number of people owning exactly three of R, G, S.
+
+Let e be the number of people owning all four (R, G, S, C).
+
+So, a + b + c + d + e = 900.
+
+Given that c = 437, d = 234.
+
+So, a + b + 437 + 234 + e = 900.
+
+Thus, a + b + e = 229.
+
+Now, let's compute the total number of people owning at least one of R, G, S.
+
+Which is 900 - a.
+
+Now, the number of people owning at least one of R, G, S is equal to |R ∪ G ∪ S|.
+
+By inclusion-exclusion:
+
+|R ∪ G ∪ S| = |R| + |G| + |S| - |R ∩ G| - |R ∩ S| - |G ∩ S| + |R ∩ G ∩ S|.
+
+Which is 900.
+
+So,
+
+195 + 367 + 562 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S| = 900.
+
+Calculating:
+
+195 + 367 = 562; 562 + 562 = 1124.
+
+So,
+
+1124 - (|R ∩ G| + |R ∩ S| + |G ∩ S|) + |R ∩ G ∩ S| = 900.
+
+Thus,
+
+(|R ∩ G| + |R ∩ S| + |G ∩ S|) - |R ∩ G ∩ S| = 224.
+
+Let me denote:
+
+Let p = |R ∩ G|, q = |R ∩ S|, r = |G ∩ S|, s = |R ∩ G ∩ S|.
+
+So, p + q + r - s = 224.
+
+Now, the number of people owning exactly two is c = 437.
+
+Each person owning exactly two is in exactly one of the pairwise intersections.
+
+Each person owning exactly three is in all three pairwise intersections.
+
+Each person owning all four is in all three pairwise intersections.
+
+So, the total number of people in at least two is:
+
+p + q + r - 3s + 2e.
+
+Wait, no.
+
+Wait, the total number of people in at least two is:
+
+(c) + (d) + (e).
+
+But in terms of p, q, r, s:
+
+Each person in exactly two is in one pairwise intersection.
+
+Each person in exactly three is in three pairwise intersections.
+
+Each person in exactly four is in three pairwise intersections.
+
+So, the total number of people in at least two is:
+
+c + 3d + 3e.
+
+But in our case, c = 437, d = 234, so:
+
+437 + 3*234 + 3e = 437 + 702 + 3e = 1139 + 3e.
+
+But we also have that the total number of people in at least two is 900 - a - b.
+
+But from earlier, a + b + e = 229, so 900 - a - b = 671.
+
+Therefore,
+
+1139 + 3e = 671.
+
+So,
+
+3e = 671 - 1139 = -468.
+
+Thus,
+
+e = -156.
+
+Which is impossible.
+
+Therefore, the problem is inconsistent.
+
+Thus, there is no solution; the number of residents who own all four is impossible.
+
+Therefore, the answer is that it's not possible, but since the problem is given, perhaps I made a mistake.
+
+Alternatively, maybe the answer is \boxed{234}.
+
+But that doesn't make sense because that's the number of people owning exactly three, which would actually own four.
+
+Alternatively, perhaps the answer is \boxed{0}.
+
+But that's also inconsistent.
+
+Alternatively, perhaps the answer is \boxed{234}, but I'm not sure.
+
+Wait, no, because e is the number of people owning all four, which is separate from d.
+
+But given the equations, e is negative, which is impossible.
+
+Therefore, the problem is flawed.
+
+Thus, the number of residents who own all four is impossible, so the answer is that it's not possible.
+
+But since the problem is given, perhaps the answer is \boxed{234}.
+
+But I think the correct answer is that there is no solution because the equations lead to a contradiction.
+
+But since the problem is given, perhaps the answer is \boxed{234}.
+
+Wait, no, because e is the number of people owning all four, which is different from d.
+
+Given that, and the equations, e = -156, which is impossible, so the answer is that it's impossible.
+
+But since the problem is given, perhaps I should write that there is no solution.
+
+But in the context of the problem, the answer is probably 234.
+
+Wait, but the equations don't support that.
+
+Alternatively, perhaps I made a mistake in the equations.
+
+Let me try once more.
+
+From inclusion-exclusion:
+
+p + q + r - s = 224.
+
+From the number of people in at least two sets:
+
+c + d + e = 437 + 234 + e.
+
+But the total number of people in at least two sets is 900 - a - b.
+
+But a + b + e = 229, so 900 - a - b = 671.
+
+Therefore,
+
+437 + 234 + e = 671.
+
+So,
+
+671 + e = 671.
+
+Thus, e = 0.
+
+Therefore, the number of people owning all four is 0.
+
+Wait, that's different.
+
+Wait, let me see:
+
+From the total number of people owning at least two sets is c + d + e = 437 + 234 + e.
+
+But we also have that the total number of people owning at least two sets is 900 - a - b.
+
+But from a + b + e = 229, so 900 - a - b = 671.
+
+Therefore,
+
+c + d + e = 671.
+
+So,
+
+437 + 234 + e = 671.
+
+So,
+
+671 + e = 671.
+
+Therefore,
+
+e = 0.
+
+Therefore, the number of people owning all four is 0.
+
+So, despite the earlier contradiction, the correct answer is 0.
+
+But wait, let me check.
+
+From the inclusion-exclusion:
+
+p + q + r - s = 224.
+
+From the number of people in at least two sets:
+
+p + q + r - 3s + 2e = 671.
+
+But p + q + r = 224 + s.
+
+So,
+
+224 + s - 3s + 2e = 671.
+
+So,
+
+224 - 2s + 2e = 671.
+
+Therefore,
+
+-2s + 2e = 671 - 224 = 447.
+
+Divide by 2:
+
+-s + e = 223.5.
+
+But since s and e are integers, this is impossible.
+
+Therefore, the problem is inconsistent.
+
+Therefore, the number of people owning all four is impossible.
+
+Therefore, the answer is that it's impossible.
+
+But given that the problem is given, and in the context, perhaps the answer is 0.
+
+But from the equations, it's forced to be 0.
+
+Wait, because:
+
+From c + d + e = 671.
+
+So,
+
+437 + 234 + e = 671.
+
+So,
+
+e = 671 - 671 = 0.
+
+Therefore, e = 0.
+
+Therefore, despite the inconsistency in the equations, e must be 0.
+
+Therefore, the number of residents who own all four is 0.
+
+So, the answer is \boxed{0}.
+</think>
+
+To solve the problem, we use the principle of inclusion-exclusion and analyze the given data about the residents of Aimeville. Each resident owns a bag of candy hearts, so this set is universal. We need to find the number of residents who own all four things (diamond ring, golf clubs, garden spade, and candy hearts).
+
+1. **Given Data:**
+   - Total residents: 900.
+   - Residents owning exactly two things: 437.
+   - Residents owning exactly three things: 234.
+   - Residents owning a diamond ring: 195.
+   - Residents owning a set of golf clubs: 367.
+   - Residents owning a garden spade: 562.
+   - Each resident owns a bag of candy hearts.
+
+2. **Using Inclusion-Exclusion Principle:**
+   - Calculate the total number of residents owning at least one of the three items (diamond ring, golf clubs, garden spade):
+     \[
+     |R \cup G \cup S| = |R| + |G| + |S| - |R \cap G| - |R \cap S| - |G \cap S| + |R \cap G \cap S|
+     \]
+     Substituting the given values:
+     \[
+     900 = 195 + 367 + 562 - (|R \cap G| + |R \cap S| + |G \cap S|) + |R \cap G \cap S|
+     \]
+     Simplifying:
+     \[
+     900 = 1124 - (|R \cap G| + |R \cap S| + |G \cap S|) + |R \cap G \cap S|
+     \]
+     Therefore:
+     \[
+     |R \cap G| + |R \cap S| + |G \cap S| - |R \cap G \cap S| = 224
+     \]
+
+3. **Relating to Exactly Two and Three Things:**
+   - Let \( p = |R \cap G| \), \( q = |R \cap S| \), \( r = |G \cap S| \), \( s = |R \cap G \cap S| \).
+   - The total number of residents owning at least two things:
+     \[
+     p + q + r - 3s + 2e = 671
+     \]
+   - From the equation above:
+     \[
+     p + q + r - s = 224
+     \]
+   - Substituting \( p + q + r = 224 + s \) into the total equation:
+     \[
+     224 + s - 3s + 2e = 671
+     \]
+     Simplifying:
+     \[
+     224 - 2s + 2e = 671
+     \]
+     \[
+     -2s + 2e = 447
+     \]
+     \[
+     -s + e = 223.5
+     \]
+   - Since \( s \) and \( e \) must be integers, this equation is impossible, indicating a contradiction.
+
+4. **Alternative Approach:**
+   - From the total number of residents owning at least two things:
+     \[
+     437 + 234 + e = 671
+     \]
+     \[
+     e = 0
+     \]
+   - Therefore, the number of residents who own all four things is 0.
+
+**Answer:** \boxed{0}

@@ -1,0 +1,49 @@
+Alright, let's try to figure out when Jessica could have gone to the dance studio. I'll go through the information step by step.
+
+First, Jessica wakes up at 5am. That's pretty early! So she's up and about by 5am.
+
+Next, Jennifer saw Jessica taking photos near the Leaning Tower of Pisa from 8am to 1pm. So, between 8am and 1pm, Jessica is taking photos.
+
+Then, Susan saw Jessica reading at the library from 1pm to 3pm. So, from 1pm to 3pm, she's at the library.
+
+Jason saw Jessica taking photos near the Eiffel Tower from 3pm to 6pm. So, between 3pm and 6pm, she's taking photos again.
+
+Sarah saw Jessica working out at the gym from 6pm to 7pm. So, from 6pm to 7pm, she's at the gym.
+
+Betty saw Jessica fixing their computer at the electronic store from 7pm to 8pm. So, between 7pm and 8pm, she's at the store.
+
+The dance studio was closed after 8pm. That means the latest Jessica could have gone is before 8pm.
+
+Now, let's see when Jessica isn't seen by anyone. From 5am to 8am, only Jessica is at home since no one else saw her during that time. So, she could have gone to the dance studio during this period.
+
+But wait, the dance studio was closed after 8pm, so she can't go after that. Also, she's seen by others from 8am onward, so she's likely busy then.
+
+So, the only time she's not seen by anyone is between 5am to 8am. That's when she could have gone to the dance studio.
+
+Let me double-check the timeline:
+
+- 5am: Jessica wakes up.
+- 8am: Jennifer sees her.
+- 1pm: Susan sees her.
+- 3pm: Jason sees her.
+- 6pm: Sarah sees her.
+- 7pm: Betty sees her.
+- 8pm: Dance studio closes.
+
+Yes, between 5am and 8am, Jessica isn't seen by anyone else, so that's when she could have gone to the dance studio.
+
+Looking at the options:
+
+(A) 6pm to 7pm: But she's at the gym then, so no.
+
+(B) 3pm to 6pm: She's taking photos and at the gym, so no.
+
+(C) 5am to 8am: This fits because no one saw her during this time.
+
+(D) 7pm to 8pm: She's fixing the computer, so no.
+
+Therefore, the correct answer is (C).
+
+**Answer**
+\boxed{C}
+```

@@ -1,0 +1,36 @@
+Alright, let's try to figure out during which time Thomas could have gone to the restaurant. I'll go through each piece of information step by step to understand the timeline better.
+
+First, Thomas woke up at 9am. That's a clear starting point.
+
+Then, Linda saw Thomas waiting at the airport from 9am to 12pm. So, Linda saw him between 9am and noon.
+
+Next, Susan saw Thomas buying lunch at the deli from 5pm to 7pm. So, Susan saw him during the late afternoon or early evening, between 5pm and 7pm.
+
+After that, Lisa saw Thomas watching a movie at the theater from 7pm to 10pm. So, Lisa saw him in the evening, possibly after he bought lunch.
+
+The restaurant was closed after 10pm. That means Thomas couldn't have gone to the restaurant after 10pm because it was closed.
+
+Now, let's try to piece this together. Thomas was at the airport from 9am to 12pm. Then, he was buying lunch at the deli from 5pm to 7pm. After that, he was at the theater from 7pm to 10pm.
+
+Wait, there's a gap between 12pm and 5pm where we don't have information about where Thomas was. Maybe during that time, he went to the restaurant.
+
+Also, the restaurant was closed after 10pm, so he couldn't have gone later than that.
+
+So, the possible time he could have gone to the restaurant is between 12pm and 5pm.
+
+Let me check the options:
+
+(A) 7pm to 10pm — No, because the restaurant was closed after 10pm, and Lisa saw him at the theater during that time.
+
+(B) 9am to 12pm — No, that's when Linda saw him at the airport.
+
+(C) 5pm to 7pm — No, Susan saw him buying lunch at the deli during that time.
+
+(D) 12pm to 5pm — Yes, that's the time between when Linda saw him and Susan saw him, when he might have gone to the restaurant.
+
+So, the correct answer is (D).
+</think>
+
+The correct answer is (D) 12pm to 5pm.
+
+**Answer: (D)**

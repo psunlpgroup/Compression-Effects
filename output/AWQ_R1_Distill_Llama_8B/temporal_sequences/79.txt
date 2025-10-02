@@ -1,0 +1,62 @@
+Alright, let's try to figure out when Susan could have gone to the art studio. I'll start by laying out all the information given and see how the pieces fit together.
+
+First, Susan woke up at 5am. So, her activities start from that time onward.
+
+Next, Kimberly saw Susan waiting at the train station from 5am to 6am. That means Susan was at the train station during that hour.
+
+Then, Lisa saw Susan working out at the gym from 6am to 11am. So, after leaving the train station, Susan went to the gym and stayed there until 11am.
+
+After that, Betty saw Susan reading at the library from 11am to 12pm. So, Susan left the gym at 11am and went to the library, where she stayed until 12pm.
+
+Now, the art studio was closed after 1pm. That means Susan could have gone to the art studio only before 1pm.
+
+Let's summarize the timeline:
+
+- 5am to 6am: Train station
+- 6am to 11am: Gym
+- 11am to 12pm: Library
+- After 12pm: Art studio could be an option since it's closed after 1pm.
+
+Wait, but Susan was at the library from 11am to 12pm. The art studio was closed after 1pm, but Susan was at the library until 12pm. So, she couldn't have gone to the art studio during her time at the library.
+
+Before that, she was at the gym from 6am to 11am. So, she was occupied then too.
+
+She was at the train station from 5am to 6am. So, she was already occupied until 6am.
+
+But the art studio was closed after 1pm. So, the latest she could have gone is by 1pm.
+
+But looking at her schedule, she was at the library until 12pm and then presumably free after that. So, between 12pm and 1pm, the art studio was still open, but it was closed after 1pm.
+
+Wait, the question is asking between what times could they have gone. The options include:
+
+(A) 12pm to 1pm
+
+(B) 11am to 12pm
+
+(C) 6am to 11am
+
+(D) 5am to 6am
+
+But from the timeline, Susan was at the train station from 5-6am, gym from 6-11am, library from 11-12pm. So, she was occupied the entire time up to 12pm. The art studio was closed after 1pm, so she could have gone between 12pm and 1pm.
+
+But let's check the options. Option A is 12pm to 1pm, which is the only time when she wasn't occupied and the studio was still open.
+
+So, the correct answer should be (A) 12pm to 1pm.
+</think>
+
+The correct answer is (A) 12pm to 1pm.
+
+**Step-by-Step Explanation:**
+
+1. **Susan's Schedule:**
+   - **5am to 6am:** At the train station.
+   - **6am to 11am:** At the gym.
+   - **11am to 12pm:** At the library.
+
+2. **Art Studio Availability:**
+   - The art studio is closed after 1pm, so Susan could have visited between 12pm and 1pm.
+
+3. **Conclusion:**
+   - Susan was occupied until 12pm. The latest she could have visited the art studio is between 12pm and 1pm.
+
+**Answer:** (A) 12pm to 1pm

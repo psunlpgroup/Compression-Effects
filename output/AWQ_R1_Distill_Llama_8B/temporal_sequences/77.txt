@@ -1,0 +1,39 @@
+Okay, let's try to figure out when Jennifer could have gone to the basketball court. So, Jennifer's day starts at 6 am when she wakes up. Then, there are a few different people who saw her doing different things throughout the day. Let's break it down step by step.
+
+First, Thomas saw Jennifer buying a bike at the bike shop from 6 am to 9 am. So, during that time, she was at the bike shop. That means she wasn't at the basketball court during that window.
+
+Next, Samantha saw Jennifer driving to the water park from 9 am to 10 am. So, right after buying the bike, she went to the water park. That also means she wasn't at the basketball court during that time.
+
+Then, Steven saw Jennifer fixing their computer at the electronic store from 10 am to 1 pm. So, from 10 am until 1 pm, she was busy fixing the computer. No basketball court visit during that period.
+
+After that, Mark saw Jennifer stretching at a yoga studio from 3 pm to 5 pm. So, in the late afternoon, she was at the yoga studio. The basketball court was closed after 5 pm, so she couldn't have gone there after 5 pm.
+
+Putting all this together, when could she have gone to the basketball court? Let's see the times when she wasn't seen by anyone:
+
+- From 6 am to 9 am: She was buying a bike.
+- From 9 am to 10 am: She was driving to the water park.
+- From 10 am to 1 pm: She was fixing the computer.
+- From 3 pm to 5 pm: She was stretching at the yoga studio.
+
+So, the only time she wasn't doing those activities is between 1 pm and 3 pm. That's when she could have gone to the basketball court.
+
+Let's double-check the options provided:
+
+(A) 9am to 10am  
+She was driving to the water park then, so not possible.
+
+(B) 6am to 9am  
+She was buying a bike then, so not possible.
+
+(C) 3pm to 5pm  
+She was at the yoga studio then, so not possible.
+
+(D) 1pm to 3pm  
+This is the only time she wasn't seen by anyone, so this must be when she went to the basketball court.
+
+Therefore, the correct answer is (D).
+</think>
+
+Jennifer went to the basketball court between **1pm to 3pm**.
+
+**Answer:** (D)

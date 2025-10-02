@@ -1,0 +1,39 @@
+Alright, let's try to figure out when Sarah could have gone to the construction site. I'll need to look at the timeline provided and see when she wasn't being spotted by others.
+
+First, Sarah wakes up at 5am. Then, William sees her on the rooftop from 5am to 11am. So, from 5am to 11am, Sarah is visible on the rooftop.
+
+Next, Mary sees Sarah at the library from 11am to 3pm. So, from 11am to 3pm, she's at the library reading.
+
+Then, Jessica sees Sarah walking towards the Statue of Liberty from 3pm to 4pm. So, between 3pm and 4pm, she's walking.
+
+Leslie sees Sarah playing tennis at the tennis court from 7pm to 8pm. So, from 7pm to 8pm, she's playing tennis.
+
+The construction site was closed after 8pm, so Sarah couldn't have gone there after 8pm.
+
+Now, let's see when she's not being spotted:
+
+- From 5am to 11am: on the rooftop.
+- 11am to 3pm: at the library.
+- 3pm to 4pm: walking.
+- 7pm to 8pm: playing tennis.
+
+So, the times when she's not being spotted are between 4pm to 7pm and after 8pm. But the construction site was closed after 8pm, so she couldn't have gone after that.
+
+Therefore, the only possible time is between 4pm to 7pm.
+
+Let me double-check the options:
+
+(A) 11am to 3pm — She's at the library then, so that's not possible.
+
+(B) 4pm to 7pm — This fits because no one saw her here.
+
+(C) 3pm to 4pm — She's walking then, so that's not possible.
+
+(D) 7pm to 8pm — She's playing tennis, so that's not possible.
+
+Yes, option B is correct.
+</think>
+
+The construction site was closed after 8pm, so Sarah couldn't have gone after that time. The only available window is between 4pm to 7pm when no one saw her.
+
+**Answer: (B) 4pm to 7pm**

@@ -1,0 +1,36 @@
+Alright, let's try to figure out during what time Tiffany could have gone to the library. I'll start by listing out all the information given and then see how it all fits together.
+
+First, Tiffany woke up at 5am. So, her earliest possible time to be at the library would be right after she wakes up, which is 5am.
+
+Next, Anthony saw Tiffany walking in the garden from 6am to 8am. That means between 6am and 8am, Tiffany was outside, so she wasn't at the library during that time.
+
+Then, Emily saw Tiffany working out at the gym from 8am to 5pm. So, from 8am until 5pm, Tiffany was at the gym. She wasn't at the library during this period either.
+
+After that, Kimberly saw Tiffany working at the office from 5pm to 7pm. So, between 5pm and 7pm, Tiffany was at her office. She wasn't at the library during this time.
+
+Finally, Thomas saw Tiffany playing tennis at the tennis court from 7pm to 8pm. So, after 7pm until 8pm, Tiffany was playing tennis. She wasn't at the library during this time.
+
+Now, the library was closed after 8pm. That means the library's operating hours ended at 8pm. So, the latest Tiffany could have gone to the library is before 8pm.
+
+Let's summarize the times when Tiffany was elsewhere:
+
+- **5am to 6am**: Tiffany was awake but not necessarily at the library.
+- **6am to 8am**: Tiffany was walking in the garden.
+- **8am to 5pm**: Tiffany was at the gym.
+- **5pm to 7pm**: Tiffany was at the office.
+- **7pm to 8pm**: Tiffany was playing tennis.
+
+So, the times when Tiffany wasn't doing any of those activities and could potentially have gone to the library are:
+
+- **5am to 6am**: She was awake but not confirmed to be at the library.
+- **Between 5pm and 7pm**: She was at the office, so she couldn't have gone to the library during this time.
+- **After 8pm**: The library was closed, so she couldn't have gone then.
+
+From this, the only possible time when Tiffany wasn't accounted for by any of the activities is between 5am and 6am. However, during this time, she was simply awake but not necessarily at the library. Since there's no direct evidence of her being at the library during this period, it's the only possible window left.
+
+Therefore, the only possible time Tiffany could have gone to the library is between 5am and 6am.
+</think>
+
+The correct answer is (B) 5am to 6am.
+
+Answer: (B)

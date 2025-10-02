@@ -1,0 +1,85 @@
+Alright, let's try to figure out between what times Sarah could have gone to the construction site. I'll go through the information step by step.
+
+First, Sarah wakes up at 6am. So, from 6am onwards, she's awake.
+
+Next, Nancy saw Sarah fixing their computer at the electronic store from 8am to 2pm. So, between 8am and 2pm, Sarah was at the electronic store.
+
+Then, Betty saw Sarah driving to the water park from 2pm to 3pm. So, right after the electronic store, Sarah was driving to the water park.
+
+Kimberly saw Sarah buying clothes at the mall from 3pm to 4pm. So, after the water park, Sarah was at the mall.
+
+Emily saw Sarah buying cookies at a bakery from 4pm to 6pm. So, after the mall, Sarah was buying cookies.
+
+David saw Sarah attending class at the school from 6pm to 8pm. So, after the bakery, Sarah was in class.
+
+Now, the construction site was closed after 8pm. That means Sarah couldn't have gone to the construction site after 8pm because it was closed then.
+
+So, let's piece this together:
+
+- Sarah wakes up at 6am.
+- She's involved in various activities from 8am until 8pm.
+- The construction site is only accessible before 8pm.
+
+Therefore, the time Sarah could have gone to the construction site would be before 8pm, but we also need to consider when she was free.
+
+Looking at the timeline:
+
+- From 6am to 8am: Sarah is awake but hasn't started any activities yet.
+- From 8am to 2pm: She's at the electronic store.
+- From 2pm to 3pm: She's driving to the water park.
+- From 3pm to 4pm: She's buying clothes at the mall.
+- From 4pm to 6pm: She's buying cookies.
+- From 6pm to 8pm: She's in class.
+
+So, the only time she wasn't occupied is from 6am to 8am. Therefore, the only possible time she could have gone to the construction site is between 6am and 8am.
+
+But wait, the construction site was closed after 8pm, but that doesn't necessarily mean it was closed before 8pm. Maybe it's just that after 8pm, it's closed. So, Sarah could have gone to the construction site any time before 8pm.
+
+However, considering her activities:
+
+- From 8am to 2pm: At the electronic store.
+- So, she can't have gone to the construction site during this time.
+
+- From 2pm to 3pm: At the water park.
+- Can't have been at construction.
+
+- From 3pm to 4pm: At the mall.
+- Can't have been at construction.
+
+- From 4pm to 6pm: Buying cookies.
+- Can't have been at construction.
+
+- From 6pm to 8pm: In class.
+- Can't have been at construction.
+
+So, the only free time she had was from 6am to 8am. But wait, from 6am to 8am, she was awake but not necessarily free. Maybe she was doing something else or not.
+
+But according to the information given, Nancy saw her at the electronic store starting at 8am. So, before 8am, she was at home or doing something else.
+
+Therefore, the only possible time she could have gone to the construction site is between 6am and 8am.
+
+So, the answer should be (C) 6am to 8am.
+</think>
+
+The correct answer is (C) 6am to 8am.
+
+Step-by-Step Explanation:
+
+1. **Identify Key Time Windows:**
+   - Sarah wakes up at 6am.
+   - She is seen at various locations from 8am to 8pm.
+   - The construction site is only accessible before 8pm.
+
+2. **Determine Her Activities:**
+   - 8am to 2pm: Electronic store.
+   - 2pm to 3pm: Water park.
+   - 3pm to 4pm: Mall.
+   - 4pm to 6pm: Bakery.
+   - 6pm to 8pm: Class.
+
+3. **Find the Only Free Window:**
+   - Before 8am, Sarah was at home.
+   - After 8am, she was occupied until 8pm.
+   - Thus, the only time she could have gone to the construction site is between 6am and 8am.
+
+Answer: (C) 6am to 8am

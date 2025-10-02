@@ -1,0 +1,30 @@
+Alright, let's try to figure out when David could have gone to the football field. I'll go through each piece of information step by step.
+
+First, David wakes up at 5am. So, from 5am onward, he's awake.
+
+Steven saw David buying a phone at the electronics store from 5am to 6am. That means during this time, David was likely occupied with buying the phone, so he wasn't at the football field.
+
+Next, Kimberly saw David taking photos near the Leaning Tower of Pisa from 6am to 8am. So, between 6am and 8am, David was busy taking photos. He wouldn't have been at the football field during this time.
+
+Then, Betty saw David working out at the gym from 9am to 12pm. So, from 9am to 12pm, David was at the gym. That's another activity, so he wasn't at the football field.
+
+Lisa saw David driving to the water park from 12pm to 3pm. That means he was driving to the water park during this time, not at the football field.
+
+William saw David sitting on a rooftop from 3pm to 10pm. So, from 3pm to 10pm, David was sitting on a rooftop. The football field was closed after 10pm, so he couldn't have gone there after 10pm.
+
+Putting this all together:
+
+- 5am to 6am: Buying a phone
+- 6am to 8am: Taking photos
+- 8am to 9am: There's a gap here; David might have been free
+- 9am to 12pm: Working out
+- 12pm to 3pm: Driving to the water park
+- 3pm to 10pm: Sitting on a rooftop
+- After 10pm: Football field was closed
+
+So, the only possible time David could have gone to the football field is between 8am and 9am when there's no mention of him being elsewhere.
+
+Therefore, the answer is (D) 8am to 9am.
+</answer>
+
+The correct answer is (D) 8am to 9am.

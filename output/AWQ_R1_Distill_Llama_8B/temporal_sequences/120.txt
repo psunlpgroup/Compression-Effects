@@ -1,0 +1,50 @@
+Alright, let's try to figure out when Andrew could have gone to the clothing store. I'll start by laying out all the information given.
+
+Andrew wakes up at 5am. So, his activities probably start around that time.
+
+William saw Andrew playing tennis at the tennis court from 5am to 6am. Okay, so between 5 and 6 am, Andrew was playing tennis.
+
+Next, Jessica saw Andrew buying lunch at the deli from 6am to 9am. So, from 6 am to 9 am, he was at the deli.
+
+Tiffany saw Andrew taking photos near the Leaning Tower of Pisa from 9am to 11am. So, that's another activity from 9 am to 11 am.
+
+John saw Andrew waiting at the train station from 11am to 5pm. Hmm, that's a longer period—11 am to 5 pm.
+
+Sarah saw Andrew reading at the library from 6pm to 9pm. So, from 6 pm to 9 pm, he was at the library.
+
+Now, the clothing store was closed after 9 pm. That means the latest Andrew could have gone there is before 9 pm.
+
+Looking at the activities, from 5 am to 9 pm, Andrew was either playing tennis, buying lunch, taking photos, waiting at the train station, or reading. 
+
+So, when could he have gone to the clothing store? It has to be a time when he wasn't doing one of these activities.
+
+Let's see:
+
+- From 5 am to 6 am: playing tennis
+- 6 am to 9 am: buying lunch
+- 9 am to 11 am: taking photos
+- 11 am to 5 pm: waiting at the train station
+- 6 pm to 9 pm: reading
+
+The only time not covered in these activities is between 5 pm and 6 pm. Because after 5 pm, he was waiting at the train station until 5 pm, and then at 6 pm, he started reading.
+
+So, the only window when he wasn't doing any of those specific activities is from 5 pm to 6 pm.
+
+Wait, but let me double-check. The clothing store was closed after 9 pm, so he must have gone before 9 pm.
+
+Looking again:
+
+From 5 am to 5 pm, he was either playing tennis, buying lunch, taking photos, or waiting at the train station.
+
+From 5 pm to 6 pm, he wasn't doing any of those specific things mentioned. So that's when he could have gone to the clothing store.
+
+So, the correct time is from 5 pm to 6 pm.
+
+Looking at the options, that's option (D).
+
+I think that makes sense because the clothing store was closed after 9 pm, so he had to go before that. The only free time he had was between 5 pm and 6 pm.
+</think>
+
+Andrew could have gone to the clothing store between **5pm to 6pm**. 
+
+**Answer: (D)**

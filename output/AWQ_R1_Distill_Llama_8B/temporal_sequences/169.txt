@@ -1,0 +1,59 @@
+Alright, let's try to figure out when Hannah could have gone to the soccer field. I'll start by listing out all the information we have and then see how the times overlap.
+
+First, Hannah wakes up at 5am. So, she's up and about by then.
+
+Next, Jessica saw Hannah buying clothes at the mall from 5am to 6am. So, that's the first activity after waking up.
+
+Then, Kimberly saw Hannah watching a movie at the theater from 6am to 11am. That means Hannah went to the theater right after leaving the mall.
+
+After that, Sarah saw Hannah getting a coffee at the cafe from 11am to 1pm. So, she stopped for coffee before heading somewhere else.
+
+Steven saw Hannah working at the office from 1pm to 3pm. So, she worked in the afternoon.
+
+Hannah saw Hannah waiting at the airport from 3pm to 5pm. That's interesting—she saw herself waiting at the airport, so that's another activity.
+
+The soccer field was closed after 6pm. So, if she went to the soccer field, she must have done so before 6pm.
+
+Now, let's see when she wasn't doing any of these activities. She was at the mall from 5am to 6am, then at the theater from 6am to 11am, at the cafe from 11am to 1pm, at the office from 1pm to 3pm, and at the airport from 3pm to 5pm.
+
+Wait, let me add up these times to make sure I have all the intervals covered:
+
+- 5am to 6am: Mall
+- 6am to 11am: Theater
+- 11am to 1pm: Cafe
+- 1pm to 3pm: Office
+- 3pm to 5pm: Airport
+
+So, from 5am to 5pm, she's been spotted doing these different things. But the soccer field was only available before 6pm. So, when could she have gone?
+
+Looking at her schedule, between 5pm and 6pm, she wasn't spotted doing anything specific. The last activity was her waiting at the airport from 3pm to 5pm. So, after that, until 6pm, she could have gone to the soccer field.
+
+Wait, but the soccer field was closed after 6pm, so she must have gone before 6pm. So, the time between 5pm and 6pm is the only free time she had when she wasn't spotted doing anything else.
+
+So, the possible time she could have gone to the soccer field is between 5pm and 6pm.
+
+But let's double-check the options. The options given are:
+
+(A) 3pm to 5pm
+(B) 11am to 1pm
+(C) 5pm to 6pm
+(D) 1pm to 3pm
+
+From our analysis, the only time she wasn't doing anything else was between 5pm and 6pm, which matches option (C).
+
+But wait, let me think again. The timeline adds up as follows:
+
+- 5am-6am: Mall
+- 6am-11am: Theater
+- 11am-1pm: Cafe
+- 1pm-3pm: Office
+- 3pm-5pm: Airport
+
+So, after the airport, from 5pm to 6pm, she wasn't spotted doing anything else. That's the only free window.
+
+Therefore, the correct answer is (C) 5pm to 6pm.
+</think>
+
+The correct answer is (C) 5pm to 6pm.
+
+**Answer:** (C) 5pm to 6pm

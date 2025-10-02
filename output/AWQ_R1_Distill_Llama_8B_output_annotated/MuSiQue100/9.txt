@@ -1,0 +1,13 @@
+["initializing"] The 1979-80 European Cup winner won the FA Cup in 1979.["end-section"]
+
+["deduction"] The 1979-80 European Cup winner needed to have also won the FA Cup in 1979.["end-section"]
+
+["adding-knowledge"] Nottingham Forest is known for winning the European Cup during that period.["end-section"]
+
+["deduction"] Therefore, Nottingham Forest may also be the team that won the FA Cup in 1979.["end-section"]
+
+["adding-knowledge"] However, Arsenal won the FA Cup in 1979.["end-section"]
+
+["deduction"] This means that the European Cup winner, Nottingham Forest, did not win the FA Cup that year.["end-section"]
+
+["certainty-estimation"] I am confident in the historical records regarding these football events.["end-section"]

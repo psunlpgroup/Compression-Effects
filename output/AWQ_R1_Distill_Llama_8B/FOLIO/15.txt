@@ -1,0 +1,32 @@
+Okay, so I'm trying to figure out if the conclusion "All squares are shapes." is true, false, or uncertain based on the given premises. Let me break this down step by step.
+
+First, the premises are:
+1. All squares are four-sided.
+2. All four-sided things are shapes.
+
+I need to see if these premises logically lead to the conclusion. 
+
+Starting with the first premise: All squares have four sides. That makes sense because a square is a quadrilateral with equal sides and angles. So, if something is a square, it must have four sides.
+
+The second premise says that all four-sided things are shapes. A shape is a two-dimensional figure, like a polygon or a circle. So, if something is four-sided, it falls under the category of shapes.
+
+Now, connecting these two premises. If all squares are four-sided, and all four-sided things are shapes, then by substitution, all squares must be shapes. That seems straightforward.
+
+I don't see any contradictions here. Squares are indeed four-sided, and four-sided things are shapes. Therefore, the conclusion follows logically from the premises.
+
+I don't think there's any uncertainty here because the premises are clear and directly related. There's no hidden information or exceptions mentioned, so the conclusion should be true.
+</think>
+
+The conclusion "All squares are shapes." is **true** based on the premises.
+
+**Step-by-Step Explanation:**
+
+1. **Premise 1:** All squares are four-sided. This defines squares as quadrilaterals with four sides.
+   
+2. **Premise 2:** All four-sided things are shapes. This includes all four-sided figures under the category of shapes.
+
+3. **Logical Connection:** Since all squares are four-sided (from Premise 1) and all four-sided things are shapes (from Premise 2), substituting the first into the second logically leads to the conclusion that all squares are shapes.
+
+4. **Conclusion:** Therefore, All squares are shapes.
+
+**Answer:** True

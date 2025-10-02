@@ -1,0 +1,42 @@
+Alright, let's try to figure out when Emily could have gone to the orchestra hall. So, the timeline given is:
+
+- **Emily wakes up at 5am.**
+- **Linda saw Emily waiting at the airport from 5am to 6am.**
+- **David saw Emily buying cookies at a bakery from 2pm to 7pm.**
+- **Michael saw Emily buying clothes at the mall from 7pm to 8pm.**
+- **Thomas saw Emily working out at the gym from 8pm to 10pm.**
+- **The orchestra hall was closed after 10pm.**
+
+First, let's list out all the time frames when Emily was spotted:
+
+1. **5am to 6am** (Linda at the airport)
+2. **2pm to 7pm** (David at the bakery)
+3. **7pm to 8pm** (Michael at the mall)
+4. **8pm to 10pm** (Thomas at the gym)
+
+Now, we need to find the time when Emily was NOT spotted, because the orchestra hall was closed after 10pm. So, Emily must have gone to the orchestra hall during a time when she wasn't seen by anyone else.
+
+Let's analyze the gaps between these observed times:
+
+- Between **6am to 2pm**: There's no information about where Emily was. This is a potential window she could have gone to the orchestra hall.
+- Between **7pm to 8pm**: Michael saw her at the mall, so she was buying clothes then.
+- Between **8pm to 10pm**: Thomas saw her at the gym.
+
+So, the only time she wasn't seen by anyone is between **6am to 2pm**. That's a significant block of time where she wasn't observed doing anything specific.
+
+Let's double-check:
+
+- **5am to 6am**: At the airport with Linda.
+- **6am to 2pm**: No one saw her. This is the possible time she went to the orchestra hall.
+- **2pm to 7pm**: At the bakery with David.
+- **7pm to 8pm**: At the mall with Michael.
+- **8pm to 10pm**: At the gym with Thomas.
+
+Since the orchestra hall was closed after 10pm, and Thomas saw her at the gym until 10pm, she couldn't have gone to the orchestra hall after that.
+
+Therefore, the only feasible time when she could have gone to the orchestra hall is **6am to 2pm**.
+</think>
+
+Emily could have gone to the orchestra hall between **6am to 2pm**.
+
+**Answer: (D) 6am to 2pm**

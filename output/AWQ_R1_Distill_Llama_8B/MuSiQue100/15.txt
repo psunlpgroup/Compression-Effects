@@ -1,0 +1,24 @@
+To determine the father of the father of Aner Ali, we start by identifying Aner Ali's immediate father.
+
+Aner Ali's immediate father is **Ibrahim Ali**.
+
+Next, we need to find Ibrahim Ali's father.
+
+Ibrahim Ali's father is **Sayyid Ali**.
+
+Therefore, the father of the father of Aner Ali is **Sayyid Ali**.
+</think>
+
+To find the father of the father of **Aner Ali**, let's break it down step by step:
+
+1. **Aner Ali's Immediate Father:**
+   - **Ibrahim Ali**
+
+2. **Ibrahim Ali's Father:**
+   - **Sayyid Ali**
+
+Therefore, the father of the father of **Aner Ali** is:
+
+\[
+\boxed{\text{Sayyid Ali}}
+\]

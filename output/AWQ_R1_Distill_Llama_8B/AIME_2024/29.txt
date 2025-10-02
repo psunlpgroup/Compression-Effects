@@ -1,0 +1,290 @@
+Okay, so I have this problem where ω is a primitive 13th root of unity, meaning ω ≠ 1 and ω^13 = 1. I need to find the remainder when the product from k=0 to 12 of (2 - 2ω^k + ω^{2k}) is divided by 1000. Hmm, that seems a bit complicated, but maybe I can break it down step by step.
+
+First, let me write down the product:
+
+Product = Π_{k=0}^{12} (2 - 2ω^k + ω^{2k})
+
+I notice that each term in the product is of the form 2 - 2ω^k + ω^{2k}. Maybe I can simplify this expression. Let me set x = ω^k. Then each term becomes 2 - 2x + x². That's a quadratic in x. Let me rearrange it:
+
+x² - 2x + 2
+
+Hmm, maybe I can factor this quadratic or find its roots. Let's compute the discriminant:
+
+Discriminant D = (-2)^2 - 4*1*2 = 4 - 8 = -4
+
+So the roots are complex:
+
+x = [2 ± sqrt(-4)] / 2 = [2 ± 2i]/2 = 1 ± i
+
+So the quadratic factors as (x - (1 + i))(x - (1 - i)). Therefore, each term in the product is (x - (1 + i))(x - (1 - i)), which is (ω^k - (1 + i))(ω^k - (1 - i)).
+
+So the product becomes:
+
+Product = Π_{k=0}^{12} (ω^k - (1 + i))(ω^k - (1 - i))
+
+Which can be written as:
+
+Product = [Π_{k=0}^{12} (ω^k - (1 + i))] * [Π_{k=0}^{12} (ω^k - (1 - i))]
+
+So now, the problem reduces to evaluating two products: one with (1 + i) and the other with (1 - i). Let me denote:
+
+A = Π_{k=0}^{12} (ω^k - a), where a = 1 + i
+
+B = Π_{k=0}^{12} (ω^k - b), where b = 1 - i
+
+So the overall product is A * B.
+
+Now, I remember that for roots of unity, the product over all roots of a polynomial can be related to the polynomial evaluated at a specific point. Specifically, the product over (x - ω^k) for k=0 to 12 is equal to x^13 - 1, since ω is a primitive 13th root of unity.
+
+Wait, but in our case, we have products of (ω^k - a) and (ω^k - b). So maybe I can relate this to evaluating the polynomial x^13 - 1 at x = a and x = b.
+
+Indeed, yes. The product Π_{k=0}^{12} (a - ω^k) is equal to the product over all roots of x^13 - 1 of (a - root), which is equal to (a^13 - 1). Similarly for b.
+
+Therefore,
+
+A = a^13 - 1
+
+B = b^13 - 1
+
+Hence, Product = (a^13 - 1)(b^13 - 1)
+
+Given that ω is a primitive 13th root, so ω^13 = 1, and since ω ≠ 1, a and b are not equal to ω, but perhaps something else. Wait, no, a and b are complex numbers, not roots of unity necessarily.
+
+Wait, let me clarify. a and b are 1 + i and 1 - i, which are complex numbers, not roots of unity. So, when we compute a^13 and b^13, we need to compute (1 + i)^13 and (1 - i)^13.
+
+Let me compute (1 + i)^13 and (1 - i)^13.
+
+First, (1 + i) can be written in polar form. The modulus is sqrt(1^2 + 1^2) = sqrt(2), and the argument is π/4. So, (1 + i) = sqrt(2) * e^{iπ/4}.
+
+Therefore, (1 + i)^13 = (sqrt(2))^13 * e^{i13π/4}.
+
+Similarly, (1 - i) is sqrt(2) * e^{-iπ/4}, so (1 - i)^13 = (sqrt(2))^13 * e^{-i13π/4}.
+
+Compute e^{i13π/4} and e^{-i13π/4}. Since 13π/4 is equivalent to 13π/4 - 2π = 13π/4 - 8π/4 = 5π/4. Similarly, e^{-i13π/4} = e^{-i5π/4}.
+
+So,
+
+(1 + i)^13 = (sqrt(2))^13 * (cos(5π/4) + i sin(5π/4)) = (sqrt(2))^13 * (-sqrt(2)/2 + i*(-sqrt(2)/2))
+
+Similarly,
+
+(1 - i)^13 = (sqrt(2))^13 * (cos(5π/4) - i sin(5π/4)) = (sqrt(2))^13 * (-sqrt(2)/2 - i*(-sqrt(2)/2))
+
+Wait, let me compute cos(5π/4) and sin(5π/4):
+
+cos(5π/4) = -sqrt(2)/2, sin(5π/4) = -sqrt(2)/2
+
+So,
+
+(1 + i)^13 = (sqrt(2))^13 * (-sqrt(2)/2 - i sqrt(2)/2) = (sqrt(2))^13 * (-sqrt(2)/2)(1 + i)
+
+Similarly,
+
+(1 - i)^13 = (sqrt(2))^13 * (-sqrt(2)/2 - i sqrt(2)/2) = (sqrt(2))^13 * (-sqrt(2)/2)(1 - i)
+
+Wait, hold on, let me verify:
+
+Wait, (1 + i)^13 = (sqrt(2))^13 * e^{i13π/4}
+
+But e^{i13π/4} = e^{i(12π/4 + π/4)} = e^{i3π + iπ/4} = e^{iπ/4} * e^{i3π} = e^{iπ/4} * (-1). So, (1 + i)^13 = (sqrt(2))^13 * (-1) * e^{iπ/4} = - (sqrt(2))^13 * (cos(π/4) + i sin(π/4)) = - (sqrt(2))^13 * (sqrt(2)/2 + i sqrt(2)/2) = - (sqrt(2))^14 / 2 * (1 + i)
+
+Similarly, (1 - i)^13 = (sqrt(2))^13 * e^{-i13π/4} = (sqrt(2))^13 * e^{-i(12π/4 + π/4)} = (sqrt(2))^13 * e^{-i3π} * e^{-iπ/4} = (sqrt(2))^13 * (-1) * e^{-iπ/4} = - (sqrt(2))^13 * (cos(-π/4) + i sin(-π/4)) = - (sqrt(2))^13 * (sqrt(2)/2 - i sqrt(2)/2) = - (sqrt(2))^14 / 2 * (1 - i)
+
+So, we have:
+
+A = (1 + i)^13 - 1 = - (sqrt(2))^14 / 2 * (1 + i) - 1
+
+Similarly,
+
+B = (1 - i)^13 - 1 = - (sqrt(2))^14 / 2 * (1 - i) - 1
+
+Hmm, this seems a bit messy. Maybe I can compute A and B numerically? But since we need the product modulo 1000, perhaps there's a smarter way.
+
+Alternatively, maybe I can note that (1 + i) and (1 - i) are conjugates, so A and B are conjugates as well. Therefore, their product A*B would be |A|^2, which is an integer. So, perhaps I can compute A * B as |A|^2.
+
+Wait, but A = (1 + i)^13 - 1 and B = (1 - i)^13 - 1. Since (1 + i) and (1 - i) are conjugates, then A and B are conjugates as well. So, A * B = |A|^2, which is an integer. Therefore, maybe I can compute |A|^2 and then take it modulo 1000.
+
+Alternatively, maybe there's a better approach. Let me think about cyclotomic polynomials or something related to roots of unity.
+
+Wait, another approach: Let me denote z = ω^k. Then each term in the product is 2 - 2z + z². As before, this is equal to (z - (1 + i))(z - (1 - i)). Therefore, the product over z is equal to the product over (z - (1 + i))(z - (1 - i)).
+
+But the product over z from k=0 to 12 is equal to the product over all 13th roots of unity of (z - (1 + i))(z - (1 - i)).
+
+Wait, but the product over all z of (z - a) is equal to z^13 - 1, but we have the product over (z - a)(z - b). So, actually, the product over all z of (z - a)(z - b) is equal to (z^13 - 1) evaluated at z = a and z = b?
+
+Wait, no, actually, more precisely, the product over z of (z - a) is equal to a^13 - 1, because z^13 - 1 = product over z of (z - ω^k), so setting z = a, we get a^13 - 1 = product over z of (a - z). But in our case, we have product over z of (z - a)(z - b). So, that would be equal to (a^13 - 1)(b^13 - 1), but with a sign perhaps.
+
+Wait, no, more accurately, the product over z of (z - a)(z - b) is equal to (a^13 - 1)(b^13 - 1), but let me verify.
+
+Wait, actually, for each z, (z - a)(z - b) is a quadratic in z, and the product over all z would be the product over all roots of z^13 - 1 of that quadratic. So, it's equivalent to evaluating the resultant of z^13 - 1 and z² - (a + b)z + ab.
+
+But perhaps another way is, since the product over z of (z - a)(z - b) is equal to the product over z of (z - a) times the product over z of (z - b), which is (a^13 - 1)(b^13 - 1). So, yes, that seems to make sense.
+
+Therefore, Product = (a^13 - 1)(b^13 - 1)
+
+Given that a = 1 + i and b = 1 - i, we can compute a^13 and b^13 as above.
+
+Earlier, I found that (1 + i)^13 = - (sqrt(2))^14 / 2 * (1 + i)
+
+Similarly, (1 - i)^13 = - (sqrt(2))^14 / 2 * (1 - i)
+
+So, a^13 = - (sqrt(2))^14 / 2 * (1 + i)
+
+Similarly, b^13 = - (sqrt(2))^14 / 2 * (1 - i)
+
+Therefore, a^13 - 1 = - (sqrt(2))^14 / 2 * (1 + i) - 1
+
+Similarly, b^13 - 1 = - (sqrt(2))^14 / 2 * (1 - i) - 1
+
+So, the product A*B is [ - (sqrt(2))^14 / 2 * (1 + i) - 1 ] * [ - (sqrt(2))^14 / 2 * (1 - i) - 1 ]
+
+This is going to be a bit involved, but let me compute each part step by step.
+
+First, let me compute - (sqrt(2))^14 / 2:
+
+(sqrt(2))^14 = (2)^7 = 128
+
+So, -128 / 2 = -64
+
+Therefore, a^13 - 1 = -64*(1 + i) - 1 = -64 - 64i - 1 = -65 - 64i
+
+Similarly, b^13 - 1 = -64*(1 - i) - 1 = -64 + 64i - 1 = -65 + 64i
+
+So, A*B = (-65 - 64i)*(-65 + 64i) = (-65)^2 - (64i)^2 = 4225 - (4096 * i²) = 4225 - (4096 * (-1)) = 4225 + 4096 = 8321
+
+Wait, that seems manageable. So, the product is 8321.
+
+Therefore, the original product is 8321. Now, we need to find 8321 mod 1000.
+
+Compute 8321 divided by 1000: 1000*8 = 8000, so 8321 - 8000 = 321.
+
+Therefore, 8321 mod 1000 is 321.
+
+Wait, is that correct? Let me check my steps.
+
+First, I converted each term 2 - 2ω^k + ω^{2k} into (ω^k - (1 + i))(ω^k - (1 - i)), which seems correct because x² - 2x + 2 factors as (x - (1 + i))(x - (1 - i)).
+
+Then, the product over k=0 to 12 is equal to the product over all 13th roots of unity of (z - (1 + i))(z - (1 - i)) which is indeed (a^13 - 1)(b^13 - 1) where a = 1 + i and b = 1 - i.
+
+Then, computing a^13 and b^13: as (1 + i)^13 and (1 - i)^13, which in polar form are (sqrt(2))^13 * e^{i13π/4} and similarly for b.
+
+13π/4 is equivalent to 5π/4, as 13π/4 - 2π = 5π/4. So, e^{i13π/4} = e^{i5π/4} = -sqrt(2)/2 - i sqrt(2)/2.
+
+Therefore, (1 + i)^13 = (sqrt(2))^13 * e^{i5π/4} = (sqrt(2))^13 * (-sqrt(2)/2 - i sqrt(2)/2) = (sqrt(2))^14 / 2 * (-1 - i). But since (sqrt(2))^14 = (2)^7 = 128, so 128 / 2 = 64, so (1 + i)^13 = -64*(1 + i). Similarly, (1 - i)^13 = -64*(1 - i).
+
+Thus, a^13 = -64*(1 + i), so a^13 - 1 = -64*(1 + i) - 1 = -64 - 64i - 1 = -65 - 64i.
+
+Similarly, b^13 = -64*(1 - i), so b^13 - 1 = -64 + 64i - 1 = -65 + 64i.
+
+Then, A*B = (-65 - 64i)*(-65 + 64i) = (-65)^2 - (64i)^2 = 4225 - (4096*(-1)) = 4225 + 4096 = 8321.
+
+So, yes, that seems correct.
+
+Therefore, the product is 8321, and 8321 mod 1000 is 321.
+
+Wait, let me confirm 8321 / 1000: 1000*8=8000, 8321-8000=321. So, 8321 mod 1000 is indeed 321.
+
+Therefore, the remainder is 321 when the product is divided by 1000.
+
+But just to make sure I didn't make a mistake earlier, let me go through it again.
+
+Starting with each term: 2 - 2ω^k + ω^{2k}.
+
+Set x = ω^k, so term is 2 - 2x + x².
+
+Factor as (x - (1 + i))(x - (1 - i)). That seems right because (x - (1 + i))(x - (1 - i)) = x² - 2x + 2, which matches.
+
+Thus, the product over k=0 to 12 is the product over all 13th roots of (x - (1 + i))(x - (1 - i)).
+
+Which is equal to ( (1 + i)^13 - 1 ) * ( (1 - i)^13 - 1 )
+
+Compute each:
+
+(1 + i)^13: modulus is sqrt(2), argument pi/4. So, (sqrt(2))^13 * e^{i13pi/4} = (2^{1/2})^13 * e^{i13pi/4} = 2^{13/2} * e^{i13pi/4}
+
+But 13pi/4 = 3pi + pi/4, so e^{i13pi/4} = e^{i3pi} * e^{i pi/4} = (-1) * (cos(pi/4) + i sin(pi/4)) = (-1)*(sqrt(2)/2 + i sqrt(2)/2) = -sqrt(2)/2 - i sqrt(2)/2.
+
+Thus, (1 + i)^13 = 2^{13/2} * (-sqrt(2)/2 - i sqrt(2)/2) = 2^{13/2}*(-sqrt(2)/2)(1 + i) = 2^{13/2 - 1/2}*(-1)(1 + i) = 2^{12/2}*(-1)(1 + i) = 2^6*(-1)(1 + i) = 64*(-1)(1 + i) = -64(1 + i)
+
+Similarly, (1 - i)^13 = 2^{13/2} * e^{-i13pi/4} = 2^{13/2} * (-sqrt(2)/2 + i sqrt(2)/2) = same as above but with (1 - i). So, (1 - i)^13 = -64(1 - i)
+
+Therefore, a^13 - 1 = (-64)(1 + i) - 1 = -64 - 64i -1 = -65 -64i
+
+Similarly, b^13 -1 = (-64)(1 - i) -1 = -64 + 64i -1 = -65 +64i
+
+Multiplying these two:
+
+(-65 -64i)(-65 +64i) = (-65)^2 - (64i)^2 = 4225 - (4096)(-1) = 4225 + 4096 = 8321
+
+So, yes, that's correct.
+
+Therefore, the product is 8321, and 8321 mod 1000 is 321.
+
+Hence, the remainder is 321.
+
+**Final Answer**
+\boxed{321}
+</think>
+
+Given that \(\omega \neq 1\) is a 13th root of unity, we need to find the remainder when the product 
+
+\[
+\prod_{k=0}^{12}(2 - 2\omega^k + \omega^{2k})
+\]
+
+is divided by 1000.
+
+First, we note that each term in the product can be written as a quadratic in \(\omega^k\). Setting \(x = \omega^k\), each term becomes \(2 - 2x + x^2\), which factors as \((x - (1 + i))(x - (1 - i))\).
+
+Thus, the product becomes:
+
+\[
+\prod_{k=0}^{12} (2 - 2\omega^k + \omega^{2k}) = \prod_{k=0}^{12} (ω^k - (1 + i))(ω^k - (1 - i))
+\]
+
+This can be written as:
+
+\[
+\left( \prod_{k=0}^{12} (ω^k - (1 + i)) \right) \left( \prod_{k=0}^{12} (ω^k - (1 - i)) \right)
+\]
+
+Using the properties of roots of unity, we know that the product over all 13th roots of unity of \((x - \omega^k)\) is \(x^{13} - 1\). Therefore, we evaluate the products at \(x = 1 + i\) and \(x = 1 - i\):
+
+\[
+\prod_{k=0}^{12} (ω^k - (1 + i)) = (1 + i)^{13} - 1
+\]
+\[
+\prod_{k=0}^{12} (ω^k - (1 - i)) = (1 - i)^{13} - 1
+\]
+
+We compute \((1 + i)^{13}\) and \((1 - i)^{13}\) in polar form. The modulus of \(1 + i\) is \(\sqrt{2}\) and the argument is \(\pi/4\). Thus,
+
+\[
+(1 + i)^{13} = (\sqrt{2})^{13} \cdot e^{i13\pi/4} = 2^{13/2} \cdot e^{i5\pi/4} = -64(1 + i)
+\]
+\[
+(1 - i)^{13} = (\sqrt{2})^{13} \cdot e^{-i13\pi/4} = 2^{13/2} \cdot e^{-i5\pi/4} = -64(1 - i)
+\]
+
+Thus,
+
+\[
+(1 + i)^{13} - 1 = -64(1 + i) - 1 = -65 - 64i
+\]
+\[
+(1 - i)^{13} - 1 = -64(1 - i) - 1 = -65 + 64i
+\]
+
+Multiplying these results:
+
+\[
+(-65 - 64i)(-65 + 64i) = (-65)^2 - (64i)^2 = 4225 - (-4096) = 4225 + 4096 = 8321
+\]
+
+Finally, we find the remainder when 8321 is divided by 1000:
+
+\[
+8321 \mod 1000 = 321
+\]
+
+Thus, the remainder is \(\boxed{321}\).

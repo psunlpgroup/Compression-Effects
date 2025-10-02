@@ -1,0 +1,31 @@
+To determine the possible times Michael could have gone to the park, let's analyze the information provided.
+
+1. **Michael's Schedule:**
+   - **Woke up at 7am.**
+   - **Played tennis** from **7am to 8am** (seen by William).
+   - **Worked at the office** from **1pm to 3pm** (seen by Richard).
+   - **Bought lunch** from **3pm to 8pm** (seen by Emily).
+   - **Walked towards the Statue of Liberty** from **8pm to 10pm** (seen by Mark).
+   - **The park was closed after 10pm.**
+
+2. **Key Observations:**
+   - Michael was seen at the tennis court from **7am to 8am**.
+   - After that, he worked at the office until **1pm to 3pm**.
+   - Then, he bought lunch and was seen from **3pm to 8pm**.
+   - Finally, he walked towards the Statue of Liberty from **8pm to 10pm**.
+   - The park was closed after **10pm**, so Michael couldn't have been at the park during this time.
+
+3. **Possible Park Visits:**
+   - **From 7am to 8am:** He was playing tennis, so he wasn't at the park.
+   - **From 8am to 1pm:** He was working at the office, so he wasn't at the park.
+   - **From 1pm to 3pm:** He was working, still not at the park.
+   - **From 3pm to 8pm:** He was buying lunch, so this is a potential time he could have gone to the park.
+   - **From 8pm to 10pm:** He was walking towards the Statue of Liberty, so he wasn't at the park.
+
+4. **Conclusion:**
+   - The only time Michael wasn't observed by anyone else is between **3pm to 8pm** when he was buying lunch. This is the only window when he could have gone to the park.
+
+Therefore, the correct answer is (A) **3pm to 8pm**.
+``` 
+(A) 3pm to 8pm
+```

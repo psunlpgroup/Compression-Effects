@@ -1,0 +1,53 @@
+Alright, let's try to figure out when Andrew could have gone to the coffee shop. So, the timeline is:
+
+- Andrew wakes up at 8am.
+- James saw Andrew buying cookies from 8am to 1pm.
+- Kimberly saw Andrew working from 2pm to 3pm.
+- Sarah saw Andrew fixing the computer from 3pm to 5pm.
+- The coffee shop was closed after 5pm.
+
+First, let's list out all the times when Andrew was seen by James, Kimberly, and Sarah.
+
+1. **James's sighting:** 8am to 1pm.
+2. **Kimberly's sighting:** 2pm to 3pm.
+3. **Sarah's sighting:** 3pm to 5pm.
+
+So, Andrew was at the bakery from 8am to 1pm, then at the office from 2pm to 3pm, and finally at the electronics store from 3pm to 5pm.
+
+Now, the coffee shop was closed after 5pm, which means Andrew couldn't have gone there after 5pm.
+
+Looking at the times when Andrew was busy:
+
+- From 8am to 1pm: He was buying cookies.
+- From 2pm to 3pm: He was working.
+- From 3pm to 5pm: He was fixing the computer.
+
+So, during these times, he wasn't free to go to the coffee shop.
+
+Wait, but when exactly was he free? Let's see:
+
+- He wakes up at 8am. If he went to the coffee shop right away, that would be possible, but James saw him buying cookies until 1pm. So, he was busy from 8am to 1pm.
+
+- After that, from 1pm to 2pm, was he free? Because James saw him until 1pm, and Kimberly saw him start working at 2pm. So, there's a 1-hour gap between 1pm and 2pm when he might have gone to the coffee shop.
+
+- Then, from 2pm to 3pm, he was working again.
+
+- From 3pm to 5pm, he was fixing the computer.
+
+So, the only time he was free to go to the coffee shop was between 1pm and 2pm.
+
+Therefore, the possible time Andrew could have gone to the coffee shop is from 1pm to 2pm.
+
+Looking at the options:
+
+(A) 8am to 1pm — He was buying cookies, so he wasn't free.
+
+(B) 2pm to 3pm — He was working.
+
+(C) 1pm to 2pm — This is when he was free.
+
+(D) 3pm to 5pm — He was fixing the computer.
+
+So, the correct answer is option (C).
+
+**Answer:** (C) 1pm to 2pm

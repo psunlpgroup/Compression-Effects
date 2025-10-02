@@ -1,0 +1,115 @@
+Alright, so let's try to figure out between what times William could have gone to the swimming pool. I'll start by listing out all the information given and see how it fits together.
+
+First, William woke up at 5am. That's pretty early! So he was up and about by then.
+
+Next, Jennifer saw William walking in the garden from 7am to 5pm. Okay, so from 7 in the morning until 5 in the afternoon, Jennifer spotted William. That means William was out and about during that time.
+
+Then, Mary saw William reading at the library from 5pm to 6pm. So, at that point in the late afternoon, William was at the library.
+
+After that, William saw himself buying lunch at the deli from 6pm to 10pm. So, from 6pm to 10pm, he was out and about again, this time at the deli.
+
+Also, it's mentioned that the swimming pool was closed after 10pm. So, the pool wasn't open after that time.
+
+Now, the question is asking between what times William could have gone to the swimming pool. So, I need to find a time window where he was free to go to the pool.
+
+Let me see. William was up at 5am, but Jennifer saw him from 7am to 5pm. That means from 7am onward, William was visible to Jennifer until 5pm. But Mary saw him at 5pm to 6pm, and then he was at the deli until 10pm.
+
+So, the times when William was definitely occupied are:
+
+- 7am to 5pm: walking in the garden (Jennifer's observation)
+- 5pm to 6pm: reading at the library (Mary's observation)
+- 6pm to 10pm: buying lunch at the deli
+
+Wait, so from 7am to 5pm, he was out and about, but then from 5pm to 6pm, he was at the library, and then from 6pm to 10pm, he was at the deli.
+
+But he was seen by Jennifer from 7am to 5pm. So, that's a span of time when he's visible, but during that time, he was either at the garden or at the library or at the deli?
+
+Wait, no. It seems like the times overlap. So, from 7am to 5pm, he was visible in the garden. Then, from 5pm to 6pm, he was at the library, and from 6pm to 10pm, he was at the deli.
+
+So, the times when he was not visible are when he was at the library or the deli, which overlaps with the times when Jennifer saw him.
+
+But he was seen from 7am to 5pm, but during that time, he was also at the library and the deli. Hmm.
+
+Wait, maybe the times overlap. So, from 7am to 5pm, he was in the garden. But then, from 5pm to 6pm, he was at the library, and from 6pm to 10pm, he was at the deli.
+
+So, the periods when he was at the library and deli are within the time Jennifer saw him.
+
+Therefore, the times when William was definitely not at the swimming pool are:
+
+- 7am to 5pm: in the garden
+- 5pm to 6pm: at the library
+- 6pm to 10pm: at the deli
+
+But the pool was closed after 10pm, so he couldn't have gone after that.
+
+Wait, but William could have left the deli before 10pm to go to the pool, right? Because the pool was closed after 10pm, so he had to go before 10pm.
+
+So, the latest he could have gone is before 10pm.
+
+But he was at the deli from 6pm to 10pm. So, he could have left the deli before 10pm, say at 9pm, to go to the pool, and then come back after 10pm, but the pool was closed after 10pm, so he couldn't have stayed there after 10pm.
+
+So, the latest he could have left the deli is 10pm, but he couldn't have gone to the pool after that.
+
+So, the possible time he could have gone is between when he was free.
+
+Looking back, he was up at 5am, but Jennifer saw him from 7am to 5pm. So, from 5am to 7am, he was not seen. That's a window where he might have been at home or elsewhere.
+
+So, the possible times when he could have gone to the pool are:
+
+- 5am to 7am
+- After 10pm, but the pool was closed after 10pm, so that's not possible.
+
+Wait, but the pool was closed after 10pm, so he couldn't have gone after that.
+
+So, the only possible time is between 5am to 7am.
+
+But let's check the options given.
+
+Options:
+(A) 5pm to 6pm
+(B) 6pm to 10pm
+(C) 5am to 7am
+(D) 7am to 5pm
+
+So, the possible times are 5am to 7am, which is option C, or 7am to 5pm, which is option D.
+
+But wait, from 7am to 5pm, he was in the garden, so he was visible. But he was also at the library from 5pm to 6pm and at the deli from 6pm to 10pm.
+
+So, the times when he was definitely occupied are 7am to 5pm, 5pm to 6pm, and 6pm to 10pm.
+
+Therefore, the only time he was free is between 5am to 7am.
+
+So, the answer should be option C: 5am to 7am.
+
+But let me double-check.
+
+He was up at 5am, then Jennifer saw him from 7am to 5pm. So, from 5am to 7am, he was not seen by Jennifer, meaning he might have been at home or elsewhere, possibly going to the pool.
+
+Then, from 7am to 5pm, he was in the garden, so he couldn't have gone to the pool during that time.
+
+After 5pm, he was at the library until 6pm, then at the deli until 10pm.
+
+So, the only window when he wasn't observed is 5am to 7am.
+
+Therefore, the correct answer is C: 5am to 7am.
+</think>
+
+The correct answer is (C) 5am to 7am.
+
+**Step-by-Step Explanation:**
+
+1. **Identify William's Activities Over Time:**
+   - Woke up at 5am.
+   - Seen by Jennifer from 7am to 5pm (gardening).
+   - Seen by Mary from 5pm to 6pm (reading at the library).
+   - Seen by himself from 6pm to 10pm (buying lunch at the deli).
+   - Pool was closed after 10pm.
+
+2. **Determine Free Time:**
+   - Between 5am and 7am, William was not seen by anyone, indicating he was free.
+   - From 7am onwards, he was observed either gardening, at the library, or at the deli, meaning he was occupied.
+
+3. **Conclude Possible Pool Visit Time:**
+   - The only available window when William wasn't observed is between 5am and 7am.
+
+**Answer:** (C) 5am to 7am

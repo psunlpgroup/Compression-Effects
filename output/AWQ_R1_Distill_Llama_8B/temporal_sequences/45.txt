@@ -1,0 +1,28 @@
+To determine the possible times Jessica could have gone to the restaurant, let's analyze the information provided step by step.
+
+1. **Wake-Up Time**: Jessica woke up at 3pm.
+
+2. **Mary's Observation**: Mary saw Jessica driving to the water park from 3pm to 4pm. This means Jessica left her house around 3pm and was heading towards the water park by 3pm.
+
+3. **Lisa's Observation**: Lisa saw Jessica walking towards the Statue of Liberty from 4pm to 5pm. This indicates that Jessica arrived at the water park by 4pm and then began walking towards the Statue of Liberty.
+
+4. **Leslie's Observation**: Leslie saw Jessica taking photos near the Leaning Tower of Pisa from 7pm to 10pm. This means Jessica was in the Pisa area during this time, likely after visiting the Statue of Liberty.
+
+5. **Restaurant Closing Time**: The restaurant was closed after 10pm.
+
+Based on the timeline, Jessica was occupied from 3pm to 10pm. Since the restaurant was closed after 10pm, the latest she could have gone is before 10pm.
+
+Now, let's evaluate the options:
+
+- **(A) 7pm to 10pm**: This aligns with Leslie's observation that she was taking photos near the Leaning Tower of Pisa during this time.
+
+- **(B) 4pm to 5pm**: This is during the time Lisa saw her walking towards the Statue of Liberty.
+
+- **(C) 3pm to 4pm**: This is when Mary saw her driving to the water park.
+
+- **(D) 5pm to 7pm**: This is a period when Jessica was likely traveling from the water park to the Statue of Liberty or already at the Statue of Liberty.
+
+Given the information, the most plausible time for Jessica to have gone to the restaurant is between **7pm to 10pm**, as she was definitely in the Pisa area during this period.
+</details>
+
+The correct answer is (A).

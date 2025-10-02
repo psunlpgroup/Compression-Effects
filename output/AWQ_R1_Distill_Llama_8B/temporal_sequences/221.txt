@@ -1,0 +1,42 @@
+Alright, let's try to figure out when Betty could have gone to the coffee shop based on the information provided.
+
+First, let's list out the times when Betty was seen doing different activities:
+
+1. **Emily saw Betty buying a bike from 8am to 10am.**
+2. **Susan saw Betty walking in the garden from 10am to 12pm.**
+3. **John saw Betty working at the office from 1pm to 3pm.**
+4. **Lisa saw Betty buying cookies at a bakery from 3pm to 4pm.**
+5. **Mark saw Betty taking photos near the Eiffel Tower from 4pm to 5pm.**
+
+Now, the coffee shop was closed after 5pm, so Betty could have gone there only before 5pm.
+
+Looking at the times when Betty was seen:
+- From 8am to 10am: She was buying a bike.
+- From 10am to 12pm: She was walking in the garden.
+- From 1pm to 3pm: She was working at the office.
+- From 3pm to 4pm: She was buying cookies.
+- From 4pm to 5pm: She was taking photos.
+
+None of these times overlap with the coffee shop hours before 5pm. So, Betty didn't go to the coffee shop during these specific times.
+
+But we need to find a time **between** these activities when she wasn't doing anything else. Let's check the gaps:
+
+1. **Between 8am to 10am:** She was buying a bike.
+2. **Between 10am to 12pm:** She was walking.
+3. **Between 12pm to 1pm:** There's no activity mentioned here, so this is a possible time.
+4. **Between 3pm to 4pm:** She was buying cookies.
+5. **After 5pm:** Coffee shop was closed.
+
+So, the only gap when Betty wasn't doing anything mentioned is between **12pm to 1pm**.
+
+Therefore, Betty could have gone to the coffee shop between **12pm to 1pm**.
+</think>
+
+The correct answer is (D) 12pm to 1pm.
+
+Step-by-step explanation:
+1. Betty was seen buying a bike from 8am to 10am, walking from 10am to 12pm, working from 1pm to 3pm, buying cookies from 3pm to 4pm, and taking photos from 4pm to 5pm.
+2. The coffee shop was closed after 5pm, so she could have visited only before 5pm.
+3. The only unaccounted-for time before 5pm is between 12pm and 1pm.
+
+Answer: (D) 12pm to 1pm

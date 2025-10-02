@@ -1,0 +1,16 @@
+To determine the possible times Jessica could have gone to the bookstore, let's analyze the timeline provided:
+
+1. **Jessica's wake-up time**: 6am.
+2. **Susan's observation**: Saw Jessica at the gym from 8am to 9am.
+3. **Andrew's observation**: Saw Jessica driving from 9am to 10am.
+4. **David's observation**: Saw Jessica walking from 10am to 1pm.
+5. **Linda's observation**: Saw Jessica buying lunch from 1pm to 8pm.
+6. **James's observation**: Saw Jessica taking photos from 8pm to 9pm.
+7. **Bookstore hours**: Closed after 9pm.
+
+From the timeline, Jessica is occupied from 8am to 9pm. The bookstore closes at 9pm, so she would not have had time to go there after that. However, there's a gap between 6am and 8am when Jessica was awake but not observed doing anything specific related to the bookstore.
+
+Considering the available options:
+- **(B) 6am to 8am**: This aligns with the time when Jessica was awake and no specific activities were observed, making it the most plausible time she could have gone to the bookstore.
+
+**Answer: (B)**

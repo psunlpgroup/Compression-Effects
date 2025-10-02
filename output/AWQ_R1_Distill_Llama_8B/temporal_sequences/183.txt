@@ -1,0 +1,43 @@
+Alright, let's try to figure out when Sean could have gone to the restaurant. I'll need to piece together the information given step by step.
+
+First, Sean wakes up at 5am. That's his wake-up time, so he was likely asleep before that. But since Emily saw him sitting on a rooftop from 5am to 6am, that means Sean was up and on the rooftop during that time.
+
+Next, Jason saw Sean fixing their computer at the electronic store from 6am to 7am. So, right after Emily saw him on the rooftop, Sean moved on to fixing the computer.
+
+Then, Jennifer saw Sean working out at the gym from 7am to 8am. So, after fixing the computer, Sean went to the gym.
+
+Now, let's look at David's sightings. He saw Sean taking photos near the Leaning Tower of Pisa from 9am to 7pm. Hmm, that's a long time—over 10 hours. That means Sean was taking photos from 9am all the way until the restaurant closed at 7pm.
+
+Wait a minute, but earlier, Sean was at the gym from 7am to 8am. So, after the gym, where did he go? According to David, Sean was taking photos starting at 9am. That means Sean must have left the gym around 8am or 9am to go take photos.
+
+But let's make sure we're not missing anything. The restaurant was closed after 7pm, so Sean couldn't have gone there after 7pm because it was closed. So, the latest he could have gone is before 7pm.
+
+David saw him from 9am to 7pm, which fits within the timeframe before the restaurant closed. So, Sean was taking photos from 9am to 7pm, which would have given him plenty of time to go to the restaurant before that.
+
+Now, looking at the options:
+
+(A) 7am to 8am: Sean was actually at the gym during this time, so that's not possible.
+
+(B) 6am to 7am: Sean was fixing the computer during this time, so he couldn't have been at the restaurant.
+
+(C) 9am to 7pm: This matches with David's sightings, and since the restaurant was closed after 7pm, this is the only time Sean could have gone.
+
+(D) 8am to 9am: Sean was at the gym from 7am to 8am, so he wouldn't have been at the restaurant during this time.
+
+So, the correct answer is (C).
+</think>
+
+The correct answer is (C) 9am to 7pm.
+
+Step-by-step explanation:
+
+1. Sean wakes up at 5am.
+2. Emily sees him on the rooftop from 5am to 6am.
+3. Jason sees him at the electronic store from 6am to 7am.
+4. Jennifer sees him at the gym from 7am to 8am.
+5. David sees him taking photos from 9am to 7pm.
+6. The restaurant closes after 7pm.
+
+Since the restaurant was closed after 7pm, Sean must have gone there before that. The only time he was free and the restaurant was open is from 9am to 7pm.
+
+**Answer:** (C) 9am to 7pm

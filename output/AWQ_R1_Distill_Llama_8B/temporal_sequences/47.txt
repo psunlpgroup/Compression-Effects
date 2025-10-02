@@ -1,0 +1,48 @@
+Alright, let's try to figure out when Lisa could have gone to the bakery. So, from the timeline given:
+
+- Lisa wakes up at 5am.
+- Sean sees her playing tennis at the tennis court from 5am to 10am.
+- Thomas sees her fixing their computer at the electronic store from 10am to 11am.
+- William sees her watching a movie at the theater from 3pm to 8pm.
+- John sees her walking in the garden from 8pm to 10pm.
+- The bakery is closed after 10pm.
+
+First, I need to see during which time intervals Lisa is free to go to the bakery.
+
+From 5am to 10am, Sean saw her playing tennis. So, during this time, she's occupied at the tennis court.
+
+After 10am, Thomas saw her fixing the computer until 11am. So, she's busy from 10am to 11am.
+
+Then, from 3pm to 8pm, William saw her watching a movie. So, she's occupied at the theater during this time.
+
+John saw her walking in the garden from 8pm to 10pm, so she's busy in the garden during this period.
+
+Now, the bakery is closed after 10pm, which means Lisa can't go there after 10pm.
+
+So, let's see when she's free.
+
+She wakes up at 5am, but Sean sees her playing tennis until 10am. So, from 5am to 10am, she's busy.
+
+After 10am, Thomas sees her fixing the computer until 11am. So, she's busy from 10am to 11am.
+
+Then, from 3pm to 8pm, she's at the theater.
+
+She comes back from the theater at 8pm, and John sees her walking in the garden until 10pm.
+
+So, between 11am and 3pm, where is she? She's not seen at the tennis court, computer store, theater, or garden during this time. That means she might have gone to the bakery during this period.
+
+Additionally, the bakery is closed after 10pm, so she can't go later than 10pm.
+
+So, combining these, Lisa could have gone to the bakery between 11am and 3pm.
+</think>
+
+To determine when Lisa could have gone to the bakery, let's analyze her activities:
+
+1. **5am to 10am**: She's playing tennis.
+2. **10am to 11am**: She's fixing the computer.
+3. **3pm to 8pm**: She's watching a movie.
+4. **8pm to 10pm**: She's walking in the garden.
+
+The bakery is closed after 10pm, so Lisa must have visited between **11am to 3pm**.
+
+**Answer:** (C) 11am to 3pm

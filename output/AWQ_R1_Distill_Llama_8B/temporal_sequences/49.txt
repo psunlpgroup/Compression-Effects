@@ -1,0 +1,64 @@
+Alright, let's try to figure out when Leslie could have gone to the swimming pool. So, the timeline given is:
+
+- Leslie wakes up at 5am.
+- Sarah saw Leslie on the rooftop from 5am to 8am.
+- William saw Leslie walking towards the Statue of Liberty from 8am to 12pm.
+- Susan saw Leslie stretching at a yoga studio from 12pm to 2pm.
+- John saw Leslie working at the office from 4pm to 6pm.
+- Emily saw Leslie getting coffee from 6pm to 10pm.
+- The swimming pool was closed after 10pm.
+
+First, I need to identify all the times when Leslie was seen by others. Let's list them out:
+
+1. **5am to 8am**: Sarah saw Leslie on the rooftop.
+2. **8am to 12pm**: William saw Leslie walking towards the Statue of Liberty.
+3. **12pm to 2pm**: Susan saw Leslie at the yoga studio.
+4. **4pm to 6pm**: John saw Leslie at the office.
+5. **6pm to 10pm**: Emily saw Leslie at the cafe.
+
+Now, the swimming pool was closed after 10pm, which means Leslie couldn't have used it after that time. So, the latest possible time she could have gone is before 10pm.
+
+Looking at the times when Leslie was seen, the last time before 10pm is when Emily saw her at the cafe from 6pm to 10pm. However, the swimming pool was closed after 10pm, so if Leslie went to the pool during this time, she would have had to leave by 10pm. But we don't know if she was at the pool during this time or just at the cafe.
+
+Wait, but the question is asking between what times could they have gone. So, we need to find a time when Leslie was free. Let's see:
+
+- From 5am to 8am: She was on the rooftop. So, she couldn't have gone to the pool then.
+- From 8am to 12pm: She was walking towards the Statue of Liberty. So, no time for the pool.
+- From 12pm to 2pm: She was at the yoga studio. No pool time.
+- From 4pm to 6pm: She was at the office. No pool time.
+- From 6pm to 10pm: She was at the cafe. The pool was closed after 10pm, so maybe she went to the pool during this time.
+
+But the pool was closed after 10pm, so if she went to the pool during 6pm to 10pm, she must have left by 10pm. However, we don't know if she was at the pool during that time or just at the cafe.
+
+Wait, maybe the pool was open before 10pm. The statement says the pool was closed after 10pm. So, it was open before that. So, perhaps she went to the pool during the time when she was at the cafe, which is 6pm to 10pm. But we don't know exactly when during that time she went to the pool.
+
+Alternatively, maybe she went to the pool earlier when no one was seeing her. Let's check the gaps:
+
+- Between 2pm to 4pm: No one saw her. So, she could have gone to the pool then.
+
+Wait, but the options are (A) 6pm to 10pm, (B) 2pm to 4pm, (C) 5am to 8am, (D) 8am to 12pm.
+
+So, the possible times when she wasn't seen by anyone are between 2pm to 4pm. That's option B.
+
+But wait, the pool was closed after 10pm, but it was open before that. So, she could have gone to the pool during 6pm to 10pm as well, but the question is asking "between what times could they have gone," implying the possible windows when she wasn't being seen by others.
+
+So, the times when she wasn't seen by anyone are:
+
+- 5am to 8am: Sarah saw her, so she was on the rooftop.
+- 8am to 12pm: William saw her walking.
+- 12pm to 2pm: Susan saw her at the yoga studio.
+- 4pm to 6pm: John saw her at the office.
+- 6pm to 10pm: Emily saw her at the cafe.
+
+So, the only time she wasn't seen by anyone is between 2pm to 4pm. That's when she could have gone to the pool.
+
+Wait, but the swimming pool was closed after 10pm, but it was open before that. So, she could have gone to the pool during 6pm to 10pm as well, but since Emily saw her at the cafe during that time, unless she left the cafe to go to the pool, but we don't have information about that.
+
+Therefore, the safest time when she wasn't seen by anyone is between 2pm to 4pm.
+
+So, the answer is option B.
+</think>
+
+Between 2pm to 4pm.
+
+Answer: (B)

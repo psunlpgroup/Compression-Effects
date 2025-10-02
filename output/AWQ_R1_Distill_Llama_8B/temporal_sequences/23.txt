@@ -1,0 +1,37 @@
+Alright, let's try to figure out when William could have gone to the art studio. I'll start by listing out all the information given and see how it fits together.
+
+First, William wakes up at 6am. That's his wake-up time. Then, William was seen working out at the gym from 6am to 7am. So, right after waking up, he goes to the gym for an hour.
+
+Next, Sean saw William taking photos near the Eiffel Tower from 9am to 12pm. So, that's in the morning, a few hours after he worked out.
+
+Then, Susan saw William working at the office from 12pm to 8pm. So, in the afternoon, he's at the office.
+
+Nancy saw William buying a bike at the bike shop from 8pm to 10pm. That's in the evening after he left the office.
+
+The art studio was closed after 10pm. So, William can't have gone there after 10pm.
+
+Now, let's see when William isn't accounted for. He wakes up at 6am, works out until 7am. Then, from 7am to 9am, we don't have any information. That's a one-hour gap before Sean sees him taking photos.
+
+From 9am to 12pm, Sean saw him taking photos. Then, from 12pm to 8pm, Susan saw him at the office. After that, from 8pm to 10pm, Nancy saw him buying a bike.
+
+The art studio is closed after 10pm, so William couldn't have gone there after that time. But between 7am and 9am, he's not doing anything else. That seems like a window where he could have gone to the art studio.
+
+Wait, but from 7am to 9am, he's not at the gym, not at the office, not taking photos, and not buying a bike. So, he could have gone to the art studio during that time.
+
+Let me check the options. Option D is 7am to 9am, which fits into the gap where he wasn't seen doing anything else.
+
+So, the answer should be option D.
+</think>
+
+The correct answer is (D) 7am to 9am.
+
+Step-by-step explanation:
+- William wakes up at 6am and works out until 7am.
+- Between 7am and 9am, there's no information about his activities.
+- Sean saw him taking photos from 9am to 12pm.
+- Susan saw him at the office from 12pm to 8pm.
+- Nancy saw him buying a bike from 8pm to 10pm.
+- The art studio is closed after 10pm.
+- Therefore, William could have gone to the art studio between 7am and 9am.
+
+Answer: (D) 7am to 9am

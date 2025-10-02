@@ -1,0 +1,87 @@
+Alright, let's try to figure out when Hannah could have gone to the basketball court. I'll start by listing out all the information we have.
+
+First, Hannah woke up at 6am. So, her day starts at 6am.
+
+Then, James saw Hannah playing tennis at the tennis court from 6am to 10am. That means Hannah was at the tennis court during that time.
+
+Next, Anthony saw Hannah walking in the garden from 10am to 11am. So, after playing tennis, she was walking in the garden during that hour.
+
+Jennifer saw Hannah waiting at the train station from 11am to 3pm. That's a longer period, so Hannah was at the train station for a while.
+
+Linda saw Hannah stretching at a yoga studio from 5pm to 8pm. So, in the evening, Hannah was at the yoga studio.
+
+Finally, Kimberly saw Hannah reading at the library from 8pm to 10pm. So, in the evening, after the yoga studio, Hannah was at the library.
+
+Now, the basketball court was closed after 10pm. That means the basketball court was open before 10pm, but not after.
+
+We need to find the times when Hannah could have been at the basketball court. But looking at the timeline, after 6am, she was at the tennis court until 10am, then walked in the garden until 11am, then waited at the train station until 3pm, then did yoga from 5pm to 8pm, and finally read at the library until 10pm.
+
+But the basketball court was closed after 10pm, so the latest she could have been there is by 10pm.
+
+Looking at the options:
+
+(A) 11am to 3pm: She was at the train station during this time, not at the basketball court.
+
+(B) 10am to 11am: She was walking in the garden during this time, not at the basketball court.
+
+(C) 8pm to 10pm: She was at the library during this time, not at the basketball court.
+
+(D) 3pm to 5pm: She was waiting at the train station until 3pm, and then from 5pm to 8pm she was at the yoga studio. There's a gap between 3pm to 5pm when she wasn't at the train station or the yoga studio. So, she could have used that time to go to the basketball court.
+
+Wait, but the options don't mention 3pm to 5pm. Hmm, did I miss something?
+
+Wait, the options are:
+
+(A) 11am to 3pm
+
+(B) 10am to 11am
+
+(C) 8pm to 10pm
+
+(D) 3pm to 5pm
+
+But according to the timeline, she was at the train station from 11am to 3pm, then at the yoga studio from 5pm to 8pm. So, between 3pm and 5pm, she was free. That's the only time she could have gone to the basketball court.
+
+But the options don't include 3pm to 5pm as an option. Wait, no, option D is 3pm to 5pm, which fits.
+
+So, the correct answer is D.
+
+But wait, let me double-check. The basketball court was closed after 10pm, so she could have gone anytime before 10pm, but according to the timeline, the latest she was seen was at the library from 8pm to 10pm. So, she didn't have time to go to the basketball court after 8pm because she was at the library until 10pm.
+
+Wait, but earlier, from 3pm to 5pm, she wasn't at the train station or the yoga studio, so that's the only window she could have gone to the basketball court.
+
+So, yes, the correct answer is D, 3pm to 5pm.
+
+But I need to make sure I'm not making a mistake here. Let's lay out the timeline:
+
+- 6am to 10am: Playing tennis
+- 10am to 11am: Walking in the garden
+- 11am to 3pm: Waiting at the train station
+- 3pm to 5pm: ??? (Free time)
+- 5pm to 8pm: Stretching at the yoga studio
+- 8pm to 10pm: Reading at the library
+
+So, the only time she wasn't observed is between 3pm to 5pm. That's when she could have gone to the basketball court.
+
+Therefore, the answer is D.
+
+But wait, the options are:
+
+(A) 11am to 3pm
+
+(B) 10am to 11am
+
+(C) 8pm to 10pm
+
+(D) 3pm to 5pm
+
+So, D is 3pm to 5pm, which matches our conclusion.
+
+But I thought the basketball court was closed after 10pm, but she didn't have time to go after 8pm because she was at the library until 10pm. So, the only possible time is between 3pm to 5pm.
+
+Yes, that makes sense.
+</think>
+
+The correct answer is (D) 3pm to 5pm.
+
+Answer: (D)

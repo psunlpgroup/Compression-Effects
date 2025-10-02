@@ -1,0 +1,48 @@
+Let's analyze the timeline step by step.
+
+1. **Andrew's Wake-up Time:**
+   - Andrew wakes up at **5am**.
+
+2. **Tiffany's Observation:**
+   - Tiffany saw Andrew reading at the library from **6am to 10am**.
+   - This means Andrew was at the library during this time.
+
+3. **Nancy's Observation:**
+   - Nancy saw Andrew walking in the garden from **10am to 12pm**.
+   - So, after leaving the library, Andrew was in the garden during this period.
+
+4. **Sarah's Observation:**
+   - Sarah saw Andrew working out at the gym from **12pm to 5pm**.
+   - Therefore, Andrew moved from the garden to the gym, spending time there between **12pm and 5pm**.
+
+5. **Emily's Observation:**
+   - Emily saw Andrew waiting at the airport from **5pm to 9pm**.
+   - After leaving the gym, Andrew was at the airport during this time.
+
+6. **Park Closing Time:**
+   - The park was closed after **9pm**.
+   - This means Andrew could not have been at the park after **9pm**.
+
+7. **Possible Time at the Park:**
+   - Based on the observations:
+     - **5am** to **6am**: Andrew was awake but not observed at the park.
+     - **6am to 10am**: Andrew was at the library.
+     - **10am to 12pm**: Andrew was walking in the garden.
+     - **12pm to 5pm**: Andrew was at the gym.
+     - **5pm to 9pm**: Andrew was waiting at the airport.
+   - The only unaccounted time when Andrew was not observed is between **5pm to 9pm**, but the park was closed after **9pm**. Therefore, Andrew could have gone to the park during **5pm to 9pm** while he was waiting at the airport.
+
+However, since the park was closed after **9pm**, the latest Andrew could have been at the park is **9pm**.
+
+Now, let's compare this with the options provided:
+
+- **(A) 12pm to 5pm**: During this time, Andrew was at the gym.
+- **(B) 5pm to 9pm**: This aligns with the time Andrew was waiting at the airport and could have gone to the park.
+- **(C) 6am to 10am**: Andrew was at the library during this time.
+- **(D) 5am to 6am**: Andrew was awake but not observed at the park.
+
+Based on the analysis, the correct answer is **(B) 5pm to 9pm**.
+The index is **(B)**.
+```  
+\boxed{B}
+```

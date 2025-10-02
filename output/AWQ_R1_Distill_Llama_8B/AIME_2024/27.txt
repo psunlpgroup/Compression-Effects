@@ -1,0 +1,797 @@
+Alright, so I have this problem about a tetrahedron \(ABCD\) with specific edge lengths, and I need to find the distance from a certain interior point \(I\) to each of the faces. The point \(I\) is such that the distances to all four faces are equal. The answer should be in the form \(\frac{m \sqrt{n}}{p}\), where \(m\), \(n\), and \(p\) are positive integers, \(m\) and \(p\) are coprime, and \(n\) is square-free. Then, I need to compute \(m + n + p\).
+
+First, I recall that in a tetrahedron, if a point has equal distances to all four faces, it's called the incenter, similar to the incenter of a triangle. The distance from the incenter to each face is the inradius. So, essentially, I need to find the inradius of this tetrahedron.
+
+To find the inradius, I remember that the formula is similar to the inradius of a triangle: \(r = \frac{3V}{S}\), where \(V\) is the volume of the tetrahedron and \(S\) is the total surface area. So, I need to compute both the volume \(V\) and the total surface area \(S\).
+
+But wait, the tetrahedron isn't given with coordinates or edge lengths directly. Instead, it's given with specific edge lengths: \(AB = CD = \sqrt{41}\), \(AC = BD = \sqrt{80}\), and \(BC = AD = \sqrt{89}\). So, it's a kind of symmetric tetrahedron where opposite edges are equal. That might be useful.
+
+I think such a tetrahedron is called "isohedral" or maybe "edge-transitive"? Not entirely sure, but it's definitely a symmetric one. So, maybe I can place it in a coordinate system in such a way that calculations become easier.
+
+Let me try to assign coordinates to the vertices. Let's denote the points as \(A\), \(B\), \(C\), and \(D\). Since the opposite edges are equal, perhaps I can set the tetrahedron so that it's symmetric about the origin or something.
+
+Let me denote \(A = (x, y, z)\), \(B = (a, b, c)\), \(C = (d, e, f)\), and \(D = (-d, -e, -f)\). Wait, why? Because if I consider the opposite edges \(AB\) and \(CD\) to be equal, perhaps if I invert the coordinates of \(C\) and \(D\) relative to \(A\) and \(B\), the lengths will be preserved.
+
+But maybe that's complicating things. Alternatively, I remember that in such symmetric tetrahedrons, the coordinates can be placed such that the centroid is at the origin or something.
+
+Alternatively, maybe I can use the property that in a tetrahedron with opposite edges equal, the tetrahedron is isohedral, so the inradius can be calculated via some symmetric properties.
+
+Alternatively, maybe I can compute the volume using the Cayley-Menger determinant. That might be a good approach because it allows computing the volume from the edge lengths directly.
+
+Yes, Cayley-Menger determinant is the way to go. Let me recall the formula.
+
+The Cayley-Menger determinant for a tetrahedron with edge lengths \(AB = a\), \(AC = b\), \(AD = c\), \(BC = d\), \(BD = e\), \(CD = f\) is given by:
+
+\[
+\text{Volume}^2 = \frac{1}{288} \begin{vmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & a^2 & b^2 & c^2 \\
+1 & a^2 & 0 & d^2 & e^2 \\
+1 & b^2 & d^2 & 0 & f^2 \\
+1 & c^2 & e^2 & f^2 & 0 \\
+\end{vmatrix}
+\]
+
+So, plugging in the given edge lengths:
+
+Given:
+- \(AB = CD = \sqrt{41}\)
+- \(AC = BD = \sqrt{80}\)
+- \(BC = AD = \sqrt{89}\)
+
+So, assign:
+- \(a = AB = \sqrt{41}\)
+- \(b = AC = \sqrt{80}\)
+- \(c = AD = \sqrt{89}\)
+- \(d = BC = \sqrt{89}\)
+- \(e = BD = \sqrt{80}\)
+- \(f = CD = \sqrt{41}\)
+
+So, the determinant becomes:
+
+\[
+\text{Volume}^2 = \frac{1}{288} \begin{vmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 41 & 80 & 89 \\
+1 & 41 & 0 & 89 & 80 \\
+1 & 80 & 89 & 0 & 41 \\
+1 & 89 & 80 & 41 & 0 \\
+\end{vmatrix}
+\]
+
+That looks a bit complicated, but maybe there's some symmetry I can exploit.
+
+Notice that the matrix is symmetric with respect to the last three rows. Let me write it out:
+
+First row: 0, 1, 1, 1, 1
+
+Second row: 1, 0, 41, 80, 89
+
+Third row: 1, 41, 0, 89, 80
+
+Fourth row: 1, 80, 89, 0, 41
+
+Fifth row: 1, 89, 80, 41, 0
+
+So, the second, third, fourth, and fifth rows have a kind of rotational symmetry. Maybe the determinant can be simplified by taking advantage of this symmetry.
+
+Alternatively, perhaps the determinant can be computed by noticing that the last three rows form a symmetric block.
+
+Alternatively, maybe I can compute the determinant by expanding along the first row or column.
+
+But the first row has a 0 and four 1s, which might make expansion easier.
+
+Let me try expanding the determinant along the first row.
+
+The determinant is:
+
+\[
+\begin{vmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 41 & 80 & 89 \\
+1 & 41 & 0 & 89 & 80 \\
+1 & 80 & 89 & 0 & 41 \\
+1 & 89 & 80 & 41 & 0 \\
+\end{vmatrix}
+\]
+
+Expanding along the first row:
+
+The first element is 0, so that term is 0.
+
+Then, the rest are 1s multiplied by their respective minors.
+
+So, determinant = 0 * M11 - 1 * M12 + 1 * M13 - 1 * M14 + 1 * M15
+
+Where M1j is the minor of the element in the first row and j-th column.
+
+So, determinant = -M12 + M13 - M14 + M15
+
+Where:
+
+M12 is the determinant of the 4x4 matrix obtained by removing first row and second column:
+
+So, removing first row and second column, the submatrix is:
+
+Rows 2-5 and columns 1,3,4,5.
+
+So,
+
+Second row: 1, 41, 80, 89
+
+Third row: 1, 0, 89, 80
+
+Fourth row: 1, 89, 0, 41
+
+Fifth row: 1, 80, 41, 0
+
+Similarly, M13 is removing first row and third column:
+
+Second row: 1, 0, 80, 89
+
+Third row: 1, 41, 89, 80
+
+Fourth row: 1, 89, 0, 41
+
+Fifth row: 1, 80, 41, 0
+
+M14: removing first row and fourth column:
+
+Second row: 1, 0, 41, 89
+
+Third row: 1, 41, 0, 80
+
+Fourth row: 1, 89, 89, 41
+
+Fifth row: 1, 80, 80, 0
+
+M15: removing first row and fifth column:
+
+Second row: 1, 0, 41, 80
+
+Third row: 1, 41, 0, 89
+
+Fourth row: 1, 89, 89, 0
+
+Fifth row: 1, 80, 80, 41
+
+Wait, this is getting very tedious. Maybe there's a smarter way.
+
+Alternatively, maybe I can note that the determinant is symmetric, so perhaps it's equal to something.
+
+Alternatively, perhaps I can use the fact that this determinant is equal to (something)^2, but I'm not sure.
+
+Alternatively, maybe I can compute this determinant by noticing the pattern.
+
+Wait, another thought: The edge lengths are such that \(AB = CD\), \(AC = BD\), \(AD = BC\), so the tetrahedron is "equifacial" in some sense. So, perhaps the volume can be computed by considering it as two triangles hinged along an edge or something.
+
+Alternatively, perhaps I can compute the volume using the formula for a tetrahedron with two pairs of opposite edges equal.
+
+Wait, perhaps I can model this tetrahedron as a kind of "double" pyramid or something.
+
+Alternatively, maybe I can use vector algebra.
+
+Let me try to assign coordinates to the points.
+
+Let me place point \(A\) at \((0, 0, 0)\), point \(B\) at \((x, 0, 0)\), point \(C\) at \((p, q, 0)\), and point \(D\) at \((r, s, t)\).
+
+But this might become too involved. Alternatively, maybe I can use the property that in such a symmetric tetrahedron, the coordinates can be set so that the centroid is at the origin, but I'm not sure.
+
+Alternatively, maybe I can note that the edge lengths form a sort of rectangle in some way.
+
+Wait, if I consider the edges AB, AC, AD, etc., and think of them as vectors, then maybe the vectors AB, AC, AD form a kind of orthogonal set? Not necessarily, but maybe.
+
+Alternatively, since the edge lengths are given, perhaps I can compute the volume via the scalar triple product.
+
+But for that, I need coordinates, which brings me back to the previous problem.
+
+Alternatively, maybe I can use the formula for the volume in terms of the edge lengths.
+
+Wait, Cayley-Menger determinant is exactly that. So, perhaps I need to compute that determinant.
+
+Alternatively, maybe I can compute the determinant using the fact that the matrix is symmetric and maybe can be diagonalized or something.
+
+But I don't know the eigenvalues, so that might not help.
+
+Alternatively, maybe I can compute the determinant by noticing the pattern.
+
+Looking at the matrix:
+
+First row: 0, 1, 1, 1, 1
+
+Second row: 1, 0, 41, 80, 89
+
+Third row: 1, 41, 0, 89, 80
+
+Fourth row: 1, 80, 89, 0, 41
+
+Fifth row: 1, 89, 80, 41, 0
+
+I notice that the second, third, fourth, and fifth rows form a kind of rotational pattern. Specifically, the second row is 1, 0, 41, 80, 89.
+
+The third row is 1, 41, 0, 89, 80.
+
+The fourth row is 1, 80, 89, 0, 41.
+
+The fifth row is 1, 89, 80, 41, 0.
+
+So, each subsequent row is a cyclic shift of the previous one, except for the first element, which is always 1.
+
+So, maybe the determinant can be simplified by recognizing this symmetry.
+
+Alternatively, maybe I can perform row operations to simplify the determinant.
+
+Let me try subtracting the second row from the third, fourth, and fifth rows.
+
+So, let me denote:
+
+Row2: 1, 0, 41, 80, 89
+
+Row3: 1, 41, 0, 89, 80
+
+Row4: 1, 80, 89, 0, 41
+
+Row5: 1, 89, 80, 41, 0
+
+Compute Row3' = Row3 - Row2:
+
+1-1, 41-0, 0-41, 89-80, 80-89 => 0, 41, -41, 9, -9
+
+Similarly, Row4' = Row4 - Row2:
+
+1-1, 80-0, 89-41, 0-80, 41-89 => 0, 80, 48, -80, -48
+
+Row5' = Row5 - Row2:
+
+1-1, 89-0, 80-41, 41-80, 0-89 => 0, 89, 39, -39, -89
+
+So, after these operations, the matrix becomes:
+
+First row: 0, 1, 1, 1, 1
+
+Second row: 1, 0, 41, 80, 89
+
+Third row: 0, 41, -41, 9, -9
+
+Fourth row: 0, 80, 48, -80, -48
+
+Fifth row: 0, 89, 39, -39, -89
+
+Now, perhaps I can do similar operations for columns.
+
+Alternatively, since the first column now has 0,1,0,0,0 except the second entry, maybe I can expand the determinant along the first column.
+
+But the first column has entries: 0,1,0,0,0.
+
+So, expanding along the first column:
+
+The determinant is 0 * minor - 1 * minor + 0 - 0 + 0.
+
+So, determinant = -1 * minor of the second row, first column.
+
+The minor is the determinant of the 4x4 matrix obtained by removing second row and first column:
+
+So, the minor is:
+
+Rows: 1,3,4,5
+
+Columns: 2,3,4,5
+
+So, the minor matrix is:
+
+Row1: 1, 1, 1, 1
+
+Row3: 41, -41, 9, -9
+
+Row4: 80, 48, -80, -48
+
+Row5: 89, 39, -39, -89
+
+So, the minor determinant is:
+
+\[
+\begin{vmatrix}
+1 & 1 & 1 & 1 \\
+41 & -41 & 9 & -9 \\
+80 & 48 & -80 & -48 \\
+89 & 39 & -39 & -89 \\
+\end{vmatrix}
+\]
+
+Hmm, still a 4x4 determinant, but maybe this minor is easier to compute.
+
+Alternatively, perhaps I can perform row operations on this minor to simplify it.
+
+Looking at the minor matrix:
+
+First row: 1, 1, 1, 1
+
+Second row: 41, -41, 9, -9
+
+Third row: 80, 48, -80, -48
+
+Fourth row: 89, 39, -39, -89
+
+Perhaps I can factor out common terms from the rows.
+
+Looking at the second row: 41, -41, 9, -9. I can factor out 41 from the first two elements: 41(1, -1), and 9(-1, 1). So, maybe factor out 9 from the last two elements.
+
+Wait, but that might complicate things.
+
+Alternatively, maybe I can use the fact that the first row is all 1s, so perhaps I can perform row operations to create zeros.
+
+Let me try to eliminate the first column below the first row.
+
+So, in the minor matrix, first column:
+
+First entry: 1
+
+Second entry: 41
+
+Third entry: 80
+
+Fourth entry: 89
+
+So, to eliminate the second, third, and fourth entries in the first column, I can perform the following row operations:
+
+Row2 = Row2 - 41*Row1
+
+Row3 = Row3 - 80*Row1
+
+Row4 = Row4 - 89*Row1
+
+Let me compute each:
+
+Row2: 41 - 41*1 = 0, -41 - 41*1 = -82, 9 - 41*1 = -32, -9 - 41*1 = -50
+
+Wait, that's not quite right. Wait, no:
+
+Wait, Row2 is [41, -41, 9, -9]. So, Row2 - 41*Row1 would be:
+
+41 - 41*1 = 0
+
+-41 - 41*1 = -41 -41 = -82
+
+9 - 41*1 = 9 -41 = -32
+
+-9 -41*1 = -9 -41 = -50
+
+So, new Row2: [0, -82, -32, -50]
+
+Similarly, Row3: [80, 48, -80, -48]
+
+Row3 - 80*Row1: 80 -80*1=0, 48 -80*1= -32, -80 -80*1= -160, -48 -80*1= -128
+
+So, new Row3: [0, -32, -160, -128]
+
+Row4: [89, 39, -39, -89]
+
+Row4 - 89*Row1: 89 -89=0, 39 -89= -50, -39 -89= -128, -89 -89= -178
+
+So, new Row4: [0, -50, -128, -178]
+
+So, the minor matrix now becomes:
+
+First row: [1, 1, 1, 1]
+
+Second row: [0, -82, -32, -50]
+
+Third row: [0, -32, -160, -128]
+
+Fourth row: [0, -50, -128, -178]
+
+Now, the first column has only 1 and 0s, so maybe we can expand the determinant along the first column.
+
+But in the minor, the first column is [1, 0, 0, 0], so expanding along that, the determinant is 1 * minor of the element at (1,1), which is the determinant of the submatrix:
+
+Rows 2,3,4 and columns 2,3,4.
+
+So, the minor is:
+
+\[
+\begin{vmatrix}
+-82 & -32 & -50 \\
+-32 & -160 & -128 \\
+-50 & -128 & -178 \\
+\end{vmatrix}
+\]
+
+So, compute this 3x3 determinant.
+
+Let me compute it step by step.
+
+Using the rule of Sarrus or cofactor expansion.
+
+Let me use the first row for expansion.
+
+So, determinant = -82 * det[[-160, -128], [-128, -178]] - (-32) * det[[-32, -128], [-50, -178]] + (-50) * det[[-32, -160], [-50, -128]]
+
+Compute each minor:
+
+First minor: det[[-160, -128], [-128, -178]]
+
+= (-160)(-178) - (-128)(-128)
+
+= 160*178 - 128^2
+
+Compute 160*178: 160*100=16000, 160*78=12480, so total 16000+12480=28480
+
+128^2=16384
+
+So, first minor = 28480 - 16384 = 12096
+
+Second minor: det[[-32, -128], [-50, -178]]
+
+= (-32)(-178) - (-128)(-50)
+
+= 32*178 - 128*50
+
+32*178: 30*178=5340, 2*178=356, so total 5340+356=5696
+
+128*50=6400
+
+So, second minor = 5696 - 6400 = -704
+
+Third minor: det[[-32, -160], [-50, -128]]
+
+= (-32)(-128) - (-160)(-50)
+
+= 32*128 - 160*50
+
+32*128: 32*100=3200, 32*28=896, so total 3200+896=4096
+
+160*50=8000
+
+So, third minor = 4096 - 8000 = -3904
+
+So, putting it all together:
+
+determinant = (-82)(12096) - (-32)(-704) + (-50)(-3904)
+
+Compute each term:
+
+First term: -82*12096
+
+Second term: -32*704
+
+Third term: 50*3904
+
+Compute first term:
+
+-82 * 12096
+
+Let me compute 82*12096:
+
+First, compute 80*12096 = 967,680
+
+Then, 2*12096=24,192
+
+So, total 967,680 +24,192=991,872
+
+So, first term: -991,872
+
+Second term: -32*704
+
+32*700=22,400
+
+32*4=128
+
+Total: 22,400 +128=22,528
+
+So, second term: -22,528
+
+Third term: 50*3904
+
+50*3900=195,000
+
+50*4=200
+
+Total: 195,000 +200=195,200
+
+So, determinant = (-991,872) - (22,528) + (195,200)
+
+Compute step by step:
+
+First, -991,872 -22,528 = -1,014,400
+
+Then, -1,014,400 +195,200 = -819,200
+
+So, the determinant of the minor is -819,200.
+
+But remember, this is the determinant of the 3x3 matrix, so the minor determinant is -819,200.
+
+But wait, in the minor matrix, the determinant was this 3x3, so the minor determinant is -819,200.
+
+But earlier, the minor was the determinant of the 4x4, so the overall determinant of the Cayley-Menger determinant is:
+
+Determinant = -1 * (-819,200) = 819,200.
+
+Wait, no:
+
+Wait, the minor was the determinant of the 4x4 minor, which was 819,200, but with a negative sign because of the expansion. Wait, hold on.
+
+Wait, the minor determinant was computed as -819,200, so when we expand, determinant = 1 * (-819,200). So, determinant = -819,200.
+
+But the Cayley-Menger determinant is equal to that, but scaled by 1/288.
+
+So, Volume squared = (1/288) * (-819,200)
+
+Wait, but Volume squared can't be negative. So, that suggests I made a mistake in the calculation.
+
+Wait, where did I mess up?
+
+Wait, in the computation of the determinant, maybe I messed up the signs.
+
+Let me retrace.
+
+The minor determinant was computed as -819,200.
+
+But in the expansion, the determinant was:
+
+determinant = -1 * minor determinant.
+
+But wait, no:
+
+Wait, the expansion along the first column gave determinant = -1 * minor.
+
+But the minor itself was computed as -819,200, so determinant = -1*(-819,200) = 819,200.
+
+Yes, that's correct.
+
+So, Volume squared = (1/288) * 819,200
+
+Compute 819,200 / 288.
+
+Divide numerator and denominator by 16: 819,200 /16=51,200; 288/16=18.
+
+So, 51,200 /18.
+
+Simplify 51,200 /18:
+
+Divide numerator and denominator by 2: 25,600 /9.
+
+So, Volume squared = 25,600 /9
+
+Thus, Volume = sqrt(25,600 /9) = sqrt(25600)/3 = 160/3.
+
+So, Volume is 160/3.
+
+Wait, is that correct? Let me check.
+
+Wait, 25,600 /9 is (160)^2 /9, so sqrt(25,600 /9) is 160/3. Yes, correct.
+
+So, Volume V = 160/3.
+
+Now, moving on to compute the total surface area S.
+
+Total surface area is the sum of the areas of the four triangular faces.
+
+Given the edge lengths, I can compute the area of each face using Heron's formula.
+
+Given that all faces are triangles with sides:
+
+Face ABC: edges AB, BC, AC.
+
+Given AB = sqrt(41), BC = sqrt(89), AC = sqrt(80)
+
+Similarly, face ABD: edges AB, BD, AD.
+
+AB = sqrt(41), BD = sqrt(80), AD = sqrt(89)
+
+Face ACD: edges AC, CD, AD.
+
+AC = sqrt(80), CD = sqrt(41), AD = sqrt(89)
+
+Face BCD: edges BC, CD, BD.
+
+BC = sqrt(89), CD = sqrt(41), BD = sqrt(80)
+
+So, each face is a triangle with sides sqrt(41), sqrt(80), sqrt(89).
+
+So, all four faces are congruent triangles? Wait, because each face has sides sqrt(41), sqrt(80), sqrt(89).
+
+Yes, each face is a triangle with sides sqrt(41), sqrt(80), sqrt(89), so all four faces have the same area.
+
+Therefore, total surface area S = 4 * (area of one face).
+
+So, let's compute the area of one face.
+
+Using Heron's formula:
+
+For a triangle with sides a, b, c, the semi-perimeter s = (a + b + c)/2.
+
+Area = sqrt[s(s - a)(s - b)(s - c)]
+
+So, let me compute s:
+
+a = sqrt(41), b = sqrt(80), c = sqrt(89)
+
+s = (sqrt(41) + sqrt(80) + sqrt(89))/2
+
+Compute s - a = (-sqrt(41))/2 + sqrt(80) + sqrt(89)
+
+Wait, no. Wait, s - a = (sqrt(41) + sqrt(80) + sqrt(89))/2 - sqrt(41) = (-sqrt(41) + sqrt(80) + sqrt(89))/2
+
+Similarly, s - b = (sqrt(41) - sqrt(80) + sqrt(89))/2
+
+s - c = (sqrt(41) + sqrt(80) - sqrt(89))/2
+
+So, Area = sqrt[s(s - a)(s - b)(s - c)]
+
+But this is going to be complicated with square roots. Maybe there's a smarter way.
+
+Alternatively, notice that the triangle with sides sqrt(41), sqrt(80), sqrt(89) is a right triangle.
+
+Wait, let me check:
+
+sqrt(41)^2 + sqrt(80)^2 = 41 + 80 = 121
+
+sqrt(89)^2 = 89 ≠121
+
+So, no, not a right triangle.
+
+Alternatively, maybe it's a Pythagorean triple scaled or something.
+
+Alternatively, compute the area using vectors or coordinates.
+
+Alternatively, use the formula:
+
+Area = (1/2)ab sin(theta), where theta is the angle between sides a and b.
+
+But without knowing the angle, that's not helpful.
+
+Alternatively, use Heron's formula.
+
+But Heron's formula is going to be messy here.
+
+Alternatively, perhaps recognize that the triangle with sides sqrt(41), sqrt(80), sqrt(89) is a triangle with sides corresponding to 41, 80, 89.
+
+Wait, 41, 80, 89: 41 + 80 = 121, which is not 89, so not degenerate.
+
+Alternatively, perhaps 41^2 + 80^2 = 1681 + 6400 = 8081, while 89^2 = 7921.
+
+So, 8081 - 7921 = 160, so 41^2 + 80^2 = 89^2 + 160, which isn't helpful.
+
+Alternatively, maybe use the cosine law to compute an angle, then compute the area.
+
+Let me try that.
+
+Using cosine law:
+
+For triangle with sides a, b, c:
+
+c^2 = a^2 + b^2 - 2ab cos(theta)
+
+So, let me take sides a = sqrt(41), b = sqrt(80), c = sqrt(89).
+
+So,
+
+89 = 41 + 80 - 2*sqrt(41)*sqrt(80)*cos(theta)
+
+Compute 41 + 80 = 121
+
+So,
+
+89 = 121 - 2*sqrt(41*80)*cos(theta)
+
+So,
+
+89 -121 = -2*sqrt(3280)*cos(theta)
+
+-32 = -2*sqrt(3280)*cos(theta)
+
+Divide both sides by -2*sqrt(3280):
+
+cos(theta) = (-32)/(-2*sqrt(3280)) = 16 / sqrt(3280)
+
+Simplify sqrt(3280):
+
+3280 = 16 * 205, since 16*205=3280
+
+So, sqrt(3280)=4*sqrt(205)
+
+Thus,
+
+cos(theta)=16/(4*sqrt(205))=4/sqrt(205)
+
+So, cos(theta)=4/sqrt(205)
+
+Then, sin(theta)=sqrt(1 - (16/205))=sqrt(189/205)=sqrt(189)/sqrt(205)
+
+Simplify sqrt(189): sqrt(9*21)=3*sqrt(21)
+
+So, sin(theta)=3*sqrt(21)/sqrt(205)
+
+Thus, area = (1/2)*sqrt(41)*sqrt(80)*sin(theta)
+
+Compute sqrt(41)*sqrt(80)=sqrt(41*80)=sqrt(3280)=4*sqrt(205) as before.
+
+Thus, area = (1/2)*4*sqrt(205)*(3*sqrt(21)/sqrt(205))
+
+Simplify:
+
+= (1/2)*4*3*sqrt(21)
+
+= (1/2)*12*sqrt(21)
+
+= 6*sqrt(21)
+
+So, each face has area 6*sqrt(21)
+
+Thus, total surface area S = 4 * 6*sqrt(21) =24*sqrt(21)
+
+So, S=24√21
+
+Earlier, we had Volume V=160/3.
+
+So, inradius r=3V/S=3*(160/3)/(24√21)= (160)/(24√21)= (20/3)/√21
+
+Wait, 160/24 simplifies to 20/3.
+
+So, r= (20/3)/√21
+
+Rationalize the denominator:
+
+r= (20/3)*(√21)/21= (20√21)/63
+
+Simplify 20 and 63: GCD is 1, so it's 20√21 /63.
+
+Thus, the inradius is 20√21 /63.
+
+Expressed as m√n /p, m=20, n=21, p=63.
+
+Check if m and p are coprime: 20 and 63 share no common factors besides 1, since 20=2^2*5, 63=7*3^2.
+
+And n=21, which is 3*7, not divisible by the square of any prime.
+
+Thus, m=20, n=21, p=63.
+
+So, m +n +p=20+21+63=104.
+
+**Final Answer**
+\boxed{104}
+</think>
+
+Given a tetrahedron \(ABCD\) with edge lengths \(AB = CD = \sqrt{41}\), \(AC = BD = \sqrt{80}\), and \(BC = AD = \sqrt{89}\), we need to find the distance from the incenter \(I\) to each face. This distance is the inradius \(r\).
+
+First, we use the Cayley-Menger determinant to find the volume \(V\) of the tetrahedron. The determinant is computed as follows:
+
+\[
+\text{Volume}^2 = \frac{1}{288} \begin{vmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 41 & 80 & 89 \\
+1 & 41 & 0 & 89 & 80 \\
+1 & 80 & 89 & 0 & 41 \\
+1 & 89 & 80 & 41 & 0 \\
+\end{vmatrix}
+\]
+
+After performing row operations and expanding, we find the determinant to be 819,200. Thus,
+
+\[
+\text{Volume}^2 = \frac{819200}{288} = \frac{25600}{9}
+\]
+
+So, the volume \(V\) is:
+
+\[
+V = \sqrt{\frac{25600}{9}} = \frac{160}{3}
+\]
+
+Next, we compute the total surface area \(S\). Each face of the tetrahedron is a triangle with sides \(\sqrt{41}\), \(\sqrt{80}\), and \(\sqrt{89}\). Using Heron's formula, we find the area of one face to be \(6\sqrt{21}\). Since there are four congruent faces, the total surface area \(S\) is:
+
+\[
+S = 4 \times 6\sqrt{21} = 24\sqrt{21}
+\]
+
+The inradius \(r\) is given by:
+
+\[
+r = \frac{3V}{S} = \frac{3 \times \frac{160}{3}}{24\sqrt{21}} = \frac{160}{24\sqrt{21}} = \frac{20}{3\sqrt{21}} = \frac{20\sqrt{21}}{63}
+\]
+
+Thus, the inradius \(r\) is \(\frac{20\sqrt{21}}{63}\). The values \(m = 20\), \(n = 21\), and \(p = 63\) give \(m + n + p = 20 + 21 + 63 = 104\).
+
+\[
+\boxed{104}
+\]

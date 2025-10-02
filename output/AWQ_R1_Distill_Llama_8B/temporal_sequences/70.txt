@@ -1,0 +1,21 @@
+Let's analyze the timeline step by step to determine when Susan could have gone to the amusement park.
+
+1. **Susan's Wakeup Time**: Susan woke up at 5am. This is the earliest possible time she could have left for the amusement park.
+
+2. **Anthony's Observation**: Anthony saw Susan at the train station from 5am to 8am. This means Susan was waiting at the train station during this period.
+
+3. **James's Observation**: James saw Susan at the theater from 11am to 5pm. This indicates she was occupied at the theater during these hours.
+
+4. **Mary's Observation**: Mary saw Susan on the rooftop from 5pm to 9pm. This means Susan was sitting on the rooftop during this time.
+
+5. **Amusement Park Closing Time**: The amusement park was closed after 9pm. Therefore, Susan could not have gone to the amusement park after 9pm.
+
+Now, let's identify the possible windows when Susan could have gone to the amusement park:
+
+- **From 8am to 11am**: This is a possible time because Susan was at the train station until 8am and then free until 11am. She could have gone to the amusement park during this window.
+
+- **From 5pm to 9pm**: Although Mary saw Susan on the rooftop during this time, it's possible that Susan left the rooftop temporarily to go to the amusement park. However, since the amusement park was closed after 9pm, she would not have been able to stay there after 9pm.
+
+Given these considerations, the most feasible time when Susan could have gone to the amusement park is **from 8am to 11am**.
+
+**Answer:** (A) 8am to 11am

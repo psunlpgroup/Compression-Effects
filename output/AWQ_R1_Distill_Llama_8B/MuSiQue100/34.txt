@@ -1,0 +1,7 @@
+The council terms of the city that shares a county with Helvetia are **four years**.
+```json
+{
+  "term_length": 4,
+  "unit": "years"
+}
+```

@@ -1,0 +1,1 @@
+["initializing"] The person in question is likely Martin Luther, ["end-section"]["adding-knowledge"] who led the Protestant Reformation. ["end-section"]["adding-knowledge"] He aimed to reform the Catholic Church ["end-section"]["deduction"] by challenging its practices and doctrines. ["end-section"]

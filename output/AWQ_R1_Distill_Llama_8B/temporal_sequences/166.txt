@@ -1,0 +1,105 @@
+Alright, let's try to figure out when Samantha could have gone to the movies. I need to piece together the timeline based on what each person saw her doing.
+
+First, Samantha woke up at 5am. So, her day started at 5am.
+
+Next, Lisa saw Samantha driving to the water park from 8am to 12pm. That means Samantha left her house sometime between 8am and 12pm to go to the water park.
+
+Mary saw Samantha walking in the garden from 12pm to 4pm. So, after Samantha came back from the water park, she was walking in the garden during that time.
+
+Then, Samantha saw herself reading at the library from 4pm to 6pm. So, she was at the library from 4pm to 6pm.
+
+The movies closed after 6pm, which is when Samantha saw her reading at the library.
+
+Now, the question is: Between what times could Samantha have gone to the movies?
+
+Looking at the timeline:
+
+- Samantha was driving to the water park from 8am to 12pm.
+- She was walking in the garden from 12pm to 4pm.
+- She was at the library from 4pm to 6pm.
+
+The movies were closed after 6pm, so she couldn't have gone to the movies after 6pm. Also, while she was at the library, she was reading, not going to the movies. So, she didn't go to the movies during that time.
+
+Before she was driving to the water park, from 5am to 8am, she was at home. But Lisa saw her driving from 8am to 12pm, so she must have left home then.
+
+Wait, but if she went to the water park from 8am to 12pm, came back to walk in the garden from 12pm to 4pm, then went to the library from 4pm to 6pm, and the movies closed at 6pm, she couldn't have gone to the movies after 6pm.
+
+So, the times when she was free and could have gone to the movies would be:
+
+- 5am to 8am: She was at home, but she was just waking up. Maybe she was getting ready, but not necessarily going out.
+- 6pm: The movies closed, so she couldn't have gone after that.
+
+But wait, she was at the library from 4pm to 6pm. So, she was occupied during that time. So, she didn't have time to go to the movies then.
+
+Before she went to the water park, she was at home from 5am to 8am. But Lisa saw her driving from 8am to 12pm. So, she must have left home then.
+
+So, the only time she was free before 8am was from 5am to 8am. But was she actually going out then? Or was she just getting ready?
+
+The problem is, the options given are:
+
+(A) 8am to 12pm
+(B) 4pm to 6pm
+(C) 5am to 8am
+(D) 12pm to 4pm
+
+Option C is 5am to 8am, which is when she was at home before going to the water park.
+
+But was she actually going to the movies then? Or was she just getting ready?
+
+The problem says Samantha went to the movies. So, she must have left her home at some point. But Lisa saw her driving to the water park from 8am to 12pm.
+
+So, if she went to the movies, it must have been before she went to the water park, which was between 8am to 12pm.
+
+But the options don't have a time before 8am, except option C, which is 5am to 8am.
+
+But was she actually going out during that time? Or was she just getting ready?
+
+The problem says Samantha went to the movies, so she must have left her house at some point. The only time she was free before 8am was from 5am to 8am.
+
+But Lisa saw her driving from 8am to 12pm, so she left then.
+
+Therefore, the only time she was free before that was 5am to 8am.
+
+But the options include 5am to 8am as option C.
+
+But wait, let's check the timeline again.
+
+She woke up at 5am.
+
+Then, Lisa saw her driving from 8am to 12pm.
+
+Mary saw her walking from 12pm to 4pm.
+
+She saw herself at the library from 4pm to 6pm.
+
+So, the only time she was free was from 5am to 8am, when she was at home.
+
+But was she actually going to the movies then? Or was she just at home?
+
+The problem says Samantha went to the movies. So, she must have left her house at some point. The only time she was free was from 5am to 8am.
+
+So, she could have gone to the movies between 5am to 8am.
+
+But the options are:
+
+(A) 8am to 12pm
+(B) 4pm to 6pm
+(C) 5am to 8am
+(D) 12pm to 4pm
+
+So, the correct answer is (C) 5am to 8am.
+
+Wait, but option A is 8am to 12pm, when she was driving to the water park. So, she was occupied then.
+
+Option D is 12pm to 4pm, when she was walking in the garden.
+
+Option B is 4pm to 6pm, when she was at the library.
+
+So, the only time she was free was from 5am to 8am.
+
+Therefore, the correct answer is (C) 5am to 8am.
+</think>
+
+The correct answer is (C) 5am to 8am.
+
+Answer: (C)

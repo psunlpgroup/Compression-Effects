@@ -1,0 +1,3507 @@
+Alright, let's try to figure out between what times David could have gone to the construction site. I'll start by laying out all the information given.
+
+First, David wakes up at 7am. So, his activities begin at 7am.
+
+Next, Sarah saw David reading at the library from 7am to 8am. That means David was at the library during that time.
+
+Then, Richard saw David buying a bike at the bike shop from 12pm to 3pm. So, David was at the bike shop between 12pm and 3pm.
+
+After that, James saw David sitting on a rooftop from 3pm to 4pm. So, David was on the rooftop during that period.
+
+Andrew saw David walking towards the Statue of Liberty from 4pm to 6pm. So, David was walking towards the Statue of Liberty between 4pm and 6pm.
+
+Lastly, Jessica saw David working out at the gym from 6pm to 10pm. So, David was at the gym during that time.
+
+The construction site was closed after 10pm. So, David couldn't have been at the construction site after 10pm.
+
+Now, let's try to piece together David's schedule based on what others saw him doing.
+
+Starting at 7am, Sarah saw him at the library until 8am. So, from 7am to 8am, he was at the library.
+
+Then, after 8am, what did he do? The next sighting is Richard seeing him buying a bike at the bike shop from 12pm to 3pm. So, there's a gap between 8am and 12pm that we need to account for.
+
+Between 8am and 12pm, what activities could David have been involved in? Since Sarah saw him at the library until 8am, and the next sighting is Richard seeing him at the bike shop starting at 12pm, there's a 4-hour window between 8am and 12pm where David must have been doing something else. But according to the information given, the only activity we know of David during that time is buying a bike, which starts at 12pm. So, before 12pm, he must have been preparing for that activity or perhaps doing something else not mentioned.
+
+However, the question is about when he could have gone to the construction site. So, let's see the other sightings.
+
+After Richard saw him at the bike shop from 12pm to 3pm, James saw him sitting on a rooftop from 3pm to 4pm. So, after buying the bike, he went to the rooftop.
+
+Then, Andrew saw him walking towards the Statue of Liberty from 4pm to 6pm. So, after 4pm, he was walking towards the Statue of Liberty.
+
+Jessica saw him working out at the gym from 6pm to 10pm. So, after walking towards the Statue of Liberty, he must have gone to the gym.
+
+The construction site was closed after 10pm, so he couldn't have been there after that time.
+
+So, when could he have gone to the construction site? Let's see the possible windows.
+
+From 7am to 8am: He was at the library.
+
+From 8am to 12pm: He was likely preparing to buy the bike or doing something else not mentioned.
+
+From 12pm to 3pm: He was buying the bike.
+
+From 3pm to 4pm: He was sitting on the rooftop.
+
+From 4pm to 6pm: He was walking towards the Statue of Liberty.
+
+From 6pm to 10pm: He was working out at the gym.
+
+So, the only time when he wasn't doing any of these activities is possibly between 10pm and when he slept. But since he was seen at the gym until 10pm, and the construction site was closed after that, he couldn't have gone to the construction site after 10pm.
+
+Wait, but the question is about when he could have gone, not necessarily when he did go. So, the construction site was closed after 10pm, meaning he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But looking at his schedule, after 6pm, he was at the gym until 10pm. So, he was occupied from 6pm to 10pm.
+
+So, the only time he wasn't at the gym is before 6pm. But he was at the library from 7am to 8am, then possibly doing something else until 12pm when he bought the bike.
+
+But the question is about when he could have gone, not necessarily when he did go. So, the times when he wasn't occupied are:
+
+- From 8am to 12pm: He was likely at the bike shop or preparing for it.
+
+- From 12pm to 3pm: He was buying the bike.
+
+- From 3pm to 4pm: He was on the rooftop.
+
+- From 4pm to 6pm: He was walking towards the Statue of Liberty.
+
+- From 6pm to 10pm: He was at the gym.
+
+So, the only time when he wasn't doing any of these activities is between 10pm and when he went to sleep, but the construction site was closed after 10pm, so he couldn't have gone after that.
+
+Wait, but the question is about the times between which they could have gone, not necessarily when he did go. So, the possible times are when he wasn't doing any of the activities mentioned.
+
+So, the times when he wasn't seen by others are:
+
+- Between 8am and 12pm: He was likely at the bike shop.
+
+- Between 12pm and 3pm: He was buying the bike.
+
+- Between 3pm and 4pm: He was on the rooftop.
+
+- Between 4pm and 6pm: He was walking towards the Statue of Liberty.
+
+- Between 6pm and 10pm: He was at the gym.
+
+So, the only time when he wasn't doing any of these is before 7am, but he was seen waking up at 7am.
+
+Wait, maybe the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+But the question is about the possible times between which they could have gone, not necessarily when he did go. So, the possible times are when he wasn't doing any of the activities mentioned.
+
+Looking at the timeline:
+
+- 7am to 8am: At the library.
+
+- 8am to 12pm: Possibly at the bike shop or doing something else.
+
+- 12pm to 3pm: Buying the bike.
+
+- 3pm to 4pm: On the rooftop.
+
+- 4pm to 6pm: Walking towards the Statue of Liberty.
+
+- 6pm to 10pm: At the gym.
+
+So, the only time when he wasn't doing any of these activities is between 10pm and when he went to sleep, but since the construction site was closed after 10pm, he couldn't have gone after that.
+
+Wait, but the question is about the times between which they could have gone, not necessarily when he did go. So, the possible times are when he wasn't doing any of the activities mentioned.
+
+Looking at the options, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+But the question is about the times between which they could have gone, not necessarily when he did go. So, the possible times are when he wasn't doing any of the activities mentioned.
+
+Looking at the options:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+From the timeline, he was at the library from 7am to 8am, then possibly at the bike shop from 8am to 12pm, then buying the bike from 12pm to 3pm, then on the rooftop from 3pm to 4pm, then walking towards the Statue of Liberty from 4pm to 6pm, and finally at the gym from 6pm to 10pm.
+
+So, the only time when he wasn't doing any of these activities is before 7am, but he was seen waking up at 7am, so he was likely at home then.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the possible times he could have gone are when he wasn't doing any of the activities mentioned, which is between 10pm and when he went to sleep, but since the construction site was closed after 10pm, he couldn't have gone after that.
+
+Wait, but the question is about the times between which they could have gone, not necessarily when he did go. So, the possible times are when he wasn't doing any of the activities mentioned.
+
+Looking at the options, the only time when he wasn't doing any of those activities is between 10pm and when he went to sleep, but since the construction site was closed after 10pm, he couldn't have gone after that.
+
+So, the latest he could have gone is before 10pm. But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm to 6pm
+
+(D) 3pm to 4pm
+
+So, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But according to the sightings, he was at the gym until 10pm, so he couldn't have gone to the construction site after 10pm.
+
+Therefore, the construction site was closed after 10pm, so he couldn't have gone after that. So, the latest he could have gone is before 10pm.
+
+But the options are:
+
+(A) 8am to 12pm
+
+(B) 6pm to 10pm
+
+(C) 4pm

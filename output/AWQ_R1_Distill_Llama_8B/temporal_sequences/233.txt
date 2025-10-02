@@ -1,0 +1,77 @@
+Alright, let's try to figure out between what times Michael could have gone to the park. So, Michael woke up at 6am. Then, Linda saw him walking towards the Statue of Liberty from 11am to 12pm. After that, Betty saw him reading at the library from 12pm to 5pm. Later, Steven saw him taking photos near the Eiffel Tower from 5pm to 7pm, and David saw him getting a coffee at the cafe from 7pm to 8pm. The park was closed after 8pm.
+
+First, I need to see when Michael was not at the park. He was seen by Linda, Betty, Steven, and David at different times. So, the times when Michael was definitely not at the park are when he was with Linda, Betty, Steven, or David.
+
+Linda saw him from 11am to 12pm. So, he was at the Statue of Liberty during that time.
+
+Betty saw him from 12pm to 5pm. He was reading at the library during that period.
+
+Steven saw him from 5pm to 7pm, taking photos near the Eiffel Tower.
+
+David saw him from 7pm to 8pm, getting coffee.
+
+So, Michael was occupied from 11am to 8pm. The park was closed after 8pm, so Michael couldn't have been at the park after 8pm.
+
+But wait, Michael was seen by David until 8pm. So, Michael was occupied until 8pm.
+
+But we need to find the times when he could have gone to the park. So, he was not at the park when he was with Linda, Betty, Steven, or David.
+
+So, let's look at the times when he wasn't with anyone.
+
+He woke up at 6am. Then, Linda saw him at 11am. So, between 6am and 11am, Michael was at home, but there's no information about him being at the park during that time. So, he could have gone to the park between 6am and 11am.
+
+Then, after Linda saw him, he was with Betty until 5pm, Steven until 7pm, and David until 8pm.
+
+So, the times when he was not at the park are:
+
+- 6am to 11am (he was at home)
+- 11am to 12pm (he was with Linda)
+- 12pm to 5pm (he was with Betty)
+- 5pm to 7pm (he was with Steven)
+- 7pm to 8pm (he was with David)
+
+The park was closed after 8pm, so Michael couldn't have been at the park after 8pm.
+
+So, the only time he could have gone to the park is between 6am and 11am.
+
+Looking at the options:
+
+(A) 6am to 11am
+
+(B) 12pm to 5pm
+
+(C) 5pm to 7pm
+
+(D) 11am to 12pm
+
+So, the correct answer is (A) 6am to 11am.
+</think>
+
+The correct answer is (A) 6am to 11am.
+
+**Step-by-Step Explanation:**
+
+1. **Identify Michael's Activities:**
+   - **6am:** Michael wakes up.
+   - **11am-12pm:** Linda sees Michael near the Statue of Liberty.
+   - **12pm-5pm:** Betty sees Michael at the library.
+   - **5pm-7pm:** Steven sees Michael near the Eiffel Tower.
+   - **7pm-8pm:** David sees Michael at a cafe.
+
+2. **Determine Michael's Absence from the Park:**
+   - Michael is not at the park when he is seen by Linda, Betty, Steven, or David.
+   - The park closes at 8pm, so Michael cannot be at the park after 8pm.
+
+3. **Identify Possible Times Michael Could Have Been at the Park:**
+   - **6am-11am:** Michael is at home and not seen by anyone else, so he could have gone to the park.
+
+4. **Eliminate Other Options:**
+   - **11am-12pm:** Michael is with Linda.
+   - **12pm-5pm:** Michael is with Betty.
+   - **5pm-7pm:** Michael is with Steven.
+   - **7pm-8pm:** Michael is with David.
+
+5. **Conclusion:**
+   - The only feasible time Michael could have gone to the park is between **6am and 11am**.
+
+**Answer:** (A) 6am to 11am

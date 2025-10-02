@@ -1,0 +1,36 @@
+Alright, let's try to figure out when Susan could have gone to the museum based on the information provided.
+
+First, Susan wakes up at 9 am. So, she was probably at home before 9 am, but we don't have any information about her activities before 9 am.
+
+Then, Thomas saw Susan waiting at the airport from 9 am to 1 pm. That means Susan was at the airport during that time. So, she must have left her home by 9 am and was at the airport until 1 pm.
+
+After that, David saw Susan working at the office from 4 pm to 5 pm. So, Susan left the airport at 1 pm and went to work at the office, where she stayed until 5 pm.
+
+Then, Elizabeth saw Susan buying cookies at a bakery from 5 pm to 6 pm. So, Susan left the office at 5 pm and went to buy cookies, staying there until 6 pm.
+
+Next, Kimberly saw Susan sitting on a rooftop from 6 pm to 9 pm. So, Susan left the bakery at 6 pm and sat on the rooftop until 9 pm.
+
+Now, the museum was closed after 9 pm. So, if Susan wanted to go to the museum, she would have had to be there before 9 pm.
+
+Looking at the timeline, Susan was on the rooftop from 6 pm to 9 pm. That means she was available to go to the museum during that time, as long as she left the rooftop before the museum closed at 9 pm.
+
+So, Susan could have gone to the museum between 6 pm and 9 pm.
+
+Let me check the options:
+
+(A) 5 pm to 6 pm: That's when Susan was buying cookies at the bakery, so she couldn't have gone to the museum then.
+
+(B) 6 pm to 9 pm: That's when she was sitting on the rooftop, so that's a possible time.
+
+(C) 4 pm to 5 pm: She was working at the office during that time.
+
+(D) 1 pm to 4 pm: She was at the airport until 1 pm, but we don't have information about her activities between 1 pm and 4 pm. However, David saw her working at the office from 4 pm to 5 pm, so she must have left the airport at 1 pm and gone to work.
+
+So, the only time when she was free and the museum was open is between 6 pm and 9 pm.
+
+Therefore, the correct answer is (B).
+</think>
+
+The correct answer is (B) 6pm to 9pm.
+
+**Answer:** (B)

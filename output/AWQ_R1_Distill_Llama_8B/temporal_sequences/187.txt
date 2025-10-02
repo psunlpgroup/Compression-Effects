@@ -1,0 +1,42 @@
+Alright, let's try to figure out when Ashley could have gone to the construction site. So, Ashley wakes up at 5 am. Then, James saw Ashley working at the office from 5 am to 9 am. Okay, so that means Ashley was at the office from 5 am to 9 am.
+
+Then, Richard saw Ashley buying a phone at the electronics store from 4 pm to 7 pm. Hmm, so Ashley was buying a phone during that time. But wait, Ashley was already at the office from 5 am to 9 am. So, after 9 am, she must have gone somewhere else, like buying a phone from 4 pm to 7 pm. But there's a gap between 9 am and 4 pm. So, maybe Ashley went to the construction site during that time.
+
+Next, David saw Ashley playing tennis at the tennis court from 7 pm to 8 pm. So, after buying the phone, she played tennis from 7 pm to 8 pm. Then, William saw Ashley watching a movie at the theater from 8 pm to 10 pm. So, after playing tennis, she went to the theater.
+
+The construction site was closed after 10 pm, so she couldn't have gone there after 10 pm.
+
+So, looking at the options:
+
+(A) 4 pm to 7 pm: That's when she was buying a phone. So, she wasn't at the construction site then.
+
+(B) 5 am to 9 am: She was at the office then.
+
+(C) 9 am to 4 pm: That's when she wasn't at the office or the electronics store. Maybe she went to the construction site during that time.
+
+(D) 8 pm to 10 pm: She was at the theater then.
+
+So, the only time she wasn't doing those activities was from 9 am to 4 pm. That's when she could have gone to the construction site.
+
+So, the correct answer is (C).
+</think>
+
+The correct answer is (C) 9am to 4pm.
+
+**Step-by-Step Explanation:**
+
+1. **Ashley's Schedule:**
+   - Wakes up at 5 am.
+   - At the office from 5 am to 9 am (seen by James).
+   - Buys a phone from 4 pm to 7 pm (seen by Richard).
+   - Plays tennis from 7 pm to 8 pm (seen by David).
+   - Watches a movie from 8 pm to 10 pm (seen by William).
+
+2. **Construction Site Hours:**
+   - Closed after 10 pm.
+
+3. **Possible Time at Construction Site:**
+   - Between 9 am and 4 pm, Ashley was not at the office, buying a phone, playing tennis, or watching a movie.
+   - Therefore, she could have gone to the construction site during this time.
+
+**Answer:** (C) 9am to 4pm

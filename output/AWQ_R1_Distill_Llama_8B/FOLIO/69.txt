@@ -1,0 +1,24 @@
+Alright, so I need to figure out whether the conclusion is true, false, or uncertain based on the given premises. Let me start by carefully reading through the premises and the conclusion to understand all the information provided.
+
+First, the premise states that "Badults is a British Sitcom series starring members of Pappy's." So, Badults is a show that features members from Pappy's, which I assume is a group or perhaps a band, given the name. Next, it mentions that Badults was piloted in July 2013 on BBC Three. That means the pilot episode was aired on that channel at that time. Then, it notes that the working title for Badults was "The Secret Dude Society." So, before the official title, it was known as that. Additionally, Andrew Collins was the script editor for Badults.
+
+Now, looking at the conclusion: "No members of Pappy's have starred in a show piloting on BBC Two or BBC Three." So, the claim is that none of the members from Pappy's have been in any piloting shows on BBC Two or BBC Three.
+
+I need to determine if this conclusion is true, false, or uncertain. Let's break it down step by step.
+
+First, the premise tells us that Badults is a sitcom featuring members of Pappy's. So, at least one member of Pappy's is in Badults. The pilot episode of Badults was on BBC Three in July 2013. So, that's a show piloting on BBC Three, and it features Pappy's members.
+
+The conclusion is stating that no members of Pappy's have starred in a show piloting on BBC Two or BBC Three. But wait, we know that Badults itself was a pilot on BBC Three. So, since Badults is a sitcom starring Pappy's members and it piloted on BBC Three, that directly contradicts the conclusion because it shows that at least one member (or more) of Pappy's have starred in a show that piloted on BBC Three.
+
+Therefore, the conclusion seems to be false because it's claiming that none have starred in such shows, but we have evidence to the contrary.
+
+Wait, but let me make sure I'm not missing anything. The premise doesn't specify if Pappy's has other members besides those in Badults. It only says that Badults stars members of Pappy's. So, at least some members are in Badults, which was a pilot on BBC Three. Therefore, the conclusion that no members have starred in a pilot on BBC Two or BBC Three is incorrect because Badults itself was a pilot on BBC Three, featuring Pappy's members.
+
+So, the conclusion is false because it's incorrect to say that no members have been in such shows when at least one show (Badults) exists where they did.
+
+I don't see any information that would make the conclusion uncertain. The data provided clearly shows that Badults, a show piloted on BBC Three, features Pappy's members. Therefore, the conclusion is definitively false.
+</think>
+
+The conclusion is **false** because the premise clearly shows that members of Pappy's starred in the pilot episode of Badults, which aired on BBC Three. This directly contradicts the assertion that no members of Pappy's have starred in a show piloting on BBC Two or BBC Three.
+
+**Answer:** False

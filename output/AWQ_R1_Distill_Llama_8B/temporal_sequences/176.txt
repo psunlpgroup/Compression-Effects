@@ -1,0 +1,54 @@
+Alright, let's try to figure out when Betty could have gone to the bakery. First, I'll list out all the information given:
+
+1. **Betty's schedule**:
+   - Woke up at 5am.
+   - Saw by Jessica from 5am to 1pm (water park visit).
+   - Saw by Susan from 1pm to 4pm (yoga studio).
+   - Saw by Leslie from 4pm to 9pm (electronics store).
+
+2. **Important times**:
+   - The bakery closes after 10pm.
+   - We need to find the time window when Betty could have gone to the bakery.
+
+So, Betty was seen by Jessica from 5am to 1pm, doing something else at the water park. Then, Susan saw her from 1pm to 4pm at the yoga studio. After that, Leslie saw her from 4pm to 9pm buying a phone.
+
+Now, the bakery is closed after 10pm, so the latest she could have gone is before 10pm.
+
+Looking at Betty's activities:
+
+- From 5am to 1pm: At water park.
+- 1pm to 4pm: At yoga studio.
+- 4pm to 9pm: Buying a phone.
+
+So, she was occupied from 5am to 9pm. That leaves no time for her to go to the bakery unless she went during one of these times when she wasn't being seen by others.
+
+Wait, but the bakery was closed after 10pm, so she must have gone before 10pm.
+
+Looking at her schedule, after 9pm, she's not being seen by anyone, so she could have gone to the bakery then.
+
+So, the latest she could have gone is between 9pm and 10pm, right?
+
+But let me double-check:
+
+- 5am to 1pm: Water park.
+- 1pm to 4pm: Yoga studio.
+- 4pm to 9pm: Electronics store.
+
+So, she's occupied from 5am to 9pm. That means the only free time is after 9pm but before the bakery closes at 10pm.
+
+So, the time she could have gone is between 9pm and 10pm.
+
+Looking at the options:
+
+(A) 5am to 1pm: She was at the water park, so no.
+
+(B) 4pm to 9pm: She was buying a phone, so no.
+
+(C) 1pm to 4pm: She was at the yoga studio, so no.
+
+(D) 9pm to 10pm: This is the only time she wasn't being seen by others, and the bakery was open until 10pm.
+
+So, the answer should be (D).
+</think>
+
+(D) 9pm to 10pm

@@ -1,0 +1,67 @@
+Alright, let's try to figure out between what times Mark could have gone to the art show. I'll need to look at all the information provided and piece it together step by step.
+
+First, Mark wakes up at 10am. That's the starting point of his day.
+
+Next, Betty saw Mark buying a bike at the bike shop from 10am to 11am. So, Mark was at the bike shop during that time.
+
+Then, Ashley saw Mark watching a movie at the theater from 1pm to 2pm. That means Mark was at the theater during that window.
+
+Linda saw Mark working out at the gym from 2pm to 4pm. So, Mark was at the gym during her observation.
+
+Leslie saw Mark buying a phone at the electronics store from 4pm to 9pm. That's a long time, so Mark was likely busy there during that period.
+
+Michael saw Mark waiting at the airport from 9pm to 10pm. Since the art show was closed after 10pm, that might not interfere with the time Mark could have gone to the art show.
+
+Now, I need to see when Mark was free to go to the art show. Let's list out Mark's activities:
+
+1. 10am - 11am: Buying a bike
+2. 1pm - 2pm: Watching a movie
+3. 2pm - 4pm: Working out at the gym
+4. 4pm - 9pm: Buying a phone
+5. 9pm - 10pm: Waiting at the airport
+
+Looking at these, the times when Mark is free are:
+
+- Between 11am and 1pm
+- Between 4pm and 9pm
+
+But wait, from 4pm to 9pm, Leslie saw Mark buying a phone. So, Mark was occupied then.
+
+So, the only free time before 4pm is between 11am and 1pm.
+
+But also, after 9pm, Mark was waiting at the airport until 10pm. Since the art show was closed after 10pm, Mark could have gone there before 10pm, but he was at the airport from 9pm to 10pm.
+
+So, the time when Mark was definitely free is between 11am and 1pm.
+
+Therefore, the possible time for Mark to have gone to the art show is between 11am to 1pm.
+
+Let me check the options:
+
+(A) 11am to 1pm
+
+(B) 4pm to 9pm
+
+(C) 10am to 11am
+
+(D) 2pm to 4pm
+
+Option A matches my conclusion.
+
+**Answer**
+\boxed{A}
+</think>
+
+Mark wakes up at 10am. Betty saw him buying a bike from 10am to 11am. Ashley saw him watching a movie from 1pm to 2pm. Linda saw him working out from 2pm to 4pm. Leslie saw him buying a phone from 4pm to 9pm. Michael saw him waiting at the airport from 9pm to 10pm. The art show was closed after 10pm.
+
+Mark's activities:
+1. 10am - 11am: Buying a bike
+2. 1pm - 2pm: Watching a movie
+3. 2pm - 4pm: Working out at the gym
+4. 4pm - 9pm: Buying a phone
+5. 9pm - 10pm: Waiting at the airport
+
+Mark was free between 11am to 1pm and between 4pm to 9pm. However, from 4pm to 9pm, he was buying a phone. The only free time before 10pm is between 11am and 1pm.
+
+Thus, the possible time for Mark to have gone to the art show is between 11am to 1pm.
+
+\boxed{A}

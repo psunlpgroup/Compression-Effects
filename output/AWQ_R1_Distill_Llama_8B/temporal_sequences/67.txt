@@ -1,0 +1,51 @@
+To determine the possible times Samantha could have gone to the swimming pool, let's analyze the information provided.
+
+First, Samantha wakes up at 5 am. From 5 am to 8 am, Thomas sees her walking in the garden. So, she's not at the swimming pool during this time.
+
+Next, from 9 am to 10 am, David sees her stretching at a yoga studio. Again, she's not at the swimming pool.
+
+From 10 am to 11 am, Nancy sees her buying a bike at a bike shop. She's still not at the swimming pool.
+
+Then, from 11 am to 3 pm, Betty sees her working out at the gym. Still, she's not at the swimming pool.
+
+Finally, from 3 pm to 5 pm, John sees her buying cookies at a bakery. She's not at the swimming pool during this time either.
+
+The swimming pool is closed after 5 pm, which means she couldn't have gone there after that time.
+
+Considering all these intervals, there's no time when Samantha is free to go to the swimming pool. Therefore, there might be a mistake in the information provided or perhaps she didn't go to the swimming pool at all during the observed period.
+</think>
+
+**Solution:**
+
+Let's analyze the timeline step by step to determine the possible times Samantha could have gone to the swimming pool.
+
+1. **5 AM - 8 AM:**  
+   - **Thomas saw Samantha walking in the garden.**  
+   - **Samantha was not at the swimming pool.**
+
+2. **9 AM - 10 AM:**  
+   - **David saw Samantha stretching at a yoga studio.**  
+   - **Samantha was not at the swimming pool.**
+
+3. **10 AM - 11 AM:**  
+   - **Nancy saw Samantha buying a bike at the bike shop.**  
+   - **Samantha was not at the swimming pool.**
+
+4. **11 AM - 3 PM:**  
+   - **Betty saw Samantha working out at the gym.**  
+   - **Samantha was not at the swimming pool.**
+
+5. **3 PM - 5 PM:**  
+   - **John saw Samantha buying cookies at a bakery.**  
+   - **Samantha was not at the swimming pool.**
+
+6. **After 5 PM:**  
+   - **The swimming pool was closed.**  
+   - **Samantha could not have gone to the swimming pool.**
+
+**Conclusion:**  
+Based on the timeline provided, there is no time when Samantha was free to go to the swimming pool. The swimming pool was also closed after 5 PM, which means she couldn't have gone there after that time.
+
+Therefore, **Samantha did not go to the swimming pool during the observed period.**
+
+\boxed{\text{None of the given times allow Samantha to go to the swimming pool.}}

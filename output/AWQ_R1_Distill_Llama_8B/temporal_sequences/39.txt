@@ -1,0 +1,96 @@
+Alright, let's try to figure out when Andrew could have gone to the coffee shop. So, the timeline is as follows:
+
+- Andrew wakes up at 8am.
+- Elizabeth saw him fixing the computer from 11am to 3pm.
+- Jennifer saw him buying a bike from 3pm to 4pm.
+- Anthony saw him buying cookies from 4pm to 6pm.
+- Betty saw him watching a movie from 6pm to 8pm.
+- The coffee shop was closed after 8pm.
+
+First, I need to see when Andrew was not seen by anyone else, because that's when he could have gone to the coffee shop.
+
+Let's list all the times when Andrew was seen:
+
+1. **11am to 3pm**: Elizabeth saw him.
+2. **3pm to 4pm**: Jennifer saw him.
+3. **4pm to 6pm**: Anthony saw him.
+4. **6pm to 8pm**: Betty saw him.
+
+Now, let's see the gaps between these times where Andrew wasn't seen:
+
+- From 8am to 11am: Andrew was at home, but there's no mention of him being seen. So, this is a possible time.
+- Between 3pm to 4pm: Jennifer saw him, so this time is covered.
+- Between 4pm to 6pm: Anthony saw him, so this is covered.
+- Between 6pm to 8pm: Betty saw him, so this is also covered.
+
+Wait, but the coffee shop was closed after 8pm, so the latest he could have gone is before 8pm. So, the possible times are:
+
+- **8am to 11am**: He was at home, not seen by anyone.
+- **3pm to 4pm**: Jennifer saw him.
+- **4pm to 6pm**: Anthony saw him.
+- **6pm to 8pm**: Betty saw him.
+
+But the question is asking between what times Andrew could have gone to the coffee shop. He couldn't have gone between 8am to 11am because that's when he was at home, but the coffee shop was already closed by 8pm. Wait, no, the coffee shop was closed after 8pm, but he could have gone earlier.
+
+Wait, maybe I'm misunderstanding. The coffee shop was closed after 8pm, meaning it closes at 8pm. So, the latest he could have gone is before 8pm.
+
+But looking at the times:
+
+- Elizabeth saw him from 11am to 3pm.
+- Jennifer from 3pm to 4pm.
+- Anthony from 4pm to 6pm.
+- Betty from 6pm to 8pm.
+
+So, the only time he wasn't seen by anyone was from 8am to 11am. But the coffee shop was closed after 8pm, so he could have gone anytime between 8am to 8pm, but only when he wasn't being seen by others.
+
+But the options given are:
+
+(A) 3pm to 4pm  
+(B) 6pm to 8pm  
+(C) 8am to 11am  
+(D) 11am to 3pm
+
+Wait, but 8am to 11am is option C, but that's when he was at home, not necessarily at the coffee shop. The question is asking between what times could they have gone, implying possible overlapping times when he wasn't being seen by others.
+
+But the coffee shop was closed after 8pm, so he couldn't have gone after 8pm. So the possible times are when he wasn't being seen, which is:
+
+- 8am to 11am (he was at home)
+- 3pm to 4pm (Jennifer saw him)
+- 4pm to 6pm (Anthony saw him)
+- 6pm to 8pm (Betty saw him)
+
+So, the only time he wasn't seen is 8am to 11am. But the coffee shop was open before 8pm, so he could have gone anytime between 8am to 8pm, but only when he wasn't being seen.
+
+But the options include 8am to 11am (option C), but the question is about the coffee shop, which was closed after 8pm. So, he could have gone to the coffee shop anytime between 8am to 8pm, but only when he wasn't being seen by others.
+
+But the only time he wasn't seen by others is from 8am to 11am. So, he could have gone to the coffee shop during that time.
+
+Wait, but the coffee shop was open before 8pm, so he could have gone at any time between 8am to 8pm, but only when he wasn't being seen by others.
+
+So, the possible times are:
+
+- 8am to 11am: Not seen by anyone
+- 11am to 3pm: Seen by Elizabeth
+- 3pm to 4pm: Seen by Jennifer
+- 4pm to 6pm: Seen by Anthony
+- 6pm to 8pm: Seen by Betty
+
+Therefore, the only time he wasn't seen is 8am to 11am. So, he could have gone to the coffee shop during that time.
+
+But the options are:
+
+(A) 3pm to 4pm  
+(B) 6pm to 8pm  
+(C) 8am to 11am  
+(D) 11am to 3pm
+
+So, the correct answer is C: 8am to 11am.
+
+But wait, the coffee shop was closed after 8pm, but he could have gone anytime before that. The only time he wasn't seen is 8am to 11am, so that's when he could have gone.
+
+But the options also include 11am to 3pm, but that's when he was fixing the computer. So, he couldn't have gone then.
+
+So, the only possible time is 8am to 11am, which is option C.
+</think>
+
+The correct answer is (C) 8am to 11am.

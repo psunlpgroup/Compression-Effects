@@ -1,0 +1,9 @@
+["adding-knowledge"] Popper's academic appointment was at the University of London. ["end-section"]
+
+["adding-knowledge"] The country of citizenship of the person who wrote *The Book Thief* is Germany. ["end-section"]
+
+["adding-knowledge"] The country near Germany where Popper was appointed is the United Kingdom. ["end-section"]
+
+["deduction"] Therefore, Popper was appointed at the University of London. ["end-section"]
+
+["deduction"] The final answer is: University of London. ["end-section"]

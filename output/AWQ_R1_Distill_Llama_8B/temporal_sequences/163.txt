@@ -1,0 +1,67 @@
+Alright, let's try to figure out when Jennifer could have gone to the art show. I'll go through each piece of information step by step and see how it fits together.
+
+First, Jennifer woke up at 8am. So her day starts at 8am.
+
+Next, Lisa saw Jennifer buying clothes at the mall from 8am to 9am. That means Jennifer was at the mall during that time.
+
+Then, Steven saw Jennifer walking towards the Statue of Liberty from 9am to 10am. So after buying clothes, she was heading towards the Statue of Liberty.
+
+Sarah saw Jennifer sitting on a rooftop from 10am to 2pm. That's a longer period. So after walking towards the Statue of Liberty, she sat on a rooftop for a couple of hours.
+
+Linda saw Jennifer taking photos near the Leaning Tower of Pisa from 4pm to 6pm. That's later in the day, in the afternoon.
+
+Andrew saw Jennifer working out at the gym from 6pm to 8pm. So after taking photos, she went to the gym.
+
+The art show was closed after 8pm. So the latest time Jennifer could have gone to the art show is before 8pm.
+
+Now, let's piece this together.
+
+Jennifer starts her day at 8am. She goes to the mall until 9am. Then she walks towards the Statue of Liberty until 10am. She sits on the rooftop from 10am to 2pm. So she's occupied until 2pm.
+
+After that, she goes to take photos near the Leaning Tower of Pisa from 4pm to 6pm. Then she works out at the gym from 6pm to 8pm.
+
+The art show was closed after 8pm, so she must have gone to the art show before 8pm. But when was she free?
+
+She was at the mall from 8-9am, then walking until 10am, then on the rooftop until 2pm. So from 2pm to 4pm, she's free. Then she takes photos until 6pm, and works out until 8pm.
+
+So the only time she was free before 8pm when she could have gone to the art show is between 2pm and 4pm.
+
+That matches option (A).
+
+But wait, let me double-check. The art show was closed after 8pm, so she must have gone before 8pm. Her schedule is:
+
+- 8-9am: Buying clothes
+- 9-10am: Walking towards Statue of Liberty
+- 10am-2pm: Sitting on the rooftop
+- 2pm-4pm: Free
+- 4-6pm: Taking photos
+- 6-8pm: Working out
+
+So yes, she was free between 2pm and 4pm. That's when she could have gone to the art show.
+
+So the correct answer is (A) 2pm to 4pm.
+</think>
+
+The correct answer is (A) 2pm to 4pm.
+
+**Step-by-Step Explanation:**
+
+1. **Jennifer's Day Starts at 8am:** She wakes up at 8am, beginning her day.
+
+2. **Mall Visit (8am-9am):** Jennifer is seen buying clothes from 8am to 9am.
+
+3. **Walking Towards Statue of Liberty (9am-10am):** After the mall visit, she walks towards the Statue of Liberty until 10am.
+
+4. **Sitting on Rooftop (10am-2pm):** She stays on the rooftop from 10am until 2pm.
+
+5. **Free Time (2pm-4pm):** After sitting on the rooftop, she has a free window from 2pm to 4pm.
+
+6. **Photos Near Leaning Tower (4pm-6pm):** She takes photos in the afternoon.
+
+7. **Gym Workout (6pm-8pm):** She works out at the gym until 8pm.
+
+8. **Art Show Timing:** The art show closes after 8pm, so she must have attended it before 8pm.
+
+9. **Available Window:** The only free time before 8pm is between 2pm and 4pm.
+
+**Answer:** (A) 2pm to 4pm

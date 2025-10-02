@@ -1,0 +1,53 @@
+Alright, let's try to figure out when Hannah could have gone to the art show. I'll start by laying out all the information given and see how the times overlap.
+
+First, Hannah woke up at 7 am. So, she was at home by 7 am.
+
+Then, Michael saw Hannah walking towards the Statue of Liberty from 7 am to 8 am. That means between 7 and 8 am, Hannah was on her way to the Statue of Liberty.
+
+Leslie saw Hannah reading at the library from 8 am to 9 am. So, after Michael saw her at 7-8 am, Leslie saw her at 8-9 am.
+
+Jason saw Hannah sitting on a rooftop from 9 am to 1 pm. That's a longer period—9 am to 1 pm, so Hannah was sitting there for a while.
+
+Lisa saw Hannah fixing their computer at the electronic store from 7 pm to 9 pm. So, after 7 pm, Hannah was busy fixing the computer.
+
+Hannah saw Hannah watching a movie at the theater from 9 pm to 10 pm. So, at 9 pm, she saw her double, and they watched a movie until 10 pm.
+
+The art show was closed after 10 pm. So, the latest time Hannah could have gone to the art show is before 10 pm.
+
+Now, I need to see when Hannah was free to go to the art show. Let's list her activities:
+
+- 7 am: Woke up.
+- 7-8 am: Walking towards the Statue of Liberty (Michael saw her).
+- 8-9 am: Reading at the library (Leslie saw her).
+- 9 am-1 pm: Sitting on a rooftop (Jason saw her).
+- 7 pm-9 pm: Fixing their computer (Lisa saw her).
+- 9 pm-10 pm: Watching a movie (Hannah saw her).
+
+So, the times when Hannah was occupied are from 7 am to 1 pm, and then again from 7 pm to 10 pm. The art show was closed after 10 pm, so the latest she could have gone is before 10 pm.
+
+Looking at the options:
+
+A) 7 pm to 9 pm: But she was fixing the computer during that time, so she couldn't have gone to the art show then.
+
+B) 7 am to 8 am: She was walking towards the Statue of Liberty, so she wasn't free to go to the art show.
+
+C) 1 pm to 7 pm: This is a period when she was not occupied by her usual activities. She was probably free to go to the art show during this time.
+
+D) 9 pm to 10 pm: She was watching a movie, so she couldn't have gone to the art show.
+
+Therefore, the only possible time she could have gone to the art show is between 1 pm and 7 pm.
+</think>
+
+The correct answer is (C) 1pm to 7pm.
+
+Step-by-step explanation:
+
+1. **Identify all the time intervals when Hannah was occupied:**
+   - **7 am - 1 pm:** Woke up, walked to the Statue of Liberty, read at the library, and sat on a rooftop.
+   - **7 pm - 9 pm:** Fixed their computer.
+   - **9 pm - 10 pm:** Watched a movie.
+
+2. **Determine the periods when Hannah was free:**
+   - **1 pm - 7 pm:** No activities mentioned, so she could have gone to the art show.
+
+Answer: (C) 1pm to 7pm

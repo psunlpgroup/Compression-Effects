@@ -1,0 +1,5 @@
+["adding-knowledge"] The movie *The Beach* was filmed in the country where Bodindecha was born. ["end-section"] 
+
+["deduction"] The specific location is the Philippines. ["end-section"] 
+
+**Answer:** The Philippines

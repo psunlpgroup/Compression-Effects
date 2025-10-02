@@ -1,0 +1,39 @@
+Alright, let's try to figure out when David could have gone to the museum. I'll start by listing out the information given.
+
+First, David wakes up at 8am. That's the earliest time he's active that day.
+
+Steven saw David playing tennis at the tennis court from 10am to 11am. So, David was definitely occupied from 10am to 11am.
+
+James saw David stretching at a yoga studio from 11am to 4pm. That means David was at the yoga studio from 11am onward, stretching for quite a while.
+
+Nancy saw David working out at the gym from 4pm to 5pm. So, after yoga, David went to the gym.
+
+Richard saw David buying lunch at the deli from 5pm to 6pm. So, after the gym, David went to the deli.
+
+The museum was closed after 6pm. That means the latest David could have gone to the museum is by 6pm.
+
+Now, let's see when David was free. He was occupied from 10am to 11am, 11am to 4pm, 4pm to 5pm, and 5pm to 6pm. So, adding those up:
+
+- 10am to 11am: Tennis
+- 11am to 4pm: Yoga
+- 4pm to 5pm: Gym
+- 5pm to 6pm: Deli
+
+That means David didn't have any free time between 10am and 6pm. The museum was closed after 6pm, but David was already occupied until 6pm.
+
+So, David couldn't have gone to the museum during any of these times because he was busy. Therefore, he must have gone to the museum before 10am or after 6pm. But since the museum was closed after 6pm, the only possible time is before 10am.
+
+Looking at the options, (A) 8am to 10am is the only time slot that fits because that's when David was free before he started his activities.
+</think>
+
+To determine when David could have visited the museum, we need to analyze his schedule:
+
+- **8am:** David wakes up.
+- **10am-11am:** Playing tennis.
+- **11am-4pm:** Stretching at yoga.
+- **4pm-5pm:** Working out at the gym.
+- **5pm-6pm:** Buying lunch.
+
+The museum is closed after 6pm. Since David is occupied from 10am to 6pm, the only free time is **8am to 10am**.
+
+**Answer:** (A) 8am to 10am

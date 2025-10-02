@@ -1,0 +1,28 @@
+To determine the possible times Susan could have visited the soccer field, let's analyze the information provided step by step.
+
+**1. Susan's Schedule:**
+- **Wake-up Time:** 5am
+- **Activities from 5am to 9pm:**
+  - **William's Observation (5am - 6am):** Susan was walking in the garden.
+  - **Anthony's Observation (6am - 7am):** Susan was working out at the gym.
+  - **Betty's Observation (2pm - 6pm):** Susan was fixing their computer at the electronic store.
+  - **Lisa's Observation (6pm - 8pm):** Susan was buying cookies at a bakery.
+  - **Linda's Observation (8pm - 9pm):** Susan was playing tennis at the tennis court.
+
+**2. Soccer Field Hours:**
+- The soccer field is closed after 9pm. Therefore, Susan could have visited the soccer field before 9pm.
+
+**3. Possible Time Windows for Soccer Field Visit:**
+- **Between 5am and 7am:** Susan was either walking in the garden (5am - 6am) or working out at the gym (6am - 7am). No time is available for her to visit the soccer field.
+- **Between 7am and 2pm:** There's no information about Susan's activities during this period. It's possible she visited the soccer field.
+- **Between 2pm and 6pm:** Betty saw Susan at the electronic store during this time, so she wasn't at the soccer field.
+- **Between 6pm and 8pm:** Lisa saw Susan buying cookies, so she wasn't at the soccer field.
+- **Between 8pm and 9pm:** Linda saw Susan playing tennis, so she wasn't at the soccer field.
+
+**4. Conclusion:**
+The only possible time Susan could have visited the soccer field is between **7am and 2pm**.
+
+**Final Answer:** (C) 7am to 2pm
+```plaintext
+The correct answer is (C).
+```

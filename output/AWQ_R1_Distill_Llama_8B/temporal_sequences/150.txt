@@ -1,0 +1,31 @@
+Alright, let's try to figure out between what times Jason could have gone to the park. I'll go through the information step by step.
+
+First, Jason woke up at 5am. So, he left his house around that time.
+
+Nancy saw Jason buying clothes at the mall from 5am to 2pm. That means Jason was at the mall during that time.
+
+Emily saw Jason walking in the garden from 2pm to 4pm. So, after leaving the mall, Jason went to the garden.
+
+John saw Jason reading at the library from 5pm to 8pm. So, Jason spent some time at the library in the evening.
+
+Jennifer saw Jason buying lunch at the deli from 8pm to 9pm. That means Jason was at the deli late in the evening.
+
+The park was closed after 9pm. So, Jason couldn't have been at the park after 9pm.
+
+Now, let's see when Jason was free. He was at the mall from 5am to 2pm, then at the garden from 2pm to 4pm, at the library from 5pm to 8pm, and at the deli from 8pm to 9pm.
+
+So, the times when Jason was occupied are:
+
+- 5am to 2pm (mall)
+- 2pm to 4pm (garden)
+- 5pm to 8pm (library)
+- 8pm to 9pm (deli)
+
+Therefore, the only free time Jason had was between 4pm and 5pm when he was not seen by anyone.
+
+So, Jason could have gone to the park between 4pm and 5pm.
+</think>
+
+Jason could have gone to the park between **4pm to 5pm**.
+
+**Answer:** (B) 4pm to 5pm

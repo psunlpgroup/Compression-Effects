@@ -1,0 +1,34 @@
+Alright, let's try to figure out between what times Andrew could have gone to the construction site. So, here's what we know:
+
+1. Andrew woke up at 9am.
+2. Anthony saw Andrew buying clothes at the mall from 9am to 2pm.
+3. Mark saw Andrew taking photos near the Leaning Tower of Pisa from 2pm to 3pm.
+4. Tiffany saw Andrew sitting on a rooftop from 4pm to 7pm.
+5. Samantha saw Andrew waiting at the train station from 7pm to 9pm.
+6. The construction site was closed after 9pm.
+
+First, let's list out all the sightings:
+
+- **9am to 2pm**: Anthony saw Andrew at the mall.
+- **2pm to 3pm**: Mark saw Andrew near the Leaning Tower of Pisa.
+- **4pm to 7pm**: Tiffany saw Andrew on the rooftop.
+- **7pm to 9pm**: Samantha saw Andrew at the train station.
+
+Andrew's day starts at 9am. So, from 9am to 2pm, he's at the mall. That means he left the mall at 2pm because Mark saw him at 2pm near the tower. Then, from 2pm to 3pm, he was taking photos.
+
+After that, he wasn't seen again until 4pm. So, between 3pm and 4pm, he must have been at the construction site because that's when he could have gone there before Tiffany saw him on the rooftop at 4pm.
+
+Wait, but the construction site was closed after 9pm. So, the latest he could have been there is before 9pm. But the options provided are:
+
+(A) 3pm to 4pm  
+(B) 4pm to 7pm  
+(C) 2pm to 3pm  
+(D) 7pm to 9pm
+
+From the timeline, after 3pm, the next sighting is at 4pm on the rooftop. So, he must have left the construction site by 3pm. That means he was there from 3pm to 4pm, which is option (A).
+
+But wait, let's double-check. After 2pm to 3pm, he was taking photos. So, he left the tower at 3pm. Then, the next thing is at 4pm, sitting on a rooftop. So, between 3pm and 4pm, he was likely at the construction site. That makes sense.
+
+So, the correct time he could have gone is between 3pm to 4pm, which is option (A).
+
+**Answer:** (A) 3pm to 4pm

@@ -1,0 +1,255 @@
+Okay, so I have this problem about counting the number of paths on an 8x8 grid from the lower left corner to the upper right corner. The paths have a length of 16 steps, which makes sense because on an 8x8 grid, you need to move right 8 times and up 8 times, totaling 16 moves. 
+
+The question specifically asks for the number of such paths that change direction exactly four times. Hmm, direction changes... So, in a path from the lower left to the upper right, the direction can either be right or up. Each time the direction changes from right to up or up to right is counted as a single change. So, if a path goes right, right, up, right, up, and so on, each switch between right and up is a change. 
+
+First, let me make sure I understand what a direction change is. For example, if the path is right, right, right, right, that's all right moves, so no direction changes. Similarly, if it's up, up, up, up, no direction changes. But if it goes right, up, right, up, that's two direction changes. So, the number of direction changes is equal to the number of times the direction switches from right to up or up to right.
+
+So, we need to count all such paths that have exactly four direction changes. 
+
+Let me think about how to model this. Each path can be represented as a sequence of right (R) and up (U) moves. Since the grid is 8x8, we have to make 8 R's and 8 U's in some order. The total number of such paths is C(16,8) = 12870, which is the total number of paths without any restrictions.
+
+But here, we have a restriction: exactly four direction changes. So, how can we count the number of sequences with exactly four direction changes?
+
+Hmm, maybe we can model this as a kind of binary sequence where each move is either R or U, and we need to count the number of sequences with exactly four switches between R and U.
+
+Wait, that's similar to counting the number of binary strings with exactly four transitions.
+
+In the theory of combinatorics, the number of binary strings of length n with exactly k transitions can be calculated. Is that right? Let me recall.
+
+Yes, a transition is a switch from one symbol to another. So, for a binary string of length n, the number with exactly k transitions is 2 * C(k, m), where m is something? Wait, maybe not. Let me think more carefully.
+
+Suppose we have a binary string of length n, consisting of R and U moves. Each transition is a switch from R to U or U to R. So, if we have exactly four transitions, that means the path alternates direction four times. So, the number of runs is five, right? Because each transition increases the number of runs by one. So, if there are four transitions, there are five runs.
+
+Wait, that might be the key. A run is a consecutive sequence of the same move, either all R's or all U's. So, if you have four transitions, you have five runs.
+
+For example, RRRRUUUURRRUU would have multiple runs, but how many transitions? Let's see: R to U is one transition, U to R is two, R to U is three, U to R is four. So, four transitions, five runs.
+
+So, in this case, the number of such paths is equal to the number of binary strings (sequences of R and U) with five runs, each run being at least one move, and the total number of R's is 8 and U's is 8.
+
+But wait, the total number of moves is 16, so the total number of runs must be five, with each run being either R or U. Since the path starts with either R or U, right?
+
+Wait, in the grid problem, the starting point is the lower left corner, so the first move must be either right or up. But in terms of counting, do we have to consider both starting with R and starting with U?
+
+Yes, because the path can start either by moving right or moving up. So, the total number of such paths with exactly four direction changes would be twice the number of sequences starting with R, because starting with R or starting with U would each give the same count.
+
+So, maybe the formula is 2 * C(16 - 1, 5 - 1) or something. Wait, no, that's not quite right.
+
+Wait, actually, I remember that the number of binary strings of length n with exactly k transitions is 2 * C(n - 1, k - 1). Hmm, let me verify.
+
+Wait, no, actually, the number of binary strings of length n with exactly k transitions is 2 * C(n - 1, k - 1). Let me see.
+
+Suppose we have a binary string starting with a specific symbol, say R. Then, the number of such strings with exactly k transitions is C(n - 1, k - 1). Because each transition corresponds to a switch, so the number of places where the transition can occur is n - 1. So, if we fix the starting symbol, the number of strings with exactly k transitions is C(n - 1, k - 1). Since we can start with R or U, it's 2 * C(n - 1, k - 1).
+
+But in our case, n is 16, and k is 4. So, the number of binary strings with exactly four transitions is 2 * C(15,3). Wait, is that correct?
+
+Wait, hold on, because in our grid problem, each transition corresponds to a switch between R and U, but also, we have the constraint that the total number of R's is 8 and U's is 8. So, it's not just any binary string, but specifically sequences with exactly 8 R's and 8 U's, and exactly four transitions.
+
+So, my previous thought about the number of binary strings with exactly k transitions is more general, but in our case, we have a fixed number of each symbol.
+
+Therefore, maybe I need a different approach.
+
+Let me think about runs. Since we have exactly four transitions, that means we have five runs. Each run is a consecutive sequence of the same move, either R or U.
+
+So, the path will consist of five runs, each run being either R or U. Since the total number of R's is 8 and U's is 8, we need to distribute these runs such that the sum of the lengths of the R runs is 8 and the sum of the lengths of the U runs is 8.
+
+Also, since the path starts with either R or U, we have two cases: starting with R or starting with U.
+
+Wait, so first, let's consider the case where the path starts with R.
+
+Then, the sequence of runs is R, U, R, U, R, U, R, U, R, U, R.
+
+Wait, no, the number of runs is five, so it's either R, U, R, U, R or U, R, U, R, U.
+
+Wait, actually, starting with R, the five runs would be R, U, R, U, R. Similarly, starting with U, the five runs would be U, R, U, R, U.
+
+Therefore, in each case, the number of R runs and U runs differ by one. For example, starting with R, we have three R runs and two U runs. Starting with U, we have three U runs and two R runs.
+
+So, for each case, starting with R or starting with U, we have a different distribution.
+
+Therefore, let's handle both cases separately.
+
+Case 1: Starting with R.
+
+So, the sequence of runs is R, U, R, U, R. So, three R runs and two U runs.
+
+Each run must have at least one move. So, the lengths of the R runs are r1, r2, r3, each at least 1, and sum to 8. Similarly, the lengths of the U runs are u1, u2, each at least 1, and sum to 8.
+
+Similarly, for Case 2: Starting with U.
+
+Sequence of runs is U, R, U, R, U. So, three U runs and two R runs.
+
+Same idea, lengths of U runs are u1, u2, u3, each at least 1, sum to 8. Lengths of R runs are r1, r2, each at least 1, sum to 8.
+
+So, in both cases, we can model this as integer compositions.
+
+For Case 1: Number of ways to write 8 as the sum of three positive integers (r1, r2, r3) is C(8 - 1, 3 - 1) = C(7,2) = 21. Similarly, the number of ways to write 8 as the sum of two positive integers (u1, u2) is C(7,1) = 7.
+
+Therefore, the number of compositions for the R runs is 21, and for the U runs is 7, so total number of sequences for Case 1 is 21 * 7 = 147.
+
+But wait, each composition corresponds to a specific sequence of runs, but since the order matters, do we need to consider the order of runs?
+
+Wait, no, actually, in compositions, the order is considered, so for the R runs, each composition is an ordered sum, so the number is 21, and similarly for U runs, it's 7.
+
+Therefore, for each composition of R runs, we can pair it with each composition of U runs, giving 21 * 7 = 147 sequences.
+
+Similarly, for Case 2: Starting with U.
+
+Number of ways to write 8 as the sum of three positive integers (u1, u2, u3) is C(7,2) = 21, and the number of ways to write 8 as the sum of two positive integers (r1, r2) is C(7,1) = 7.
+
+Therefore, the number of sequences for Case 2 is also 21 * 7 = 147.
+
+Therefore, total number of such paths is 147 + 147 = 294.
+
+Wait, so is the answer 294? Let me check.
+
+But hold on, in the problem statement, it says "paths that change direction exactly four times." So, in my earlier reasoning, I considered that four transitions correspond to five runs, and that starting with R or U each give 147 paths, so total 294.
+
+But wait, let me think again.
+
+Is the number of compositions of 8 into k parts equal to C(8 - 1, k - 1)? Yes, that's correct.
+
+So, for three R runs, it's C(7,2) = 21, and for two U runs, it's C(7,1) = 7.
+
+So, 21 * 7 = 147.
+
+Similarly for the other case.
+
+Therefore, 147 + 147 = 294.
+
+But wait, another way to think about it is the number of sequences with exactly four transitions is 2 * C(15,3). Wait, 15 choose 3 is 455, so 2*455 is 910, but that's way higher than 294.
+
+Wait, but that's because in that formula, n is the total number of moves, which is 16, and k is the number of transitions.
+
+Wait, but in our case, we have the constraint that exactly 8 R's and 8 U's, so it's not just any binary string, but specifically balanced binary strings with exactly four transitions.
+
+Therefore, perhaps my initial approach is correct.
+
+Wait, let me cross-verify.
+
+Another way to model this is to think of the path as a sequence of moves where the direction can change four times.
+
+So, each direction change is a switch from R to U or U to R.
+
+Since the path starts at the lower left, it can start with R or U. Let's fix starting with R first.
+
+So, starting with R, the first run is R's. Then, each direction change alternates between U and R.
+
+So, if we have four direction changes, starting with R, the sequence of runs is R, U, R, U, R.
+
+Therefore, three R runs and two U runs.
+
+Similarly, starting with U, the runs are U, R, U, R, U.
+
+So, three U runs and two R runs.
+
+Therefore, for each starting direction, we need to compute the number of compositions of 8 into three parts for the starting direction and two parts for the other direction.
+
+So, for starting with R: the number of compositions of 8 into three positive integers is C(7,2) = 21, and compositions of 8 into two positive integers is C(7,1) = 7. So, total sequences starting with R: 21 * 7 = 147.
+
+Similarly, starting with U: same reasoning, 21 * 7 = 147.
+
+Therefore, total number of sequences: 147 + 147 = 294.
+
+Therefore, the number of such paths is 294.
+
+Wait, but let me think again if there's another approach.
+
+Another approach is to model the number of paths with exactly four direction changes as the number of ways to interleave the R's and U's with four switches.
+
+So, if we have four direction changes, that means the path alternates direction four times.
+
+So, starting with R, the path would go R, then switch to U, then switch back to R, then switch to U, then switch back to R.
+
+Similarly, starting with U, it would go U, then switch to R, then switch to U, then switch to R, then switch to U.
+
+So, in either case, the number of runs is five, with three runs of the starting direction and two runs of the other direction.
+
+Therefore, as before, the number of such paths is 2 * (number of compositions of 8 into three parts) * (number of compositions of 8 into two parts).
+
+Which is 2 * [C(7,2) * C(7,1)] = 2 * (21 * 7) = 2 * 147 = 294.
+
+Therefore, I think 294 is the correct answer.
+
+Wait, let me see if I can find another way to compute this.
+
+Alternatively, think of it as arranging the runs.
+
+Each direction change can be considered as a delimiter between runs.
+
+So, if we have four direction changes, we have five runs.
+
+Each run must consist of at least one step.
+
+Therefore, the number of ways to arrange the R runs and U runs is determined by the number of ways to distribute the R's and U's into the runs.
+
+So, for starting with R: three R runs and two U runs.
+
+Each R run must have at least one R, and each U run must have at least one U.
+
+Therefore, the number of ways to distribute 8 R's into three runs is C(8 - 1, 3 - 1) = C(7,2) = 21.
+
+Similarly, the number of ways to distribute 8 U's into two runs is C(8 - 1, 2 - 1) = C(7,1) = 7.
+
+Therefore, the number of sequences starting with R is 21 * 7 = 147.
+
+Similarly, starting with U: three U runs and two R runs, so 21 * 7 = 147.
+
+Total number is 147 + 147 = 294.
+
+Therefore, I'm confident that the answer is 294.
+
+Wait, but just to make sure, let me think of a smaller grid.
+
+Suppose we have a 2x2 grid, so the number of paths is 6, right? The number of paths with exactly one direction change.
+
+So, for a 2x2 grid, how many paths have exactly one direction change?
+
+Well, starting with R, you have RRUU, which is one path.
+
+Starting with U, you have UURR, which is another path.
+
+So, total two paths with exactly one direction change.
+
+But according to the formula above, starting with R: compositions of 2 into two R runs: C(1,1) = 1, and compositions of 2 into one U run: C(1,0) = 1. So, 1*1 = 1.
+
+Similarly, starting with U: compositions of 2 into two U runs: C(1,1) =1, and compositions of 2 into one R run: C(1,0)=1. So, 1*1=1.
+
+Total: 2, which matches.
+
+So, in this case, the formula works.
+
+Similarly, for a 3x3 grid, number of paths with exactly one direction change.
+
+Wait, but actually, for a 3x3 grid, the number of direction changes would be different.
+
+Wait, maybe let's take 2x2, which worked.
+
+So, applying the same logic, for a 2x2 grid, number of direction changes is one, so we get 2 paths, which is correct.
+
+Therefore, applying this to the 8x8 grid, with four direction changes, the number is 294.
+
+Therefore, I think the answer is 294.
+
+**Final Answer**
+\boxed{294}
+</think>
+
+To solve the problem of finding the number of paths on an \(8 \times 8\) grid from the lower left corner to the upper right corner that change direction exactly four times, we need to consider the following steps:
+
+1. **Understanding Direction Changes**: A direction change occurs when the path switches from right (R) to up (U) or from up (U) to right (R). For a path to change direction exactly four times, it must have five runs (consecutive sequences of the same direction).
+
+2. **Starting Point**: The path can start with either an R or a U. We need to consider both cases separately.
+
+3. **Case 1: Starting with R**: The sequence of runs will be R, U, R, U, R. This results in three runs of R and two runs of U. We need to distribute 8 R's into three runs and 8 U's into two runs.
+   - The number of ways to distribute 8 R's into three runs is given by the number of compositions, which is \( \binom{7}{2} = 21 \).
+   - The number of ways to distribute 8 U's into two runs is given by the number of compositions, which is \( \binom{7}{1} = 7 \).
+   - Therefore, the number of sequences starting with R is \( 21 \times 7 = 147 \).
+
+4. **Case 2: Starting with U**: The sequence of runs will be U, R, U, R, U. This results in three runs of U and two runs of R.
+   - The number of ways to distribute 8 U's into three runs is \( \binom{7}{2} = 21 \).
+   - The number of ways to distribute 8 R's into two runs is \( \binom{7}{1} = 7 \).
+   - Therefore, the number of sequences starting with U is \( 21 \times 7 = 147 \).
+
+5. **Total Number of Paths**: Adding the results from both cases, we get \( 147 + 147 = 294 \).
+
+Thus, the number of paths that change direction exactly four times is \(\boxed{294}\).

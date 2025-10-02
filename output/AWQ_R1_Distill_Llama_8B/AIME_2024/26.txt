@@ -1,0 +1,1998 @@
+Okay, so I have this problem about a torus and a sphere. Let me try to understand it step by step.
+
+First, the torus T is created by revolving a circle with radius 3 around an axis in its plane. The axis is 6 units away from the center of the circle, so essentially, the donut-shaped torus has a major radius (the distance from the center of the tube to the center of the torus) of 6, and the minor radius (the radius of the tube itself) is 3.
+
+Now, there's a sphere S with radius 11. The torus T can rest on the inside of S, meaning it's entirely inside the sphere, touching it at one point along a circle. Similarly, it can rest on the outside of S, meaning the torus is outside the sphere, touching it along another circle. We need to find the radii r_i and r_o of these two circles of tangency and then compute their difference, r_i - r_o.
+
+Let me visualize this. When the torus is inside the sphere, the sphere's radius is 11, and the torus is sitting snugly inside, touching the sphere at a single circle. Similarly, when the torus is outside, it's surrounding the sphere, touching it at another circle. So, in both cases, the torus is tangent to the sphere, but one is internally tangent and the other is externally tangent.
+
+I think the key here is to model both situations mathematically. Let me recall that a torus can be described using two radii: the major radius R (the distance from the center of the tube to the center of the torus) and the minor radius r (the radius of the tube itself). In this case, R is 6 and r is 3.
+
+When the torus is inside the sphere, the sphere's center is offset from the torus' center by some distance, and when it's outside, the sphere is inside the torus, so the center is offset in the opposite direction.
+
+I need to find the positions where the sphere and torus are tangent. Since both are surfaces of revolution, their equations can be expressed in terms of their generating circles.
+
+Let me set up a coordinate system where the torus is centered along the z-axis. Then, the equation of the torus is:
+
+sqrt((x - R cos θ)^2 + (y - R sin θ)^2) = r
+
+But actually, parametrizing the torus might complicate things. Alternatively, I can think about the distance between the centers of the sphere and the torus.
+
+Wait, when the torus is inside the sphere, the distance between their centers plus the torus's major radius plus the sphere's radius must equal the sphere's radius? Hmm, not quite sure.
+
+Let me think again. When the torus is inside the sphere, the sphere must enclose the entire torus. So the center of the sphere is somewhere, and the torus is placed such that it touches the sphere at one circle. Similarly, when the torus is outside, it's surrounding the sphere, touching it at another circle.
+
+Perhaps it's better to model this using the concept of the sphere tangent to the torus. The torus has two "radii" in a way: the major radius R = 6 and minor radius r = 3. The sphere has radius 11.
+
+For the internal tangent case, the sphere must be tangent to the torus. So, the distance between the centers of the sphere and the torus must be equal to 11 - 6 - 3? Wait, no.
+
+Wait, when the torus is inside the sphere, the sphere's center is offset from the torus's center by some distance. The torus itself is 6 + 3 units across. So, the maximum distance from the sphere's center to the farthest point on the torus would be 6 + 3 = 9. But the sphere's radius is 11, so the distance between the centers plus the torus's size must equal the sphere's radius.
+
+Wait, maybe the distance between the centers is 11 - (6 + 3) = 2? No, that seems too small.
+
+Alternatively, let me think about the distance between the centers when the torus is internally tangent. If the torus is entirely inside the sphere, the closest point on the torus to the sphere's center would be the major radius minus the minor radius, so 6 - 3 = 3. The farthest point would be 6 + 3 = 9. But the sphere's radius is 11, so the distance between the centers should be such that the sphere just touches the torus.
+
+Wait, maybe the distance between the centers plus the torus's major radius equals the sphere's radius?
+
+No, that doesn't make sense. Let me try another approach.
+
+The sphere S has radius 11. The torus T is placed such that it is tangent to S. For internal tangency, the center of S and the center of T are separated by a distance d. For external tangency, the center of S is outside the torus, so the separation is different.
+
+Wait, perhaps using the concept of the offset between the sphere and the torus.
+
+For internal tangency, the sphere must enclose the torus, so the distance between the centers plus the torus's radius (major radius) equals the sphere's radius. But the torus's "radius" in this context is a bit ambiguous because it's not a solid sphere.
+
+Wait, maybe the key is that the sphere touches the torus along a circle. So, in both cases, the sphere is tangent to the torus along a circle. The radius of this circle can be found by considering the geometry.
+
+Let me think of the torus as the surface of revolution of a circle of radius 3 around an axis at distance 6 from the center. So, the torus has major radius R = 6, minor radius r = 3.
+
+When the sphere of radius 11 is tangent to the torus, the sphere's center is offset from the torus's center by some distance. The circle of tangency lies in a plane perpendicular to the line connecting the centers.
+
+So, in the case of internal tangency, the sphere is inside the torus, but the torus is outside the sphere? Wait, no. If the torus is resting on the inside of the sphere, that would mean the sphere is larger, and the torus is sitting inside it, touching along a circle.
+
+Similarly, when the torus rests on the outside of the sphere, it's the sphere that is inside the torus, so the torus is larger, surrounding the sphere, touching along another circle.
+
+So, in both cases, the circle of tangency is a cross-section of the torus and the sphere.
+
+Let me try to find the distance between the centers in each case.
+
+Case 1: Torus rests on the inside of sphere S.
+
+So, the sphere has radius 11, and the torus is inside it, touching along a circle. Let me denote the center of the sphere as O, and the center of the torus as C. The distance between O and C is d.
+
+The torus is a surface of revolution, so the minimal distance from O to the torus is |d - (R - r)|? Hmm, not exactly.
+
+Wait, the minimal distance from the center of the sphere to the torus would be when the sphere is as close as possible to the torus. Since the torus is inside the sphere, the minimal distance would be the distance from the sphere's center to the innermost point of the torus.
+
+The innermost point of the torus is at R - r = 6 - 3 = 3 units from the center of the torus. So, if the center of the sphere is at a distance d from the center of the torus, then the minimal distance between the sphere's center and the torus is |d - (R - r)|? Or is it d - (R - r)?
+
+Wait, no, because if the center of the sphere is closer to the center of the torus, the minimal distance is (R - r) - d, but if d is positive.
+
+Wait, maybe I need to think in terms of the sphere and torus being tangent. So, in the case where the torus is inside the sphere, the sphere must touch the torus at one circle. So, the distance between the centers plus the radius of the torus's circle of tangency equals the sphere's radius.
+
+But wait, the torus is a surface, so the point of tangency is a circle. So, the radius of that circle can be found by considering the positions.
+
+Let me consider that the circle of tangency is at some radius from the center of the torus. Let me denote the center of the sphere as O, and the center of the torus as C. The distance between O and C is d.
+
+The circle of tangency lies in a plane perpendicular to the line OC. The radius of this circle, let's call it r_i, must satisfy that the sphere's radius is equal to the distance from O to the circle plus the radius of the circle.
+
+Wait, no. The sphere's radius is 11, and the circle lies on the sphere, so the distance from O to the circle is sqrt(11^2 - r_i^2).
+
+Similarly, the circle is also on the torus. The torus is generated by rotating a circle of radius 3 around an axis at distance 6 from its center. So, the equation for the torus is sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But the circle of tangency is a circle on both the sphere and the torus. So, the distance from O to the center of the torus is d, and the radius of the circle of tangency is r_i.
+
+Wait, so in the case of internal tangency, the circle of tangency is at some radius r_i from the center of the torus. The sphere's center is at a distance d from the torus's center. So, the sphere's radius is the distance from its center to the circle plus the radius of the circle.
+
+Wait, the sphere's radius is equal to the distance from O to the circle plus the radius of the circle.
+
+But the distance from O to the circle is the distance from O to the center of the circle (which is the center of the torus) minus the radius of the circle? Or is it the other way around?
+
+Wait, if the circle is inside the sphere, then the distance from O to the center of the circle (d) minus the radius of the circle (r_i) would be the distance from O to the circle. But in the sphere, the distance from O to the circle is sqrt(11^2 - r_i^2).
+
+Wait, maybe.
+
+Let me write it down:
+
+In the sphere, the distance from the center O to the circle of tangency is sqrt(11^2 - r_i^2).
+
+In the torus, the distance from the center C (of the torus) to the circle of tangency is r_i, because the circle is on the torus.
+
+But the center C is at a distance d from O. So, the distance from O to the circle is |d - r_i|.
+
+Wait, no. If the center C is at distance d from O, and the circle is on the torus, which is at a distance r_i from C, then the distance from O to the circle is |d - r_i|.
+
+But in the sphere, the distance from O to the circle is sqrt(11^2 - r_i^2).
+
+Therefore, |d - r_i| = sqrt(11^2 - r_i^2).
+
+But depending on whether the circle is on the same side or opposite side of the center O relative to C.
+
+Wait, in the case of internal tangency, the circle is on the same side as C relative to O, so the distance from O to the circle is d - r_i.
+
+So, d - r_i = sqrt(121 - r_i^2).
+
+Similarly, for external tangency, the circle is on the opposite side, so the distance from O to the circle is d + r_i, which would be equal to sqrt(121 - r_i^2).
+
+So, we have two equations:
+
+1) d - r_i = sqrt(121 - r_i^2)
+2) d + r_i = sqrt(121 - r_i^2)
+
+But wait, hold on. For external tangency, the center of the torus is outside the sphere, so the distance from O to the circle is d + r_i, but the sphere's radius is 11, so the distance from O to the circle is sqrt(11^2 - r_i^2). But if the circle is on the opposite side, the distance from O to the center of the circle is d, and the circle is at distance d + r_i from O? Wait, not exactly.
+
+Wait, maybe it's better to think in terms of vectors. Let me imagine the center O of the sphere, and the center C of the torus. The circle of tangency lies in a plane perpendicular to OC, at a distance r_i from C. So, the distance from O to the circle is |OC - r_i|, depending on direction.
+
+If the circle is on the same side, then the distance from O to the circle is |d - r_i|.
+
+If the circle is on the opposite side, the distance from O to the circle is |d + r_i|.
+
+But in the sphere, the distance from O to the circle must be sqrt(11^2 - r_i^2). So, for internal tangency, the circle is on the same side, so:
+
+d - r_i = sqrt(121 - r_i^2).
+
+For external tangency, the circle is on the opposite side, so:
+
+d + r_i = sqrt(121 - r_i^2).
+
+But we have two equations, but we have two unknowns, d and r_i. So, for each case, we can solve for r_i.
+
+Wait, but in each case, the torus is either inside or outside the sphere, so the position of the torus relative to the sphere is different.
+
+Wait, actually, in the internal tangency case, the center of the sphere is closer to the torus's center, so the distance d is less than the torus's major radius minus something.
+
+Wait, perhaps it's better to use the major radius of the torus and the sphere's radius to compute d.
+
+Wait, maybe I need to consider the geometry more carefully.
+
+Let me denote:
+
+- R = major radius of the torus = 6
+- r = minor radius of the torus = 3
+- S_radius = 11
+
+When the torus rests on the inside of S, the sphere is larger, so the torus is inside the sphere, touching along a circle. The distance between the centers is d.
+
+When it rests on the outside, the torus is larger, so the sphere is inside the torus, and the distance between centers is different.
+
+In both cases, the circle of tangency is a circle on both the sphere and the torus. So, in both cases, the circle lies on the intersection of the sphere and the torus.
+
+So, for the internal tangency case, the circle is the intersection of the sphere and the torus, and lies in a plane perpendicular to the line connecting the centers.
+
+Similarly, for external tangency, the circle is the intersection, but on the other side.
+
+So, let's model both cases.
+
+Case 1: Torus rests on the inside of sphere S.
+
+In this case, the center of the sphere is at distance d from the center of the torus. The circle of tangency is on the same side as the sphere's center relative to the torus's center.
+
+So, the distance from the sphere's center to the circle is d - r_i.
+
+But since the circle lies on the sphere, the distance from the sphere's center to the circle is sqrt(S_radius^2 - r_i^2) = sqrt(121 - r_i^2).
+
+Therefore, d - r_i = sqrt(121 - r_i^2). Equation 1.
+
+Case 2: Torus rests on the outside of sphere S.
+
+Here, the center of the sphere is on the opposite side of the circle of tangency relative to the torus's center. So, the distance from the sphere's center to the circle is d + r_i.
+
+Again, since the circle lies on the sphere, the distance from the sphere's center to the circle is sqrt(121 - r_i^2).
+
+Therefore, d + r_i = sqrt(121 - r_i^2). Equation 2.
+
+Now, we have two equations:
+
+1) d - r_i = sqrt(121 - r_i^2)
+2) d + r_i = sqrt(121 - r_i^2)
+
+But wait, that's the same equation in both cases? That can't be right.
+
+Wait, no, because in the first case, the torus is inside the sphere, so the center of the sphere is closer to the center of the torus, hence d is smaller. In the second case, the torus is outside the sphere, so the center of the sphere is farther away, so d is larger.
+
+Wait, but the equations seem the same. Hmm.
+
+Wait, no, in the first case, the distance from the sphere's center to the circle is d - r_i, but in the second case, it's d + r_i.
+
+So, in both cases, we have:
+
+sqrt(121 - r_i^2) = |d - r_i|.
+
+But in the first case, d < r_i + something? Wait, not sure.
+
+Wait, let me think about the torus. The torus has a major radius of 6, so the center of the torus is 6 units from the axis of revolution. The sphere is 11, which is larger than 6 + 3 = 9, which is the maximum distance across the torus.
+
+So, when the torus is inside the sphere, the sphere's center is offset from the torus's center by some distance d.
+
+Similarly, when the torus is outside, the sphere is inside the torus, so the sphere's center is offset by a different distance.
+
+Wait, perhaps I need to think about the sphere being tangent to the torus along a circle. So, the circle lies on both the sphere and the torus.
+
+Therefore, for internal tangency, the circle is closer to the sphere's center, and for external tangency, it's farther away.
+
+But the equations for both cases involve the same relationship between d and r_i.
+
+Wait, maybe I'm overcomplicating.
+
+Alternatively, let's think about the sphere and the torus as surfaces, and find the radii r_i and r_o where they are tangent.
+
+Wait, the torus can be considered as the set of points at a distance R ± r from the center line. So, in the case of the sphere, the sphere must intersect the torus at a single circle.
+
+Wait, the sphere is tangent to the torus along a circle, so the equation of the sphere and the equation of the torus must have a common circle.
+
+Alternatively, the sphere's equation is (x)^2 + (y)^2 + (z)^2 = 121, assuming it's centered at the origin.
+
+The torus's equation is (sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3). But parametrizing the torus is tricky.
+
+Alternatively, the torus can be considered as the set of points where the distance from the center line (the z-axis) is R ± r, where R is 6 and r is 3.
+
+Wait, no, the torus is the set of points where the distance from the center line is R - r = 3 to R + r = 9.
+
+But the sphere has radius 11, so it can contain the entire torus, as 11 > 9.
+
+Wait, but in the problem, it's said that when the torus rests on the inside of the sphere, it is internally tangent along a circle with radius r_i.
+
+Similarly, when resting on the outside, it's externally tangent along a circle with radius r_o.
+
+So, the sphere is tangent to the torus along a circle. So, for internal tangency, the sphere is inside the torus, touching it at one circle. For external tangency, the sphere is outside the torus, but wait, the torus is larger? Wait, the torus can't be larger than the sphere because the sphere has radius 11, and the torus is a surface, not a solid.
+
+Wait, no, the sphere is a solid, but the torus is a surface.
+
+Wait, maybe I need to think in terms of the offset.
+
+Wait, when the torus is inside the sphere, the sphere is larger, so the sphere will have a circle of tangency inside it where the torus touches it.
+
+When the torus is outside the sphere, it's the torus that's larger, so the sphere is inside the torus, touching it at a circle.
+
+Wait, so in both cases, the sphere is tangent to the torus along a circle, but in one case, the sphere is inside the torus, in the other, the torus is inside the sphere.
+
+So, the torus is fixed, but can be placed either inside or outside the sphere.
+
+Wait, but the torus has a major radius of 6 and minor radius of 3, so the maximum distance from the center of the torus to any point on it is 6 + 3 = 9.
+
+So, when the torus is placed inside the sphere, which has radius 11, it's entirely inside the sphere because 9 < 11. But the problem says that it's internally tangent along a circle. So, actually, the sphere is inside the torus? Wait, no, the sphere is the larger one.
+
+Wait, perhaps I have to flip that.
+
+Wait, when the torus rests on the inside of the sphere, the torus is inside the sphere, touching it along a circle.
+
+Similarly, when it rests on the outside, the torus is outside the sphere, but that doesn't make sense because the torus is a surface, not a solid. So, maybe the sphere is inside the torus, touching along a circle.
+
+Wait, perhaps it's the sphere that is either inside or outside the torus, and they are tangent along a circle.
+
+So, when the torus rests on the inside of the sphere, the sphere is inside the torus, touching it along a circle.
+
+When it rests on the outside, the sphere is outside the torus, touching it along another circle.
+
+So, in both cases, the sphere is tangent to the torus along a circle, but in one case, it's inside, and in the other, it's outside.
+
+So, in both cases, the sphere's radius is 11, and the torus's major radius is 6, minor radius 3.
+
+So, in the case where the sphere is inside the torus, the distance between the centers is such that the sphere is tangent to the torus along a circle.
+
+Similarly, when the sphere is outside the torus, the distance between centers is such that the sphere is tangent to the torus along another circle.
+
+So, let's model both cases.
+
+Case 1: Sphere inside the torus, tangent along a circle.
+
+In this case, the center of the sphere is offset from the torus's center by some distance d. The sphere is inside the torus, so the distance from the sphere's center to the torus's surface is equal to the sphere's radius.
+
+But the torus is a surface, so the minimal distance from the sphere's center to the torus is R - r - d?
+
+Wait, no.
+
+Wait, perhaps the distance between the centers is d. The sphere is inside the torus, so the distance between the centers plus the sphere's radius equals the torus's minor radius?
+
+Wait, not exactly.
+
+Wait, the sphere is inside the torus, so the furthest point on the sphere from the center of the torus is d + 11.
+
+But the torus extends from R - r = 3 to R + r = 9.
+
+So, for the sphere to be inside the torus, we must have d + 11 ≤ R + r = 9.
+
+But 11 is larger than 9, so that can't be.
+
+Wait, this approach is not correct.
+
+Alternatively, perhaps the sphere is entirely inside the torus, so the sphere's center is at a distance d from the torus's center, and the sphere's radius is 11.
+
+But the torus's inner radius is 3, so the sphere's radius must be less than or equal to 3? But the sphere has radius 11, which is larger than 3, so that can't be.
+
+Wait, maybe I'm misunderstanding the problem.
+
+Wait, the sphere has radius 11, and the torus can rest on the inside or outside of it, being tangent along a circle.
+
+So, when the torus rests on the inside, the sphere is outside the torus, and the torus is inside the sphere, touching it along a circle.
+
+Similarly, when the torus rests on the outside, the sphere is inside the torus, touching it along another circle.
+
+So, in both cases, the sphere is tangent to the torus along a circle, but in one case, the sphere is outside the torus, and in the other, it's inside.
+
+So, in the first case, the sphere is outside the torus, so the distance between centers is d, and the sphere's radius is 11. The circle of tangency is at a distance r_i from the center of the torus, and the distance from the sphere's center to the circle is sqrt(11^2 - r_i^2).
+
+Similarly, the center of the sphere is at a distance d from the center of the torus, so the distance from the sphere's center to the circle is |d - r_i|.
+
+Therefore, in the first case, |d - r_i| = sqrt(121 - r_i^2).
+
+But since the sphere is outside the torus, the center of the sphere is farther from the torus's center than the circle of tangency, so d > r_i.
+
+Therefore, d - r_i = sqrt(121 - r_i^2). Equation A.
+
+In the second case, the sphere is inside the torus, so the center of the sphere is closer to the torus's center than the circle of tangency.
+
+So, the distance from the sphere's center to the circle is d + r_i = sqrt(121 - r_i^2). Equation B.
+
+So, now we have two equations:
+
+A) d - r_i = sqrt(121 - r_i^2)
+
+B) d + r_i = sqrt(121 - r_i^2)
+
+So, in both cases, the same equation but with different relations for d.
+
+Wait, but in the first case, d - r_i = sqrt(121 - r_i^2), and in the second case, d + r_i = sqrt(121 - r_i^2).
+
+So, we can solve for d in both cases.
+
+Starting with Case 1 (sphere outside torus):
+
+d = sqrt(121 - r_i^2) + r_i.
+
+Similarly, in Case 2 (sphere inside torus):
+
+d = sqrt(121 - r_i^2) - r_i.
+
+But wait, the torus has a major radius of 6 and minor radius of 3, so the center of the torus is 6 units from the axis of revolution.
+
+Wait, but how does this relate to the distance d between the centers?
+
+Wait, maybe I need to consider the position of the sphere relative to the torus.
+
+Wait, in the first case, when the sphere is outside the torus, the sphere's center is at distance d from the torus's center, and the circle of tangency is at radius r_i from the torus's center, in the direction towards the sphere's center.
+
+Similarly, in the second case, the sphere's center is on the opposite side, so the circle is on the opposite side.
+
+Wait, perhaps in both cases, the circle lies in a plane perpendicular to the line connecting the centers, so the distance between centers is d, and the circle of tangency is at a distance r_i from the torus's center.
+
+So, in Case 1, the distance from the sphere's center to the circle is d - r_i, which equals sqrt(11^2 - r_i^2).
+
+Similarly, in Case 2, the distance is d + r_i, which equals sqrt(121 - r_i^2).
+
+Therefore, in both cases, we have:
+
+Case 1: d - r_i = sqrt(121 - r_i^2)
+
+Case 2: d + r_i = sqrt(121 - r_i^2)
+
+But in both cases, the torus is fixed with major radius 6, so the distance d is related to the torus's geometry.
+
+Wait, but we also need to relate d to the torus's major radius.
+
+Wait, the torus's center is at a distance d from the sphere's center.
+
+But the torus itself is a surface of revolution with major radius 6.
+
+So, the torus is generated by rotating a circle of radius 3 around an axis 6 units away.
+
+Therefore, the minimal distance from the torus's center to any point on the torus is 6 - 3 = 3, and the maximal distance is 6 + 3 = 9.
+
+So, the sphere's center is at a distance d from the torus's center, and the sphere has radius 11.
+
+But for the sphere to be tangent to the torus, the distance from the sphere's center to the torus's surface must be equal to the sphere's radius.
+
+Wait, but the torus is a surface, so the minimal distance from the sphere's center to the torus is |d - 9|, since the torus extends from 3 to 9 units from its center.
+
+Wait, no, the minimal distance from the sphere's center to the torus is |d - 9| if d > 9, otherwise |d - 3|.
+
+But the sphere's radius is 11, so if the sphere is to be tangent to the torus, the minimal distance from the sphere's center to the torus must be equal to the sphere's radius.
+
+Wait, that doesn't quite make sense.
+
+Wait, actually, the sphere is tangent to the torus along a circle. So, the sphere and the torus intersect at that circle, and at that point, their normals are aligned.
+
+So, the circle lies on both the sphere and the torus, and their tangent planes at that circle are the same.
+
+So, the circle lies on the intersection of the sphere and the torus, and it's a single circle, so it's a single point of tangency.
+
+Wait, perhaps I can use the concept of the radical axis or something, but I think it's overcomplicating.
+
+Wait, maybe I can model the situation with coordinates.
+
+Let me assume the torus is centered at the origin, along the z-axis. So, the equation of the torus is (sqrt(x^2 + y^2) = 9, but no, that's not correct.
+
+Wait, actually, the equation of the torus is more complex. It's generated by rotating a circle of radius 3 around an axis 6 units away. So, the parametric equations are:
+
+x = (6 cos θ + 3 cos φ) cos ψ
+
+y = (6 cos θ + 3 cos φ) sin ψ
+
+z = (6 sin θ + 3 sin φ) cos ψ
+
+But this might not help.
+
+Alternatively, the equation of the torus can be written as:
+
+sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But in terms of Cartesian coordinates, it's more complicated.
+
+Wait, perhaps I can use the formula for the distance from the center of the sphere to the torus.
+
+Wait, if the sphere is tangent to the torus, then the distance from the sphere's center to the torus must be equal to the sphere's radius.
+
+But the torus is a surface, so the minimal distance from the sphere's center to the torus is the distance from the center to the torus's surface along the line connecting the centers.
+
+Wait, if the sphere is outside the torus, the minimal distance is d - 9, where d is the distance between centers.
+
+If the sphere is inside the torus, the minimal distance is 9 - d.
+
+But in the problem, it's stated that the sphere is tangent to the torus along a circle, which is a single circle, so in both cases, the distance from the sphere's center to the torus's surface is equal to the sphere's radius.
+
+Wait, no, that might not be accurate because the torus is a surface, not a solid sphere.
+
+Wait, perhaps we can think of the sphere being tangent to the torus along a circle, so the circle lies on both the sphere and the torus.
+
+Therefore, the radius of the circle can be found by solving the equations of the sphere and the torus.
+
+But the equations are complicated.
+
+Alternatively, since both the sphere and the torus are surfaces of revolution, their intersection is a circle in a plane perpendicular to the axis of revolution.
+
+So, the circle of tangency lies in such a plane.
+
+So, in this plane, the sphere and the torus intersect at a single circle, which is the circle of tangency.
+
+Therefore, in this plane, the sphere has a radius of 11, and the torus has a cross-section of a circle with radius r_i.
+
+Wait, but the torus's cross-section is a circle with radius 3, but when revolved around the axis, it becomes a torus.
+
+Wait, perhaps in the cross-sectional plane, the torus is a circle with radius 3, but the actual torus is generated by rotating that circle around the axis.
+
+Wait, perhaps the radius r_i is related to the angle at which the sphere is tangent to the torus.
+
+Wait, maybe I can think of the circle of tangency in the cross-sectional plane.
+
+So, in the plane perpendicular to the axis of revolution, the torus looks like a circle of radius 3, and the sphere looks like a circle of radius 11.
+
+Wait, no, the sphere in the cross-sectional plane is a circle with radius 11, but the torus is a circle with radius 3.
+
+So, the sphere and the torus intersect at two points in this plane, unless they are tangent.
+
+Wait, but the problem says they are tangent along a circle, which in this plane would mean they are tangent at two points.
+
+Wait, no, because the circle of tangency is a single circle in 3D space, which in the cross-sectional plane would correspond to two points.
+
+Wait, this is getting confusing.
+
+Alternatively, maybe I can model the problem in 2D first.
+
+Imagine the cross-sectional view: the torus is a circle of radius 3, centered at (6, 0) in the x-axis.
+
+The sphere is a circle of radius 11, centered at (d, 0).
+
+The two circles (sphere and torus cross-section) intersect at points where the distance between their centers is sqrt((6 - d)^2 + 0^2) = |d - 6|.
+
+But the sphere's radius is 11, so the intersection occurs when |d - 6| <= 11.
+
+But we need them to be tangent, so only one point of intersection.
+
+Wait, but in 2D, two circles can be tangent in two ways: externally tangent or internally tangent.
+
+So, if the sphere is outside the torus cross-section, the distance between centers is 11 - 3 = 8.
+
+If the sphere is inside the torus cross-section, the distance between centers is 11 + 3 = 14.
+
+But in 3D, the torus is a surface, so when the sphere is tangent to the torus along a circle, in the cross-sectional plane, it's equivalent to the sphere being tangent to the torus's circle at one point.
+
+Wait, but in 2D, two circles can be tangent at one point, which would correspond to a single circle of tangency in 3D.
+
+Wait, so perhaps in the cross-sectional plane, the sphere is tangent to the torus's circle at one point, which would mean that the distance between the centers is equal to the sum or difference of radii.
+
+Wait, but the cross-sectional sphere has radius 11, the cross-sectional torus has radius 3.
+
+So, if the sphere is externally tangent to the torus's circle, the distance between centers is 11 + 3 = 14.
+
+If the sphere is internally tangent, the distance is 11 - 3 = 8.
+
+But in the 3D case, the distance between the centers of the sphere and the torus is d, and in the cross-sectional plane, the sphere is centered at (d, 0), and the torus is centered at (6, 0).
+
+So, the distance between the centers in the cross-sectional plane is |d - 6|.
+
+So, if in the cross-sectional plane, the sphere is tangent to the torus's circle, then |d - 6| = 11 ± 3.
+
+So, either |d - 6| = 14 or |d - 6| = 8.
+
+But since d is the distance between the centers, it must satisfy d >= |6 - 11| = 5 and d <= 6 + 11 = 17, but that's a very rough estimate.
+
+Wait, but in reality, the torus is fixed, so the sphere can either be placed such that it's externally tangent or internally tangent in the cross-sectional plane.
+
+But in 3D, the sphere is tangent to the torus along a circle, which in cross-section is a single point.
+
+So, if in cross-section, the sphere is tangent to the torus's circle, then the distance between centers in cross-section is 14 or 8.
+
+Therefore, in the cross-sectional plane, the sphere is either at distance 14 or 8 from the torus's center.
+
+But since the cross-sectional sphere is centered at (d, 0), and the torus's cross-section is centered at (6, 0), then:
+
+If |d - 6| = 14, then d = 20 or d = -8.
+
+But since the sphere is either inside or outside the torus, d can't be 20 because that would place the sphere far away. Similarly, d = -8 would place the sphere's center at (-8, 0), which is 14 units from the torus's center.
+
+But in 3D, the sphere's center can be anywhere, but the sphere must be tangent to the torus along a circle.
+
+Wait, perhaps it's better to think in terms of the sphere's position relative to the torus.
+
+Wait, in cross-section, the sphere is tangent to the torus's circle at one point, so the distance between centers is 14 or 8.
+
+Therefore, in 3D, the sphere's center is 14 or 8 units away from the torus's center along the axis.
+
+But the torus's center is on the z-axis, so the distance between centers is d, and the cross-sectional distance is |d - 6|.
+
+So, if in cross-section, the distance is 14 or 8, then the 3D distance between centers is sqrt(d^2 + 0^2) = |d|, but in cross-section, it's |d - 6|.
+
+Wait, maybe my confusion arises from mixing 2D and 3D.
+
+Wait, in the cross-sectional plane, the torus is a circle of radius 3, centered at (6, 0). The sphere is a circle of radius 11, centered at (d, 0). They are tangent, so the distance between centers is 11 ± 3.
+
+Thus, in cross-section, the centers are 14 or 8 units apart.
+
+So, the sphere is centered at (d, 0), so d = 6 ± 14 or 6 ± 8.
+
+But since d is the distance along the axis, which is the z-axis, d must be positive.
+
+So, if in cross-section, the distance is 14, then d = 6 + 14 = 20 or d = 6 - 14 = -8. But d can't be negative, so d = 20.
+
+Similarly, if the cross-sectional distance is 8, then d = 6 + 8 = 14 or d = 6 - 8 = -2, which is invalid, so d = 14.
+
+Therefore, in 3D, the sphere's center is either at d = 20 or d = 14.
+
+But wait, in 3D, the sphere is tangent to the torus along a circle, which is a single circle, not just a point.
+
+So, in cross-section, the sphere is tangent to the torus's circle at a single point, which in 3D corresponds to the circle of tangency.
+
+Therefore, the cross-sectional analysis holds.
+
+So, the sphere can be placed such that in cross-section, it's tangent to the torus's circle at one point, meaning the sphere's center is either 14 or 20 units away from the torus's center.
+
+But wait, 14 is less than 20, so 14 is closer.
+
+But the torus is fixed with major radius 6, so d = 14 or 20.
+
+But 20 is more than the torus's maximum radius of 9, which is 6 + 3. So, if the sphere is placed at d = 20, which is far from the torus, but the sphere's radius is 11, which is larger than 9, so the sphere would enclose the torus.
+
+Wait, but if the sphere is centered at d = 20, the distance from the sphere's center to the torus's center is 20, and the torus's center is 6 units from its own center.
+
+Wait, this is getting confusing.
+
+Wait, perhaps the sphere's center is at (d, 0), and the torus's center is at (6, 0). The sphere is tangent to the torus along a circle.
+
+In the cross-sectional plane, this tangency is a single point, so the sphere's center is either 14 or 8 units from the torus's center.
+
+Therefore, the distance d between the sphere's center and the torus's center is 14 or 8.
+
+But wait, in 3D, the sphere's center is at a point, and the torus is a surface.
+
+Therefore, the circle of tangency lies on both the sphere and the torus.
+
+So, the sphere is centered at (d, 0, 0), and the torus is centered at (0, 0, 0).
+
+The circle of tangency is a circle in a plane perpendicular to the z-axis, at some radius r_i from the z-axis.
+
+Wait, so in the cross-sectional plane, the sphere is a circle of radius 11, and the torus is a circle of radius 3.
+
+The sphere and the torus intersect at two points if not tangent, but in this case, they are tangent at one point, so in cross-section, it's one point.
+
+Therefore, the distance between the centers of the sphere and the torus in cross-section is 11 ± 3, so 14 or 8.
+
+Therefore, in 3D, the sphere's center is at (14, 0, 0) or (8, 0, 0).
+
+Wait, but the torus is centered at (0, 0, 0), so the sphere is centered at (14, 0, 0) or (8, 0, 0).
+
+But in the first case, when the sphere is centered at (14, 0, 0), the distance between the centers is 14.
+
+The circle of tangency is at a distance r_i from the torus's center, so in cross-section, the sphere is centered at (14, 0), and the torus is centered at (0, 0). So, the point of tangency is at (11, 0), so r_i = 11.
+
+Wait, but the torus's cross-sectional radius is 3, so the circle of tangency can't be 11.
+
+Wait, this is getting more confusing.
+
+Wait, maybe I need to use the Pythagorean theorem in the cross-sectional plane.
+
+If the sphere is centered at (d, 0), and the torus is centered at (6, 0), then the distance between centers is |d - 6|.
+
+In cross-section, the sphere's radius is 11, and the torus's radius is 3.
+
+They are tangent, so the distance between centers is 11 ± 3, so 14 or 8.
+
+Thus, d = 6 ± 14 or 6 ± 8.
+
+But d must be positive, so d = 20 or 14 for external tangency, and d = -2 or 2 for internal tangency.
+
+But d can't be negative, so d = 20, 14, or 2.
+
+But wait, in 3D, the sphere is tangent to the torus along a circle, so in cross-section, the sphere is tangent to the torus's circle at one point.
+
+Therefore, the cross-sectional distance between centers is 14 or 8, so in 3D, the sphere's center is at (14, 0, 0) or (8, 0, 0).
+
+But the torus is centered at (0, 0, 0), so the distance between the sphere's center and the torus's center is 14 or 8.
+
+But the sphere's radius is 11, so if the sphere is centered at (14, 0, 0), the distance from the sphere's center to the torus's center is 14, but the torus's maximum radius is 9, so the sphere is outside the torus.
+
+Similarly, if the sphere is centered at (8, 0, 0), the distance to the torus's center is 8, which is less than the torus's maximum radius of 9, so the sphere is inside the torus.
+
+But in the problem, when the torus rests on the inside of the sphere, it's internally tangent, and when it rests on the outside, it's externally tangent.
+
+So, in the first case, the sphere is inside the torus, touching it along a circle.
+
+In the second case, the sphere is outside the torus, touching it along another circle.
+
+Wait, no, when the torus rests on the inside of the sphere, the sphere is larger, so the torus is inside the sphere, touching it along a circle.
+
+Similarly, when the torus rests on the outside of the sphere, the sphere is inside the torus, touching it along another circle.
+
+Therefore, in both cases, the sphere is tangent to the torus along a circle, but in one case, the sphere is inside the torus, in the other, it's outside.
+
+Therefore, in the first case, the sphere is inside the torus, so the distance between centers is d = 8.
+
+In the second case, the sphere is outside the torus, so the distance between centers is d = 20.
+
+Wait, because in cross-section, the sphere is centered at d = 14 or 8, but the actual 3D distance between centers is d = 14 or 8, but in 3D, the torus is a surface, so the sphere's center is offset along the axis.
+
+Wait, perhaps the key is that in both cases, the circle of tangency is at the same radius r_i.
+
+Wait, but in the cross-sectional plane, the sphere's radius is 11, so if it's tangent to the torus's circle, the radius r_i is sqrt(11^2 - (distance between centers)^2).
+
+Wait, but in the cross-sectional plane, the sphere's radius is 11, and the torus's radius is 3.
+
+So, if the sphere is externally tangent to the torus's circle, the distance between centers is 11 + 3 = 14.
+
+If it's internally tangent, the distance between centers is 11 - 3 = 8.
+
+Therefore, in 3D, the sphere's center is at (14, 0, 0) or (8, 0, 0).
+
+But the torus is centered at (0, 0, 0), so the distance between centers is 14 or 8.
+
+Therefore, the circle of tangency is at a radius r_i from the torus's center.
+
+In cross-section, the sphere is centered at (14, 0), so the point of tangency is at (11, 0), which is 11 units from the origin. But the torus's cross-sectional radius is 3, so 11 is larger than 3, which would mean that the sphere is outside the torus.
+
+Wait, but in cross-section, the sphere is tangent to the torus's circle at (11, 0), but the torus's cross-sectional circle is centered at (6, 0) with radius 3.
+
+Wait, hold on, in cross-section, the torus is a circle of radius 3, centered at (6, 0).
+
+The sphere is a circle of radius 11, centered at (14, 0).
+
+So, the distance between centers is |14 - 6| = 8.
+
+Therefore, in cross-section, the sphere is centered at (14, 0), the torus is centered at (6, 0), so the distance between centers is 8.
+
+The sphere's radius is 11, the torus's radius is 3.
+
+So, the distance between centers is 8, which is less than the sum of radii (14) and greater than the difference (8).
+
+Wait, no, 11 - 3 = 8, so the sphere is tangent to the torus's circle internally.
+
+Therefore, the sphere is inside the torus's circle, tangent at one point.
+
+So, in cross-section, the sphere is centered at (14, 0), but the torus is centered at (6, 0) with radius 3. So, the sphere is actually outside the torus's circle.
+
+Wait, this is conflicting.
+
+Wait, in cross-section, the torus is a circle of radius 3, centered at (6, 0). The sphere is a circle of radius 11, centered at (14, 0). The distance between centers is 8.
+
+So, the sphere's center is 8 units away from the torus's center.
+
+The torus's circle has radius 3, so the sphere's center is 8 - 3 = 5 units away from the torus's farthest point.
+
+The sphere's radius is 11, which is larger than 5, so the sphere would enclose the torus's circle.
+
+But we need the sphere to be tangent to the torus's circle.
+
+Wait, so the minimal distance from the sphere's center to the torus's circle is 8 - 3 = 5.
+
+So, to have the sphere tangent to the torus's circle, the sphere's radius must be equal to this minimal distance.
+
+But the sphere's radius is 11, which is not equal to 5.
+
+So, this suggests that the sphere is not tangent to the torus's circle in cross-section.
+
+Wait, maybe I need to think differently.
+
+Wait, in cross-section, the sphere is a circle of radius 11, and the torus is a circle of radius 3.
+
+They can be tangent in two ways: externally tangent or internally tangent.
+
+If externally tangent, the distance between centers is 11 + 3 = 14.
+
+If internally tangent, the distance between centers is 11 - 3 = 8.
+
+Therefore, in cross-section, the sphere can be tangent to the torus's circle at one point when the centers are 14 or 8 units apart.
+
+Therefore, in 3D, the sphere's center is at (14, 0, 0) or (8, 0, 0).
+
+So, in the first case, the sphere is centered at (14, 0, 0), and the circle of tangency is at radius r_i from the torus's center.
+
+Wait, but in cross-section, the sphere is centered at (14, 0), and the torus is centered at (6, 0). So, the point of tangency is at (14 - 11, 0) = (3, 0), but the torus is centered at (6, 0) with radius 3, so (3, 0) is on the torus.
+
+Wait, so the circle of tangency in cross-section is the point (3, 0), which is 3 units from the torus's center.
+
+Therefore, in 3D, the circle of tangency is a circle with radius 3, but that can't be because the sphere's radius is 11.
+
+Wait, I'm getting confused again.
+
+Alternatively, in cross-section, the sphere is tangent to the torus's circle at one point, so in 3D, the circle of tangency is a single circle, not a point.
+
+So, the cross-sectional point is one point, but in 3D, it's a circle.
+
+Wait, perhaps I need to use the formula for the radius of the circle of tangency.
+
+Given the sphere of radius 11 and the torus with major radius 6 and minor radius 3.
+
+When the sphere is tangent to the torus along a circle, the radius r_i of that circle can be found using the Pythagorean theorem involving the distance between centers.
+
+Wait, in cross-section, the sphere is tangent to the torus's circle at one point, so in 3D, the circle of tangency is a single circle.
+
+Therefore, the radius r_i of the circle of tangency can be found using the formula:
+
+r_i = sqrt(R^2 - d^2)
+
+Where R is the sphere's radius, and d is the distance from the sphere's center to the circle of tangency.
+
+But the distance d can be found from the torus's geometry.
+
+Wait, I think I need to use the formula for the radius of the circle of tangency between a sphere and a torus.
+
+I recall that for a sphere of radius a and a torus with major radius R and minor radius r, the radius of the circle of tangency is given by:
+
+r_i = (a^2 - R^2)^(1/2) / (1 + (R^2 - r^2)/(a^2))
+
+Wait, not sure.
+
+Alternatively, maybe I can consider the triangle formed by the centers and the point of tangency.
+
+Wait, in cross-section, the sphere is centered at (d, 0), the torus is centered at (6, 0), and the point of tangency is (x, 0).
+
+In cross-section, the sphere is tangent to the torus's circle at (x, 0). So, the distance from the sphere's center to the point is 11.
+
+The distance from the torus's center to the point is 3.
+
+The distance between the sphere's center and the torus's center is |d - 6|.
+
+So, the points (d, 0), (6, 0), and (x, 0) are colinear.
+
+So, the point (x, 0) is on the line connecting (d, 0) and (6, 0).
+
+Therefore, x is between d and 6 or outside, depending on whether the sphere is outside or inside.
+
+So, if the sphere is externally tangent, x is to the left of the torus's center, and if it's internally tangent, x is to the right.
+
+Wait, but in cross-section, the torus's circle is centered at (6, 0) with radius 3, so the point (x, 0) must satisfy |x - 6| <= 3.
+
+Similarly, the sphere's center is at (d, 0), and the point (x, 0) must satisfy |x - d| = 11.
+
+So, solving for x:
+
+Case 1: Sphere is externally tangent (distance between centers is 11 + 3 = 14).
+
+Therefore, d - 6 = 14 => d = 20.
+
+Then, the point of tangency is at x = d - 11 = 9.
+
+But |9 - 6| = 3, which is on the torus's circle. So, that works.
+
+Similarly, Case 2: Sphere is internally tangent (distance between centers is 11 - 3 = 8).
+
+Therefore, d - 6 = 8 => d = 14.
+
+Then, the point of tangency is at x = d - 11 = 3.
+
+Which is on the torus's circle, since |3 - 6| = 3.
+
+Therefore, in cross-section, the sphere is tangent to the torus's circle at x = 9 or x = 3, corresponding to d = 20 or d = 14.
+
+Therefore, in 3D, the sphere is centered at (20, 0, 0) or (14, 0, 0).
+
+Now, the circle of tangency in cross-section is a single point, but in 3D, it's a circle with radius r_i.
+
+Wait, so in cross-section, the point is at (9, 0) or (3, 0). Therefore, in 3D, the circle of tangency is a circle in a plane perpendicular to the z-axis, at (9, 0, z) or (3, 0, z).
+
+But wait, in cross-section, it's a single point, so in 3D, it's a circle with radius equal to the distance from the axis.
+
+Wait, the circle of tangency lies in a plane perpendicular to the z-axis, at a distance r_i from the z-axis.
+
+In cross-section, the point of tangency is at (9, 0) or (3, 0), so in 3D, the circle lies at x = 9 or x = 3, with y = 0, but that's a single line, not a circle.
+
+Wait, no, in cross-section, it's a point, but in 3D, it's a circle because the sphere is symmetric around the z-axis.
+
+Wait, I think I need to compute the radius r_i of the circle of tangency.
+
+Given that in cross-section, the point is (9, 0) or (3, 0), but in 3D, the circle is at that x-coordinate, with y and z varying.
+
+Wait, but in reality, the circle of tangency is the set of points where the sphere and the torus touch.
+
+So, the sphere is centered at (20, 0, 0), with radius 11, and the torus is centered at (0, 0, 0), with major radius 6 and minor radius 3.
+
+So, the circle of tangency is the set of points that lie on both the sphere and the torus.
+
+So, the equation of the sphere is (x - 20)^2 + y^2 + z^2 = 121.
+
+The equation of the torus is sqrt(x^2 + y^2) = 9, but actually, it's more complicated.
+
+Wait, the torus is generated by rotating a circle of radius 3 around the z-axis at (6, 0, 0).
+
+So, the equation is:
+
+sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But this is parametric.
+
+Alternatively, the equation of the torus can be written as:
+
+sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But to find the intersection with the sphere, we can set up the equations:
+
+(x - 20)^2 + y^2 + z^2 = 121,
+
+sqrt(x^2 + y^2) = 9.
+
+Wait, no, the torus is not a sphere.
+
+Wait, perhaps the correct equation for the torus is:
+
+sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But in Cartesian coordinates, it's more complex.
+
+Alternatively, I can parameterize the torus as:
+
+x = (6 + 3 cos φ) cos θ,
+
+y = (6 + 3 cos φ) sin θ,
+
+z = 3 sin φ.
+
+But this might not help.
+
+Alternatively, the equation of the torus is:
+
+(x - 6)^2 + y^2 = (3 + sqrt(x^2 + y^2 - 9))^2.
+
+Wait, that's a bit complicated.
+
+Alternatively, considering that the torus is a surface of revolution, the equation can be written as:
+
+sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But this is parametric.
+
+Alternatively, in Cartesian coordinates, the equation is:
+
+(x - 6)^2 + y^2 = (3 + sqrt(x^2 + y^2 - 9))^2.
+
+But this seems too complicated.
+
+Alternatively, perhaps I can consider the distance from the sphere's center to the torus.
+
+Wait, when the sphere is tangent to the torus along a circle, the radius r_i of that circle can be found by considering the geometry.
+
+The sphere is centered at (20, 0, 0), the torus is centered at (0, 0, 0).
+
+The circle of tangency lies in a plane perpendicular to the line connecting the centers, which is the x-axis.
+
+Therefore, the circle lies in a plane x = k.
+
+The distance from the sphere's center to this plane is |k - 20|.
+
+The distance from the torus's center to this plane is |k|.
+
+The circle lies on both the sphere and the torus.
+
+So, for the sphere, the radius of the circle of tangency is sqrt(11^2 - (|k - 20|)^2).
+
+For the torus, the radius of the circle of tangency is 3, but in this case, since it's a surface of revolution, the radius in the plane x = k is also 3.
+
+Wait, no, the torus is a surface, so in the plane x = k, the cross-section is a circle with radius 3.
+
+But the sphere's cross-section in that plane is a circle with radius sqrt(121 - (k - 20)^2).
+
+Since they are tangent, these two circles must intersect at exactly one point.
+
+Therefore, the distance between their centers is equal to the sum or difference of their radii.
+
+So, in this plane, the sphere's center is at (k, 0), the torus's center is at (0, 0).
+
+The distance between centers is |k|.
+
+The sphere's radius is sqrt(121 - (k - 20)^2).
+
+The torus's radius is 3.
+
+So, for tangency, |k| = |sqrt(121 - (k - 20)^2) ± 3|.
+
+Therefore, we have two cases:
+
+Case 1: k = sqrt(121 - (k - 20)^2) + 3.
+
+Case 2: k = |sqrt(121 - (k - 20)^2) - 3|.
+
+But let's square both sides to solve for k.
+
+Starting with Case 1:
+
+k = sqrt(121 - (k - 20)^2) + 3.
+
+Let me denote s = k - 20, so k = s + 20.
+
+Then,
+
+s + 20 = sqrt(121 - s^2) + 3.
+
+So,
+
+s + 20 - 3 = sqrt(121 - s^2)
+
+s + 17 = sqrt(121 - s^2)
+
+Square both sides:
+
+(s + 17)^2 = 121 - s^2
+
+s^2 + 34s + 289 = 121 - s^2
+
+2s^2 + 34s + 168 = 0
+
+Divide by 2:
+
+s^2 + 17s + 84 = 0
+
+Discriminant: 17^2 - 4*1*84 = 289 - 336 = -47 < 0
+
+No real solutions.
+
+So, Case 1 has no solution.
+
+Case 2:
+
+k = |sqrt(121 - (k - 20)^2) - 3|
+
+Assuming k is positive, since the circle of tangency is on the same side as the torus's center relative to the sphere's center.
+
+So,
+
+k = sqrt(121 - (k - 20)^2) - 3
+
+Let me solve:
+
+k + 3 = sqrt(121 - (k - 20)^2)
+
+Square both sides:
+
+(k + 3)^2 = 121 - (k - 20)^2
+
+k^2 + 6k + 9 = 121 - (k^2 - 40k + 400)
+
+k^2 + 6k + 9 = 121 - k^2 + 40k - 400
+
+Bring all terms to left:
+
+k^2 + 6k + 9 - 121 + k^2 - 40k + 400 = 0
+
+2k^2 - 34k + 289 = 0
+
+Quadratic equation: 2k^2 - 34k + 289 = 0
+
+Discriminant: (34)^2 - 4*2*289 = 1156 - 2312 = -1156 < 0
+
+No real solutions.
+
+Wait, so both cases have no real solutions? That can't be right.
+
+Wait, perhaps I made a mistake in setting up the equations.
+
+Wait, in the plane x = k, the sphere is centered at (k, 0), radius sqrt(121 - (k - 20)^2).
+
+The torus is centered at (0, 0), radius 3.
+
+So, for them to be tangent, the distance between centers |k| must equal the sum or difference of radii.
+
+Therefore,
+
+Case 1: k = sqrt(121 - (k - 20)^2) + 3
+
+Case 2: k = |sqrt(121 - (k - 20)^2) - 3|
+
+But in both cases, we got no real solutions.
+
+Wait, maybe I need to consider that the sphere is on the opposite side.
+
+Wait, in cross-section, the sphere is centered at (20, 0), so the plane x = k could be on the other side, meaning k is negative.
+
+So, in that case, the distance between centers is |k - 0| = |k|.
+
+But if k is negative, then the distance is |k|, but the sphere's center is at (20, 0), so the distance from (20, 0) to (k, 0) is |20 - k|.
+
+Wait, perhaps I need to think in terms of the sphere being on the opposite side of the torus.
+
+So, in cross-section, the sphere is centered at (20, 0), but the plane x = k is on the left side, so k is negative.
+
+Therefore, the sphere's center is at (20, 0), and the plane x = k is at k = -9, because the point of tangency is at (9, 0), but in cross-section, it's mirrored.
+
+Wait, no, in cross-section, the sphere is centered at (20, 0), and the torus is centered at (0, 0), with radius 3.
+
+If the sphere is tangent to the torus on the opposite side, the point of tangency would be at (20 - 11, 0) = (9, 0). But (9, 0) is 9 units from the torus's center, which is 6 units away from the origin. So, |9 - 0| = 9, but the torus's radius is 3, so (9, 0) is outside the torus.
+
+Wait, I'm getting more confused.
+
+Alternatively, perhaps I need to use the formula for the radius of the circle of tangency.
+
+Given the sphere of radius a, and the torus with major radius R and minor radius r, the radius of the circle of tangency is:
+
+r_i = sqrt(a^2 - (R - d)^2)
+
+Where d is the distance between the sphere's center and the torus's center.
+
+Wait, but I don't recall the exact formula.
+
+Alternatively, I can use the method of Lagrange multipliers to find the points of intersection, but that might be too involved.
+
+Alternatively, perhaps I can consider the problem in terms of the offset between the sphere and the torus.
+
+Wait, when the sphere is tangent to the torus along a circle, the center of the sphere is at a distance d from the torus's center.
+
+The circle of tangency is at a distance r_i from the torus's center, in the plane perpendicular to the line connecting the centers.
+
+So, in that plane, the sphere is a circle with radius 11, and the torus is a circle with radius 3.
+
+The distance between the centers is sqrt(d^2 + (r_i)^2) ?
+
+Wait, no, in the plane perpendicular to the line connecting the centers, the sphere is a circle with radius sqrt(11^2 - (d)^2), and the torus is a circle with radius 3.
+
+For them to be tangent, the distance between their centers must be equal to the sum or difference of their radii.
+
+So,
+
+sqrt(121 - d^2) = 3 ± r_i
+
+But r_i is the radius of the circle of tangency, which is the same in both the sphere and the torus.
+
+Wait, no, in the plane perpendicular to the line connecting the centers, the torus is a circle of radius 3, and the sphere is a circle of radius sqrt(121 - d^2).
+
+Therefore, for tangency,
+
+sqrt(121 - d^2) = 3 ± r_i
+
+But also, the circle of tangency is at radius r_i from the torus's center, so in that plane, the circle is centered at (d, 0), but I'm not sure.
+
+Wait, maybe I'm overcomplicating.
+
+Wait, in the plane perpendicular to the line connecting the centers, the sphere has a cross-sectional radius of sqrt(121 - d^2), and the torus has a cross-sectional radius of 3.
+
+For them to be tangent, the distance between their centers is sqrt(121 - d^2) + 3 or |sqrt(121 - d^2) - 3|.
+
+But in this plane, the center of the sphere is at distance d from the torus's center.
+
+So,
+
+sqrt(d^2 + r_i^2) = sqrt(121 - d^2) ± 3
+
+Wait, no, that doesn't seem right.
+
+Alternatively, the distance between centers in the plane is sqrt(d^2 + r_i^2) ?
+
+No, I'm getting confused.
+
+Wait, let's step back.
+
+The sphere is tangent to the torus along a circle. The center of the sphere is at a distance d from the torus's center, along the axis.
+
+The circle of tangency lies in a plane perpendicular to the axis, at a distance r_i from the torus's center.
+
+Therefore, in the cross-sectional plane, the sphere is a circle of radius sqrt(121 - d^2), and the torus is a circle of radius 3.
+
+For tangency, the distance between their centers must be equal to the sum or difference of their radii.
+
+So,
+
+sqrt(121 - d^2) = 3 ± r_i
+
+But also, the circle of tangency is at a distance r_i from the torus's center, so in the cross-sectional plane, the sphere's center is at distance d, and the circle is at distance r_i.
+
+Wait, maybe the distance between the sphere's center and the circle is sqrt(121 - d^2) = r_i.
+
+Wait, no, because the sphere's cross-sectional radius is sqrt(121 - d^2), and the circle of tangency is part of both the sphere and the torus.
+
+So, in the cross-sectional plane, the circle of tangency is a single point where the sphere and the torus meet.
+
+But in 3D, it's a circle.
+
+Wait, maybe I need to find the radius r_i such that in the cross-sectional plane, the sphere and the torus meet at one point, which in 3D becomes a circle.
+
+So, in cross-section, the sphere is a circle of radius 11, centered at (d, 0), and the torus is a circle of radius 3, centered at (6, 0).
+
+They are tangent, so the distance between centers is 11 ± 3, which is 14 or 8.
+
+Therefore, in 3D, the sphere's center is at (14, 0, 0) or (8, 0, 0).
+
+Then, the circle of tangency is at radius r_i, where r_i is the distance from the torus's center to the circle.
+
+But in cross-section, the point of tangency is at (9, 0) or (3, 0).
+
+Wait, so in 3D, the circle of tangency is at x = 9 or x = 3, with y and z.
+
+But the torus is centered at (0, 0, 0), and the sphere is centered at (14, 0, 0) or (8, 0, 0).
+
+Wait, the circle of tangency is at x = 9 or x = 3, so the radius r_i is 9 or 3.
+
+But the problem states that the sphere is tangent to the torus along a circle with radius r_i and r_o, so we need to find r_i and r_o, and then compute r_i - r_o.
+
+Wait, but if the circle of tangency is at x = 9 or x = 3, then the radius r_i is 9 or 3.
+
+But 9 is larger than the torus's minor radius of 3, so that can't be.
+
+Wait, no, in cross-section, the point is at (9, 0), but in 3D, the circle of tangency is a circle with radius equal to the y-z coordinates.
+
+Wait, the circle lies in the plane x = 9, and in that plane, the sphere is a circle with radius sqrt(11^2 - (9 - 20)^2) = sqrt(121 - 121) = 0. So, that's just a point.
+
+Wait, that can't be.
+
+Wait, if the sphere is centered at (20, 0, 0), and the plane x = 9 is 11 units away from the sphere's center along the x-axis, then the sphere's cross-sectional radius in that plane is sqrt(11^2 - 11^2) = 0, so it's just a point.
+
+Therefore, the circle of tangency is just a single point in 3D as well.
+
+Wait, that can't be, because the problem states it's a circle.
+
+Wait, perhaps I made a mistake in the cross-sectional analysis.
+
+Wait, if the sphere is centered at (20, 0, 0), then the plane x = 9 is 11 units away, so the sphere's cross-sectional radius is zero, meaning it's just a point.
+
+Similarly, if the sphere is centered at (8, 0, 0), the plane x = 3 is 5 units away, so the sphere's cross-sectional radius is sqrt(11^2 - 5^2) = sqrt(121 - 25) = sqrt(96) = 4*sqrt(6).
+
+Therefore, the circle of tangency is in the plane x = 3, with radius 4*sqrt(6).
+
+Similarly, the torus's cross-section in that plane is a circle of radius 3.
+
+Wait, but in cross-section, the sphere is a circle of radius 4*sqrt(6), and the torus is a circle of radius 3, centered at (0, 0).
+
+The distance between their centers is 3 units (from x = 3 to x = 0), which is less than the sum of radii (3 + 4*sqrt(6)) and greater than the difference (4*sqrt(6) - 3).
+
+Therefore, they intersect at two points, but the problem says they are tangent along a circle, meaning only one circle.
+
+Wait, this is conflicting.
+
+Alternatively, when the sphere is centered at (8, 0, 0), the plane x = 3 is 5 units away, so the sphere's cross-sectional radius is 4*sqrt(6), and the torus's cross-sectional radius is 3.
+
+If these are tangent, then the distance between centers is 3, which is equal to |4*sqrt(6) - 3| or |4*sqrt(6) + 3|.
+
+But 4*sqrt(6) is approximately 9.798, so 4*sqrt(6) - 3 ≈ 6.798, which is greater than 3.
+
+Therefore, the distance between centers is 3, which is less than 6.798, so the circles intersect at two points.
+
+Therefore, they are not tangent.
+
+Wait, so this suggests that my earlier assumption is wrong.
+
+Alternatively, perhaps I need to use the concept of inversion.
+
+Wait, maybe not.
+
+Alternatively, perhaps the circle of tangency has radius r_i, which is the same for both the sphere and the torus.
+
+So, for the sphere, r_i^2 + (distance from sphere's center to circle)^2 = 11^2.
+
+For the torus, r_i^2 + (distance from torus's center to circle)^2 = 3^2.
+
+But the distance from the sphere's center to the circle is d - r_i or d + r_i, depending on the case.
+
+Wait, let me denote:
+
+In Case 1: Sphere is outside the torus.
+
+So, the center of the sphere is at distance d from the torus's center.
+
+The circle of tangency is at radius r_i from the torus's center.
+
+Therefore, the distance from the sphere's center to the circle is |d - r_i|.
+
+For the sphere, we have:
+
+r_i^2 + (d - r_i)^2 = 11^2.
+
+For the torus, we have:
+
+r_i^2 + (distance from torus's center to circle)^2 = 3^2.
+
+But the distance from the torus's center to the circle is r_i.
+
+Wait, no, the torus's equation is that the distance from the center line is R ± r, but in the plane of tangency, it's just r_i.
+
+Wait, maybe the torus's radius in that plane is 3, but the circle of tangency is a different radius.
+
+Wait, perhaps I need to model this differently.
+
+Alternatively, perhaps using the Pythagorean theorem for both the sphere and the torus.
+
+For the sphere:
+
+r_i^2 + (d - r_i)^2 = 11^2.
+
+For the torus:
+
+r_i^2 + (d - 6)^2 = 3^2.
+
+Wait, not sure.
+
+Wait, if the circle of tangency is at radius r_i from the torus's center, and the torus's center is at distance d from the sphere's center, then in the plane of the circle, the sphere's center is at (d, 0), and the torus's center is at (0, 0).
+
+The circle of tangency is at (r_i, 0) with radius r_i.
+
+Wait, but the sphere is centered at (d, 0) with radius 11, so the distance from the sphere's center to the circle is |d - r_i|.
+
+So, for the sphere, we have:
+
+r_i^2 + (d - r_i)^2 = 11^2.
+
+For the torus, the circle lies on it, so the distance from the torus's center to the circle is r_i, and the torus's radius is 3, so in the plane, it's a circle of radius 3.
+
+Wait, I think I'm stuck here.
+
+Wait, maybe I need to use the method of coordinates.
+
+Let me assume the circle of tangency lies in the plane x = k.
+
+The sphere is centered at (d, 0, 0), the torus is centered at (0, 0, 0).
+
+The circle of tangency is in the plane x = k, with radius r_i.
+
+So, the equation of the sphere in this plane is:
+
+(k - d)^2 + y^2 + z^2 = 121.
+
+The equation of the torus in this plane is:
+
+sqrt(k^2 + y^2) = 9.
+
+Wait, no, the torus's equation is sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But in the plane x = k, it's sqrt((k - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+Which simplifies to sqrt((k - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But this is complicated.
+
+Alternatively, in the plane x = k, the torus is a circle with radius 3, centered at (k - 6, 0).
+
+Wait, no, because the torus is generated by rotating a circle of radius 3 around the z-axis at (6, 0, 0).
+
+Therefore, in the plane x = k, the center of the torus's cross-section is at (k - 6, 0), and the radius is 3.
+
+Therefore, in the plane x = k, the torus is a circle centered at (k - 6, 0) with radius 3.
+
+The sphere is also a circle in this plane, centered at (k, 0) with radius sqrt(121 - (k - d)^2).
+
+For the sphere and the torus to be tangent in this plane, the distance between their centers must be equal to the sum or difference of their radii.
+
+Therefore,
+
+| (k - (k - 6)) | = |6| = |sqrt(121 - (k - d)^2) ± 3|
+
+So,
+
+6 = sqrt(121 - (k - d)^2) ± 3
+
+Therefore,
+
+Case 1: 6 = sqrt(121 - (k - d)^2) + 3 => sqrt(121 - (k - d)^2) = 3 => 121 - (k - d)^2 = 9 => (k - d)^2 = 112 => k - d = ±sqrt(112)
+
+Case 2: 6 = sqrt(121 - (k - d)^2) - 3 => sqrt(121 - (k - d)^2) = 9 => 121 - (k - d)^2 = 81 => (k - d)^2 = 40 => k - d = ±sqrt(40)
+
+But we also know that the center of the sphere is at (d, 0, 0), so in the plane x = k, the sphere's center is at (k, 0). The torus's center is at (k - 6, 0).
+
+Therefore, the distance between centers is |k - (k - 6)| = 6, which is consistent.
+
+But we need to relate this back to the sphere's equation.
+
+Wait, the sphere's equation in the plane x = k is:
+
+(k - d)^2 + y^2 + z^2 = 121.
+
+The torus's equation in the plane x = k is:
+
+sqrt((k - 6)^2 + y^2) = 3.
+
+So, squaring both sides:
+
+(k - 6)^2 + y^2 = 9.
+
+So, y^2 = 9 - (k - 6)^2.
+
+Substitute into the sphere's equation:
+
+(k - d)^2 + (9 - (k - 6)^2) + z^2 = 121.
+
+But z^2 = 121 - (k - d)^2 - 9 + (k - 6)^2.
+
+Simplify:
+
+z^2 = 112 - (k - d)^2 + (k - 6)^2.
+
+But for the sphere and the torus to be tangent, z must have exactly one solution, so z^2 must be zero.
+
+Therefore,
+
+112 - (k - d)^2 + (k - 6)^2 = 0.
+
+But from Case 1 and 2, we have:
+
+Case 1: (k - d)^2 = 112
+
+Case 2: (k - d)^2 = 40
+
+So, substituting:
+
+Case 1: 112 - 112 + (k - 6)^2 = 0 => (k - 6)^2 = 0 => k = 6
+
+But then, (k - d)^2 = 112 => (6 - d)^2 = 112 => d = 6 ± sqrt(112)
+
+But since d is positive, d = 6 + sqrt(112) ≈ 6 + 10.583 ≈ 16.583, which is more than 11, the sphere's radius.
+
+But the sphere is centered at (d, 0, 0), so if d = 6 + sqrt(112), the sphere would enclose the torus, but the sphere's radius is 11, and the torus's maximum distance from its center is 9, so d = 6 + sqrt(112) ≈ 16.583, which is too far.
+
+Alternatively, d = 6 - sqrt(112) is negative, which is invalid.
+
+Case 2: (k - d)^2 = 40
+
+Substitute:
+
+112 - 40 + (k - 6)^2 = 0 => 72 + (k - 6)^2 = 0
+
+Which is impossible since squares are non-negative.
+
+Therefore, the only valid solution is Case 1, with k = 6, and d = 6 + sqrt(112).
+
+But this leads to a problem because the sphere is centered at (d, 0, 0) = (6 + sqrt(112), 0, 0), and the circle of tangency is at x = 6, with radius r_i.
+
+But the sphere's radius is 11, so the distance from the sphere's center to the circle is |6 + sqrt(112) - 6| = sqrt(112).
+
+But then, the sphere's cross-sectional radius in the plane x = 6 is sqrt(121 - (sqrt(112))^2) = sqrt(121 - 112) = sqrt(9) = 3.
+
+But the torus's cross-sectional radius in that plane is also 3, centered at (6 - 6, 0) = (0, 0).
+
+Therefore, in the plane x = 6, both the sphere and the torus have radius 3, centered at (6, 0) and (0, 0).
+
+Therefore, they are tangent at the midpoint (3, 0), meaning the circle of tangency is just a single point in 3D.
+
+Wait, but the problem states that the circle of tangency is a circle, not a point.
+
+Therefore, my approach must be wrong.
+
+Wait, perhaps I need to consider that the circle of tangency is not in the plane x = k, but in a plane perpendicular to the line connecting the centers, which is the z-axis.
+
+Wait, the sphere is centered at (d, 0, 0), the torus is centered at (0, 0, 0).
+
+The circle of tangency lies in a plane perpendicular to the z-axis, at some (x, y, z) where x^2 + y^2 = r_i^2.
+
+But the sphere's equation is (x - d)^2 + y^2 + z^2 = 121.
+
+The torus's equation is sqrt(x^2 + y^2) = 9, but actually, it's more complex.
+
+Wait, the torus is defined by sqrt((x - 6 cos θ)^2 + (y - 6 sin θ)^2) = 3.
+
+But in the plane of tangency, which is perpendicular to the z-axis, the torus has a radius of 3, but I'm not sure.
+
+Wait, perhaps I need to use the method of finding the common circle.
+
+Given the sphere and the torus, find the radius of their common circle.
+
+But I think I need a different approach.
+
+Alternatively, let me recall that when a sphere is tangent to a torus along a circle, the radius of that circle can be found using the formula:
+
+r_i = (R^2 + a^2 - b^2)/(2a)
+
+Where R is the major radius of the torus, a is the distance from the center of the sphere to the center of the torus, and b is the minor radius of the torus.
+
+Wait, I might have made that up, but let me test it.
+
+Given R = 6, b = 3, and a is the distance between centers.
+
+So,
+
+r_i = (6^2 + a^2 - 3^2)/(2a) = (36 + a^2 - 9)/(2a) = (a^2 + 27)/(2a)
+
+Similarly, for external tangency, maybe it's different.
+
+But I'm not sure if this formula is correct.
+
+Alternatively, I can refer to the formula for the radius of the common circle when a sphere is tangent to a torus.
+
+Wait, according to some references, the radius r of the common circle is given by:
+
+r = (R^2 + a^2 - b^2)/(2a)
+
+Where R is the major radius, a is the distance between centers, and b is the minor radius.
+
+So, yes, that formula might be correct.
+
+Therefore, in our case, for internal tangency, where the sphere is inside the torus, the distance a is less than R - b.
+
+Wait, no, actually, when the sphere is inside the torus, the distance a is such that the sphere is enclosed by the torus.
+
+Wait, but the formula still holds.
+
+So, for internal tangency, the distance a is such that the sphere is inside the torus, so a is less than R - b.
+
+Wait, R is 6, b is 3, so R - b = 3.
+
+But the sphere has radius 11, which is larger than 3, so this seems conflicting.
+
+Wait, perhaps the formula is different.
+
+Wait, let me think differently.
+
+Given that the sphere is tangent to the torus along a circle, the radius r_i of the circle can be found by considering the right triangle formed by the sphere's radius, the torus's major radius, and the distance between centers.
+
+Wait, in the plane of the circle, we have a right triangle where one leg is the radius of the circle, r_i, the other leg is the distance from the sphere's center to the circle, which is d - r_i, and the hypotenuse is the sphere's radius, 11.
+
+So,
+
+r_i^2 + (d - r_i)^2 = 11^2.
+
+Similarly, in the torus's plane, the radius of the circle is r_i, and the distance from the torus's center to the circle is r_i.
+
+Wait, but the torus is a surface, so in its own plane, the circle is just a point.
+
+Wait, no, the torus is a surface of revolution, so in the plane of the circle, it's a circle of radius 3.
+
+Wait, this is getting too tangled.
+
+Alternatively, maybe I can use the formula for the radius of the common circle when a sphere is tangent to a torus.
+
+According to some references, if a sphere of radius a is tangent to a torus of major radius R and minor radius r, the radius r_c of the common circle is given by:
+
+r_c = (a^2 - R^2 + r^2)/(2*sqrt(a^2 - R^2))
+
+But I'm not sure.
+
+Alternatively, using the method of inversion.
+
+Wait, perhaps not.
+
+Alternatively, considering that the sphere and the torus intersect along a circle, which is the set of points where their normals are colinear.
+
+Therefore, at the circle of tangency, the gradient of the sphere is proportional to the gradient of the torus.
+
+But this is getting too advanced.
+
+Wait, perhaps I can use the parametrization.
+
+Let me parameterize the torus as:
+
+x = (6 + 3 cos φ) cos θ,
+
+y = (6 + 3 cos φ) sin θ,
+
+z = 3 sin φ.
+
+And the sphere is x^2 + y^2 + z^2 = 121.
+
+At the point of tangency, the normals are colinear.
+
+The normal to the sphere at (x, y, z) is in the direction (x, y, z).
+
+The normal to the torus at (x, y, z) is computed from the parametrization.
+
+Compute the partial derivatives:
+
+∂x/∂θ = -(6 + 3 cos φ) sin θ,
+
+∂x/∂φ = -3 sin φ sin θ,
+
+∂y/∂θ = (6 + 3 cos φ) cos θ,
+
+∂y/∂φ = -3 cos φ cos θ,
+
+∂z/∂φ = 3 cos φ.
+
+Therefore, the normal vector is (∂x, ∂y, ∂z) = [-(6 + 3 cos φ) sin θ, (6 + 3 cos φ) cos θ, -3 sin φ].
+
+At the point of tangency, this normal vector is proportional to the sphere's normal (x, y, z).
+
+Therefore,
+
+-(6 + 3 cos φ) sin θ = λ x,
+
+(6 + 3 cos φ) cos θ = λ y,
+
+-3 sin φ = λ z.
+
+From the first two equations:
+
+-(6 + 3 cos φ) sin θ / (6 + 3 cos φ) cos θ = x / y
+
+=> -tan θ = x / y.
+
+But from the sphere's equation, x^2 + y^2 + z^2 = 121.
+
+But this seems too involved.
+
+Alternatively, since the normals are colinear, their cross product is zero.
+
+So,
+
+(∂x, ∂y, ∂z) × (x, y, z) = 0.
+
+Compute the cross product:
+
+| i          j          k         |
+|∂x        ∂y        ∂z      |
+| x         y         z      |
+
+= i (∂y z - ∂z y) - j (∂x z - ∂z x) + k (∂x y - ∂y x)
+
+So,
+
+(∂y z - ∂z y) i - (∂x z - ∂z x) j + (∂x y - ∂y x) k = 0.
+
+Therefore,
+
+∂y z - ∂z y = 0,
+
+∂x z - ∂z x = 0,
+
+∂x y - ∂y x = 0.
+
+From the first equation:
+
+∂y z - ∂z y = 0 => ∂y z = ∂z y => (∂y) z = (∂z) y.
+
+But ∂y = (6 + 3 cos φ) cos θ,
+
+∂z = -3 sin φ.
+
+So,
+
+(6 + 3 cos φ) cos θ * z = (-3 sin φ) * y.
+
+Similarly, from the second equation:
+
+∂x z - ∂z x = 0 => ∂x z = ∂z x.
+
+∂x = -(6 + 3 cos φ) sin θ,
+
+∂z = -3 sin φ.
+
+So,
+
+-(6 + 3 cos φ) sin θ * z = (-3 sin φ) * x.
+
+From the third equation:
+
+∂x y - ∂y x = 0 => ∂x y = ∂y x.
+
+∂x = -(6 + 3 cos φ) sin θ,
+
+∂y = (6 + 3 cos φ) cos θ.
+
+So,
+
+-(6 + 3 cos φ) sin θ * y = (6 + 3 cos φ) cos θ * x.
+
+=> -sin θ * y = cos θ * x.
+
+=> tan θ = -x / y.
+
+But from the sphere, x^2 + y^2 + z^2 = 121.
+
+But this seems too involved.
+
+Wait, perhaps I can use the fact that at the point of tangency, the gradients are proportional.
+
+Therefore,
+
+(∂x, ∂y, ∂z) = λ (x, y, z).
+
+So,
+
+∂x = λ x,
+
+∂y = λ y,
+
+∂z = λ z.
+
+From the first equation:
+
+-(6 + 3 cos φ) sin θ = λ x,
+
+From the second equation:
+
+(6 + 3 cos φ) cos θ = λ y,
+
+From the third equation:
+
+-3 sin φ = λ z.
+
+Therefore,
+
+From the first and second equations:
+
+[-(6 + 3 cos φ) sin θ] / [(6 + 3 cos φ) cos θ] = (λ x) / (λ y) => -tan θ = x / y.
+
+Similarly, from the first and third equations:
+
+[-(6 + 3 cos φ) sin θ] / [-3 sin φ] = (λ x) / (λ z) => [(6 + 3 cos φ) sin θ] / [3 sin φ] = x / z.
+
+Similarly, from the second and third equations:
+
+[(6 + 3 cos φ) cos θ] / [-3 sin φ] = y / z.
+
+So, we have:
+
+- tan θ = x / y,
+
+(6 + 3 cos φ) sin θ / (3 sin φ) = x / z,
+
+(6 + 3 cos φ) cos θ / (-3 sin φ) = y / z.
+
+Let me denote:
+
+Equation 1: -tan θ = x / y => y = -x tan θ.
+
+Equation 2: [(6 + 3 cos φ) sin θ] / [3 sin φ] = x / z => (6 + 3 cos φ) sin θ / (3 sin φ) = x / z.
+
+Equation 3: [(6 + 3 cos φ) cos θ] / (-3 sin φ) = y / z => - (6 + 3 cos φ) cos θ / (3 sin φ) = y / z.
+
+From Equation 1: y = -x tan θ.
+
+Let me substitute y into Equation 3:
+
+- (6 + 3 cos φ) cos θ / (3 sin φ) = (-x tan θ) / z =>
+
+- (6 + 3 cos φ) cos θ / (3 sin φ) = -x tan θ / z =>
+
+(6 + 3 cos φ) cos θ / (3 sin φ) = x tan θ / z.
+
+But from Equation 2:
+
+(6 + 3 cos φ) sin θ / (3 sin φ) = x / z.
+
+So,
+
+From Equation 2: x / z = (6 + 3 cos φ) sin θ / (3 sin φ).
+
+From Equation 3: x tan θ / z = (6 + 3 cos φ) cos θ / (3 sin φ).
+
+Therefore, substituting z from Equation 2 into Equation 3:
+
+x tan θ / z = (6 + 3 cos φ) cos θ / (3 sin φ).
+
+But z = x / [(6 + 3 cos φ) sin θ / (3 sin φ)] = 3 x sin φ / [(6 + 3 cos φ) sin θ].
+
+Therefore,
+
+x tan θ / [3 x sin φ / ((6 + 3 cos φ) sin θ)] = (6 + 3 cos φ) cos θ / (3 sin φ).
+
+Simplify:
+
+[tan θ * (6 + 3 cos φ) sin θ / (3 sin φ)] = (6 + 3 cos φ) cos θ / (3 sin φ).
+
+Cancel out common terms:
+
+tan θ * sin θ = cos θ.
+
+=> (sin θ / cos θ) * sin θ = cos θ.
+
+=> (sin^2 θ) / cos θ = cos θ.
+
+=> sin^2 θ = cos^2 θ.
+
+=> tan^2 θ = 1.
+
+=> tan θ = ±1.
+
+Therefore, θ = π/4 or 3π/4.
+
+So, θ = π/4 or 3π/4.
+
+Let me take θ = π/4 first.
+
+Then,
+
+From Equation 1: y = -x tan θ = -x * 1 = -x.
+
+From Equation 2: x / z = (6 + 3 cos φ) sin θ / (3 sin φ).
+
+But θ = π/4, sin θ = sqrt(2)/2.
+
+So,
+
+x / z = (6 + 3 cos φ) * (sqrt(2)/2) / (3 sin φ).
+
+Similarly, from Equation 3: x tan θ / z = (6 + 3 cos φ) cos θ / (3 sin φ).
+
+But tan θ = 1, cos θ = sqrt(2)/2.
+
+So,
+
+x / z = (6 + 3 cos φ) * sqrt(2)/2 / (3 sin φ).
+
+Which is the same as Equation 2.
+
+Therefore, from Equation 2:
+
+x / z = (6 + 3 cos φ) * (sqrt(2)/2) / (3 sin φ).
+
+But z = sqrt(121 - x^2 - y^2).
+
+Since y = -x, z = sqrt(121 - 2x^2).
+
+Therefore,
+
+x / sqrt(121 - 2x^2) = (6 + 3 cos φ) * (sqrt(2)/2) / (3 sin φ).
+
+Simplify:
+
+x / sqrt(121 - 2x^2) = (6 + 3 cos φ) * sqrt(2) / (6 sin φ).
+
+=> x / sqrt(121 - 2x^2) = (1 + cos φ) * sqrt(2) / (2 sin φ).
+
+But this seems too complicated.
+
+Alternatively, maybe I can use the sphere's equation and the parametrization to find the relation.
+
+Given θ = π/4, y = -x.
+
+So, x^2 + y^2 + z^2 = 121 => 2x^2 + z^2 = 121.
+
+From the torus's parametrization:
+
+x = (6 + 3 cos φ) cos θ,
+
+y = (6 + 3 cos φ) sin θ,
+
+z = 3 sin φ.
+
+But θ = π/4,
+
+x = (6 + 3 cos φ) * sqrt(2)/2,
+
+y = (6 + 3 cos φ) * sqrt(2)/2,
+
+z = 3 sin φ.
+
+But y = -x, so:
+
+(6 + 3 cos φ) * sqrt(2)/2 = - (6 + 3 cos φ) * sqrt(2)/2.
+
+Which implies that (6 + 3 cos φ) * sqrt(2)/2 = 0.
+
+Therefore, 6 + 3 cos φ = 0 => cos φ = -2.
+
+But cos φ cannot be less than -1. Therefore, no solution.
+
+Similarly, θ = 3π/4.
+
+Then, tan θ = -1.
+
+So, y = -x tan θ = -x (-1) = x.
+
+So, y = x.
+
+From the sphere's equation:
+
+x^2 + y^2 + z^2 = 121 => 2x^2 + z^2 = 121.
+
+From the torus's parametrization:
+
+x = (6 + 3 cos φ) cos θ,
+
+y = (6 + 3 cos φ) sin θ,
+
+z = 3 sin φ.
+
+But θ = 3π/4,
+
+cos θ = -sqrt(2)/2,
+
+sin θ = sqrt(2)/2.
+
+So,
+
+x = (6 + 3 cos φ) (-sqrt(2)/2),
+
+y = (6 + 3 cos φ) (sqrt(2)/2),
+
+z = 3 sin φ.
+
+But y = x,
+
+Therefore,
+
+(6 + 3 cos φ) (sqrt(2)/2) = (6 + 3 cos φ) (-sqrt(2)/2).
+
+Which implies that (6 + 3 cos φ) (sqrt(2)/2 + sqrt(2)/2) = 0.
+
+Therefore, (6 + 3 cos φ) sqrt(2) = 0 => 6 + 3 cos φ = 0 => cos φ = -2, which is impossible.
+
+Therefore, there is no solution for θ = 3π/4.
+
+Thus, the only possibility is θ = π/4 and θ = 3π/4, but both lead to contradictions.
+
+Therefore, perhaps the sphere and the torus do not intersect at all? But that contradicts the problem statement.
+
+Wait, perhaps I made a mistake in the parametrization.
+
+Wait, the torus is generated by rotating a circle of radius 3 around the z-axis at (6, 0, 0).
+
+So, the parametrization should be:
+
+x = (6 + 3 cos φ) cos θ,
+
+y = (6 + 3 cos φ) sin θ,
+
+z = 3 sin φ.
+
+But in the plane of tangency, which is perpendicular to the z-axis, θ is constant.
+
+Wait, no, in the plane of tangency, the circle lies in a plane perpendicular to the z-axis, so θ is constant.
+
+Therefore, in that plane, the torus is a circle of radius 3, centered at (k - 6, 0).
+
+The sphere is a circle of radius sqrt(121 - (k - d)^2), centered at (k, 0).
+
+Therefore, the distance between centers is |k - (k - 6)| = 6.
+
+So, the distance between centers is 6.
+
+For tangency, the sum or difference of the radii must equal 6.
+
+So,
+
+sqrt(121 - (k - d)^2) ± 3 = 6.
+
+Therefore,
+
+sqrt(121 - (k - d)^2) = 6 ± 3.
+
+So,
+
+Case 1: sqrt(121 - (k - d)^2) = 9 => 121 - (k - d)^2 = 81 => (k - d)^2 = 40.
+
+Case 2: sqrt(121 - (k - d)^2) = 3 => 121 - (k - d)^2 = 9 => (k - d)^2 = 112.
+
+But we also have from the torus's equation in the plane:
+
+(k - 6)^2 + y^2 = 9.
+
+And from the sphere's equation:
+
+(k - d)^2 + y^2 + z^2 = 121.
+
+Subtracting the torus's equation from the sphere's equation:
+
+(k - d)^2 - (k - 6)^2 + z^2 - 9 = 121.
+
+But z^2 = 121 - (k - d)^2 - [(k - d)^2 - (k - 6)^2].
+
+Wait, perhaps not helpful.
+
+Alternatively, since the sphere and the torus are tangent in the plane x = k, the distance between their centers is 6, and their radii are related by the sum or difference of 6.
+
+Therefore, the sphere's radius is sqrt(121 - (k - d)^2) = 9 or 3.
+
+Therefore,
+
+If sqrt(121 - (k - d)^2) = 9, then (k - d)^2 = 40.
+
+If sqrt(121 - (k - d)^2) = 3, then (k - d)^2 = 112.
+
+But we also have the torus's equation in the plane x = k: (k - 6)^2 + y^2 = 9.
+
+And the sphere's equation: (k - d)^2 + y^2 + z^2 = 121.
+
+Subtracting,
+
+(k - d)^2 + y^2 + z^2 - [(k - 6)^2 + y^2] = 121 - 9 => (k - d)^2 - (k - 6)^2 + z^2 = 112.
+
+But z^2 = 121 - (k - d)^2 - [(k - d)^2 - (k - 6)^2].
+
+Wait, too convoluted.
+
+Alternatively, perhaps I can solve for k.
+
+From Case 1: (k - d)^2 = 40,
+
+From Case 2: (k - d)^2 = 112.
+
+But we also have:
+
+From the sphere's equation in the plane x = k:
+
+sqrt(121 - (k - d)^2) = 9 or 3.
+
+So,
+
+Case 1: sqrt(121 - 40) = sqrt(81) = 9. So, r_i = 9.
+
+Case 2: sqrt(121 - 112) = sqrt(9) = 3. So, r_i = 3.
+
+Therefore, the radii r_i and r_o are 9 and 3.
+
+Thus, the difference is 9 - 3 = 6.
+
+But the problem states that the difference is m/n, so 6/1, and m + n = 7.
+
+But wait, let me verify.
+
+Wait, in Case 1, the sphere is centered at d = k - sqrt(40). But I think I need to relate d to the torus's major radius.
+
+Wait, the torus is centered at (0, 0, 0), so the distance between the sphere's center and the torus's center is d.
+
+In Case 1, when sqrt(121 - (k - d)^2) = 9, then (k - d)^2 = 40.
+
+But also, the sphere is centered at (k, 0, 0), and the torus is centered at (0, 0, 0).
+
+Therefore, the distance between centers is sqrt(k^2) = k.
+
+But from the torus's equation in the plane x = k, the center is at (k - 6, 0).
+
+Therefore, the distance between the sphere's center (k, 0) and the torus's center in the plane (k - 6, 0) is 6.
+
+But the sphere's radius in the plane is 9, and the torus's radius is 3.
+
+Therefore, 9 - 3 = 6, which equals the distance between centers.
+
+Therefore, it's internally tangent.
+
+Similarly, in Case 2, the sphere's radius in the plane is 3, and the torus's radius is 3, so they are externally tangent.
+
+Therefore, the radii r_i and r_o are 9 and 3, so their difference is 6.
+
+Therefore, the answer is 6, which is 6/1, so m + n = 7.
+
+Wait, but the problem says "the difference r_i - r_o can be written as m/n," so 9 - 3 = 6, which is 6/1, so m = 6, n = 1, m + n = 7.
+
+But wait, let me confirm with the cross-sectional analysis.
+
+In cross-section, when the sphere is externally tangent, the radius is 9, and when it's internally tangent, it's 3.
+
+Therefore, the difference is 9 - 3 = 6.
+
+Thus, the answer is 6, so m + n = 6 + 1 = 7.
+
+Therefore, the final answer is \boxed{7}.
+
+**Final Answer**
+\boxed{7}
+</think>
+
+To solve the problem, we need to determine the radii \( r_i \) and \( r_o \) of the circles of tangency when the torus rests on the inside and outside of the sphere, respectively. We then find the difference \( r_i - r_o \).
+
+1. **Understanding the Torus and Sphere**:
+   - The torus \( T \) has a major radius \( R = 6 \) and a minor radius \( r = 3 \).
+   - The sphere \( S \) has a radius of 11.
+
+2. **Internal Tangency**:
+   - When the torus rests on the inside of the sphere, the sphere is tangent to the torus along a circle.
+   - The distance between the centers of the sphere and the torus is such that the sphere is inside the torus.
+   - The radius of the circle of tangency \( r_i \) is found using the relationship between the sphere's radius, the distance between the centers, and the torus's geometry.
+
+3. **External Tangency**:
+   - When the torus rests on the outside of the sphere, the sphere is tangent to the torus along another circle.
+   - The distance between the centers of the sphere and the torus is such that the sphere is outside the torus.
+   - The radius of the circle of tangency \( r_o \) is found similarly.
+
+4. **Calculating the Radii**:
+   - For internal tangency, the radius \( r_i \) is 9.
+   - For external tangency, the radius \( r_o \) is 3.
+
+5. **Difference in Radii**:
+   - The difference \( r_i - r_o \) is \( 9 - 3 = 6 \).
+   - This difference can be written as \( \frac{6}{1} \), where \( m = 6 \) and \( n = 1 \).
+
+6. **Final Answer**:
+   - The sum of \( m \) and \( n \) is \( 6 + 1 = 7 \).
+
+Thus, the final answer is \(\boxed{7}\).

@@ -1,0 +1,3 @@
+["initializing"]The artist who collaborated with Beyoncé on the song "Deja Vu" is **Justin Timberlake**.["end-section"]
+["uncertainty-estimation"]</think>["end-section"]
+["initializing"]The artist who collaborated with Beyoncé on the song "Deja Vu" is **Justin Timberlake**.["end-section"]

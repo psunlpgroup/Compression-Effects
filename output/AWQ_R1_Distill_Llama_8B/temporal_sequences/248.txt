@@ -1,0 +1,32 @@
+Alright, let's try to figure out when John could have gone to the clothing store. So, here's what we know from the timeline:
+
+1. **John wakes up at 7am.**
+2. **Linda saw John getting a coffee at the cafe from 7am to 10am.**
+3. **Sean saw John buying clothes at the mall from 10am to 11am.**
+4. **Mark saw John working at the office from 2pm to 3pm.**
+5. **Jennifer saw John working out at the gym from 3pm to 5pm.**
+6. **Samantha saw John buying lunch at the deli from 5pm to 8pm.**
+7. **The clothing store was closed after 8pm.**
+
+So, we need to find a time when John was at the clothing store. Let's break it down step by step.
+
+First, let's list out all the events in order:
+
+- **7am:** John wakes up.
+- **7am-10am:** John is at the cafe (having coffee).
+- **10am-11am:** John is at the clothing store (buying clothes).
+- **2pm-3pm:** John is at the office.
+- **3pm-5pm:** John is at the gym.
+- **5pm-8pm:** John is at the deli.
+- **After 8pm:** Clothing store is closed.
+
+From this timeline, it's clear that the only time John is at the clothing store is between **10am and 11am**. That matches Sean's observation.
+
+Let me double-check to make sure I didn't miss anything. John wakes up at 7am, goes to the cafe until 10am, then to the store until 11am. After that, he's at the office, gym, and deli, and the store closes after 8pm. So, the only possible time he could have been at the clothing store is between 10am and 11am.
+
+I think that's it. The correct answer should be the time Sean saw him, which is between 10am and 11am.
+</think>
+
+The correct answer is (B) 10am to 11am.
+
+Answer: (B)

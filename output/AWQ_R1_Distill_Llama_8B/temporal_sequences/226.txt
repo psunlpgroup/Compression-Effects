@@ -1,0 +1,67 @@
+Alright, let's try to figure out when David could have gone to the art studio. I'll start by listing out all the information given and see how it fits together.
+
+First, David wakes up at 5am. That's his wake-up time, so he's up and about from then.
+
+Then, Linda saw David watching a movie at the theater from 5am to 7am. So, David was at the theater during that time. Since he was up at 5am, and Linda saw him there until 7am, it's possible that he was there from 5am to 7am.
+
+Next, James saw David buying lunch at the deli from 9am to 10am. So, at some point after 7am, David moved from the theater to the deli, where he stayed until 10am.
+
+Mary saw David buying a phone at the electronics store from 10am to 11am. So, after buying lunch, he went to the electronics store, where he stayed until 11am.
+
+Leslie saw David driving to the water park from 11am to 2pm. So, from 11am to 2pm, David was at the water park, driving there and presumably spending time there.
+
+Jessica saw David buying a bike at the bike shop from 2pm to 7pm. So, after returning from the water park, David went to the bike shop, where he stayed until 7pm.
+
+Now, the art studio was closed after 7pm. That means David couldn't have gone there after 7pm.
+
+Looking at the timeline:
+
+- 5am to 7am: Theater
+- 9am to 10am: Deli
+- 10am to 11am: Electronics store
+- 11am to 2pm: Water park
+- 2pm to 7pm: Bike shop
+
+So, the only times when David wasn't seen by anyone else are between 7am and 9am, because Linda saw him at the theater until 7am, and then James saw him starting at the deli at 9am.
+
+Wait, but David was at the theater until 7am, and then after that, he went to the deli at 9am. So, there's a gap between 7am and 9am when he wasn't at any of the places where others saw him. That's a window when he could have gone to the art studio.
+
+Also, after buying the bike at 7pm, the art studio was closed, so he couldn't go after that.
+
+So, the possible time he could have gone to the art studio is between 7am and 9am.
+
+Looking at the options:
+
+(A) 7am to 9am
+
+(B) 2pm to 7pm
+
+(C) 5am to 7am
+
+(D) 11am to 2pm
+
+The correct time is (A) 7am to 9am.
+</think>
+
+The correct answer is (A) 7am to 9am.
+
+**Step-by-Step Explanation:**
+
+1. **Identify David's activities:**
+   - Theater: 5am to 7am (Linda saw him)
+   - Deli: 9am to 10am (James saw him)
+   - Electronics store: 10am to 11am (Mary saw him)
+   - Water park: 11am to 2pm (Leslie saw him)
+   - Bike shop: 2pm to 7pm (Jessica saw him)
+
+2. **Determine the gaps:**
+   - Between 7am and 9am, David wasn't seen by anyone else, so he could have visited the art studio.
+   - After 7pm, the art studio was closed, so he couldn't have gone later.
+
+3. **Evaluate the options:**
+   - (A) 7am to 9am fits the gap.
+   - (B) 2pm to 7pm is when he was at the bike shop.
+   - (C) 5am to 7am is when he was at the theater.
+   - (D) 11am to 2pm is when he was at the water park.
+
+**Answer:** (A) 7am to 9am

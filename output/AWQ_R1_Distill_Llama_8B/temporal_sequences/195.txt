@@ -1,0 +1,23 @@
+Alright, let's try to figure out when Emily could have gone to the park based on the timeline provided. I'll go through each piece of information step by step to piece together the possible times.
+
+First, Emily woke up at 5am. That's the starting point. Then, Leslie saw Emily getting a coffee at the cafe from 5am to 6am. So, during that hour, Emily was at the cafe.
+
+After that, Kimberly saw Emily walking towards the Statue of Liberty from 6am to 2pm. So, Emily was walking for a significant amount of time, from 6am until 2pm.
+
+Then, Richard saw Emily waiting at the airport from 4pm to 10pm. So, at some point after 4pm, Emily was at the airport until it closed at 10pm.
+
+The park was closed after 10pm, which means Emily couldn't have been at the park after that time.
+
+Now, let's look at the options provided:
+
+(A) 6am to 2pm: This matches the time Kimberly saw Emily walking towards the Statue of Liberty. So, this is a possible time.
+
+(B) 4pm to 10pm: This is the time Richard saw Emily at the airport. However, the park was closed after 10pm, so Emily couldn't have been at the park during this time.
+
+(C) 5am to 6am: This is when Leslie saw Emily at the cafe, not at the park.
+
+(D) 2pm to 4pm: This is a time gap between when Kimberly saw Emily walking and when Richard saw her at the airport. But there's no information that directly ties Emily to the park during this specific window.
+
+So, based on the information, the only time when Emily could have been at the park is during the 6am to 2pm window, which is option (A).
+
+**Answer: (A) 6am to 2pm**

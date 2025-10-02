@@ -1,0 +1,87 @@
+Alright, let's try to figure out when William could have gone to the amusement park. I'll start by listing out all the information given.
+
+William woke up at 5am. That's his wake-up time.
+
+Betty saw William walking towards the Statue of Liberty from 5am to 9am. So, Betty saw him from 5am to 9am. That means William was at the Statue of Liberty during that time.
+
+David saw William reading at the library from 4pm to 7pm. So, David saw him at the library between 4pm and 7pm.
+
+Lisa saw William taking photos near the Leaning Tower of Pisa from 7pm to 9pm. So, Lisa saw him taking photos from 7pm to 9pm.
+
+The amusement park was closed after 9pm. So, the latest he could have gone is before 9pm.
+
+Now, I need to see when William was free to go to the amusement park.
+
+First, Betty saw him from 5am to 9am. So, during that time, he was at the Statue of Liberty.
+
+Then, David saw him from 4pm to 7pm at the library.
+
+Lisa saw him from 7pm to 9pm taking photos.
+
+So, his schedule is:
+
+- 5am to 9am: At the Statue of Liberty (as seen by Betty)
+- 4pm to 7pm: At the library (as seen by David)
+- 7pm to 9pm: Taking photos (as seen by Lisa)
+
+Wait, there's an overlap between David and Lisa's sightings. David saw him from 4pm to 7pm, and Lisa saw him from 7pm to 9pm. So, from 7pm to 7pm, he was both at the library and taking photos? That seems a bit conflicting. Maybe it's a typo, or perhaps he was moving from the library to the photos.
+
+So, from 5am to 9am: At the Statue of Liberty.
+
+From 4pm to 7pm: At the library.
+
+From 7pm to 9pm: Taking photos.
+
+But the amusement park was closed after 9pm, so he must have gone before 9pm.
+
+Now, when was he free? Let's see.
+
+From 5am to 9am: Busy at the Statue of Liberty.
+
+From 4pm to 7pm: At the library.
+
+From 7pm to 9pm: Taking photos.
+
+So, the times when he was free are:
+
+- 9am to 4pm: He was probably at the Statue of Liberty until 9am, and then maybe took some time off? Or is there an overlap?
+
+Wait, Betty saw him from 5am to 9am. So, he was at the Statue of Liberty during that time. So, from 5am to 9am, he's occupied.
+
+Then, from 4pm to 7pm, he's at the library.
+
+From 7pm to 9pm, he's taking photos.
+
+So, the only times he's free are:
+
+- Between 9am and 4pm.
+
+Because from 5am to 9am, he's at the Statue of Liberty.
+
+From 4pm to 7pm, he's at the library.
+
+From 7pm to 9pm, he's taking photos.
+
+So, the only time he's free is between 9am and 4pm.
+
+That's when he could have gone to the amusement park.
+
+So, the answer should be (A) 9am to 4pm.
+</think>
+
+The correct answer is (A) 9am to 4pm.
+
+**Step-by-Step Explanation:**
+
+1. **Identify William's Schedule:**
+   - **5am to 9am:** At the Statue of Liberty (Betty's sighting).
+   - **4pm to 7pm:** At the library (David's sighting).
+   - **7pm to 9pm:** Taking photos (Lisa's sighting).
+
+2. **Determine Free Time:**
+   - Between **9am to 4pm**, William is not seen by Betty, David, or Lisa. This is the only window when he could have gone to the amusement park.
+
+3. **Amusement Park Closing Time:**
+   - The park closes after 9pm, so William must have gone before 9pm.
+
+**Answer:** (A) 9am to 4pm

@@ -1,0 +1,553 @@
+Alright, so I have this problem where points A, B, C, and D lie on the hyperbola \( \frac{x^2}{20} - \frac{y^2}{24} = 1 \). These points form a rhombus ABCD, and the diagonals of this rhombus intersect at the origin. The task is to find the greatest real number that is less than \( BD^2 \) for all such rhombi.
+
+First, let me recall some properties of a rhombus. In a rhombus, all sides are equal, and the diagonals bisect each other at right angles. However, in this case, the diagonals intersect at the origin, which is also the center of the hyperbola. Since the hyperbola is symmetric about both the x-axis and y-axis, this might help in determining the coordinates of the points.
+
+Given that ABCD is a rhombus, the diagonals AC and BD intersect at the origin, meaning that the origin is the midpoint of both diagonals. Therefore, if I denote the coordinates of points A, B, C, and D as \( (x_1, y_1) \), \( (x_2, y_2) \), \( (-x_1, -y_1) \), and \( (-x_2, -y_2) \) respectively, since the diagonals bisect each other at the origin.
+
+Wait, but actually, in a rhombus, the diagonals bisect each other but are not necessarily equal or perpendicular unless it's a square. So, actually, the diagonals of a rhombus are not equal, but they do intersect at right angles. Hmm, so actually, in this case, since the diagonals intersect at the origin, the coordinates of the points would be symmetric with respect to both axes.
+
+But hold on, maybe I should think of this in terms of parametric equations of the hyperbola. The hyperbola is given by \( \frac{x^2}{20} - \frac{y^2}{24} = 1 \). So, parametric equations for hyperbola can be written as \( x = a \sec \theta \), \( y = b \tan \theta \), where \( a^2 = 20 \) and \( b^2 = 24 \).
+
+Alternatively, using hyperbola parametrization with hyperbolic functions: \( x = a \cosh t \), \( y = b \sinh t \). But I think the trigonometric parametrization might be more useful here because when dealing with intersections and symmetries, angles often play a role.
+
+So, let's denote points A and B on the hyperbola as \( (a \sec \theta, b \tan \theta) \) and \( (a \sec \phi, b \tan \phi) \). Since ABCD is a rhombus, the other points C and D can be obtained by reflecting A over the origin and reflecting B over the origin, right? Because the diagonals intersect at the origin, so if A is one vertex, then C is the opposite vertex, which is (-x, -y), and similarly for B and D.
+
+Therefore, points C and D would be \( (-a \sec \theta, -b \tan \theta) \) and \( (-a \sec \phi, -b \tan \phi) \). So, the rhombus has vertices at these four points.
+
+Now, in a rhombus, all sides are equal, so the distance between A and B must be equal to the distance between B and C, and so on. But since it's a rhombus, it suffices to say that all sides are equal, but the diagonals intersect at right angles.
+
+Wait, actually, in a rhombus, the diagonals are not necessarily equal, but they do bisect each other at right angles. So, the diagonals AC and BD intersect at the origin, and they are perpendicular to each other.
+
+Given that, the vectors along the diagonals should be perpendicular. So, if vector AC is from A to C, which is \( (-2a \sec \theta, -2b \tan \theta) \), and vector BD is from B to D, which is \( (-2a \sec \phi, -2b \tan \phi) \). For the diagonals to be perpendicular, their dot product should be zero.
+
+So, the dot product of AC and BD is:
+
+\( (-2a \sec \theta)(-2a \sec \phi) + (-2b \tan \theta)(-2b \tan \phi) = 0 \)
+
+Simplify this:
+
+\( 4a^2 \sec \theta \sec \phi + 4b^2 \tan \theta \tan \phi = 0 \)
+
+Divide both sides by 4:
+
+\( a^2 \sec \theta \sec \phi + b^2 \tan \theta \tan \phi = 0 \)
+
+So, that's one equation relating \( \theta \) and \( \phi \).
+
+Another property of the rhombus is that all sides are equal. So, the distance between A and B should be equal to the distance between B and C, etc. Let's compute the distance between A and B.
+
+Point A: \( (a \sec \theta, b \tan \theta) \)
+
+Point B: \( (a \sec \phi, b \tan \phi) \)
+
+Distance AB squared:
+
+\( (a \sec \theta - a \sec \phi)^2 + (b \tan \theta - b \tan \phi)^2 \)
+
+Similarly, distance BC squared:
+
+Point B: \( (a \sec \phi, b \tan \phi) \)
+
+Point C: \( (-a \sec \theta, -b \tan \theta) \)
+
+Distance BC squared:
+
+\( (a \sec \phi + a \sec \theta)^2 + (b \tan \phi + b \tan \theta)^2 \)
+
+Since AB = BC, their squares are equal:
+
+\( (a \sec \theta - a \sec \phi)^2 + (b \tan \theta - b \tan \phi)^2 = (a \sec \phi + a \sec \theta)^2 + (b \tan \phi + b \tan \theta)^2 \)
+
+Let me compute both sides:
+
+Left side:
+
+\( a^2 (\sec \theta - \sec \phi)^2 + b^2 (\tan \theta - \tan \phi)^2 \)
+
+Right side:
+
+\( a^2 (\sec \theta + \sec \phi)^2 + b^2 (\tan \theta + \tan \phi)^2 \)
+
+So, set them equal:
+
+\( a^2 (\sec \theta - \sec \phi)^2 + b^2 (\tan \theta - \tan \phi)^2 = a^2 (\sec \theta + \sec \phi)^2 + b^2 (\tan \theta + \tan \phi)^2 \)
+
+Let me subtract the left side from the right side:
+
+\( a^2 [(\sec \theta + \sec \phi)^2 - (\sec \theta - \sec \phi)^2] + b^2 [(\tan \theta + \tan \phi)^2 - (\tan \theta - \tan \phi)^2] = 0 \)
+
+Now, let's compute each bracket:
+
+For the a^2 term:
+
+\( (\sec \theta + \sec \phi)^2 - (\sec \theta - \sec \phi)^2 = [(\sec^2 \theta + 2 \sec \theta \sec \phi + \sec^2 \phi) - (\sec^2 \theta - 2 \sec \theta \sec \phi + \sec^2 \phi)] = 4 \sec \theta \sec \phi \)
+
+Similarly, for the b^2 term:
+
+\( (\tan \theta + \tan \phi)^2 - (\tan \theta - \tan \phi)^2 = [(\tan^2 \theta + 2 \tan \theta \tan \phi + \tan^2 \phi) - (\tan^2 \theta - 2 \tan \theta \tan \phi + \tan^2 \phi)] = 4 \tan \theta \tan \phi \)
+
+So, plugging back:
+
+\( a^2 (4 \sec \theta \sec \phi) + b^2 (4 \tan \theta \tan \phi) = 0 \)
+
+Divide both sides by 4:
+
+\( a^2 \sec \theta \sec \phi + b^2 \tan \theta \tan \phi = 0 \)
+
+Wait a minute, this is the same equation as before! So, that equation is both the condition for the diagonals to be perpendicular and for the sides to be equal. So, that equation comes from both conditions.
+
+Therefore, the only equation we have is:
+
+\( a^2 \sec \theta \sec \phi + b^2 \tan \theta \tan \phi = 0 \)
+
+So, now we have one equation relating \( \theta \) and \( \phi \). But we need another equation to solve for both angles. Wait, perhaps we can use another property of the rhombus, such as the fact that the diagonals are perpendicular.
+
+But we already used that. So, perhaps we need another condition. Maybe the fact that all four points lie on the hyperbola, so we can use that to get another equation.
+
+Alternatively, maybe we can parameterize the points such that the diagonals are perpendicular, and then express BD squared in terms of the parameters.
+
+Wait, perhaps we can think in terms of vectors. Since the diagonals are perpendicular, their dot product is zero, which we have. So, let me write that equation again:
+
+\( a^2 \sec \theta \sec \phi + b^2 \tan \theta \tan \phi = 0 \)
+
+So, let me denote \( \sec \theta \sec \phi = - \frac{b^2}{a^2} \tan \theta \tan \phi \)
+
+Hmm, maybe we can express this as:
+
+\( \frac{\sec \theta \sec \phi}{\tan \theta \tan \phi} = - \frac{b^2}{a^2} \)
+
+But \( \frac{\sec \theta \sec \phi}{\tan \theta \tan \phi} = \frac{1}{\sin \theta \sin \phi} \)
+
+Because \( \sec \theta = 1/\cos \theta \), \( \tan \theta = \sin \theta / \cos \theta \), so:
+
+\( \frac{\sec \theta \sec \phi}{\tan \theta \tan \phi} = \frac{(1/\cos \theta)(1/\cos \phi)}{(\sin \theta / \cos \theta)(\sin \phi / \cos \phi)} = \frac{1}{\sin \theta \sin \phi} \)
+
+Therefore,
+
+\( \frac{1}{\sin \theta \sin \phi} = - \frac{b^2}{a^2} \)
+
+So,
+
+\( \sin \theta \sin \phi = - \frac{a^2}{b^2} \)
+
+That's an interesting relation. So, the product of sines of the two angles is negative \( a^2 / b^2 \). Since \( a^2 = 20 \) and \( b^2 = 24 \), this becomes:
+
+\( \sin \theta \sin \phi = - \frac{20}{24} = - \frac{5}{6} \)
+
+So, \( \sin \theta \sin \phi = -5/6 \). That's one equation.
+
+Now, is there another relation? Well, since the points lie on the hyperbola, perhaps we can use the coordinates of points A and B.
+
+Alternatively, perhaps we can express BD squared in terms of the angles, and then find its minimum value or something like that.
+
+Wait, but the problem is asking for the greatest real number that is less than \( BD^2 \) for all such rhombi. So, essentially, we need to find the infimum of \( BD^2 \), and then take the greatest number less than that. Wait, but maybe it's the supremum of the lower bounds for \( BD^2 \), so the infimum of \( BD^2 \) across all possible rhombi.
+
+Wait, actually, the question is a bit unclear in my mind. It says "the greatest real number that is less than \( BD^2 \) for all such rhombi." So, it's like we have to find the maximum lower bound for \( BD^2 \), such that \( BD^2 \) is always greater than this number for any rhombus ABCD on the hyperbola.
+
+So, in other words, find \( L \) such that \( L \leq BD^2 \) for all rhombi, and \( L \) is the greatest such number.
+
+Therefore, we need to find the infimum of \( BD^2 \), because the greatest lower bound would be the infimum.
+
+So, if I can compute the minimum possible value of \( BD^2 \), then that would be the answer.
+
+So, now, let's compute \( BD^2 \). Points B and D are \( (a \sec \phi, b \tan \phi) \) and \( (-a \sec \phi, -b \tan \phi) \). Wait, no, actually, if A is \( (a \sec \theta, b \tan \theta) \), then C is \( (-a \sec \theta, -b \tan \theta) \), and B is \( (a \sec \phi, b \tan \phi) \), so D is \( (-a \sec \phi, -b \tan \phi) \).
+
+Therefore, the distance BD squared is the distance between \( (a \sec \phi, b \tan \phi) \) and \( (-a \sec \phi, -b \tan \phi) \).
+
+Compute BD squared:
+
+\( (a \sec \phi - (-a \sec \phi))^2 + (b \tan \phi - (-b \tan \phi))^2 = (2a \sec \phi)^2 + (2b \tan \phi)^2 = 4a^2 \sec^2 \phi + 4b^2 \tan^2 \phi \)
+
+So, \( BD^2 = 4a^2 \sec^2 \phi + 4b^2 \tan^2 \phi \)
+
+Similarly, we can compute AC squared, but we don't need it for now.
+
+So, \( BD^2 = 4a^2 \sec^2 \phi + 4b^2 \tan^2 \phi \)
+
+We can factor out the 4:
+
+\( BD^2 = 4(a^2 \sec^2 \phi + b^2 \tan^2 \phi) \)
+
+Now, our goal is to find the minimum value of \( BD^2 \), given the constraint \( \sin \theta \sin \phi = -5/6 \). Hmm, but we have two angles, \( \theta \) and \( \phi \), but the hyperbola is symmetric, so maybe we can relate them?
+
+Wait, maybe we can express \( \phi \) in terms of \( \theta \), or vice versa, using the equation \( \sin \theta \sin \phi = -5/6 \). Let's try that.
+
+Express \( \sin \phi = -5/(6 \sin \theta) \)
+
+So, \( \sin \phi = -5/(6 \sin \theta) \)
+
+But since \( \sin \phi \) must be between -1 and 1, this imposes a condition on \( \theta \):
+
+\( | -5/(6 \sin \theta) | \leq 1 \)
+
+So,
+
+\( 5/(6 | \sin \theta | ) \leq 1 \)
+
+Which implies,
+
+\( | \sin \theta | \geq 5/6 \)
+
+So, \( | \sin \theta | \geq 5/6 \), meaning \( \sin \theta \) is either \( \geq 5/6 \) or \( \leq -5/6 \). So, \( \theta \) must be in regions where sine is at least 5/6 or at most -5/6.
+
+Therefore, \( \theta \) is in \( [\arcsin(5/6), \pi - \arcsin(5/6)] \) or \( [-\pi + \arcsin(5/6), -\arcsin(5/6)] \). But since we can take \( \theta \) in \( [0, 2\pi) \), it's symmetric.
+
+So, the key point is that \( | \sin \theta | \geq 5/6 \).
+
+Therefore, \( | \sin \theta | \geq 5/6 \), so \( \sin \theta \sin \phi = -5/6 \) is satisfied.
+
+So, now, going back to BD squared:
+
+\( BD^2 = 4(a^2 \sec^2 \phi + b^2 \tan^2 \phi) \)
+
+We can express \( \tan \phi = \sin \phi / \cos \phi \), and \( \sec \phi = 1 / \cos \phi \). So, perhaps we can write \( BD^2 \) in terms of \( \sin \phi \) and \( \cos \phi \).
+
+Let me compute \( a^2 \sec^2 \phi + b^2 \tan^2 \phi \):
+
+\( a^2 \sec^2 \phi + b^2 \tan^2 \phi = a^2 / \cos^2 \phi + b^2 (\sin^2 \phi / \cos^2 \phi ) = (a^2 + b^2 \sin^2 \phi ) / \cos^2 \phi \)
+
+So, \( BD^2 = 4 * (a^2 + b^2 \sin^2 \phi ) / \cos^2 \phi \)
+
+So, \( BD^2 = 4(a^2 + b^2 \sin^2 \phi ) / \cos^2 \phi \)
+
+Now, we can express \( \sin \phi \) in terms of \( \theta \):
+
+From earlier, \( \sin \phi = -5/(6 \sin \theta) \). So, \( \sin \phi = -5/(6 \sin \theta) \)
+
+But since \( | \sin \theta | \geq 5/6 \), \( \sin \theta \) is either \( \geq 5/6 \) or \( \leq -5/6 \). So, \( \sin \phi \) will be negative when \( \sin \theta \) is positive, and positive when \( \sin \theta \) is negative.
+
+But regardless, \( \sin \phi = -5/(6 \sin \theta) \), so \( \sin \phi \) is negative if \( \sin \theta \) is positive, and positive if \( \sin \theta \) is negative. But since \( | \sin \theta | \geq 5/6 \), \( \sin \phi \) is bounded.
+
+But let's see. Let me express \( \cos^2 \phi \) in terms of \( \sin \phi \). Since \( \cos^2 \phi = 1 - \sin^2 \phi \), so:
+
+\( BD^2 = 4(a^2 + b^2 \sin^2 \phi ) / (1 - \sin^2 \phi ) \)
+
+Substituting \( \sin \phi = -5/(6 \sin \theta) \), so \( \sin^2 \phi = 25/(36 \sin^2 \theta) \)
+
+Thus,
+
+\( BD^2 = 4(a^2 + b^2 * 25/(36 \sin^2 \theta)) / (1 - 25/(36 \sin^2 \theta)) \)
+
+Simplify numerator and denominator:
+
+Numerator: \( 4(a^2 + (25 b^2)/(36 \sin^2 \theta)) \)
+
+Denominator: \( 1 - 25/(36 \sin^2 \theta) \)
+
+Let me factor out the 4:
+
+\( BD^2 = 4 \left[ \frac{a^2 + \frac{25 b^2}{36 \sin^2 \theta}}{1 - \frac{25}{36 \sin^2 \theta}} \right] \)
+
+Let me write this as:
+
+\( BD^2 = 4 \left[ \frac{36 a^2 \sin^2 \theta + 25 b^2}{36 \sin^2 \theta - 25} \right] \)
+
+Because multiplying numerator and denominator by 36 sin^2 theta:
+
+Numerator: \( (a^2 + 25 b^2 / (36 sin^2 theta)) * 36 sin^2 theta = 36 a^2 sin^2 theta + 25 b^2 \)
+
+Denominator: \( (1 - 25/(36 sin^2 theta)) * 36 sin^2 theta = 36 sin^2 theta - 25 \)
+
+So,
+
+\( BD^2 = 4 \left( \frac{36 a^2 sin^2 theta + 25 b^2}{36 sin^2 theta - 25} \right) \)
+
+Given that \( a^2 = 20 \) and \( b^2 = 24 \), plug these in:
+
+Numerator: \( 36 * 20 sin^2 theta + 25 * 24 = 720 sin^2 theta + 600 \)
+
+Denominator: \( 36 sin^2 theta - 25 \)
+
+Therefore,
+
+\( BD^2 = 4 \left( \frac{720 sin^2 theta + 600}{36 sin^2 theta - 25} \right) \)
+
+We can factor numerator and denominator:
+
+Numerator: 720 sin^2 theta + 600 = 120*(6 sin^2 theta + 5)
+
+Denominator: 36 sin^2 theta - 25
+
+So,
+
+\( BD^2 = 4 \left( \frac{120(6 sin^2 theta + 5)}{36 sin^2 theta - 25} \right) \)
+
+Simplify the constants:
+
+4 * 120 = 480, so:
+
+\( BD^2 = 480 \left( \frac{6 sin^2 theta + 5}{36 sin^2 theta - 25} \right) \)
+
+Let me set \( u = sin^2 theta \). Then, since \( | sin theta | \geq 5/6 \), \( u \geq (5/6)^2 = 25/36 \)
+
+So, \( u \in [25/36, 1] \)
+
+Therefore, \( BD^2 = 480 \left( \frac{6u + 5}{36u - 25} \right) \)
+
+So, now, we can think of \( BD^2 \) as a function of \( u \):
+
+\( f(u) = 480 \cdot \frac{6u + 5}{36u - 25} \)
+
+Our goal is to find the infimum of \( f(u) \) for \( u \in [25/36, 1] \)
+
+So, we can treat this as a calculus optimization problem: find the minimum of \( f(u) \) over \( u \in [25/36, 1] \)
+
+First, let me compute the derivative of \( f(u) \) with respect to \( u \):
+
+\( f(u) = 480 * \frac{6u + 5}{36u - 25} \)
+
+Let me denote \( N = 6u + 5 \), \( D = 36u - 25 \)
+
+Then, \( f(u) = 480 * N / D \)
+
+So, \( f'(u) = 480 * (N' D - N D') / D^2 \)
+
+Compute N' and D':
+
+\( N' = 6 \)
+
+\( D' = 36 \)
+
+So,
+
+\( f'(u) = 480 * (6*(36u -25) - (6u +5)*36) / (36u -25)^2 \)
+
+Simplify numerator:
+
+6*(36u -25) = 216u -150
+
+(6u +5)*36 = 216u + 180
+
+So, numerator:
+
+216u -150 - (216u + 180) = 216u -150 -216u -180 = -330
+
+Therefore,
+
+\( f'(u) = 480 * (-330) / (36u -25)^2 \)
+
+So, \( f'(u) = -480 * 330 / (36u -25)^2 \)
+
+Since the denominator is squared, it's always positive. The numerator is negative because of the negative sign. So, \( f'(u) \) is negative for all \( u \in [25/36, 1] \). Therefore, \( f(u) \) is decreasing on this interval.
+
+Therefore, the minimum of \( f(u) \) occurs at the right endpoint of the interval, which is \( u = 1 \).
+
+Wait, but \( f(u) \) is decreasing, so the minimum is at the maximum \( u \), which is 1.
+
+Wait, let me confirm: since the derivative is negative everywhere on the interval, that means the function is decreasing on the interval. So, the function attains its minimum value at the rightmost point of the interval, which is \( u = 1 \), and maximum at the left endpoint \( u = 25/36 \).
+
+Therefore, the minimal value of \( BD^2 \) is \( f(1) \):
+
+Compute \( f(1) = 480 * (6*1 +5)/(36*1 -25) = 480*(11)/(11) = 480*1 = 480 \)
+
+Wait, that's interesting. So, at \( u = 1 \), \( BD^2 = 480 \).
+
+But is that the minimal value? Wait, but let's check.
+
+Wait, if u approaches 25/36 from above, what happens?
+
+Compute \( f(25/36) = 480*(6*(25/36) +5)/(36*(25/36) -25) \)
+
+Compute numerator:
+
+6*(25/36) = 150/36 = 25/6 ≈ 4.1667
+
+25/6 +5 = 25/6 +30/6=55/6≈9.1667
+
+Denominator:
+
+36*(25/36) =25
+
+25 -25=0
+
+So, denominator approaches 0 from positive side.
+
+Therefore, f(u) approaches positive infinity as u approaches 25/36 from above.
+
+Therefore, the function f(u) starts at +infty when u=25/36, decreases to 480 at u=1.
+
+Therefore, the infimum of BD squared is 480, but since u approaches 25/36 from above, BD squared can get arbitrarily large, but can it get as low as 480?
+
+Wait, but when u=1, sin^2 theta=1, so sin theta=±1, so theta=π/2 or 3π/2.
+
+So, when theta=π/2, point A is (a sec(pi/2), b tan(pi/2)) which is (a, b). Similarly, when theta=3pi/2, point A is (-a, -b). But wait, sec(pi/2) is undefined, actually, sec(pi/2) is infinite. So, that suggests that as theta approaches pi/2, point A goes to infinity.
+
+Wait, but if theta approaches pi/2, then sin theta approaches 1, so u approaches 1. So, in that case, BD squared approaches 480, but BD squared cannot actually reach 480 because theta cannot be pi/2.
+
+Therefore, BD squared can get as close to 480 as desired, but never actually reaches it.
+
+Therefore, the infimum of BD squared is 480, but it's not attainable. Therefore, the greatest real number less than BD squared for all rhombi would be 480, since BD squared can get arbitrarily close to 480 from above.
+
+Wait, but hold on. If BD squared can get arbitrarily close to 480, but never actually reaches 480, then 480 is the infimum, but it's not attainable. Therefore, the supremum of the lower bounds would be 480, but since 480 is not attainable, the greatest number less than BD squared for all rhombi would still be 480.
+
+Wait, but in the problem statement, it says "the greatest real number that is less than BD^2 for all such rhombi." So, it's the maximum L such that L <= BD^2 for every rhombus ABCD.
+
+Since BD^2 can be made arbitrarily close to 480, but never actually reaches 480, the greatest number L satisfying L <= BD^2 for all rhombi would be 480, because for any number greater than 480, there exists a rhombus where BD^2 is less than that number, but for L=480, BD^2 can be made greater than 480, but can never be less than 480.
+
+Wait, actually, no. If BD^2 can be made arbitrarily close to 480 from above, then BD^2 > 480 for all rhombi, but BD^2 can get as close to 480 as desired. Therefore, 480 is the infimum, but it's not attainable. So, the greatest real number less than BD^2 for all rhombi would be 480, because BD^2 is always greater than 480, but can be made as close to 480 as we like.
+
+Wait, actually, no, because BD^2 can be made greater than 480, but also BD^2 can be made as small as we like? Wait, no, actually, wait, when u approaches 25/36, BD^2 approaches infinity.
+
+Wait, so BD^2 can be made arbitrarily large, but also can get as close to 480 as desired from above. So, the minimum value of BD^2 is 480, but it's not attainable. So, the greatest lower bound is 480, but it's not achieved. So, the problem is asking for the greatest real number less than BD^2 for all rhombi.
+
+Therefore, since BD^2 can be made greater than 480, but can also be made as close to 480 as desired, the greatest number L such that L <= BD^2 for all rhombi would be 480, because for any L' > 480, there exists a rhombus where BD^2 < L', but for L=480, BD^2 is always greater than 480, but can get as close as desired.
+
+Wait, that seems conflicting. Wait, actually, if BD^2 can be made greater than 480, but can also be made as close to 480 as desired, then 480 is the infimum, but it's not a maximum lower bound in the sense that BD^2 can be less than any number greater than 480.
+
+Wait, actually, no, because the infimum is the greatest lower bound. So, the infimum of BD^2 is 480, but since it's not attainable, the greatest real number less than BD^2 for all rhombi would be 480, because for every rhombus, BD^2 > 480, but we can approach 480 as close as we want.
+
+Wait, but actually, in the problem statement, it says "the greatest real number that is less than BD^2 for all such rhombi." So, it's looking for the maximum L such that L <= BD^2 for every rhombus. Since BD^2 can be made arbitrarily close to 480, but never actually less than or equal to 480, because the infimum is 480.
+
+Wait, no, that's not correct. Because if BD^2 can get as close to 480 as desired, but never actually reaches 480, then L=480 would be the maximum number such that L <= BD^2 for all rhombi. Because for any L' >480, there exists a rhombus where BD^2 < L', but for L=480, BD^2 is always greater than 480, but can be made as close as desired.
+
+Wait, now I'm confused.
+
+Wait, let me think differently.
+
+Suppose L is the greatest real number such that L <= BD^2 for all rhombi.
+
+If BD^2 can be made arbitrarily close to 480, but never actually less than 480, then L must be 480, because for any L' >480, there exists a rhombus where BD^2 < L', but for L=480, BD^2 >480 for all rhombi, but can approach 480.
+
+Wait, but the problem says "the greatest real number that is less than BD^2 for all such rhombi." So, L is the maximum number such that L <= BD^2 for every rhombus.
+
+So, if BD^2 can be made as close to 480 as desired, but never less than or equal to 480, then L must be 480, because for any L >480, there exists a rhombus where BD^2 < L, but for L=480, BD^2 is always greater than 480.
+
+Wait, but BD^2 is always greater than 480? No, actually, when theta approaches pi/2, BD^2 approaches 480, but from above. So, BD^2 can get as close to 480 as desired from above, but is always greater than 480. So, BD^2 is always greater than 480, but can be made as close as desired.
+
+Therefore, 480 is the infimum, but it's not attainable. So, in that case, the greatest real number less than BD^2 for all rhombi is 480.
+
+But wait, is 480 less than BD^2 for all rhombi? Yes, because BD^2 can be made greater than 480, but can also be made as close to 480 as desired. So, 480 is the greatest lower bound.
+
+Therefore, the answer is 480, so the greatest real number less than BD^2 for all such rhombi is 480.
+
+Wait, but hold on, let me verify my calculation of BD^2.
+
+Earlier, I had:
+
+\( BD^2 = 4(a^2 \sec^2 \phi + b^2 \tan^2 \phi ) \)
+
+Then, \( a^2 =20 \), \( b^2=24 \), so:
+
+\( BD^2 =4(20 \sec^2 \phi +24 \tan^2 \phi ) \)
+
+Then, \( 20 \sec^2 \phi +24 \tan^2 \phi = (20 +24 \sin^2 \phi ) / \cos^2 \phi \)
+
+So, \( BD^2 =4*(20 +24 sin^2 phi)/(cos^2 phi) \)
+
+Wait, that's different from what I had earlier. Wait, no, actually, no:
+
+Wait, 20 sec^2 phi +24 tan^2 phi = 20 / cos^2 phi +24 (sin^2 phi / cos^2 phi ) = (20 +24 sin^2 phi ) / cos^2 phi.
+
+So, BD^2=4*(20 +24 sin^2 phi ) / cos^2 phi.
+
+But from earlier, we had:
+
+\( \sin \phi = -5/(6 sin theta ) \), so \( \sin^2 phi=25/(36 sin^2 theta ) \)
+
+So, plugging that in:
+
+BD^2=4*(20 +24*(25/(36 sin^2 theta )) ) / (1 -25/(36 sin^2 theta )).
+
+Wait, 24*(25/(36 sin^2 theta ))= (24*25)/(36 sin^2 theta )= (600)/(36 sin^2 theta )= 50/(3 sin^2 theta )
+
+So,
+
+BD^2=4*(20 +50/(3 sin^2 theta )) / (1 -25/(36 sin^2 theta )).
+
+Simplify numerator:
+
+20 +50/(3 sin^2 theta )= (60 sin^2 theta +50 )/(3 sin^2 theta )
+
+Denominator:
+
+1 -25/(36 sin^2 theta )= (36 sin^2 theta -25 )/(36 sin^2 theta )
+
+So, BD^2=4*( (60 sin^2 theta +50 )/(3 sin^2 theta ) ) / ( (36 sin^2 theta -25 )/(36 sin^2 theta ) )
+
+Simplify:
+
+Multiply numerator by reciprocal of denominator:
+
+4*(60 sin^2 theta +50 )/(3 sin^2 theta ) * (36 sin^2 theta )/(36 sin^2 theta -25 )
+
+Simplify:
+
+4*(60 sin^2 theta +50 ) *36 sin^2 theta / (3 sin^2 theta *(36 sin^2 theta -25 ))
+
+Simplify constants:
+
+4*36 /3=4*12=48
+
+So,
+
+BD^2=48*(60 sin^2 theta +50 ) * sin^2 theta / (36 sin^2 theta -25 )
+
+Factor numerator:
+
+60 sin^2 theta +50=10*(6 sin^2 theta +5 )
+
+Denominator:
+
+36 sin^2 theta -25
+
+So,
+
+BD^2=48*10*(6 sin^2 theta +5 ) * sin^2 theta / (36 sin^2 theta -25 )
+
+=480*(6 sin^2 theta +5 ) * sin^2 theta / (36 sin^2 theta -25 )
+
+Wait, that's the same as earlier.
+
+Wait, okay, so that's correct.
+
+Then, set u=sin^2 theta, so BD^2=480*(6u +5)/(36u -25 )
+
+Which is what I had earlier.
+
+So, f(u)=480*(6u +5)/(36u -25 )
+
+Which is a decreasing function on u in [25/36,1 ]
+
+So, minimal at u=1, which is 480*(6 +5)/11=480*11/11=480
+
+And approaches infinity as u approaches 25/36.
+
+Therefore, minimal BD^2 is 480, but it's not attainable because u=1 implies sin theta=±1, which corresponds to theta=pi/2, but at theta=pi/2, point A is at infinity, so it's not a valid point on the hyperbola.
+
+Therefore, BD^2 can get as close to 480 as desired, but can't actually be 480.
+
+Therefore, 480 is the infimum of BD^2.
+
+Hence, the greatest real number less than BD^2 for all rhombi is 480.
+
+Therefore, the answer is 480.
+
+**Final Answer**
+\boxed{480}
+</think>
+
+Given points \(A\), \(B\), \(C\), and \(D\) on the hyperbola \(\frac{x^2}{20} - \frac{y^2}{24} = 1\) forming a rhombus \(ABCD\) with diagonals intersecting at the origin, we need to find the greatest real number less than \(BD^2\) for all such rhombi.
+
+1. **Properties of the Rhombus**:
+   - The diagonals intersect at the origin and are perpendicular.
+   - The coordinates of the points are symmetric with respect to the origin.
+
+2. **Parametric Form of the Hyperbola**:
+   - Points on the hyperbola can be parameterized as \( (a \sec \theta, b \tan \theta) \) where \(a^2 = 20\) and \(b^2 = 24\).
+
+3. **Condition for Perpendicular Diagonals**:
+   - The dot product of the vectors along the diagonals is zero, leading to the equation \( a^2 \sec \theta \sec \phi + b^2 \tan \theta \tan \phi = 0 \).
+   - This simplifies to \(\sin \theta \sin \phi = -\frac{5}{6}\).
+
+4. **Expression for \(BD^2\)**:
+   - The distance \(BD^2\) is calculated as \(4(a^2 \sec^2 \phi + b^2 \tan^2 \phi)\).
+   - Substituting \(a^2 = 20\) and \(b^2 = 24\), we get \(BD^2 = 4 \left( \frac{20 + 24 \sin^2 \phi}{\cos^2 \phi} \right)\).
+
+5. **Optimization**:
+   - Expressing \(\sin \phi\) in terms of \(\sin \theta\) and substituting, we find \(BD^2\) as a function of \(u = \sin^2 \theta\).
+   - The function \(BD^2\) is found to be decreasing in the interval \(u \in [25/36, 1]\), with the minimum value approaching 480 as \(u\) approaches 1.
+
+6. **Conclusion**:
+   - The infimum of \(BD^2\) is 480, but it is not attainable. Therefore, the greatest real number less than \(BD^2\) for all rhombi is 480.
+
+Thus, the final answer is \(\boxed{480}\).

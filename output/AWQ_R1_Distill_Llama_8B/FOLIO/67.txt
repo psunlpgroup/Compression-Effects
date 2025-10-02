@@ -1,0 +1,18 @@
+Okay, so I need to figure out if the conclusion is true, false, or uncertain based on the premise. Let me start by reading both the premise and the conclusion carefully.
+
+The premise states that Yale University is a private Ivy League research university. It also mentions that Yale moved to New Haven in 1716, which probably refers to the university's relocation. The endowment is listed as $42.3 billion, which is a significant amount, and there's a list of residential colleges provided.
+
+The conclusion is that Pierson College is a residential college at Yale. So, I need to determine if this conclusion follows logically from the premise.
+
+First, I know that Yale has multiple residential colleges, as listed in the premise. The list includes Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.
+
+Looking at this list, I can see that Pierson College is indeed one of the named colleges. So, the conclusion that Pierson College is a residential college at Yale seems to be directly supported by the premise.
+
+I don't see any information in the premise that would contradict this. There's no indication that Pierson College is not a part of Yale's residential colleges. The fact that it's included in the list provided should mean that it's indeed one of them.
+
+Therefore, the conclusion follows logically from the premise. There's no uncertainty here because the information provided clearly lists Pierson College as part of Yale's residential colleges.
+</think>
+
+The conclusion that Pierson College is a residential college at Yale is supported by the premise, as Pierson College is explicitly listed among the residential colleges of Yale University.
+
+**Answer:** True

@@ -1,0 +1,49 @@
+Alright, let's try to figure out when Leslie could have gone to the movies based on the timeline provided.
+
+First, let's list out the information we have:
+
+- Leslie woke up at 6am.
+- Susan saw Leslie sitting on a rooftop from 6am to 7am.
+- Mary saw Leslie working at the office from 12pm to 2pm.
+- Steven saw Leslie getting a coffee at the cafe from 2pm to 7pm.
+- The movies was closed after 7pm.
+
+So, we need to find a time window where Leslie wasn't doing any of these other activities.
+
+Let's break it down step by step.
+
+1. **From 6am to 7am:**
+   - Susan saw Leslie on the rooftop during this time. So, Leslie was not at the movies.
+
+2. **From 7am to 12pm:**
+   - There's no information about what Leslie was doing during this period. Susan's sighting ends at 7am, and Mary's sighting starts at 12pm. So, this is a possible time when Leslie could have gone to the movies.
+
+3. **From 12pm to 2pm:**
+   - Mary saw Leslie working at the office during this time. So, Leslie was occupied at work and couldn't have gone to the movies.
+
+4. **From 2pm to 7pm:**
+   - Steven saw Leslie getting coffee at the cafe during this period. So, Leslie was not at the movies.
+
+5. **After 7pm:**
+   - The movies were closed after 7pm. So, Leslie couldn't have gone to the movies after this time.
+
+Putting this all together, the only time when Leslie wasn't seen doing anything else is between **7am to 12pm**. During this window, there's no information about Leslie's activities, which means she could have gone to the movies.
+
+So, the correct answer should be the time between 7am to 12pm, which is option (A).
+</think>
+
+The correct answer is:
+
+(A) 7am to 12pm
+
+**Step-by-Step Explanation:**
+
+1. **Identify Leslie's activities from the timeline:**
+   - **6am to 7am:** Susan saw Leslie on the rooftop.
+   - **12pm to 2pm:** Mary saw Leslie working at the office.
+   - **2pm to 7pm:** Steven saw Leslie at the cafe.
+
+2. **Determine the time Leslie wasn't observed:**
+   - Between **7am to 12pm**, there's no information about Leslie's activities, making this the only available time for her to visit the movies.
+
+**Answer:** (A) 7am to 12pm

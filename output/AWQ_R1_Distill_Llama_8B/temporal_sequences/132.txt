@@ -1,0 +1,43 @@
+Alright, let's try to figure out when Samantha could have gone to the market based on the information provided.
+
+First, Samantha wakes up at 5am. That's her wake-up time.
+
+Then, Sarah saw Samantha working at the office from 5am to 11am. So, during this time, Samantha is at work.
+
+Next, Ashley saw Samantha buying a phone at the electronics store from 11am to 1pm. So, between 11am and 1pm, she's at the electronics store buying a phone.
+
+After that, Leslie saw Samantha fixing their computer at the electronics store from 5pm to 8pm. So, between 5pm and 8pm, she's at the electronics store again, fixing a computer.
+
+The market was closed after 8pm. That means the market operates only during its regular business hours, which must be before 8pm.
+
+Now, let's piece this together.
+
+Samantha wakes up at 5am and works from 5am to 11am. So, she's at work during that time.
+
+Then, from 11am to 1pm, she's buying a phone at the electronics store.
+
+After that, she fixes a computer at the same store from 5pm to 8pm.
+
+The market is closed after 8pm, so the market likely closes at 8pm.
+
+So, when could she have gone to the market? She's at the electronics store from 11am to 1pm and then again from 5pm to 8pm. The market is closed after 8pm, so she can't have gone to the market during the 5pm to 8pm window because the market is already closed by then.
+
+Therefore, the only time when she could have gone to the market is between 1pm and 5pm, when she's not at the electronics store or the office.
+
+So, the correct time frame for Samantha to have gone to the market is between 1pm and 5pm.
+</think>
+
+The correct answer is:
+
+**D) 1pm to 5pm**
+
+Step-by-step explanation:
+
+1. Samantha wakes up at 5am.
+2. From 5am to 11am, she's at work.
+3. From 11am to 1pm, she's buying a phone.
+4. From 5pm to 8pm, she's fixing a computer.
+5. The market is closed after 8pm.
+6. Therefore, the only available time for Samantha to go to the market is between 1pm and 5pm.
+
+Answer: **D**

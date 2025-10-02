@@ -1,0 +1,60 @@
+Alright, let's try to figure out between what times Michael could have gone to the construction site. I'll start by laying out all the information given.
+
+First, Michael woke up at 5am. So, his morning activities are likely to be in the early morning hours.
+
+Sean saw Michael attending class at the school from 5am to 10am. That means Michael was at school during those hours.
+
+Lisa saw Michael walking in the garden from 5pm to 7pm. So, in the evening, Michael was outside for a while.
+
+Anthony saw Michael getting a coffee at the cafe from 7pm to 10pm. That means Michael was at the cafe in the late evening.
+
+The construction site was closed after 10pm. So, Michael couldn't have been there after 10pm.
+
+Now, I need to see when Michael was free to go to the construction site. He was at school from 5am to 10am, then presumably doing other things until the evening.
+
+Lisa saw him from 5pm to 7pm, and Anthony saw him from 7pm to 10pm. So, during the evening, Michael was either walking in the garden or getting coffee.
+
+But the construction site was closed after 10pm. So, Michael couldn't have gone there after 10pm.
+
+Looking at the options:
+
+(A) 10am to 5pm: That's during the morning, but Sean saw him at school from 5am to 10am. So, he was busy then.
+
+(B) 7pm to 10pm: But Anthony saw him getting coffee during that time, so he was occupied.
+
+(C) 5am to 10am: That's when he was at school, so he couldn't have gone to the construction site then.
+
+(D) 5pm to 7pm: Lisa saw him walking in the garden during that time, so he was occupied.
+
+Wait, none of these options seem to fit. Did I miss something?
+
+Oh, maybe between 10am and 5pm. Let me check. From 10am to 5pm, Michael was not at school or the garden or the cafe. So, he could have gone to the construction site then.
+
+But the options don't include 10am to 5pm. Oh, option (A) is 10am to 5pm. So, that must be the correct time.
+
+I think that's it!
+</think>
+
+The correct answer is (A) 10am to 5pm.
+
+**Step-by-Step Explanation:**
+
+1. **Michael's Morning:**
+   - Woke up at 5am.
+   - Sean saw him at school from 5am to 10am.
+
+2. **Evening Activities:**
+   - Lisa saw him walking from 5pm to 7pm.
+   - Anthony saw him getting coffee from 7pm to 10pm.
+
+3. **Construction Site Hours:**
+   - Closed after 10pm.
+
+4. **Determine Free Time:**
+   - Between 10am and 5pm, Michael wasn't seen by anyone else, so he could have gone to the construction site.
+
+5. **Options Analysis:**
+   - (A) 10am to 5pm fits the free window.
+   - Other options overlap with known activities.
+
+**Answer:** (A) 10am to 5pm

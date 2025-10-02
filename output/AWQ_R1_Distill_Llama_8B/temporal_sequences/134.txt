@@ -1,0 +1,25 @@
+To determine the time Sean could have gone to the soccer field, let's analyze the information step by step.
+
+1. **Sean's Schedule:**
+   - Woke up at **5am**.
+   - Between **7am** and **1pm**, Mary saw Sean walking towards the Statue of Liberty.
+   - From **1pm** to **4pm**, Anthony saw Sean fixing their computer.
+   - From **4pm** to **5pm**, William saw Sean watching a movie at the theater.
+   - From **5pm** to **8pm**, Sarah saw Sean getting a coffee at the cafe.
+
+2. **Soccer Field Closing Time:**
+   - The soccer field was closed after **8pm**.
+
+3. **Possible Time Windows for Soccer Field Visit:**
+   - Sean was at the soccer field during a time when he was not seen by others.
+   - From **5am** to **7am**, Sean was not observed by anyone else.
+   - From **7am** to **1pm**, Sean was seen by Mary.
+   - From **1pm** to **4pm**, Sean was seen by Anthony.
+   - From **4pm** to **5pm**, Sean was seen by William.
+   - From **5pm** to **8pm**, Sean was seen by Sarah.
+
+4. **Only available time Sean was not observed by others is between **5am** to **7am**.
+
+Therefore, the only possible time Sean could have gone to the soccer field is between **5am** and **7am**.
+
+**Answer:** (D) 5am to 7am

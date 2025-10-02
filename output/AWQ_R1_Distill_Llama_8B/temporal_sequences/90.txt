@@ -1,0 +1,48 @@
+Alright, so I'm trying to figure out when Jessica could have gone to the swimming pool. Let me break down the information step by step.
+
+First, Jessica wakes up at 9am. That's when her day starts. Then, Richard saw her taking photos near the Leaning Tower of Pisa from 9am to 11am. Okay, so between 9am and 11am, she's busy taking photos. That means she's not at the swimming pool during that time because she's taking photos.
+
+Next, Mary saw Jessica reading at the library from 11am to 3pm. So from 11am to 3pm, she's reading, which means she's not swimming either. The swimming pool was closed after 7pm, so she couldn't have gone swimming after that time.
+
+Now, Kimberly saw Jessica sitting on a rooftop from 3pm to 4pm. So between 3pm and 4pm, she's occupied there.
+
+Putting all this together:
+
+- From 9am to 11am: Taking photos → Not swimming.
+- From 11am to 3pm: Reading at the library → Not swimming.
+- From 3pm to 4pm: Sitting on a rooftop → Not swimming.
+- After 7pm: Swimming pool closed → Can't go.
+
+So, when could she have gone to the swimming pool? It seems like there's a window between 4pm and 7pm, but the swimming pool was closed after 7pm. That means she couldn't have gone after 7pm. Wait, is there another window?
+
+Let me double-check. From 11am to 3pm, she's reading, and from 3pm to 4pm, she's on the rooftop. So, right after 4pm, she might have gone to the swimming pool. But the pool was closed after 7pm. Hmm.
+
+Wait, maybe I missed something. The pool was closed after 7pm, so she could have gone anytime before 7pm. So, the latest she could have gone is before 7pm. But her activities are:
+
+- 9am-11am: Photos
+- 11am-3pm: Reading
+- 3pm-4pm: Rooftop
+- After 4pm: Possible swimming, but pool closes at 7pm.
+
+So, the time between 4pm and 7pm is when she could have gone, but the pool was closed after 7pm, so she could have gone anytime between 4pm and 7pm. Wait, but the options don't include 4pm to 7pm as an option. Let me check the options again.
+
+Options:
+(A) 9am to 11am
+(B) 3pm to 4pm
+(C) 11am to 3pm
+(D) 4pm to 7pm
+
+Oh, option D is 4pm to 7pm. So, that's when she could have gone, right? Because she's free from 4pm until the pool closes at 7pm.
+
+Wait, but the swimming pool was closed after 7pm. So, she could have gone anytime before 7pm. So, the latest she could have gone is before 7pm, which is covered in option D: 4pm to 7pm.
+
+So, the correct answer is D.
+
+But wait, let me make sure. She's free from 4pm to 7pm, and the pool is open before 7pm, so she could have gone anytime in that window. So, yes, D is the correct answer.
+</think>
+
+The swimming pool was open until 7pm. Jessica was free from 4pm to 7pm, so she could have gone during that time. Therefore, the correct answer is:
+
+(D) 4pm to 7pm
+
+**Answer:** (D)

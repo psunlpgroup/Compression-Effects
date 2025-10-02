@@ -1,0 +1,56 @@
+Alright, let's figure out the possible times Hannah could have gone to the beach. 
+
+First, Hannah woke up at 5am. So her day starts at 5am.
+
+Richard saw her on the rooftop from 5am to 7am. That means from 5am to 7am, she was on the rooftop.
+
+Ashley saw her getting coffee from 9am to 7pm. So from 9am to 7pm, she was at the cafe.
+
+Jennifer saw her taking photos near the Leaning Tower of Pisa from 7pm to 8pm.
+
+The beach was closed after 8pm, so she couldn't have gone to the beach after 8pm.
+
+Looking at the times:
+
+- **5am to 7am**: She was on the rooftop, so she wasn't at the beach.
+
+- **7am to 9am**: There's a gap between 7am and 9am where we don't have any information. Maybe she went to the beach during this time.
+
+- **9am to 7pm**: She was at the cafe, so she wasn't at the beach.
+
+- **7pm to 8pm**: She was taking photos, so she wasn't at the beach.
+
+Since the beach was closed after 8pm, she couldn't have gone after 8pm.
+
+So the only possible time she could have gone to the beach is between **7am and 9am**.
+
+Let me double-check:
+
+- From 5am to 7am: Rooftop.
+
+- 7am to 9am: Possible beach time.
+
+- 9am to 7pm: Cafe.
+
+- 7pm to 8pm: Photos.
+
+Beach is closed after 8pm, so no later than 8pm.
+
+Therefore, the only available window is **7am to 9am**.
+
+The options are:
+
+(A) 7pm to 8pm
+
+(B) 7am to 9am
+
+(C) 9am to 7pm
+
+(D) 5am to 7am
+
+So the correct answer is **(B)**.
+</think>
+
+The correct answer is **(B) 7am to 9am**.
+
+**Answer:** (B)

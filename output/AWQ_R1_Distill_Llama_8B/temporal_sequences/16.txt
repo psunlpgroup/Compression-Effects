@@ -1,0 +1,48 @@
+Let's analyze the information step by step to determine the possible time window when Jessica could have gone to the basketball court.
+
+1. **Jessica's Wake-up Time**:
+   - Jessica woke up at **5am**.
+
+2. **Michael's Observation**:
+   - Michael saw Jessica buying clothes at the mall from **5am to 6am**.
+   - This means Jessica was at the mall during this time.
+
+3. **Steven's Observation**:
+   - Steven saw Jessica buying a bike at the bike shop from **6am to 7am**.
+   - After leaving the mall, Jessica went to buy a bike.
+
+4. **Sean's Observation**:
+   - Sean saw Jessica waiting at the train station from **7am to 2pm**.
+   - Jessica spent a significant amount of time at the train station.
+
+5. **Elizabeth's Observation**:
+   - Elizabeth saw Jessica taking photos near the Eiffel Tower from **2pm to 6pm**.
+   - During this time, Jessica was taking photos.
+
+6. **Sarah's Observation**:
+   - Sarah saw Jessica walking towards the Statue of Liberty from **6pm to 9pm**.
+   - After taking photos, Jessica was heading to the Statue of Liberty.
+
+7. **Basketball Court Hours**:
+   - The basketball court was closed after **10pm**.
+   - Therefore, the latest Jessica could have gone to the basketball court is by **10pm**.
+
+8. **Determining the Overlapping Time**:
+   - From the observations, the only time when Jessica is not observed by others is between **9pm to 10pm**.
+   - This is the window when she could have gone to the basketball court.
+
+**Step-by-Step Answer:**
+
+- **Jessica's wake-up time**: 5am.
+- **Michael saw her**: 5am-6am (clothes shopping).
+- **Steven saw her**: 6am-7am (bike shopping).
+- **Sean saw her**: 7am-2pm (train station).
+- **Elizabeth saw her**: 2pm-6pm (Eiffel Tower photos).
+- **Sarah saw her**: 6pm-9pm (Statue of Liberty).
+- **Basketball court closed after 10pm**.
+
+The only unaccounted time is **9pm to 10pm**, when Jessica could have gone to the basketball court.
+
+**Final Answer:**
+
+\boxed{C}

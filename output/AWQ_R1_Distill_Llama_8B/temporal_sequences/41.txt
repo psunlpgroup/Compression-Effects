@@ -1,0 +1,52 @@
+Alright, let's try to figure out between what times Betty could have gone to the bookstore. I'll start by listing out all the information given and see how it fits together.
+
+First, Betty woke up at 6am. So, her activities start at 6am. Then, Ashley saw Betty stretching at a yoga studio from 6am to 7am. That means Betty was at the yoga studio during that time. So, between 6am and 7am, she's occupied there.
+
+Next, Anthony saw Betty buying cookies at a bakery from 8am to 5pm. Wait, that's a bit confusing because 8am is later than 7am. So, if Anthony saw her at 8am, that would mean she finished at the yoga studio by 7am, right? Because otherwise, she would still be at the yoga studio at 8am, and Anthony wouldn't see her buying cookies then. So, Betty must have left the yoga studio by 7am to go to the bakery.
+
+So, from 8am to 5pm, she's buying cookies at the bakery. That's a good chunk of time. Now, Thomas saw Betty waiting at the train station from 5pm to 8pm. Hmm, 5pm is the same as 17:00 in 24-hour time, and 8pm is 20:00. So, she was waiting at the train station during that time.
+
+But wait, the bookstore was closed after 8pm. So, if she was waiting at the train station until 8pm, she couldn't have gone to the bookstore after that because it was closed. That means she must have gone to the bookstore before 5pm.
+
+Let me piece this together:
+
+- 6am to 7am: Yoga studio
+- 8am to 5pm: Bakery
+- 5pm to 8pm: Train station
+
+So, the times when she's not at the yoga studio, bakery, or train station are when she could have gone to the bookstore. Let's see:
+
+From 7am to 8am: She's not at the yoga studio anymore, and she's not at the bakery yet. She's free during this time.
+
+From 5pm to 8pm: She's at the train station, so she can't go to the bookstore.
+
+Wait, but the bakery time is from 8am to 5pm. So, from 8am to 5pm, she's buying cookies. That means she couldn't have gone to the bookstore during that time because she was at the bakery.
+
+So, the only time she's free is between 7am and 8am. Because from 6am to 7am, she's at the yoga studio, and from 8am to 5pm, she's at the bakery, and from 5pm to 8pm, she's at the train station.
+
+Therefore, the only possible time she could have gone to the bookstore is between 7am and 8am.
+
+Let me double-check:
+
+- 6am to 7am: Yoga
+- 7am to 8am: Free
+- 8am to 5pm: Bakery
+- 5pm to 8pm: Train station
+
+Yes, that fits. So, the only time she wasn't occupied is between 7am and 8am, which is when she could have gone to the bookstore.
+</think>
+
+The correct answer is (A) 7am to 8am.
+
+Step-by-step explanation:
+
+1. Betty wakes up at 6am.
+2. Ashley sees Betty at the yoga studio from 6am to 7am.
+3. After 7am, Betty leaves the yoga studio.
+4. Anthony sees Betty at the bakery from 8am to 5pm.
+5. Thomas sees Betty at the train station from 5pm to 8pm.
+6. The bookstore is closed after 8pm, so Betty must have gone before 5pm.
+
+The only free time is between 7am and 8am.
+
+Answer: (A) 7am to 8am

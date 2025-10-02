@@ -1,0 +1,35 @@
+Alright, let's try to figure out when Ashley could have gone to the basketball court. 
+
+First, I know that Ashley woke up at 7am. That's the earliest time she could have possibly left the house. 
+
+Next, let's look at the times when others saw Ashley:
+
+- **Lisa** saw Ashley at the office from 7am to 8am. So, during that time, Ashley was at work.
+- **Michael** saw Ashley walking in the garden from 8am to 10am. So, after 8am, she was out in the garden until 10am.
+- **Samantha** saw Ashley at school from 1pm to 6pm. That means Ashley was busy at school during that period.
+- The **basketball court was closed after 6pm**, which means the latest Ashley could have gone there is before 6pm.
+
+Now, let's see when Ashley wasn't accounted for:
+
+- From 7am to 8am: Ashley was at the office (Lisa saw her).
+- From 8am to 10am: Ashley was in the garden (Michael saw her).
+- From 1pm to 6pm: Ashley was at school (Samantha saw her).
+
+So, the only times Ashley wasn't seen by anyone are between 10am and 1pm. That's when she could have possibly gone to the basketball court.
+
+Let me double-check the timeline:
+
+- **7am to 8am**: At the office.
+- **8am to 10am**: In the garden.
+- **10am to 1pm**: Free time.
+- **1pm to 6pm**: At school.
+- **After 6pm**: Basketball court is closed.
+
+Yes, it seems like the only available time is between 10am and 1pm.
+
+So, the correct answer should be **(C) 10am to 1pm**.
+</think>
+
+The correct answer is (C) 10am to 1pm.
+
+**Answer: (C)**

@@ -1,0 +1,85 @@
+Alright, let's try to figure out when Elizabeth could have gone to the swimming pool. 
+
+First, let's list out the information we have:
+
+- **Elizabeth wakes up at 6am.**
+- **Nancy saw Elizabeth at the electronic store from 6am to 7am.**
+- **Jessica saw Elizabeth at school from 7am to 11am.**
+- **William saw Elizabeth at the cafe from 11am to 3pm.**
+- **Betty saw Elizabeth near the Eiffel Tower from 3pm to 6pm.**
+- **The swimming pool was closed after 7pm.**
+
+So, Elizabeth was seen by different people at different places at different times. We need to find the overlapping time when she wasn't seen by anyone else, meaning she could have been at the swimming pool.
+
+Let's break it down step by step:
+
+1. **From 6am to 7am:**
+   - Nancy saw Elizabeth at the electronic store.
+   - So, Elizabeth was not at the swimming pool during this time.
+
+2. **From 7am to 11am:**
+   - Jessica saw Elizabeth at school.
+   - Again, Elizabeth was not at the swimming pool during this period.
+
+3. **From 11am to 3pm:**
+   - William saw Elizabeth at the cafe.
+   - So, Elizabeth was not at the swimming pool during this time.
+
+4. **From 3pm to 6pm:**
+   - Betty saw Elizabeth near the Eiffel Tower.
+   - Therefore, Elizabeth was not at the swimming pool during this time.
+
+5. **After 7pm:**
+   - The swimming pool was closed.
+   - So, Elizabeth couldn't have gone to the swimming pool after 7pm.
+
+Now, let's see when Elizabeth wasn't seen by anyone:
+
+- Between 6pm and 7pm: No one saw her. But the swimming pool was closed after 7pm, so she couldn't have gone then.
+
+Wait, that seems conflicting. Let me check again.
+
+Looking at the times:
+
+- 6am to 7am: Electronic store
+- 7am to 11am: School
+- 11am to 3pm: Cafe
+- 3pm to 6pm: Eiffel Tower
+- After 7pm: Pool closed
+
+So, the only time no one saw Elizabeth is between 6pm and 7pm, but the pool was closed after 7pm. So, she couldn't have gone then.
+
+Hmm, maybe I missed something. Let's see:
+
+Wait, the pool was closed after 7pm, but was it closed before 7pm? The timeline doesn't specify. Maybe it was open before 7pm. So, could she have gone between 6pm and 7pm?
+
+But the question says "Between what times could they have gone," considering that the pool was closed after 7pm. So, perhaps she could have gone earlier.
+
+Wait, when was she not seen? From 6pm to 7pm, no one saw her, but the pool was closed after 7pm. So, if the pool was closed after 7pm, that means it was open before 7pm.
+
+So, maybe she went to the pool between 6pm and 7pm, but the pool was still open then.
+
+Wait, but the pool was closed after 7pm. So, the pool was open before 7pm. Therefore, she could have gone to the pool between 6pm and 7pm.
+
+But let's check the options:
+
+Options are:
+
+(A) 11am to 3pm
+
+(B) 6am to 7am
+
+(C) 6pm to 7pm
+
+(D) 7am to 11am
+
+So, the only time when no one saw her is between 6pm to 7pm, which is option C.
+
+But wait, the pool was closed after 7pm, but was it closed before 7pm? If the pool was closed after 7pm, it might have been open before 7pm. So, she could have gone to the pool between 6pm and 7pm.
+
+Therefore, the answer is (C) 6pm to 7pm.
+</think>
+
+The swimming pool was closed after 7pm, but it was likely open before that. Elizabeth wasn't seen by anyone from 6pm to 7pm, so she could have gone to the pool during that time.
+
+**Answer:** (C) 6pm to 7pm

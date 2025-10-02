@@ -1,0 +1,27 @@
+Let's analyze the timeline step by step to determine the possible time Nancy could have gone to the beach.
+
+1. **Wake-up Time**: Nancy woke up at 6am. This means her activities likely started around this time.
+
+2. **John's Observation**: John saw Nancy walking in the garden from 6am to 10am. So, during this period, Nancy was at home.
+
+3. **Tiffany's Observation**: Tiffany saw Nancy working at the office from 10am to 11am. This means Nancy was at her workplace during this time.
+
+4. **Leslie's Observation**: Leslie saw Nancy buying clothes at the mall from 11am to 12pm. So, Nancy was shopping during this hour.
+
+5. **Michael's Observation**: Michael saw Nancy taking photos near the Leaning Tower of Pisa from 1pm to 6pm. This suggests Nancy was in Pisa during this time.
+
+6. **Beach Closing Time**: The beach was closed after 6pm. Therefore, the latest Nancy could have gone to the beach is before 6pm.
+
+Now, let's identify the time windows when Nancy was free:
+
+- From 6am to 10am: At home (John saw her).
+- From 10am to 11am: At the office (Tiffany saw her).
+- From 11am to 12pm: At the mall (Leslie saw her).
+- From 12pm to 1pm: No observations provided. This is a potential window.
+- From 1pm to 6pm: At the Leaning Tower of Pisa (Michael saw her).
+
+Given that the beach was closed after 6pm, the latest Nancy could have gone is before 6pm. However, Michael saw her at the Leaning Tower of Pisa from 1pm to 6pm. This means she was occupied there during that time.
+
+Therefore, the only available window when she wasn't observed is between 12pm to 1pm.
+
+**Answer: (A) 12pm to 1pm**

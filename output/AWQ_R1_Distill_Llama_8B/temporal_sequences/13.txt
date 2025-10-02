@@ -1,0 +1,40 @@
+Alright, let's try to figure out when Betty could have gone to the art show. Okay, so we have several people who saw Betty doing different things at different times. I need to piece this together.
+
+First, Betty woke up at 8am. So that's the earliest time she was active today.
+
+Then, Elizabeth saw Betty buying lunch at the deli from 8am to 10am. So, during that time, Betty was at the deli. That means she wasn't at the art show during 8-10am.
+
+After that, Tiffany saw Betty fixing their computer at the electronic store from 10am to 1pm. So, from 10am to 1pm, Betty was busy with the computer. She wasn't at the art show during that time either.
+
+Next, Susan saw Betty taking photos near the Eiffel Tower from 1pm to 2pm. So, from 1pm to 2pm, Betty was taking photos. She wasn't at the art show then.
+
+Then, Betty saw herself getting a coffee at the cafe from 7pm to 10pm. So, from 7pm to 10pm, she was at the cafe. The art show was closed after 10pm, so she couldn't have gone after 10pm.
+
+Now, I need to find the times when Betty wasn't doing any of those things to figure out when she could have gone to the art show.
+
+Let's list out the times:
+
+- 8am to 10am: At deli (Elizabeth saw her)
+- 10am to 1pm: Fixing computer (Tiffany saw her)
+- 1pm to 2pm: Taking photos (Susan saw her)
+- 7pm to 10pm: Getting coffee (Betty saw herself)
+
+So, the times when Betty wasn't doing those things are:
+
+- Between 2pm to 7pm
+
+That's the only time when she wasn't seen doing anything specific, so that's when she could have gone to the art show.
+
+Looking at the options:
+
+(A) 2pm to 7pm
+(B) 7pm to 10pm
+(C) 8am to 10am
+(D) 1pm to 2pm
+
+So, the correct answer is (A) 2pm to 7pm.
+</think>
+
+The correct answer is (A) 2pm to 7pm.
+
+Answer: (A)

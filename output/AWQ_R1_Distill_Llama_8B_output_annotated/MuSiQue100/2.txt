@@ -1,0 +1,5 @@
+```
+["initializing"]The scientist for which the GHZ experiment is named is **Georg von Tiesenhausen**, a theoretical physicist known for his work in quantum mechanics.["end-section"]
+
+["adding-knowledge"]The scientist for which the GHZ experiment is named is **Georg von Tiesenhausen**, a theoretical physicist known for his work in quantum mechanics.["end-section"]
+```

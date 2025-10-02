@@ -1,0 +1,41 @@
+Alright, let's try to figure out when Ashley could have gone to the bookstore. We have a few clues here, so let's break it down step by step.
+
+First, Ashley wakes up at 5am. So that's the earliest time we know for sure.
+
+Then, Jason saw Ashley buying lunch at the deli from 11am to 1pm. Okay, so between 11am and 1pm, Ashley was at the deli.
+
+Emily saw Ashley driving to the water park from 1pm to 3pm. So, between 1pm and 3pm, Ashley was on the way to the water park.
+
+Kimberly saw Ashley stretching at a yoga studio from 3pm to 6pm. That means Ashley was at the yoga studio from 3pm to 6pm.
+
+The bookstore was closed after 6pm, so Ashley couldn't have gone there after 6pm.
+
+Now, let's see when Ashley wasn't doing any of these activities. We need to find the times when Ashley wasn't seen by anyone else, which might be the times when she went to the bookstore.
+
+Let's list out the times when Ashley was spotted:
+
+- 11am to 1pm: At the deli
+- 1pm to 3pm: Driving to the water park
+- 3pm to 6pm: At the yoga studio
+
+So, the times not covered are before 11am and after 6pm.
+
+But Ashley woke up at 5am, so from 5am to 11am, she was at home or possibly doing something else. Since the bookstore was closed after 6pm, and she was at the yoga studio until 6pm, she couldn't have gone to the bookstore after that.
+
+So, the possible times she could have gone to the bookstore are:
+
+- 5am to 11am
+- After 6pm, but since the bookstore was closed after 6pm, that's not possible.
+
+Therefore, the only possible time is between 5am and 11am.
+
+Looking at the options, that's option (D).
+
+But wait, let me double-check. Did Ashley go anywhere else during that time? She was at home from 5am to 11am, so she could have gone to the bookstore during that time.
+
+Yes, that seems correct.
+</think>
+
+The possible time Ashley could have gone to the bookstore is between 5am to 11am.
+
+**Answer: (D) 5am to 11am**

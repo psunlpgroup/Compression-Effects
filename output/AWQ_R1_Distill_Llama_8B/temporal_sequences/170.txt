@@ -1,0 +1,41 @@
+Alright, let's try to figure out when Anthony could have gone to the amusement park. I'll start by listing out all the information we have.
+
+First, Anthony wakes up at 6am. So, his day starts at 6am.
+
+Next, Leslie saw Anthony reading at the library from 6am to 8am. That means from 6am to 8am, Anthony was at the library.
+
+Then, Jennifer saw Anthony working out at the gym from 8am to 9am. So, right after the library visit, Anthony went to the gym, staying there until 9am.
+
+After that, Anthony saw Anthony buying cookies at a bakery from 2pm to 9pm. Wait, that's a bit confusing. It says "Anthony saw Anthony buying cookies," which might mean that someone named Anthony was buying cookies at the bakery during that time. Maybe it's a typo or perhaps it's referring to another Anthony? Hmm, I'll keep that in mind.
+
+Lastly, William saw Anthony buying a bike at the bike shop from 9pm to 10pm. So, at 9pm, Anthony was buying a bike, and the bike shop closed at 10pm.
+
+The amusement park was closed after 10pm. So, the latest time Anthony could have gone to the amusement park would be before 10pm.
+
+Let me try to piece this together.
+
+- Anthony wakes up at 6am.
+- From 6am to 8am: At the library.
+- From 8am to 9am: At the gym.
+- Now, after 9am, what does Anthony do? The next event is at 2pm when he buys cookies. So, between 9am and 2pm, he's not at the library, gym, bakery, or bike shop. That's a big window.
+
+Wait, but we also have William seeing Anthony buying a bike from 9pm to 10pm. So, Anthony was at the bike shop until 10pm. Since the amusement park was closed after 10pm, he couldn't have gone there after that.
+
+So, the only time when Anthony wasn't accounted for is between 9am and 2pm. That's when he could have gone to the amusement park.
+
+Let me check the options:
+
+(A) 9pm to 10pm – But he was at the bike shop then, so he couldn't have gone to the amusement park during that time.
+
+(B) 9am to 2pm – This fits because that's when he wasn't doing anything else.
+
+(C) 6am to 8am – He was at the library then.
+
+(D) 2pm to 9pm – He was buying cookies at 2pm to 9pm, so he couldn't have gone to the amusement park then.
+
+Therefore, the correct time is between 9am to 2pm.
+</think>
+
+The correct answer is option (B).
+
+**Answer:** (B) 9am to 2pm

@@ -1,0 +1,102 @@
+Alright, let's try to figure out between what times Susan could have gone to the park. So, Susan was doing several things throughout the day, and we have the times when different people saw her doing those things. Our goal is to find the overlapping time when she wasn't occupied with those specific tasks and could have gone to the park.
+
+First, let's list out all the information we have:
+
+1. **Susan woke up at 7am.**
+   
+   This means she was at home by 7am, but it doesn't tell us exactly what she was doing. She might have been getting ready or just waking up.
+
+2. **Mary saw Susan fixing their computer at the electronic store from 1pm to 2pm.**
+   
+   So, between 1pm and 2pm, Susan was occupied fixing the computer. That means she couldn't have been at the park during this time.
+
+3. **Michael saw Susan getting a coffee at the cafe from 2pm to 3pm.**
+   
+   Between 2pm and 3pm, Susan was busy getting coffee. So, she couldn't be at the park then either.
+
+4. **Richard saw Susan waiting at the train station from 3pm to 5pm.**
+   
+   This is a longer window: from 3pm to 5pm, Susan was waiting at the train station. So, she wasn't at the park during this time.
+
+5. **Linda saw Susan taking photos near the Eiffel Tower from 5pm to 6pm.**
+   
+   Between 5pm and 6pm, Susan was taking photos. Since the park was closed after 6pm, she couldn't have been at the park after 6pm. But she was still occupied until 6pm.
+
+6. **The park was closed after 6pm.**
+   
+   This tells us that Susan couldn't have been at the park after 6pm. So, any time after 6pm is off the table.
+
+Now, let's try to piece this together.
+
+Susan was at home by 7am. Then, from 1pm to 2pm, she was fixing the computer. From 2pm to 3pm, she was getting coffee. From 3pm to 5pm, she was waiting at the train station. From 5pm to 6pm, she was taking photos. After 6pm, the park was closed.
+
+So, when was Susan free to go to the park?
+
+Let's look at the gaps between her activities:
+
+- **7am to 1pm:** She was at home, possibly free. But we don't have any information about what she was doing during this time. It's possible she was at home, but we don't know if she was there the whole time.
+
+- **1pm to 2pm:** She was fixing the computer. So, no.
+
+- **2pm to 3pm:** She was getting coffee. So, no.
+
+- **3pm to 5pm:** She was at the train station. So, no.
+
+- **5pm to 6pm:** She was taking photos. So, no.
+
+- **6pm onwards:** Park was closed.
+
+So, the only possible time when Susan was free and could have gone to the park is between 7am and 1pm.
+
+Wait, but let's double-check. She was at home by 7am, and the next activity is at 1pm. So, there's a window from 7am to 1pm where she might have been free.
+
+But the options given are:
+
+(A) 5pm to 6pm
+
+(B) 3pm to 5pm
+
+(C) 7am to 1pm
+
+(D) 2pm to 3pm
+
+So, the correct answer seems to be option (C) 7am to 1pm.
+
+But let's make sure we're not missing anything. Could she have gone to the park during any of the other times?
+
+From 1pm to 2pm: She was fixing the computer. So, no.
+
+From 2pm to 3pm: She was getting coffee. So, no.
+
+From 3pm to 5pm: She was waiting at the train station. So, no.
+
+From 5pm to 6pm: She was taking photos. So, no.
+
+After 6pm: Park was closed.
+
+So, the only time she was free was from 7am to 1pm.
+
+Therefore, the correct answer is (C) 7am to 1pm.
+</think>
+
+The correct answer is (C) 7am to 1pm.
+
+**Step-by-Step Explanation:**
+
+1. **Identify Susan's activities and their time frames:**
+   - 1pm-2pm: Fixing computer
+   - 2pm-3pm: Getting coffee
+   - 3pm-5pm: Waiting at the train station
+   - 5pm-6pm: Taking photos
+
+2. **Determine the times when Susan was not occupied:**
+   - Before 1pm: At home
+   - After 6pm: Park closed
+
+3. **Identify the free window:**
+   - Susan was free from 7am until she started her first activity at 1pm.
+
+4. **Conclusion:**
+   - The only possible time Susan could have gone to the park is between 7am and 1pm.
+
+**Answer:** (C) 7am to 1pm

@@ -1,0 +1,60 @@
+Let's analyze the timeline step by step to determine when William could have gone to the basketball court.
+
+1. **Wake-Up Time**: William wakes up at 7am.
+
+2. **First Observation by Lisa**: Lisa sees William stretching at a yoga studio from 11am to 2pm.
+
+3. **Second Observation by John**: John sees William walking towards the Statue of Liberty from 2pm to 3pm.
+
+4. **Third Observation by Sean**: Sean sees William reading at the library from 3pm to 5pm.
+
+5. **Fourth Observation by Sarah**: Sarah sees William driving to the water park from 5pm to 9pm.
+
+6. **Basketball Court Closing Time**: The basketball court was closed after 9pm.
+
+From the observations:
+- William is seen at the yoga studio from 11am to 2pm.
+- He is then seen walking towards the Statue of Liberty from 2pm to 3pm.
+- Next, he is at the library from 3pm to 5pm.
+- After that, he is driving to the water park from 5pm to 9pm.
+
+The basketball court is only open until 9pm. Since William is at the water park from 5pm to 9pm, he wouldn't have time to go to the basketball court after that.
+
+Therefore, the only time William could have gone to the basketball court is before he was seen at the yoga studio at 11am.
+
+Considering his wake-up time at 7am and assuming he left immediately, he could have gone to the basketball court from 7am to 11am.
+
+So, the possible time William could have gone to the basketball court is **7am to 11am**.
+</think>
+
+**Solution:**
+
+Let's analyze the timeline step by step to determine when William could have gone to the basketball court.
+
+1. **Wake-Up Time**: William wakes up at **7am**.
+
+2. **First Observation by Lisa**: Lisa sees William stretching at a yoga studio from **11am to 2pm**.
+
+3. **Second Observation by John**: John sees William walking towards the Statue of Liberty from **2pm to 3pm**.
+
+4. **Third Observation by Sean**: Sean sees William reading at the library from **3pm to 5pm**.
+
+5. **Fourth Observation by Sarah**: Sarah sees William driving to the water park from **5pm to 9pm**.
+
+6. **Basketball Court Closing Time**: The basketball court was closed after **9pm**.
+
+From the observations:
+- William is seen at the yoga studio from **11am to 2pm**.
+- He is then seen walking towards the Statue of Liberty from **2pm to 3pm**.
+- Next, he is at the library from **3pm to 5pm**.
+- After that, he is driving to the water park from **5pm to 9pm**.
+
+The basketball court is only open until **9pm**. Since William is at the water park from **5pm to 9pm**, he wouldn't have time to go to the basketball court after that.
+
+Therefore, the only time William could have gone to the basketball court is **before** he was seen at the yoga studio at **11am**.
+
+Considering his wake-up time at **7am** and assuming he left immediately, he could have gone to the basketball court from **7am to 11am**.
+
+So, the possible time William could have gone to the basketball court is **7am to 11am**.
+
+\boxed{C}

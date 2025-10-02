@@ -1,0 +1,44 @@
+Alright, let's figure out when Sarah could have gone to the soccer field. We have several clues from different people who saw Sarah at different times and places.
+
+1. **Sarah's Wake-Up Time**: Sarah woke up at 5am. So, she was available from 5am onwards.
+
+2. **Thomas's Observation**: Thomas saw Sarah on a rooftop from 11am to 3pm. This means Sarah was on the rooftop during this time.
+
+3. **Andrew's Observation**: Andrew saw Sarah fixing their computer at the electronic store from 3pm to 5pm. So, Sarah was at the store during these hours.
+
+4. **Emily's Observation**: Emily saw Sarah waiting at the airport from 5pm to 9pm. Therefore, Sarah was at the airport during this period.
+
+5. **Soccer Field Closure**: The soccer field was closed after 9pm. So, Sarah couldn't have gone to the soccer field after 9pm.
+
+Now, let's piece this together:
+
+- From 5am to 11am: Sarah could have gone to the soccer field because she was awake and available. However, Thomas saw her on the rooftop starting at 11am. So, before 11am, she was at home or elsewhere, but not necessarily at the soccer field.
+
+- From 11am to 3pm: Thomas saw her on the rooftop, so she wasn't at the soccer field during this time.
+
+- From 3pm to 5pm: Andrew saw her at the electronic store, so she was busy there and couldn't have been at the soccer field.
+
+- From 5pm to 9pm: Emily saw her at the airport, so she was occupied there, and the soccer field was closed after 9pm.
+
+Therefore, the only window where Sarah wasn't observed by anyone else and the soccer field was still open is between 5am to 11am. This is before Thomas saw her on the rooftop.
+
+So, Sarah could have gone to the soccer field between **5am and 11am**.
+</think>
+
+The correct answer is (C) 5am to 11am.
+
+**Step-by-Step Explanation:**
+
+1. **Sarah's Availability**: Sarah wakes up at 5am, so she's available from this time onwards.
+
+2. **Thomas's Observation**: From 11am to 3pm, Sarah is on the rooftop. So, she's occupied during this period.
+
+3. **Andrew's Observation**: From 3pm to 5pm, Sarah is at the electronic store. She's busy here.
+
+4. **Emily's Observation**: From 5pm to 9pm, Sarah is at the airport. The soccer field closes after 9pm.
+
+5. **Soccer Field Closure**: The soccer field is closed after 9pm, so Sarah couldn't go there after this time.
+
+**Available Window**: The only time Sarah is free and the soccer field is open is between 5am to 11am.
+
+**Answer:** (C) 5am to 11am

@@ -1,0 +1,91 @@
+Alright, let's try to figure out when Emily could have gone to the basketball court. I'll go through each piece of information step by step.
+
+First, Emily wakes up at 12pm. So, that's our starting point.
+
+Next, John saw Emily playing tennis at the tennis court from 12pm to 2pm. Hmm, so from 12pm to 2pm, Emily was playing tennis. That means she wasn't at the basketball court during that time because she was busy with tennis.
+
+Then, Sean saw Emily waiting at the airport from 2pm to 3pm. So, after John saw her playing tennis until 2pm, Sean saw her at the airport until 3pm. That means from 2pm to 3pm, Emily was at the airport, not at the basketball court.
+
+Moving on, Samantha saw Emily buying clothes at the mall from 6pm to 8pm. So, from 6pm to 8pm, Emily was shopping, which means she wasn't at the basketball court during that time.
+
+After that, Anthony saw Emily taking photos near the Leaning Tower of Pisa from 8pm to 9pm. So, from 8pm to 9pm, she was taking photos, not playing basketball.
+
+Lastly, Sarah saw Emily working out at the gym from 9pm to 10pm. So, from 9pm to 10pm, Emily was at the gym, meaning she wasn't at the basketball court during that time.
+
+Now, the basketball court was closed after 10pm. So, if Emily wanted to play basketball, she would have had to go before the court closed. Let's look at the times when she wasn't doing anything else.
+
+From 3pm to 6pm, let's see:
+
+- From 3pm to 3pm: Not specified, but after Sean saw her at the airport until 3pm.
+- From 3pm to 6pm: Samantha saw her at the mall until 8pm, but specifically, from 6pm to 8pm. So, before that, from 3pm to 6pm, Emily was free. Wait, no—actually, Samantha saw her from 6pm to 8pm, but was she there the entire time? It says Samantha saw her buying clothes from 6pm to 8pm, which suggests she was there during that time. So, before that, from 3pm to 6pm, was she free? Let's think.
+
+Wait, Sean saw her at the airport from 2pm to 3pm. So, from 3pm onward, she was at the mall from 6pm to 8pm, but what about the time in between? From 3pm to 6pm, was she free? Let me double-check.
+
+John saw her from 12pm to 2pm playing tennis.
+
+Sean saw her from 2pm to 3pm at the airport.
+
+Then, Samantha saw her from 6pm to 8pm at the mall.
+
+So, between 3pm and 6pm, she wasn't doing any of these activities. So, she was free.
+
+And the basketball court was closed after 10pm, so she must have gone before 10pm.
+
+So, when was she free? From 3pm to 6pm, she was free.
+
+But the options are:
+
+(A) 3pm to 6pm
+
+(B) 12pm to 2pm
+
+(C) 6pm to 8pm
+
+(D) 2pm to 3pm
+
+So, the only time she was free and the basketball court was open is between 3pm to 6pm.
+
+But wait, the court was closed after 10pm, so she could have gone anytime between when it was open, which is presumably during daylight hours or when the court is open.
+
+But based on the timeline, the latest activity she did was working out at the gym from 9pm to 10pm. The court was closed after 10pm, so she could have gone to the basketball court before that.
+
+So, her free time was from 3pm to 6pm. That's when she wasn't doing anything else.
+
+So, the answer is (A) 3pm to 6pm.
+
+But wait, let me double-check. Is there any possibility she went earlier?
+
+She was at the tennis court from 12pm to 2pm, then at the airport from 2pm to 3pm, then free from 3pm to 6pm, then at the mall from 6pm to 8pm, then taking photos from 8pm to 9pm, and then at the gym from 9pm to 10pm.
+
+So, the only time she was free is between 3pm to 6pm.
+
+Therefore, the correct answer is (A) 3pm to 6pm.
+
+But wait, the options don't have 3pm to 6pm as (A). Let me check again.
+
+Yes, option (A) is 3pm to 6pm.
+
+So, I think that's the correct time she could have gone to the basketball court.
+</think>
+
+The correct answer is (A) 3pm to 6pm.
+
+**Step-by-Step Explanation:**
+
+1. **Emily's Activities:**
+   - **12pm to 2pm:** Playing tennis.
+   - **2pm to 3pm:** At the airport.
+   - **6pm to 8pm:** Buying clothes at the mall.
+   - **8pm to 9pm:** Taking photos.
+   - **9pm to 10pm:** Working out at the gym.
+
+2. **Free Time:**
+   - Between **3pm to 6pm**, Emily had no scheduled activities mentioned.
+
+3. **Basketball Court Availability:**
+   - The court was closed after **10pm**, so Emily would have had to go before 10pm.
+
+4. **Conclusion:**
+   - The only free time aligns with the basketball court's operational hours, which would be between **3pm to 6pm**.
+
+**Answer:** (A) 3pm to 6pm

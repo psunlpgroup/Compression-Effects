@@ -1,0 +1,28 @@
+Let's analyze the timeline step by step to determine the possible times Sarah could have visited the bakery.
+
+1. **Wake-Up Time**: Sarah woke up at 9am.
+
+2. **First Observation (John)**: John saw Sarah getting a coffee at the cafe from 10am to 12pm.
+
+3. **Second Observation (Thomas)**: Thomas saw Sarah buying lunch at the deli from 12pm to 4pm.
+
+4. **Third Observation (Richard)**: Richard saw Sarah driving to the water park from 4pm to 5pm.
+
+5. ** Bakery Hours**: The bakery was closed after 5pm.
+
+From the observations, Sarah is seen at three different locations between 10am and 5pm. The bakery was closed after 5pm, so the latest Sarah could have visited the bakery is by 5pm.
+
+Considering the timeline:
+
+- **Option A (4pm to 5pm)**: This is possible since the bakery was open until 5pm.
+
+- **Option B (12pm to 4pm)**: This is also possible as the bakery was open during this time.
+
+- **Option C (9am to 10am)**: This is not possible because Sarah was at home or at the cafe during this time.
+
+- **Option D (10am to 12pm)**: This is not possible because Sarah was at the cafe during this time.
+
+Therefore, the possible times Sarah could have gone to the bakery are between **12pm to 4pm** or **4pm to 5pm**.
+
+The correct answer is **(B) 12pm to 4pm**.
+**Answer: (B)**

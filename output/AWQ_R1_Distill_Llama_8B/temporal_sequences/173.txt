@@ -1,0 +1,82 @@
+Alright, let's try to figure out when Anthony could have gone to the bookstore. So, Anthony wakes up at 7am. Then, David saw him working at the office from 7am to 8am. That means Anthony was at the office during that time. 
+
+Next, Leslie saw Anthony getting a coffee at the cafe from 8am to 11am. So, after 8am, Anthony was at the cafe until 11am. 
+
+Then, Sarah saw Anthony watching a movie at the theater from 1pm to 9pm. So, he was at the theater from 1pm to 9pm.
+
+Now, the bookstore was closed after 9pm. So, Anthony couldn't have gone there after 9pm because the store was closed.
+
+Let's look at the times when Anthony was busy elsewhere:
+
+- **7am to 8am:** At the office (David saw him)
+- **8am to 11am:** At the cafe (Leslie saw him)
+- **1pm to 9pm:** At the theater (Sarah saw him)
+
+So, when was Anthony free? Between 11am and 1pm, he wasn't seen by anyone at the cafe or the theater yet. That's a window where he might have gone to the bookstore.
+
+But wait, the bookstore was closed after 9pm. So, he could have gone in the morning or in the afternoon before the store closed.
+
+Let's see:
+
+- From 7am to 8am: At the office
+- From 8am to 11am: At the cafe
+- From 1pm to 9pm: At the theater
+
+So, the only free time is between 11am and 1pm.
+
+But Sarah saw him at the theater from 1pm to 9pm, so he was there during that time. That means he couldn't have gone to the bookstore then because he was at the theater.
+
+Wait, but the bookstore was closed after 9pm, so he could have gone in the morning or between 11am and 1pm.
+
+But according to the timeline, he was at the cafe until 11am and then at the theater starting at 1pm.
+
+So, between 11am and 1pm, he wasn't seen at the cafe or the theater, which means he could have gone to the bookstore during that time.
+
+But the options are:
+
+(A) 11am to 1pm
+(B) 8am to 11am
+(C) 7am to 8am
+(D) 1pm to 9pm
+
+So, the only possible time is between 11am and 1pm, which is option (A).
+
+But wait, the bookstore was closed after 9pm, but it doesn't say when it closed during the day. Maybe it closed at 9pm, so before that, it was open.
+
+So, he could have gone in the morning or between 11am and 1pm.
+
+But according to the timeline, he was at the office from 7-8, cafe from 8-11, theater from 1-9.
+
+So, the only time he was free is between 11am and 1pm.
+
+Therefore, the correct answer is (A) 11am to 1pm.
+
+But wait, the options don't have "11am to 1pm" as (A). Let me check.
+
+Yes, option (A) is 11am to 1pm.
+
+So, the answer should be (A).
+
+But wait, the timeline shows he was at the cafe until 11am, and then at the theater from 1pm onward. So, he had to be at the cafe until 11am, then at the theater until 9pm, so he couldn't have gone to the bookstore during that time.
+
+Wait, no, the theater starts at 1pm, so he was there from 1pm to 9pm. So, he couldn't have gone to the bookstore during that time.
+
+So, the only free time is between 11am and 1pm.
+
+Therefore, the correct answer is (A) 11am to 1pm.
+
+But I'm confused because the options are:
+
+(A) 11am to 1pm
+(B) 8am to 11am
+(C) 7am to 8am
+(D) 1pm to 9pm
+
+So, (A) is the only time he wasn't seen by anyone else.
+
+Therefore, the answer is (A).
+</think>
+
+The correct answer is (A) 11am to 1pm.
+
+**Answer: (A)**

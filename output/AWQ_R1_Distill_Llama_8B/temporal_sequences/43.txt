@@ -1,0 +1,24 @@
+Alright, let's try to figure out when Sean could have gone to the amusement park. So, Sean wakes up at 11am. Leslie sees him at the train station from 11am to 1pm. William sees him at the mall from 1pm to 3pm. Jennifer sees him sitting on a rooftop from 6pm to 8pm. The amusement park closes after 8pm.
+
+First, I need to see when Sean could have gone to the park without overlapping his other activities. He was at the train station until 1pm, and then at the mall until 3pm. So, he was busy from 11am to 3pm.
+
+Then, from 3pm to 6pm, he's not seen by anyone. That's a window of time he might have used to go to the amusement park.
+
+But wait, Jennifer saw him from 6pm to 8pm. The park closes after 8pm, so he could have gone there during her shift, but the park was already closed after 8pm. So, he might not have gone during her time.
+
+So, the only time he wasn't being watched by others is between 3pm and 6pm. That's when he could have gone to the amusement park.
+
+Let me check the options:
+
+(A) 6pm to 8pm — But the park was closed after 8pm, so he couldn't have gone then.
+
+(B) 1pm to 3pm — He was at the mall during that time.
+
+(C) 11am to 1pm — He was at the train station.
+
+(D) 3pm to 6pm — That's the time he wasn't being watched, so that's when he could have gone.
+
+So, the answer must be option D.
+</think>
+
+The correct answer is \boxed{D}.

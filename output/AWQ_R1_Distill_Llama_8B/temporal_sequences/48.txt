@@ -1,0 +1,29 @@
+Alright, let's try to figure out when Thomas could have gone to the clothing store. So, Thomas woke up at 6am. James saw him walking in the garden from 6am to 9am. That means Thomas was outside from 6am until 9am.
+
+Then, Andrew saw Thomas buying lunch at the deli from 12pm to 7pm. So, Thomas was at the deli from 12pm to 7pm.
+
+Sarah saw Thomas watching a movie at the theater from 7pm to 8pm. So, Thomas was at the theater from 7pm to 8pm.
+
+The clothing store was closed after 8pm, which means Thomas couldn't have gone there after 8pm.
+
+Now, let's see when Thomas was free. He was at the garden from 6am to 9am, then at the deli from 12pm to 7pm, and at the theater from 7pm to 8pm. So, between 9am and 12pm, he was free because James saw him in the garden until 9am, and Andrew saw him at the deli starting at 12pm.
+
+So, the time he could have gone to the clothing store is between 9am and 12pm.
+
+Therefore, the correct answer is (B) 9am to 12pm.
+</think>
+
+**Solution:**
+
+1. **Thomas's Schedule:**
+   - **6am to 9am:** Walking in the garden (seen by James).
+   - **12pm to 7pm:** Buying lunch at the deli (seen by Andrew).
+   - **7pm to 8pm:** Watching a movie at the theater (seen by Sarah).
+
+2. **Clothing Store Hours:**
+   - Closed after **8pm**.
+
+3. **Determine Available Time Slots:**
+   - Between **9am to 12pm:** No sightings reported. This is the only free period.
+
+**Answer:** \boxed{B}

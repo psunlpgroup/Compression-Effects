@@ -1,0 +1,21 @@
+To determine when Ashley could have gone to the basketball court, let's analyze the timeline step by step.
+
+1. **Ashley's Activities:**
+   - **11am:** Woke up.
+   - **11am-12pm:** Buying a bike (seen by David).
+   - **12pm-3pm:** Sitting on a rooftop (seen by William).
+   - **3pm-5pm:** Working at the office (seen by Elizabeth).
+   - **After 8pm:** Basketball court was closed.
+
+2. **Possible Time Slots for Basketball:**
+   - **Between 12pm and 3pm:** Ashley was on the rooftop, so this time is not available.
+   - **Between 3pm and 5pm:** Ashley was working at the office, so this time is also not available.
+   - **After 5pm:** The basketball court was closed after 8pm, so this time is not available.
+   - **Before 11am:** Ashley was not active yet.
+
+3. **Conclusion:**
+   - There is no available time slot that fits Ashley's schedule for visiting the basketball court.
+
+Therefore, Ashley did not have any available time to visit the basketball court based on the given information.
+
+The correct answer is **(D)** 11am to 12pm.

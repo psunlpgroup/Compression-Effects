@@ -1,0 +1,265 @@
+Okay, so Alice and Bob are playing this game where they take turns removing either 1 or 4 tokens from a stack. The person who takes the last token wins. I need to figure out how many positive integers n ≤ 2024 allow Bob to have a winning strategy, no matter how Alice plays. Hmm, sounds like a combinatorial game theory problem. I remember something about winning and losing positions.
+
+Let me start by analyzing smaller values of n to see if I can find a pattern.
+
+Let's denote a position as either a winning (W) or losing (L) position for the player whose turn it is. So, if a position is W, the current player can force a win; if it's L, the current player will lose no matter what they do.
+
+Starting from n=0: If there are no tokens, the player can't make a move, so that's a losing position for the player whose turn it is. So, 0 is L.
+
+n=1: The current player can take 1 token and win. So, 1 is W.
+
+n=2: The current player can take 1 token, leaving 1 for the opponent, who will then take it and win. Alternatively, the current player can't take 4 tokens because there aren't enough. So, the only move is to take 1, leaving 1. Since the opponent can win from 1, n=2 is a losing position for the current player. So, 2 is L.
+
+Wait, is that right? If n=2, the player takes 1, leaving 1, which is a W position for the opponent. So, the current player can't force a win, so n=2 is L.
+
+n=3: The current player can take 1 token, leaving 2, which is L for the opponent. Since the opponent is now in a losing position, the current player can force a win. So, n=3 is W.
+
+n=4: The current player can take 4 tokens and win immediately. So, n=4 is W.
+
+n=5: Let's see. If the current player takes 1, they leave 4, which is W for the opponent. If they take 4, they leave 1, which is W for the opponent as well. So, no matter what the current player does, the opponent can win. Therefore, n=5 is L.
+
+Wait, is that correct? If n=5, taking 1 leaves 4, which is a W for the opponent. Taking 4 leaves 1, which is also W for the opponent. So, the current player cannot leave the opponent in an L position, so n=5 is L.
+
+n=6: The current player can take 1, leaving 5 (L for the opponent). So, the current player can force a win by taking 1, leaving 5, which is L. So, n=6 is W.
+
+n=7: The current player can take 1, leaving 6 (W for the opponent), or take 4, leaving 3 (W for the opponent). So, the current player cannot leave the opponent in an L position. So, n=7 is L.
+
+Wait, hold on. If n=7, taking 1 leaves 6, which is W for the opponent, and taking 4 leaves 3, which is also W for the opponent. So, the current player can't force a loss on the opponent. Therefore, n=7 is L.
+
+n=8: The current player can take 1, leaving 7 (L for the opponent). So, n=8 is W.
+
+n=9: The current player can take 1, leaving 8 (W for the opponent), or take 4, leaving 5 (L for the opponent). So, the current player can choose to take 4, leaving 5, which is L for the opponent. Therefore, n=9 is W.
+
+Wait, is that right? If n=9, taking 4 leaves 5, which is L. So, the current player can force a win by taking 4. So, n=9 is W.
+
+n=10: The current player can take 1, leaving 9 (W for the opponent), or take 4, leaving 6 (W for the opponent). So, the current player can't force a loss on the opponent. So, n=10 is L.
+
+Hmm, so the pattern so far is:
+
+n : 0 1 2 3 4 5 6 7 8 9 10
+
+result: L W L W W L W L W W L
+
+So, L positions are at n=0,2,5,7,10,...
+
+Wait, let me list them:
+
+0: L
+
+1: W
+
+2: L
+
+3: W
+
+4: W
+
+5: L
+
+6: W
+
+7: L
+
+8: W
+
+9: W
+
+10: L
+
+Hmm, so the losing positions are at n=0,2,5,7,10,...
+
+Looking at the differences between these losing positions:
+
+From 0 to 2: +2
+
+From 2 to 5: +3
+
+From 5 to 7: +2
+
+From 7 to 10: +3
+
+So, alternates between adding 2 and 3? Hmm, that seems like a possible pattern.
+
+So, starting from 0, add 2 to get 2, add 3 to get 5, add 2 to get 7, add 3 to get 10, and so on.
+
+So, the losing positions are numbers that can be expressed as 2 + 3k or 5 + 3k? Wait, let's see.
+
+Wait, 0,2,5,7,10,12,15,17,20,...
+
+Wait, 0: starting point
+
+2: 0 + 2
+
+5: 2 + 3
+
+7: 5 + 2
+
+10: 7 + 3
+
+12: 10 + 2
+
+15: 12 + 3
+
+17: 15 + 2
+
+20: 17 + 3
+
+So, the losing positions are numbers congruent to 0 mod 5? Wait, 0,5,10,15,20,... which are multiples of 5. But wait, 2 and 7 are not multiples of 5. Hmm.
+
+Wait, maybe another way: Let me check modulo 5.
+
+n=0: 0 mod 5 = 0: L
+
+n=1: 1: W
+
+n=2: 2: L
+
+n=3: 3: W
+
+n=4: 4: W
+
+n=5: 0: L
+
+n=6: 1: W
+
+n=7: 2: L
+
+n=8: 3: W
+
+n=9: 4: W
+
+n=10: 0: L
+
+n=11: 1: W
+
+n=12: 2: L
+
+n=13: 3: W
+
+n=14: 4: W
+
+n=15: 0: L
+
+So, the losing positions are n ≡ 0 or 2 mod 5? Because 0,2,5,7,10,12,15,17,20,...
+
+Wait, 0 mod 5: 0,5,10,15,20,...
+
+2 mod 5: 2,7,12,17,22,...
+
+So, yes, the losing positions are n ≡ 0 or 2 mod 5.
+
+So, if n is congruent to 0 or 2 mod 5, it's a losing position for the current player.
+
+Therefore, for Bob to have a winning strategy, he needs n to be a losing position for Alice, meaning n ≡ 0 or 2 mod 5.
+
+But wait, Bob is the second player. So, if n is a losing position, then the first player (Alice) cannot force a win, so Bob can.
+
+Therefore, the number of positive integers n ≤ 2024 where n ≡ 0 or 2 mod 5.
+
+So, how many numbers ≤2024 are congruent to 0 or 2 mod 5.
+
+Total numbers: 2024.
+
+Number of numbers ≡0 mod5: floor(2024/5)=404.8, so 404 numbers.
+
+Similarly, numbers ≡2 mod5: same count, 404 or 405?
+
+Wait, 2024 divided by 5 is 404.8, so 404 full groups of 5, with 4 remaining numbers.
+
+Numbers ≡0 mod5: 404 numbers (5,10,...,2020)
+
+Numbers ≡2 mod5: starting at 2,7,12,..., up to <=2024.
+
+What is the last number ≤2024 in this sequence?
+
+2024 divided by 5 is 404.8, so the last number ≡2 mod5 is 2024 - (2024 mod5 -2). Wait, maybe better to compute.
+
+The sequence is 2,7,12,..., let's find the maximum n ≡2 mod5 ≤2024.
+
+Compute 2024 ÷5=404 with remainder 4.
+
+So, the largest number ≤2024 and ≡2 mod5 is 5*404 +2=2022.
+
+So, the numbers are 2,7,12,...,2022.
+
+Number of terms: Let's compute.
+
+It's an arithmetic sequence starting at 2, common difference 5.
+
+Number of terms is ((2022 -2)/5)+1 = (2020/5)+1=404+1=405.
+
+Wait, 2022-2=2020, which is 5*404, so 404 intervals, 405 terms.
+
+Similarly, numbers ≡0 mod5: 5,10,...,2020.
+
+2020=5*404, so number of terms is 404.
+
+Therefore, total numbers ≡0 or 2 mod5: 404 +405=809.
+
+Therefore, the number of positive integers n ≤2024 where Bob can force a win is 809.
+
+Wait, but let me check n=0: is that considered? The problem says positive integers, so n=0 is excluded.
+
+But in our earlier analysis, n=0 is L, but n starts at 1.
+
+So, when counting numbers ≡0 or 2 mod5 from n=1 to n=2024, we have to subtract 1 if 0 is included.
+
+But 0 isn't positive, so the count remains 809.
+
+Wait, 2024 numbers from 1 to2024.
+
+Numbers ≡0 mod5: from 5 to2020, which is 404 numbers.
+
+Numbers ≡2 mod5: from2 to2022, which is 405 numbers.
+
+Total: 404+405=809.
+
+So, yes, 809 numbers.
+
+Therefore, the answer is 809.
+
+But wait, let me verify with a few more examples to make sure my pattern holds.
+
+Earlier, n=5: L, which is 5≡0 mod5.
+
+n=2: L, which is 2≡2 mod5.
+
+n=7: L, which is 7≡2 mod5.
+
+n=10: L, which is10≡0 mod5.
+
+n=12: L, which is12≡2 mod5.
+
+Yes, so the pattern seems consistent.
+
+So, yeah, the losing positions are n≡0 or 2 mod5, so the number of such n≤2024 is 809.
+
+**Final Answer**
+\boxed{809}
+</think>
+
+To determine the number of positive integers \( n \) less than or equal to 2024 for which Bob can guarantee a win, we analyze the game using combinatorial game theory. The game involves removing either 1 or 4 tokens on each turn, and the player who removes the last token wins.
+
+We start by identifying winning (W) and losing (L) positions for the player whose turn it is. A position is losing if the player cannot force a win regardless of their move.
+
+- \( n = 0 \): L (no tokens, player loses)
+- \( n = 1 \): W (take 1 token and win)
+- \( n = 2 \): L (only move is to take 1, leaving 1 for the opponent)
+- \( n = 3 \): W (take 1, leaving 2 which is L)
+- \( n = 4 \): W (take 4 tokens and win)
+- \( n = 5 \): L (any move leaves the opponent in a W position)
+- \( n = 6 \): W (take 1, leaving 5 which is L)
+- \( n = 7 \): L (any move leaves the opponent in a W position)
+- \( n = 8 \): W (take 1, leaving 7 which is L)
+- \( n = 9 \): W (take 4, leaving 5 which is L)
+- \( n = 10 \): L (any move leaves the opponent in a W position)
+
+We observe that losing positions occur at \( n \equiv 0 \) or \( 2 \pmod{5} \). This pattern continues for higher values of \( n \).
+
+To find the number of such \( n \) less than or equal to 2024:
+- Numbers \( \equiv 0 \pmod{5} \): 5, 10, ..., 2020. There are \( \left\lfloor \frac{2024}{5} \right\rfloor = 404 \) such numbers.
+- Numbers \( \equiv 2 \pmod{5} \): 2, 7, ..., 2022. The sequence has \( 405 \) terms.
+
+Thus, the total number of losing positions is \( 404 + 405 = 809 \).
+
+Therefore, the number of positive integers \( n \) less than or equal to 2024 for which Bob can guarantee a win is \(\boxed{809}\).

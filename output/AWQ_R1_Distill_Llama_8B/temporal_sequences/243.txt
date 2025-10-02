@@ -1,0 +1,42 @@
+Alright, let's try to figure out when Emily could have gone to the orchestra hall. I'll start by looking at the timeline provided and see how all the events fit together.
+
+First, Emily wakes up at 6am. So, her activities start from 6am onwards.
+
+Steven saw Emily taking photos near the Leaning Tower of Pisa from 6am to 7am. That means Emily was there between 6am and 7am.
+
+Next, Sean saw Emily playing tennis at the tennis court from 7am to 9am. So, she was busy playing tennis during that time.
+
+Then, Nancy saw Emily buying clothes at the mall from 11am to 2pm. So, after her tennis match, she went shopping at the mall from 11am to 2pm.
+
+Susan saw Emily buying lunch at the deli from 2pm to 4pm. So, after shopping, she bought lunch at the deli between 2pm and 4pm.
+
+Finally, Kimberly saw Emily sitting on a rooftop from 4pm to 5pm. So, after lunch, she sat on the rooftop until 5pm.
+
+The orchestra hall was closed after 5pm, which means Emily couldn't have gone there after 5pm.
+
+Now, let's see when she wasn't doing any of these activities. She was busy from 6am to 7am (Steven), 7am to 9am (Sean), 11am to 2pm (Nancy), 2pm to 4pm (Susan), and 4pm to 5pm (Kimberly). 
+
+Looking at the gaps in her schedule:
+- From 9am to 11am, she wasn't doing anything mentioned. That's a free window.
+- From 5pm onwards, the orchestra hall was closed, so she couldn't have gone after 5pm.
+
+So, the only time she could have gone to the orchestra hall is between 9am and 11am, when she wasn't doing anything else.
+
+Wait, but let me double-check. She was at the tennis court from 7am to 9am, then from 9am to 11am, she wasn't mentioned doing anything specific, so that's when she could have gone to the orchestra hall. Then she went shopping, had lunch, and sat on the rooftop.
+
+Yes, that makes sense. So, the time she could have gone is between 9am and 11am.
+
+Looking at the options:
+(A) 4pm to 5pm — No, she was on the rooftop then.
+(B) 7am to 9am — She was playing tennis.
+(C) 9am to 11am — This is when she wasn't doing anything else, so this is possible.
+(D) 11am to 2pm — She was buying clothes at the mall.
+(E) 2pm to 4pm — She was buying lunch.
+(F) 4pm to 5pm — She was sitting on the rooftop.
+
+So, the correct answer is (C) 9am to 11am.
+</think>
+
+The correct answer is (C) 9am to 11am.
+
+**Answer:** (C)

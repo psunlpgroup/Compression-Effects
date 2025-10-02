@@ -1,0 +1,21 @@
+Let's analyze the timeline step by step to determine the possible times Sarah could have visited the dance studio.
+
+1. **Sarah's Wake-Up Time**: Sarah wakes up at 5am.
+
+2. **Jason's Observation**: Jason saw Sarah at the theater from 5am to 8am. This means Sarah was occupied at the theater during this period.
+
+3. **Hannah's Observation**: Hannah spotted Sarah on the rooftop from 10am to 3pm. This indicates Sarah was occupied there during this time.
+
+4. **Andrew's Observation**: Andrew saw Sarah at the train station from 3pm to 9pm. This means Sarah was occupied at the train station during this period.
+
+5. **Studio Closing Time**: The dance studio was closed after 9pm.
+
+**Possible Overlaps**:
+- **5am to 8am**: During this time, Sarah was at the theater (as observed by Jason). Therefore, she couldn't have gone to the dance studio during this period.
+- **8am to 10am**: There's no information indicating Sarah was occupied during this time. This is a potential window for her to visit the dance studio.
+- **10am to 3pm**: During this time, Sarah was on the rooftop (as observed by Hannah). Thus, she couldn't have gone to the dance studio during this period.
+- **3pm to 9pm**: During this time, Sarah was at the train station (as observed by Andrew). Therefore, she couldn't have gone to the dance studio during this period.
+
+**Conclusion**: The only feasible time Sarah could have visited the dance studio is between **8am to 10am**.
+
+**Answer**: (B) 8am to 10am

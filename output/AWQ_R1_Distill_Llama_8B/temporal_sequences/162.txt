@@ -1,0 +1,39 @@
+Alright, let's try to figure out between what times Jennifer could have gone to the restaurant. I'll start by listing out all the information provided and then analyze it step by step.
+
+First, Jennifer's day starts at 6 AM when she wakes up. So, her day begins at 6 AM.
+
+Next, Mary saw Jennifer driving to the water park from 6 AM to 11 AM. This means Jennifer was at the water park during this time. So, between 6 AM and 11 AM, Jennifer was occupied at the water park.
+
+Then, Sarah saw Jennifer reading at the library from 1 PM to 5 PM. This tells us that after the water park visit, Jennifer went to the library and was there from 1 PM to 5 PM.
+
+After that, David saw Jennifer stretching at a yoga studio from 5 PM to 6 PM. So, right after the library visit, Jennifer went to the yoga studio for an hour.
+
+Finally, Michael saw Jennifer watching a movie at the theater from 6 PM to 10 PM. This indicates that after the yoga studio, Jennifer went to the theater and stayed there until 10 PM.
+
+Now, the restaurant was closed after 10 PM, which means Jennifer could not have gone to the restaurant after 10 PM because the restaurant was already closed.
+
+So, let's piece this together:
+
+- From 6 AM to 11 AM: Water Park
+- 11 AM to 1 PM: Jennifer is presumably not at the water park, so she might have gone elsewhere, like the restaurant.
+- From 1 PM to 5 PM: Library
+- From 5 PM to 6 PM: Yoga Studio
+- From 6 PM to 10 PM: Theater
+
+Since the restaurant was closed after 10 PM, Jennifer couldn't have gone to the restaurant after that time.
+
+So, the only possible window when Jennifer could have gone to the restaurant is between 11 AM and 1 PM.
+
+Looking at the options provided:
+
+(A) 1pm to 5pm  
+(B) 11am to 1pm  
+(C) 6am to 11am  
+(D) 5pm to 6pm
+
+The correct time when Jennifer could have gone to the restaurant is between 11 AM and 1 PM.
+</think>
+
+The correct answer is (B) 11am to 1pm.
+
+**Answer:** (B)

@@ -1,0 +1,19 @@
+Let's analyze the timeline step by step.
+
+1. **Sarah's schedule:**
+   - She wakes up at 11am.
+   - She is seen working at the office from 11am to 2pm by Lisa.
+   - Then, she is spotted reading at the library from 2pm to 4pm by Hannah.
+   - After that, she is occupied fixing their computer at the electronic store from 4pm to 7pm by Elizabeth.
+
+2. **Art Show timings:**
+   - The art show is closed after 9pm.
+
+3. **Possible times Sarah could have gone to the art show:**
+   - Since Sarah is occupied from 11am to 7pm, she doesn't have time to attend the art show during these hours.
+   - The latest she could have gone is between 7pm and 9pm, before the art show closes.
+
+**Final Answer:** (B) 7pm to 9pm
+```text
+The correct answer is (B).
+```

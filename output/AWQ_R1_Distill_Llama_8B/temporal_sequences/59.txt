@@ -1,0 +1,43 @@
+Alright, let's try to figure out when Richard could have gone to the bakery. So, first, I'll list out all the information given.
+
+Richard wakes up at 8am. That's his wake-up time. Now, Betty saw Richard reading at the library from 9am to 2pm. So, that's a chunk of time when he's occupied at the library. Then, David saw him fixing their computer at the electronic store from 2pm to 4pm. So, that's another time when he's not at the bakery.
+
+Mary saw Richard taking photos near the Eiffel Tower from 4pm to 5pm. So, that's another activity he's engaged in. Then, Hannah saw him sitting on a rooftop from 5pm to 6pm. So, that's another time when he's not at the bakery.
+
+Susan saw Richard driving to the water park from 6pm to 7pm. So, that's another activity. The bakery was closed after 7pm, which probably means it closed at 7pm, so any time after that, the bakery wouldn't be open.
+
+So, putting all these together, Richard is seen by Betty, David, Mary, Hannah, and Susan at specific times:
+
+- 9am to 2pm: Betty sees him at the library.
+- 2pm to 4pm: David sees him fixing the computer.
+- 4pm to 5pm: Mary sees him taking photos.
+- 5pm to 6pm: Hannah sees him on the rooftop.
+- 6pm to 7pm: Susan sees him driving to the water park.
+
+So, between these times, when is Richard free to go to the bakery? Let's see:
+
+- From 8am to 9am: He just woke up, but Betty didn't see him yet. So, he might have time here.
+- From 2pm to 4pm: David saw him, so he's busy.
+- From 4pm to 5pm: Mary saw him, so he's occupied.
+- From 5pm to 6pm: Hannah saw him, so he's busy.
+- From 6pm to 7pm: Susan saw him, so he's driving to the water park.
+
+After 7pm, the bakery is closed, so he can't go then.
+
+So, the only free time he has is from 8am to 9am because that's when he first wakes up, and before Betty sees him at the library.
+
+Therefore, Richard could have gone to the bakery between 8am and 9am.
+
+Now, looking at the options:
+
+(A) 6pm to 7pm
+(B) 9am to 2pm
+(C) 5pm to 6pm
+(D) 8am to 9am
+
+The correct time is (D) 8am to 9am.
+</think>
+
+The correct time Richard could have gone to the bakery is **8am to 9am**.
+
+**Answer:** (D)

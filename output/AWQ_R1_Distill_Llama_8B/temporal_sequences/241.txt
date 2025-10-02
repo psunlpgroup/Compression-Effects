@@ -1,0 +1,50 @@
+Alright, let's try to figure out when William could have gone to the art studio. So, William wakes up at 8 am, and then there are several people who saw him doing different things throughout the day.
+
+First, Steven saw William at the office from 8 am to 10 am. So, that's in the morning.
+
+Then, David saw him working out at the gym from 10 am to 3 pm. So, that's the afternoon.
+
+After that, Kimberly saw William taking photos near the Leaning Tower of Pisa from 3 pm to 5 pm. So, that's the early evening.
+
+Mary saw him buying clothes at the mall from 6 pm to 8 pm. So, that's later in the evening.
+
+Sean saw William taking photos near the Eiffel Tower from 8 pm to 10 pm. So, that's the night.
+
+Now, the art studio was closed after 10 pm. So, William couldn't have gone there after 10 pm.
+
+Let me list out the times when William was seen:
+
+- 8 am to 10 am: Office
+- 10 am to 3 pm: Gym
+- 3 pm to 5 pm: Taking photos
+- 6 pm to 8 pm: Buying clothes
+- 8 pm to 10 pm: Taking photos again
+
+So, the art studio was closed after 10 pm, meaning William couldn't have gone there after 10 pm.
+
+Looking at the times when William was occupied, he was either at the office, gym, taking photos, or buying clothes. The art studio was closed after 10 pm, so the only time William wasn't accounted for is between 5 pm to 6 pm.
+
+Wait, let me double-check:
+
+From 8 am to 10 am: Office
+10 am to 3 pm: Gym
+3 pm to 5 pm: Photos
+5 pm to 6 pm: Unaccounted for
+6 pm to 8 pm: Mall
+8 pm to 10 pm: Photos
+
+So, the time between 5 pm to 6 pm is when William wasn't seen by anyone. That's probably when he went to the art studio.
+
+So, the correct answer should be 5 pm to 6 pm, which is option D.
+</think>
+
+The correct answer is (D) 5pm to 6pm.
+
+Step-by-step explanation:
+
+1. William's activities are tracked by others from 8 am to 10 pm, except for a specific window.
+2. The art studio is closed after 10 pm, so William couldn't have gone there after that.
+3. The only unaccounted time is between 5 pm to 6 pm.
+4. Therefore, William likely went to the art studio during this time.
+
+Answer: (D) 5pm to 6pm

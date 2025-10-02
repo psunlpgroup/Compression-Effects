@@ -1,0 +1,46 @@
+Alright, let's try to figure out between what times Sarah could have gone to the dance studio. I'll start by listing out all the information given and see how the times overlap.
+
+First, Sarah woke up at 5am. That's a good starting point.
+
+Next, Susan saw Sarah buying a phone at the electronics store from 5am to 7am. So, between 5am and 7am, Sarah was at the store buying a phone.
+
+Then, Emily saw Sarah playing tennis at the tennis court from 7am to 11am. So, after 7am, Sarah was occupied with playing tennis until 11am.
+
+After that, Thomas saw Sarah sitting on a rooftop from 1pm to 6pm. That means from 1pm to 6pm, Sarah was on the rooftop.
+
+The dance studio was closed after 6pm. So, after 6pm, the dance studio wasn't open.
+
+Now, we need to find the possible times when Sarah could have gone to the dance studio without overlapping her other activities.
+
+Let's look at her schedule:
+
+- **5am to 7am**: At the electronics store.
+- **7am to 11am**: Playing tennis.
+- **1pm to 6pm**: On the rooftop.
+
+From the above, Sarah was busy from 5am until 11am, and then again from 1pm to 6pm.
+
+But the dance studio was closed after 6pm, so the latest she could have gone is before 6pm.
+
+However, there's a gap between 11am and 1pm. Let me check that. Between 11am and 1pm, she wasn't doing anything mentioned here. So, that's a free window.
+
+But wait, from 1pm to 6pm, she was on the rooftop. So, she couldn't have gone to the dance studio then because she was occupied.
+
+So, the only possible time she could have gone is between 11am and 1pm.
+
+But let me double-check. From 5am to 7am, she was at the store. Then 7am to 11am, tennis. So, 11am to 1pm is when she's free.
+
+And after 6pm, the studio is closed, so she couldn't have gone then.
+
+Therefore, the only available time is between 11am and 1pm.
+
+Looking at the options:
+
+(A) 1pm to 6pm – She was on the rooftop, so no.
+(B) 7am to 11am – She was playing tennis.
+(C) 5am to 7am – She was buying a phone.
+(D) 11am to 1pm – This fits the free time.
+
+So, the correct answer is (D).
+
+**Answer: (D)**

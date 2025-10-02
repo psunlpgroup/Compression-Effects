@@ -1,0 +1,21 @@
+Okay, so I need to figure out if the conclusion is true, false, or uncertain based on the given premise. Let's break it down step by step.
+
+First, the premise says that Robert Lewandowski is a striker. Strikers are soccer players. So, from this, it logically follows that Robert Lewandowski is a soccer player. That seems straightforward.
+
+Next, the premise mentions that Robert Lewandowski left Bayern Munchen. The additional information given is that if a player leaves a team, they no longer play for that team. So, if he left Bayern Munchen, he's no longer part of that team.
+
+Putting it all together: Robert Lewandowski is a striker, which makes him a soccer player. He left his team, Bayern Munchen, so he's no longer with them. But the conclusion is just stating that he is a soccer player, not about his current team status.
+
+Wait, the conclusion is only about whether he's a soccer player, which is directly supported by the premise. The fact that he left his team doesn't affect whether he's a soccer player; it just means he's not with that team anymore. So, the conclusion is definitely true because the premise already identifies him as a striker, which is a type of soccer player.
+
+I don't see any uncertainties here because all the information clearly connects to the conclusion without any contradictions or missing information.
+</think>
+
+The conclusion is **true**. 
+
+**Explanation:**
+1. Robert Lewandowski is identified as a striker, which is a subset of soccer players.
+2. Leaving a team (Bayern Munchen) does not negate his status as a soccer player.
+3. The premise fully supports the conclusion without contradictions.
+
+**Answer:** True
