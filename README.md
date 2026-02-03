@@ -1,5 +1,5 @@
 # Compression-Effect-Analysis
-Interpreting the effects of LLMs compression in paper ["When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models"](https://arxiv.org/abs/2504.02010).
+Interpreting the effects of LLMs compression in ICLR 2026 paper ["When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models"](https://arxiv.org/abs/2504.02010).
 
 Navigation:
 [Overview](#overview), 
