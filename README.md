@@ -30,10 +30,10 @@ The current `compute_attpatching.py` points to the backtracking behavior, so you
 
 ## Citation
 ```bibtex
-@misc{zhang2025reasoningmeetscompressionunderstanding,
+@misc{zhang2026reasoningmeetscompressionunderstanding,
       title={When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models}, 
       author={Nan Zhang and Eugene Kwek and Yusen Zhang and Ngoc-Hieu Nguyen and Prasenjit Mitra and Rui Zhang},
-      year={2025},
+      year={2026},
       eprint={2504.02010},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
